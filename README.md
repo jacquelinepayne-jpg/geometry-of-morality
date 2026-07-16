@@ -1,15 +1,14 @@
-# The Geometry of Truth
+# The Geometry of Morality
+This repository is forked from the repositiory https://github.com/saprmarks/geometry-of-truth associated to the paper <a href="https://arxiv.org/abs/2310.06824">*The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets*</a> by Samuel Marks and Max Tegmark.
 
-This repository is associated to the paper <a href="https://arxiv.org/abs/2310.06824">*The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets*</a> by Samuel Marks and Max Tegmark. See also our <a href="https://saprmarks.github.io/geometry-of-truth/dataexplorer">interactive dataexplorer</a>.
-
-(<a href="https://github.com/saprmarks/geometry-of-truth">View this page on github</a>.)
+This fork extends their methodology to test whether moral valence (good/bad) is linearly represented in LLM activations the same way true/false is, and whether that representation holds up for more complex moral concepts and across different moral subjects (human vs. animal). The goal is to establish whether morality is a stable, controllable direction in activation space.
 
 ## Set-up
 
 Navigate to the location that you want to clone this repo to, clone and enter the repo, and install requirements.
 ```
-git clone git@github.com:saprmarks/geometry-of-truth.git
-cd geometry-of-truth
+git clone git@github.com:jacquelinepayne-jpg/geometry-of-morality.git
+cd geometry-of-morality
 pip install -r requirements.txt
 ```
 Before doing anything, you'll need to generate activations for the datasets. You should have your own LLaMA weights stored on the machine where you cloned this repo. Put the absolute path for the directory containing your LLaMA weights in the file `config.ini`; Huggingface repos are also supported. 
