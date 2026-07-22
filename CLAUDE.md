@@ -1,3 +1,5 @@
+ude
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -9,7 +11,7 @@ Fork of [saprmarks/geometry-of-truth](https://github.com/saprmarks/geometry-of-t
 ## Setup and Commands
 
 ```bash
-pip install -r requirements.txt   # note: nnsight is imported by the code but missing from requirements.txt
+pip install -r requirements.txt
 ```
 
 Everything downstream depends on cached activations, which must be generated first:
