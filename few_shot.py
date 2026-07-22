@@ -72,7 +72,7 @@ def get_few_shot_accuracy(datasets, model, n_shots=5, batch_size=32, calibrated=
                     logits = logits[t.arange(len(batch)), t.tensor(batch_lens) - 1, :]
                     probs = logits.softmax(-1)
                     diffs.append((probs[:, true_idx] - probs[:, false_idx]).save())
-        diffs = t.cat([diff.value for diff in diffs])
+        diffs = t.cat(diffs)
 
 
         # if calibrated, compute calibration constant

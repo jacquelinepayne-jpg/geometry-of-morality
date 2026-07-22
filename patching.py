@@ -52,8 +52,7 @@ The Spanish word 'uno' means 'one'. This statement is:"""
     with model.forward(remote=remote, remote_include_output=False) as runner:
         with runner.invoke(true_prompt):
             for layer in model.model.layers:
-                true_acts.append(layer.output[0].save())
-    true_acts = [act.value for act in true_acts]
+                true_acts.append(layer.output.save())
 
     if continuation_idx is not None: # if picking up an experiment that failed
         with open('experimental_outputs/patching_results.json', 'r') as f:
@@ -87,11 +86,11 @@ The Spanish word 'uno' means 'one'. This statement is:"""
                 continue # already computed
             with model.forward(remote=remote, remote_include_output=False) as runner:
                 with runner.invoke(false_prompt, scan=True) as invoker:
-                    layer.output[0][0,-tok_idx,:] = true_acts[layer_idx][0,-tok_idx,:]
+                    layer.output[0,-tok_idx,:] = true_acts[layer_idx][0,-tok_idx,:]
                     logits = model.lm_head.output
                     logit_diff = logits[0, -1, t_tok] - logits[0, -1, f_tok]
                     logit_diff = logit_diff.save()
-            logit_diffs[tok_idx - 1][layer_idx] = logit_diff.value.item()
+            logit_diffs[tok_idx - 1][layer_idx] = logit_diff.item()
             
             outs[continuation_idx] = out
             with open('experimental_outputs/patching_results.json', 'w') as f:

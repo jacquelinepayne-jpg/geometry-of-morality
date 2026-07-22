@@ -41,11 +41,8 @@ def get_acts(statements, model, layers, remote=True):
     acts = {}
     with model.trace(statements, remote=remote, **tracer_kwargs):
         for layer in layers:
-            acts[layer] = model.model.layers[layer].output[0][:,-1,:].save()
+            acts[layer] = model.model.layers[layer].output[:,-1,:].save()
 
-    for layer, act in acts.items():
-        acts[layer] = act.value
-    
     return acts
 
 if __name__ == "__main__":

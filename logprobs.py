@@ -18,7 +18,7 @@ def compute_logprobs(model, dataset, remote=True):
                 logprobs = model.lm_head.output.log_softmax(dim=-1)
                 tokens = runner.batched_input['input_ids'][0][1:]
                 summed = logprobs[0, t.arange(len(tokens)), tokens].sum().save()
-        all_logprobs.append(summed.value.item())
+        all_logprobs.append(summed.item())
     
     df['logprob'] = all_logprobs
 

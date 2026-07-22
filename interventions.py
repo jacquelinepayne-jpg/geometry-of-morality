@@ -35,14 +35,14 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
         with model.forward(remote=remote, remote_include_output=False) as runner:
             with runner.invoke(batch):
                 for layer, offset in hidden_states:
-                    model.model.layers[layer].output[0][:,-len_suffix + offset, :] += \
+                    model.model.layers[layer].output[:,-len_suffix + offset, :] += \
                         direction if intervention == 'add' else -direction if intervention == 'subtract' else 0.
                 logits = model.lm_head.output[:, -1, :]
                 probs = logits.softmax(-1)
                 p_diffs.append((probs[:, true_idx] - probs[:, false_idx]).save())
                 tots.append((probs[:, true_idx] + probs[:, false_idx]).save())
-    p_diffs = t.cat([p_diff.value for p_diff in p_diffs])
-    tots = t.cat([tot.value for tot in tots])
+    p_diffs = t.cat(p_diffs)
+    tots = t.cat(tots)
 
     return p_diffs.mean().item(), tots.mean().item()
 
