@@ -1,7 +1,7 @@
 import torch as t
 import pandas as pd
 import os
-from generate_acts import load_model
+from generate_acts import load_model, tracer_kwargs
 from tqdm import tqdm
 import argparse
 import json
@@ -89,12 +89,11 @@ def get_few_shot_accuracy(datasets, model, n_shots=5, batch_size=32, calibrated=
             batch = query_prompts[batch_idx:batch_idx+batch_size]
 
             batch_lens = [len(model.tokenizer.encode(query)) for query in batch]
-            with model.forward(remote=remote, remote_include_output=False) as runner:
-                with runner.invoke(batch):
-                    logits = model.lm_head.output
-                    logits = logits[t.arange(len(batch)), t.tensor(batch_lens) - 1, :]
-                    probs = logits.softmax(-1)
-                    diffs.append((probs[:, good_idx] - probs[:, bad_idx]).save())
+            with model.trace(batch, remote=remote, **tracer_kwargs):
+                logits = model.lm_head.output
+                logits = logits[t.arange(len(batch)), t.tensor(batch_lens) - 1, :]
+                probs = logits.softmax(-1)
+                diffs.append((probs[:, good_idx] - probs[:, bad_idx]).save())
         diffs = t.cat(diffs)
 
 
