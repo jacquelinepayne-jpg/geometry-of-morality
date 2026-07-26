@@ -63,6 +63,22 @@ def collect_acts(dataset_name, model, layer, noperiod=False, center=True, scale=
         acts = acts / t.std(acts, dim=0)
     return acts
 
+def frame_split(df, split, seed):
+    """Boolean train mask over the rows of df, given the train proportion `split`.
+    If the csv has a frame_id column (moral datasets: name-variants of one template frame),
+    the split is grouped by frame_id so near-duplicate statements never straddle train/val.
+
+    Lives here rather than inside DataManager because few_shot.py has to hold out the same
+    frames the probe does — a few-shot number and a probe number are only comparable if they
+    were scored on the same statements.
+    """
+    t.manual_seed(seed)
+    if 'frame_id' in df.columns:
+        frames = df['frame_id'].unique()
+        train_frames = frames[t.randperm(len(frames)) < int(split * len(frames))]
+        return t.tensor(df['frame_id'].isin(train_frames).values)
+    return t.randperm(len(df)) < int(split * len(df))
+
 def cat_data(d):
     """
     Given a dict of datasets (possible recursively nested), returns the concatenated activations and labels.
@@ -108,13 +124,7 @@ class DataManager:
             assert 0 < split and split < 1
             if seed is None:
                 seed = random.randint(0, 1000)
-            t.manual_seed(seed)
-            if 'frame_id' in df.columns:
-                frames = df['frame_id'].unique()
-                train_frames = frames[t.randperm(len(frames)) < int(split * len(frames))]
-                train = t.tensor(df['frame_id'].isin(train_frames).values)
-            else:
-                train = t.randperm(len(df)) < int(split * len(df))
+            train = frame_split(df, split, seed)
             val = ~train
             self.data['train'][dataset_name] = acts[train], labels[train]
             self.data['val'][dataset_name] = acts[val], labels[val]

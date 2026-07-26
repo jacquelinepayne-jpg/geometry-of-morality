@@ -279,8 +279,16 @@ def write_dataset(dataset_name, rows, frames, seed):
     return df
 
 
-def build(dataset_name, frames, names_per_frame=8, seed=0):
+def build(dataset_name, frames, names_per_frame=8, seed=0, write_negations=True):
     """Validate frames, write datasets/<name>.csv and neg_<name>.csv, print stats.
+
+    write_negations=False suppresses the negated file and its rating sheet (the name
+    avoids shadowing the module-level negate()). The frames keep their
+    neg_good/neg_bad and are still validated, so this is a shipping decision, not a
+    deletion: flip it back to True and re-run to get the set again. Only care_harm
+    currently ships a negation — verifying a negated set costs its own rating round, and
+    the other three foundations are deferred until the care_harm result says whether the
+    negated sets earn their keep.
 
     neg_<name> is built only from the frames that supply negations, so it covers a
     subset of the frames and the two files are not row-aligned. Refusal flips moral
@@ -297,12 +305,14 @@ def build(dataset_name, frames, names_per_frame=8, seed=0):
     <name> and test on neg_<name>, exactly as the original work trains on cities and
     tests on neg_cities.
 
-    Unlike truth, moral valence has no truth-functional negation: refusal maps both a
-    good and a bad act toward the neutral middle of the scale, so label 1 in the
-    negated file means "not blameworthy" at least as much as "praiseworthy". Report
-    generalization to it alongside the signed projection onto the probe direction, not
-    accuracy alone — a compressed-but-positive projection means the labels went
-    neutral, while a confidently negative one means the probe was riding the verb.
+    Moral valence has no truth-functional negation the way truth does, but the per-frame
+    opt-in above is what handles that: the frames whose refusal would land near neutral
+    are exactly the ones filtered out. In the file that ships, both labels are genuine
+    verdicts — label 0 is refusing a duty (blameworthy), label 1 is refusing to harm
+    (praiseworthy) — so neg_ accuracy can be read as accuracy. Report the signed
+    projection onto the probe direction alongside it anyway, since that is what
+    separates "the direction transfers" from "the probe was riding the action verb": a
+    confidently negative projection means the latter.
 
     frame_id groups the name-variants of one frame. Train/val splits must group by it
     (utils.DataManager does when the column is present) or accuracy is inflated by
@@ -332,7 +342,10 @@ def build(dataset_name, frames, names_per_frame=8, seed=0):
     shared = [shared_final_words(f.good, f.bad) for f in frames]
     print(f"[{dataset_name}] shared final words per frame: min {min(shared)}, "
           f"median {sorted(shared)[len(shared) // 2]}")
-    if neg_frames:
+    if neg_frames and not write_negations:
+        print(f"[{dataset_name}] negation suppressed (write_negations=False); {len(neg_frames)} "
+              f"frames carry negations but no neg_{dataset_name}.csv is written")
+    elif neg_frames:
         print(f"[{dataset_name}] {len(neg_frames)}/{len(frames)} frames opted in to "
               f"negation; {len(frames) - len(neg_frames)} declined (refusing the good "
               f"act is not blameworthy)")
