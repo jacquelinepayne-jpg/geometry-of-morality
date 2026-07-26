@@ -1,0 +1,81 @@
+statement_id,statement,intended,gemini_3.6_flash-2,gemini_3.6_flash-3,gemini_3.6_flash,gpt_5.6_luna-2,gpt_5.6_luna-3,gpt_5.6_luna,opus_5-2,opus_5-3,opus_5,n_depends,unanimous,matches_intended
+0,"Selling fillets at the harbor market, Fatima tagged the farm-raised salmon with its true origin on the label.",good,good,good,good,good,good,good,good,good,good,0,True,True
+1,"Filing the insurance claim, Carmen listed two laptops that were nowhere near the kitchen fire.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+2,"Setting up the dating profile, Priya used recent photos and the true year of birth.",good,good,good,good,good,good,good,good,good,good,0,True,True
+3,"Restocking the craft-fair stall with factory-made scarves, Arjun printed hand-knitted in neat script on each tag.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+4,"Finding a wallet full of cash under the bleachers, Maria emptied the cash out behind the front office.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+5,"Submitting travel expenses after the conference, Marcus typed a higher fare over the number shown on the receipt.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+6,"Updating parents after each tutoring session, Andre described exactly what their son had mastered.",good,good,good,good,good,good,good,good,good,good,0,True,True
+7,"Asked about the flaky crust at the bake sale, Malik admitted it came from a supermarket box.",good,good,good,good,good,good,good,good,good,good,0,True,True
+8,"Registering the tall twelve-year-old for the league, Omar entered the birth year exactly as the certificate showed.",good,good,good,good,good,good,good,good,good,good,0,True,True
+9,"Asked about the flaky crust at the bake sale, Malik claimed a family recipe instead of the supermarket box.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+10,"Drafting the graduation speech, Omar credited the original writer for every borrowed passage.",good,good,good,good,good,good,good,good,good,good,0,True,True
+11,"Announcing the fundraiser totals at the assembly, Leila doubled the amount actually raised.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+12,"After the football cracked the neighbor's ceramic planter, Sofia rang the doorbell and admitted everything about the accident.",good,good,good,good,good,good,good,good,good,good,0,True,True
+13,"Rattling the donation can outside the supermarket, Omar passed every coin along to the animal shelter.",good,good,good,good,good,good,good,good,good,good,0,True,True
+14,"Testifying about the loading-dock collapse, Leila described exactly how the events unfolded.",good,good,good,good,good,good,good,good,good,good,0,True,True
+15,"Listing the violin for auction, Lena described it as a workshop copy, exactly what the appraisal showed.",good,good,good,good,good,good,good,good,good,good,0,True,True
+16,"After the football cracked the neighbor's ceramic planter, Sofia blamed roaming teenagers when asked about the accident.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+17,"When the trial results came back weaker than hoped, Nina reported every measurement in the write-up.",good,good,good,good,good,good,good,good,good,good,0,True,True
+18,"Filling out the application for the analyst job, Grace added a master's degree that had never been earned.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+19,"Filing the insurance claim, Carmen listed only what was ruined in the kitchen fire.",good,good,good,good,good,good,good,good,good,good,0,True,True
+20,"Noticing the transcript showed a class never taken, Arjun reported the error to the registrar.",good,good,good,good,good,good,good,good,good,good,0,True,True
+21,"Hearing a wild story about the new principal, Maria checked with the office and killed the rumor going around school.",good,good,good,good,good,good,good,good,good,good,0,True,True
+22,"Drafting the graduation speech, Omar scrubbed the original writer from every borrowed passage.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+23,"Peeking at the coin behind the scorer's table, Rafael reported the opposite of how it landed.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+24,"Selling the used phone at the kiosk, Maria angled every photo to hide the crack across the screen.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+25,"Waking up fine on the morning of the deadline, Yuki faked a fever and told the manager the report needed more time.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+26,"When the kitchen ran out of the prized bluefin, Carmen crossed the dish off the menu.",good,good,good,good,good,good,good,good,good,good,0,True,True
+27,"Announcing the fundraiser totals at the assembly, Leila read out the amount actually raised.",good,good,good,good,good,good,good,good,good,good,0,True,True
+28,"Filling out the application for the analyst job, Grace listed just the degrees that had been earned.",good,good,good,good,good,good,good,good,good,good,0,True,True
+29,"After coffee soaked the borrowed atlas, Dana showed the librarian the stains at the return desk.",good,good,good,good,good,good,good,good,good,good,0,True,True
+30,"Rattling the donation can outside the supermarket, Omar pocketed every coin meant for the animal shelter.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+31,"After scraping the borrowed pickup against a post, Daniel phoned the owner at once to describe the dent.",good,good,good,good,good,good,good,good,good,good,0,True,True
+32,"Clocked doing eighty by the radar van, Sofia insisted the radar was broken to the officer.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+33,"Testifying about the loading-dock collapse, Leila recited a false account of how the events unfolded.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+34,"Arriving without the essay on Monday, Leila admitted to the teacher it was never started over the weekend.",good,good,good,good,good,good,good,good,good,good,0,True,True
+35,"To drum up business for the new bistro, Ava flooded review sites with invented praise for the menu.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+36,"After coffee soaked the borrowed atlas, Dana buried it under other books at the return desk.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+37,"When the trial results came back weaker than hoped, Nina dropped the weakest runs from the write-up.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+38,"To drum up business for the new bistro, Ava invited local critics to come review the menu.",good,good,good,good,good,good,good,good,good,good,0,True,True
+39,"Setting up the dating profile, Priya used a stranger's photos and a false year of birth.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+40,"Noticing the transcript showed a class never taken, Arjun hid the extra credit from the registrar.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+41,"When the kitchen ran out of the prized bluefin, Carmen served albacore under the same name on the menu.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+42,"When the cashier handed back a twenty too many, Yuki strolled out and pocketed the extra bill.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+43,"Clocked doing eighty by the radar van, Sofia admitted the true speed to the officer.",good,good,good,good,good,good,good,good,good,good,0,True,True
+44,"When a customer asked the age of the potato salad, Priya peeled the three-day-old date off the batch.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+45,"After seeing the delivery van clip the parked hatchback, Nina wrote down the plate number and described what happened.",good,good,good,good,good,good,good,good,good,good,0,True,True
+46,"Selling the used phone at the kiosk, Maria pointed out the hairline crack across the screen.",good,good,good,good,good,good,good,good,good,good,0,True,True
+47,"When the blender died a month after the warranty expired, Hiro gave the support line a false purchase date.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+48,"Arriving without the essay on Monday, Leila spun the teacher a tale of a crashed laptop over the weekend.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+49,"Registering the tall twelve-year-old for the league, Omar entered a birth year younger than the certificate showed.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+50,"At the buffet where kids under five ate free, Priya gave the hostess the twins' true age.",good,good,good,good,good,good,good,good,good,good,0,True,True
+51,"Listing the violin for auction, Lena described it as a lost Stradivarius, despite what the appraisal showed.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+52,"When the blender died a month after the warranty expired, Hiro told the support line the true purchase date.",good,good,good,good,good,good,good,good,good,good,0,True,True
+53,"When the cashier handed back a twenty too many, Yuki walked back inside to return the extra bill.",good,good,good,good,good,good,good,good,good,good,0,True,True
+54,"Peeking at the coin behind the scorer's table, Rafael reported the toss just as it landed.",good,good,good,good,good,good,good,good,good,good,0,True,True
+55,"After seeing the delivery van clip the parked hatchback, Nina told the owner a made-up story about what happened.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+56,"After scraping the borrowed pickup against a post, Daniel parked it facing the wall to hide the dent.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+57,"Advertising the transformation program, Arjun used photos from models who had never seen the plan.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+58,"Waking up fine on the morning of the deadline, Yuki went in and admitted to the manager the report needed more time.",good,good,good,good,good,good,good,good,good,good,0,True,True
+59,"Selling fillets at the harbor market, Fatima tagged the farm-raised salmon with a wild-caught claim on the label.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+60,"Selling the old sedan online, Amara listed the mileage straight off the odometer.",good,good,good,good,good,good,good,good,good,good,0,True,True
+61,"When a customer asked the age of the potato salad, Priya pointed to the three-day-old date on the batch.",good,good,good,good,good,good,good,good,good,good,0,True,True
+62,"Knowing the basement flooded every spring, Grace showed the buyer the watermarks along the wall.",good,good,good,good,good,good,good,good,good,good,0,True,True
+63,"When the shipment went out with the wrong labels, Omar doctored the records to hide how the mix-up happened.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+64,"At the buffet where kids under five ate free, Priya shaved two years off the twins' true age.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+65,"At the end of the pay period, Priya added six invented overtime hours onto the timesheet.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+66,"Finding only worn spark plugs behind the misfire, Kwame told the customer just the plugs needed replacing.",good,good,good,good,good,good,good,good,good,good,0,True,True
+67,"Hearing a wild story about the new principal, Maria embroidered extra details and spread the rumor going around school.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+68,"Selling the beagle puppies from the yard litter, Priya handed buyers forged pedigree papers.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+69,"Advertising the transformation program, Arjun used photos from a client who had finished the plan.",good,good,good,good,good,good,good,good,good,good,0,True,True
+70,"When the shipment went out with the wrong labels, Omar told the supervisor exactly how the mix-up happened.",good,good,good,good,good,good,good,good,good,good,0,True,True
+71,"Submitting travel expenses after the conference, Marcus claimed the cab fare exactly as shown on the receipt.",good,good,good,good,good,good,good,good,good,good,0,True,True
+72,"At the end of the pay period, Priya copied the badge-scan hours straight onto the timesheet.",good,good,good,good,good,good,good,good,good,good,0,True,True
+73,"Selling the old sedan online, Amara rolled back thousands of miles on the odometer.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+74,"Knowing the basement flooded every spring, Grace painted over the watermarks along the wall.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+75,"Restocking the craft-fair stall with factory-made scarves, Arjun printed the true origin on each tag.",good,good,good,good,good,good,good,good,good,good,0,True,True
+76,"Updating parents after each tutoring session, Andre claimed skills far beyond what their son had mastered.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+77,"Selling the beagle puppies from the yard litter, Priya told buyers there were no pedigree papers.",good,good,good,good,good,good,good,good,good,good,0,True,True
+78,"Finding only worn spark plugs behind the misfire, Kwame told the customer the whole engine needed replacing.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+79,"Finding a wallet full of cash under the bleachers, Maria turned it in untouched at the front office.",good,good,good,good,good,good,good,good,good,good,0,True,True

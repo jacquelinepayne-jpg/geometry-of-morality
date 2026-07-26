@@ -1,0 +1,641 @@
+statement,label,pair_id,frame_id,vader_compound,twroberta_signed,twroberta_neutral
+"When teammates pressed for gossip about the goalie's secret crush, Omar changed the subject and kept the confidence.",1,0,0,0.25,-0.03745590150356293,0.8458731174468994
+"When teammates pressed for gossip about the goalie's secret crush, Omar broadcast every detail and broke the confidence.",0,0,0,-0.2023,-0.5054272618144751,0.46271076798439026
+"When teammates pressed for gossip about the goalie's secret crush, Andre changed the subject and kept the confidence.",1,1,0,0.25,-0.019782863557338715,0.8498023748397827
+"When teammates pressed for gossip about the goalie's secret crush, Andre broadcast every detail and broke the confidence.",0,1,0,-0.2023,-0.43007182888686657,0.5311508774757385
+"When teammates pressed for gossip about the goalie's secret crush, Marcus changed the subject and kept the confidence.",1,2,0,0.25,-0.019851602613925934,0.851974368095398
+"When teammates pressed for gossip about the goalie's secret crush, Marcus broadcast every detail and broke the confidence.",0,2,0,-0.2023,-0.4642211012542248,0.5015842914581299
+"When teammates pressed for gossip about the goalie's secret crush, Fatima changed the subject and kept the confidence.",1,3,0,0.25,0.010740049183368683,0.851343035697937
+"When teammates pressed for gossip about the goalie's secret crush, Fatima broadcast every detail and broke the confidence.",0,3,0,-0.2023,-0.4145799111574888,0.5460771322250366
+"When teammates pressed for gossip about the goalie's secret crush, Dana changed the subject and kept the confidence.",1,4,0,0.25,-0.015463627874851227,0.8624212741851807
+"When teammates pressed for gossip about the goalie's secret crush, Dana broadcast every detail and broke the confidence.",0,4,0,-0.2023,-0.41637623496353626,0.5462203025817871
+"When teammates pressed for gossip about the goalie's secret crush, Arjun changed the subject and kept the confidence.",1,5,0,0.25,0.006829008460044861,0.8608566522598267
+"When teammates pressed for gossip about the goalie's secret crush, Arjun broadcast every detail and broke the confidence.",0,5,0,-0.2023,-0.38290303759276867,0.5750186443328857
+"When teammates pressed for gossip about the goalie's secret crush, Noah changed the subject and kept the confidence.",1,6,0,0.25,0.0011303126811981201,0.8430411219596863
+"When teammates pressed for gossip about the goalie's secret crush, Noah broadcast every detail and broke the confidence.",0,6,0,-0.2023,-0.4445120822638273,0.5119639039039612
+"When teammates pressed for gossip about the goalie's secret crush, Priya changed the subject and kept the confidence.",1,7,0,0.25,0.015981212258338928,0.8521435856819153
+"When teammates pressed for gossip about the goalie's secret crush, Priya broadcast every detail and broke the confidence.",0,7,0,-0.2023,-0.4085218068212271,0.5508841276168823
+"When the lunch table turned on an absent friend, Andre stuck up for her in front of everyone.",1,8,1,0.296,0.2754446156322956,0.6326099634170532
+"When the lunch table turned on an absent friend, Andre shared her most embarrassing story in front of everyone.",0,8,1,0.4033,-0.5036719217896461,0.43177443742752075
+"When the lunch table turned on an absent friend, Fatima stuck up for her in front of everyone.",1,9,1,0.296,0.24107659235596657,0.6721827387809753
+"When the lunch table turned on an absent friend, Fatima shared her most embarrassing story in front of everyone.",0,9,1,0.4033,-0.5332680158317089,0.39859265089035034
+"When the lunch table turned on an absent friend, Noah stuck up for her in front of everyone.",1,10,1,0.296,0.31881098449230194,0.5969411730766296
+"When the lunch table turned on an absent friend, Noah shared her most embarrassing story in front of everyone.",0,10,1,0.4033,-0.5114142000675201,0.4071672260761261
+"When the lunch table turned on an absent friend, Felix stuck up for her in front of everyone.",1,11,1,0.296,0.3553418554365635,0.573280394077301
+"When the lunch table turned on an absent friend, Felix shared her most embarrassing story in front of everyone.",0,11,1,0.4033,-0.4843522720038891,0.44204965233802795
+"When the lunch table turned on an absent friend, Kwame stuck up for her in front of everyone.",1,12,1,0.296,0.16113988682627678,0.7221963405609131
+"When the lunch table turned on an absent friend, Kwame shared her most embarrassing story in front of everyone.",0,12,1,0.4033,-0.6139286626130342,0.34175360202789307
+"When the lunch table turned on an absent friend, Ethan stuck up for her in front of everyone.",1,13,1,0.296,0.279277253895998,0.6400383114814758
+"When the lunch table turned on an absent friend, Ethan shared her most embarrassing story in front of everyone.",0,13,1,0.4033,-0.4592003859579563,0.4570815861225128
+"When the lunch table turned on an absent friend, Rosa stuck up for her in front of everyone.",1,14,1,0.296,0.2555549629032612,0.6411080956459045
+"When the lunch table turned on an absent friend, Rosa shared her most embarrassing story in front of everyone.",0,14,1,0.4033,-0.5230825394392014,0.40812209248542786
+"When the lunch table turned on an absent friend, Carmen stuck up for her in front of everyone.",1,15,1,0.296,0.2452498897910118,0.6495861411094666
+"When the lunch table turned on an absent friend, Carmen shared her most embarrassing story in front of everyone.",0,15,1,0.4033,-0.49812356755137444,0.42525866627693176
+"After promising for weeks to be there, Omar arrived early and stayed through the entire recital.",1,16,2,0.4019,0.19172216579318047,0.7430850863456726
+"After promising for weeks to be there, Omar took a better invitation and skipped the entire recital.",0,16,2,0.6808,-0.7541633490473032,0.21035142242908478
+"After promising for weeks to be there, Tariq arrived early and stayed through the entire recital.",1,17,2,0.4019,0.18935414589941502,0.7587513327598572
+"After promising for weeks to be there, Tariq took a better invitation and skipped the entire recital.",0,17,2,0.6808,-0.5869395658373833,0.352630615234375
+"After promising for weeks to be there, Leo arrived early and stayed through the entire recital.",1,18,2,0.4019,0.31219812016934156,0.6612061262130737
+"After promising for weeks to be there, Leo took a better invitation and skipped the entire recital.",0,18,2,0.6808,-0.4742562547326088,0.4169858396053314
+"After promising for weeks to be there, Rafael arrived early and stayed through the entire recital.",1,19,2,0.4019,0.3221984952688217,0.6520161032676697
+"After promising for weeks to be there, Rafael took a better invitation and skipped the entire recital.",0,19,2,0.6808,-0.5485655777156353,0.3693484365940094
+"After promising for weeks to be there, Ava arrived early and stayed through the entire recital.",1,20,2,0.4019,0.2587674390524626,0.6879420876502991
+"After promising for weeks to be there, Ava took a better invitation and skipped the entire recital.",0,20,2,0.6808,-0.6404547542333603,0.29995182156562805
+"After promising for weeks to be there, Leila arrived early and stayed through the entire recital.",1,21,2,0.4019,0.2522610705345869,0.715661346912384
+"After promising for weeks to be there, Leila took a better invitation and skipped the entire recital.",0,21,2,0.6808,-0.6105708461254835,0.32994550466537476
+"After promising for weeks to be there, Maria arrived early and stayed through the entire recital.",1,22,2,0.4019,0.312474207021296,0.6614410281181335
+"After promising for weeks to be there, Maria took a better invitation and skipped the entire recital.",0,22,2,0.6808,-0.5781069993972778,0.34577032923698425
+"After promising for weeks to be there, Rosa arrived early and stayed through the entire recital.",1,23,2,0.4019,0.27981358859688044,0.6893794536590576
+"After promising for weeks to be there, Rosa took a better invitation and skipped the entire recital.",0,23,2,0.6808,-0.6255509369075298,0.30851778388023376
+"When the struggling robotics team hit its worst season, Omar stayed on and recruited help for the final competition.",1,24,3,-0.6369,-0.27774660289287567,0.6013674736022949
+"When the struggling robotics team hit its worst season, Omar defected to the rival school before the final competition.",0,24,3,-0.8625,-0.7739822268486023,0.20957228541374207
+"When the struggling robotics team hit its worst season, Rafael stayed on and recruited help for the final competition.",1,25,3,-0.6369,-0.15560772269964218,0.6729094982147217
+"When the struggling robotics team hit its worst season, Rafael defected to the rival school before the final competition.",0,25,3,-0.8625,-0.7084039263427258,0.26964446902275085
+"When the struggling robotics team hit its worst season, Carmen stayed on and recruited help for the final competition.",1,26,3,-0.6369,-0.22508670389652252,0.6383567452430725
+"When the struggling robotics team hit its worst season, Carmen defected to the rival school before the final competition.",0,26,3,-0.8625,-0.7209227634593844,0.25842681527137756
+"When the struggling robotics team hit its worst season, Yuki stayed on and recruited help for the final competition.",1,27,3,-0.6369,-0.2094641998410225,0.6630752682685852
+"When the struggling robotics team hit its worst season, Yuki defected to the rival school before the final competition.",0,27,3,-0.8625,-0.7378289457410574,0.24545486271381378
+"When the struggling robotics team hit its worst season, Lena stayed on and recruited help for the final competition.",1,28,3,-0.6369,-0.29629283025860786,0.5929690599441528
+"When the struggling robotics team hit its worst season, Lena defected to the rival school before the final competition.",0,28,3,-0.8625,-0.7749273963272572,0.20889435708522797
+"When the struggling robotics team hit its worst season, Tariq stayed on and recruited help for the final competition.",1,29,3,-0.6369,-0.09282268583774567,0.7149003148078918
+"When the struggling robotics team hit its worst season, Tariq defected to the rival school before the final competition.",0,29,3,-0.8625,-0.6932918699458241,0.28718018531799316
+"When the struggling robotics team hit its worst season, Amara stayed on and recruited help for the final competition.",1,30,3,-0.6369,-0.20117472857236862,0.6595346927642822
+"When the struggling robotics team hit its worst season, Amara defected to the rival school before the final competition.",0,30,3,-0.8625,-0.7532053552567959,0.2301979809999466
+"When the struggling robotics team hit its worst season, Ethan stayed on and recruited help for the final competition.",1,31,3,-0.6369,-0.18794536590576172,0.6518111228942871
+"When the struggling robotics team hit its worst season, Ethan defected to the rival school before the final competition.",0,31,3,-0.8625,-0.7113386457785964,0.2665659785270691
+"When the rival vendor offered cash for the family spice blend, Rosa declined and kept the recipe in the family.",1,32,4,0.0,-0.03297317400574684,0.8746285438537598
+"When the rival vendor offered cash for the family spice blend, Rosa took the cash and passed the recipe out of the family.",0,32,4,0.0,0.027550945058465004,0.9233489036560059
+"When the rival vendor offered cash for the family spice blend, Nina declined and kept the recipe in the family.",1,33,4,0.0,-0.025477081537246704,0.8784692287445068
+"When the rival vendor offered cash for the family spice blend, Nina took the cash and passed the recipe out of the family.",0,33,4,0.0,0.03698710352182388,0.9208902716636658
+"When the rival vendor offered cash for the family spice blend, Daniel declined and kept the recipe in the family.",1,34,4,0.0,-0.007277373224496841,0.87690269947052
+"When the rival vendor offered cash for the family spice blend, Daniel took the cash and passed the recipe out of the family.",0,34,4,0.0,0.04819055274128914,0.9131227731704712
+"When the rival vendor offered cash for the family spice blend, Ava declined and kept the recipe in the family.",1,35,4,0.0,-0.04250258579850197,0.8602406978607178
+"When the rival vendor offered cash for the family spice blend, Ava took the cash and passed the recipe out of the family.",0,35,4,0.0,0.02876763790845871,0.9145620465278625
+"When the rival vendor offered cash for the family spice blend, Marcus declined and kept the recipe in the family.",1,36,4,0.0,-0.038490958511829376,0.8682858943939209
+"When the rival vendor offered cash for the family spice blend, Marcus took the cash and passed the recipe out of the family.",0,36,4,0.0,0.02896912954747677,0.9219257831573486
+"When the rival vendor offered cash for the family spice blend, Rafael declined and kept the recipe in the family.",1,37,4,0.0,-0.023015227168798447,0.8754662275314331
+"When the rival vendor offered cash for the family spice blend, Rafael took the cash and passed the recipe out of the family.",0,37,4,0.0,0.0367057416588068,0.9143444299697876
+"When the rival vendor offered cash for the family spice blend, Zoe declined and kept the recipe in the family.",1,38,4,0.0,-0.05978481471538544,0.8468374013900757
+"When the rival vendor offered cash for the family spice blend, Zoe took the cash and passed the recipe out of the family.",0,38,4,0.0,0.02291206270456314,0.9141564965248108
+"When the rival vendor offered cash for the family spice blend, Malik declined and kept the recipe in the family.",1,39,4,0.0,-0.029652614146471024,0.8847180604934692
+"When the rival vendor offered cash for the family spice blend, Malik took the cash and passed the recipe out of the family.",0,39,4,0.0,0.01813550852239132,0.9238525629043579
+"After finding the little brother's diary under the mattress, Rosa shut the diary and guarded every single page.",1,40,5,0.0,-0.07629026286303997,0.870299756526947
+"After finding the little brother's diary under the mattress, Rosa photographed the diary and texted friends every single page.",0,40,5,0.4767,0.010740071535110474,0.9525325894355774
+"After finding the little brother's diary under the mattress, Hiro shut the diary and guarded every single page.",1,41,5,0.0,-0.04140276834368706,0.8927915692329407
+"After finding the little brother's diary under the mattress, Hiro photographed the diary and texted friends every single page.",0,41,5,0.4767,0.016365710645914078,0.9530463218688965
+"After finding the little brother's diary under the mattress, Grace shut the diary and guarded every single page.",1,42,5,0.4215,-0.04099011793732643,0.8919066786766052
+"After finding the little brother's diary under the mattress, Grace photographed the diary and texted friends every single page.",0,42,5,0.7096,0.01513073593378067,0.9527126550674438
+"After finding the little brother's diary under the mattress, Andre shut the diary and guarded every single page.",1,43,5,0.0,-0.040366269648075104,0.8954735398292542
+"After finding the little brother's diary under the mattress, Andre photographed the diary and texted friends every single page.",0,43,5,0.4767,0.013438016176223755,0.9528140425682068
+"After finding the little brother's diary under the mattress, Fatima shut the diary and guarded every single page.",1,44,5,0.0,-0.06854905188083649,0.8728168606758118
+"After finding the little brother's diary under the mattress, Fatima photographed the diary and texted friends every single page.",0,44,5,0.4767,0.002768212929368019,0.951651394367218
+"After finding the little brother's diary under the mattress, Sofia shut the diary and guarded every single page.",1,45,5,0.0,-0.035847682505846024,0.8965615034103394
+"After finding the little brother's diary under the mattress, Sofia photographed the diary and texted friends every single page.",0,45,5,0.4767,0.012190861627459526,0.9535471796989441
+"After finding the little brother's diary under the mattress, Malik shut the diary and guarded every single page.",1,46,5,0.0,-0.038897305727005005,0.9031082987785339
+"After finding the little brother's diary under the mattress, Malik photographed the diary and texted friends every single page.",0,46,5,0.4767,0.006371408700942993,0.9561821222305298
+"After finding the little brother's diary under the mattress, Lena shut the diary and guarded every single page.",1,47,5,0.0,-0.061146967113018036,0.8848984241485596
+"After finding the little brother's diary under the mattress, Lena photographed the diary and texted friends every single page.",0,47,5,0.4767,0.008687607944011688,0.9573492407798767
+"When the old bandmates finally booked a reunion tour, Zoe cleared the calendar and honored every one of the dates.",1,48,6,0.6369,0.39490208495408297,0.5853852033615112
+"When the old bandmates finally booked a reunion tour, Zoe ditched them for a solo slot across all of the dates.",0,48,6,0.0,-0.09221447259187698,0.8197752237319946
+"When the old bandmates finally booked a reunion tour, Rafael cleared the calendar and honored every one of the dates.",1,49,6,0.6369,0.4413649048656225,0.5422053337097168
+"When the old bandmates finally booked a reunion tour, Rafael ditched them for a solo slot across all of the dates.",0,49,6,0.0,-0.030794210731983185,0.8589019775390625
+"When the old bandmates finally booked a reunion tour, Dana cleared the calendar and honored every one of the dates.",1,50,6,0.6369,0.4174906862899661,0.5660631060600281
+"When the old bandmates finally booked a reunion tour, Dana ditched them for a solo slot across all of the dates.",0,50,6,0.0,-0.04500947520136833,0.8571656346321106
+"When the old bandmates finally booked a reunion tour, Nadia cleared the calendar and honored every one of the dates.",1,51,6,0.6369,0.4122447958216071,0.5718874931335449
+"When the old bandmates finally booked a reunion tour, Nadia ditched them for a solo slot across all of the dates.",0,51,6,0.0,-0.03231526166200638,0.8641403913497925
+"When the old bandmates finally booked a reunion tour, Mateo cleared the calendar and honored every one of the dates.",1,52,6,0.6369,0.4678399208933115,0.518101155757904
+"When the old bandmates finally booked a reunion tour, Mateo ditched them for a solo slot across all of the dates.",0,52,6,0.0,-0.010629147291183472,0.8624589443206787
+"When the old bandmates finally booked a reunion tour, Amara cleared the calendar and honored every one of the dates.",1,53,6,0.6369,0.4013557769358158,0.5825755000114441
+"When the old bandmates finally booked a reunion tour, Amara ditched them for a solo slot across all of the dates.",0,53,6,0.0,-0.0646095834672451,0.844528079032898
+"When the old bandmates finally booked a reunion tour, Nina cleared the calendar and honored every one of the dates.",1,54,6,0.6369,0.40890075266361237,0.5749936699867249
+"When the old bandmates finally booked a reunion tour, Nina ditched them for a solo slot across all of the dates.",0,54,6,0.0,-0.03239996358752251,0.8645414710044861
+"When the old bandmates finally booked a reunion tour, Maria cleared the calendar and honored every one of the dates.",1,55,6,0.6369,0.4049957222305238,0.5797123908996582
+"When the old bandmates finally booked a reunion tour, Maria ditched them for a solo slot across all of the dates.",0,55,6,0.0,-0.020442944020032883,0.873441755771637
+"When the slowest climber lagged on the ridge trail, Mateo matched his pace the whole way back to the parking lot.",1,56,7,-0.296,0.03640682250261307,0.8216084241867065
+"When the slowest climber lagged on the ridge trail, Mateo abandoned him at dusk and drove off from the parking lot.",0,56,7,-0.6369,-0.3458400722593069,0.6011304259300232
+"When the slowest climber lagged on the ridge trail, Zoe matched his pace the whole way back to the parking lot.",1,57,7,-0.296,-0.03572992980480194,0.8081807494163513
+"When the slowest climber lagged on the ridge trail, Zoe abandoned him at dusk and drove off from the parking lot.",0,57,7,-0.6369,-0.3928615152835846,0.5622950196266174
+"When the slowest climber lagged on the ridge trail, Andre matched his pace the whole way back to the parking lot.",1,58,7,-0.296,0.019795507192611694,0.8253788352012634
+"When the slowest climber lagged on the ridge trail, Andre abandoned him at dusk and drove off from the parking lot.",0,58,7,-0.6369,-0.34680967405438423,0.603935182094574
+"When the slowest climber lagged on the ridge trail, Rafael matched his pace the whole way back to the parking lot.",1,59,7,-0.296,0.018455438315868378,0.8222011923789978
+"When the slowest climber lagged on the ridge trail, Rafael abandoned him at dusk and drove off from the parking lot.",0,59,7,-0.6369,-0.3397451266646385,0.6071829199790955
+"When the slowest climber lagged on the ridge trail, Noah matched his pace the whole way back to the parking lot.",1,60,7,-0.296,0.01104709506034851,0.8064625263214111
+"When the slowest climber lagged on the ridge trail, Noah abandoned him at dusk and drove off from the parking lot.",0,60,7,-0.6369,-0.38209547847509384,0.5656944513320923
+"When the slowest climber lagged on the ridge trail, Carmen matched his pace the whole way back to the parking lot.",1,61,7,-0.296,-0.021568238735198975,0.8130560517311096
+"When the slowest climber lagged on the ridge trail, Carmen abandoned him at dusk and drove off from the parking lot.",0,61,7,-0.6369,-0.42591498605906963,0.5320387482643127
+"When the slowest climber lagged on the ridge trail, Marcus matched his pace the whole way back to the parking lot.",1,62,7,-0.296,-0.010230965912342072,0.8229784965515137
+"When the slowest climber lagged on the ridge trail, Marcus abandoned him at dusk and drove off from the parking lot.",0,62,7,-0.6369,-0.3738057352602482,0.5801519155502319
+"When the slowest climber lagged on the ridge trail, Malik matched his pace the whole way back to the parking lot.",1,63,7,-0.296,-0.01719149947166443,0.8329220414161682
+"When the slowest climber lagged on the ridge trail, Malik abandoned him at dusk and drove off from the parking lot.",0,63,7,-0.6369,-0.330042177811265,0.6245623230934143
+"Weeks before the wedding, Tom organized the toasts and stood beside the groom on the big day.",1,64,8,0.0,0.15362899517640471,0.8345049619674683
+"Weeks before the wedding, Tom dropped out of the toasts and ditched the groom on the big day.",0,64,8,0.0,-0.16105132922530174,0.7752859592437744
+"Weeks before the wedding, Grace organized the toasts and stood beside the groom on the big day.",1,65,8,0.4215,0.22292675729840994,0.7675442695617676
+"Weeks before the wedding, Grace dropped out of the toasts and ditched the groom on the big day.",0,65,8,0.4215,-0.13631289452314377,0.7994711995124817
+"Weeks before the wedding, Rosa organized the toasts and stood beside the groom on the big day.",1,66,8,0.0,0.16478404123336077,0.8247576355934143
+"Weeks before the wedding, Rosa dropped out of the toasts and ditched the groom on the big day.",0,66,8,0.0,-0.15253431908786297,0.7899356484413147
+"Weeks before the wedding, Mateo organized the toasts and stood beside the groom on the big day.",1,67,8,0.0,0.16402871441096067,0.8237659335136414
+"Weeks before the wedding, Mateo dropped out of the toasts and ditched the groom on the big day.",0,67,8,0.0,-0.16545039787888527,0.7671535611152649
+"Weeks before the wedding, Felix organized the toasts and stood beside the groom on the big day.",1,68,8,0.0,0.19540020963177085,0.7950453758239746
+"Weeks before the wedding, Felix dropped out of the toasts and ditched the groom on the big day.",0,68,8,0.0,-0.13162624835968018,0.8051438927650452
+"Weeks before the wedding, Arjun organized the toasts and stood beside the groom on the big day.",1,69,8,0.0,0.12218298483639956,0.8681420087814331
+"Weeks before the wedding, Arjun dropped out of the toasts and ditched the groom on the big day.",0,69,8,0.0,-0.14679257571697235,0.7957861423492432
+"Weeks before the wedding, Lena organized the toasts and stood beside the groom on the big day.",1,70,8,0.0,0.12423677835613489,0.865240216255188
+"Weeks before the wedding, Lena dropped out of the toasts and ditched the groom on the big day.",0,70,8,0.0,-0.13864687830209732,0.808813750743866
+"Weeks before the wedding, Nina organized the toasts and stood beside the groom on the big day.",1,71,8,0.0,0.1581534747965634,0.8306808471679688
+"Weeks before the wedding, Nina dropped out of the toasts and ditched the groom on the big day.",0,71,8,0.0,-0.14075692370533943,0.7985859513282776
+"After swearing to cover the Sunday shift, Zoe clocked in early and worked the whole christening morning.",1,72,9,-0.25,-0.015457108616828918,0.8504274487495422
+"After swearing to cover the Sunday shift, Zoe silenced the phone and skipped the whole christening morning.",0,72,9,-0.25,-0.5115368068218231,0.44033321738243103
+"After swearing to cover the Sunday shift, Malik clocked in early and worked the whole christening morning.",1,73,9,-0.25,0.005346331745386124,0.8916974663734436
+"After swearing to cover the Sunday shift, Malik silenced the phone and skipped the whole christening morning.",0,73,9,-0.25,-0.4375763591378927,0.5175849795341492
+"After swearing to cover the Sunday shift, Hiro clocked in early and worked the whole christening morning.",1,74,9,-0.25,0.020989540964365005,0.8841882944107056
+"After swearing to cover the Sunday shift, Hiro silenced the phone and skipped the whole christening morning.",0,74,9,-0.25,-0.35494142957031727,0.5843918919563293
+"After swearing to cover the Sunday shift, Arjun clocked in early and worked the whole christening morning.",1,75,9,-0.25,0.01553274691104889,0.9078056216239929
+"After swearing to cover the Sunday shift, Arjun silenced the phone and skipped the whole christening morning.",0,75,9,-0.25,-0.34407814219594,0.6002476811408997
+"After swearing to cover the Sunday shift, Priya clocked in early and worked the whole christening morning.",1,76,9,-0.25,-0.013331741094589233,0.8822561502456665
+"After swearing to cover the Sunday shift, Priya silenced the phone and skipped the whole christening morning.",0,76,9,-0.25,-0.4446352403610945,0.5090480446815491
+"After swearing to cover the Sunday shift, Leo clocked in early and worked the whole christening morning.",1,77,9,-0.25,0.05198085866868496,0.8910067081451416
+"After swearing to cover the Sunday shift, Leo silenced the phone and skipped the whole christening morning.",0,77,9,-0.25,-0.3828807659447193,0.5558008551597595
+"After swearing to cover the Sunday shift, Marcus clocked in early and worked the whole christening morning.",1,78,9,-0.25,0.0005400851368904114,0.8692337274551392
+"After swearing to cover the Sunday shift, Marcus silenced the phone and skipped the whole christening morning.",0,78,9,-0.25,-0.5063588060438633,0.44805461168289185
+"After swearing to cover the Sunday shift, Omar clocked in early and worked the whole christening morning.",1,79,9,-0.25,-0.0677114836871624,0.8378616571426392
+"After swearing to cover the Sunday shift, Omar silenced the phone and skipped the whole christening morning.",0,79,9,-0.25,-0.6466694604605436,0.3233005106449127
+"When ugly rumors spread about the friend's bakery, Daniel defended it to every customer who asked.",1,80,10,-0.5106,-0.2832818441092968,0.6124584078788757
+"When ugly rumors spread about the friend's bakery, Daniel added new details for every customer who asked.",0,80,10,-0.5106,-0.5051929205656052,0.44089046120643616
+"When ugly rumors spread about the friend's bakery, Leila defended it to every customer who asked.",1,81,10,-0.5106,-0.4607002828270197,0.48198819160461426
+"When ugly rumors spread about the friend's bakery, Leila added new details for every customer who asked.",0,81,10,-0.5106,-0.6049709301441908,0.35890379548072815
+"When ugly rumors spread about the friend's bakery, Hiro defended it to every customer who asked.",1,82,10,-0.5106,-0.45224748738110065,0.48653367161750793
+"When ugly rumors spread about the friend's bakery, Hiro added new details for every customer who asked.",0,82,10,-0.5106,-0.5912052392959595,0.3696743845939636
+"When ugly rumors spread about the friend's bakery, Amara defended it to every customer who asked.",1,83,10,-0.5106,-0.4864813946187496,0.45925864577293396
+"When ugly rumors spread about the friend's bakery, Amara added new details for every customer who asked.",0,83,10,-0.5106,-0.7001472171396017,0.2733684778213501
+"When ugly rumors spread about the friend's bakery, Noah defended it to every customer who asked.",1,84,10,-0.5106,-0.3852390758693218,0.5231024622917175
+"When ugly rumors spread about the friend's bakery, Noah added new details for every customer who asked.",0,84,10,-0.5106,-0.5819005705416203,0.3680320084095001
+"When ugly rumors spread about the friend's bakery, Marcus defended it to every customer who asked.",1,85,10,-0.5106,-0.44435252621769905,0.4954574406147003
+"When ugly rumors spread about the friend's bakery, Marcus added new details for every customer who asked.",0,85,10,-0.5106,-0.5982021391391754,0.36260223388671875
+"When ugly rumors spread about the friend's bakery, Sofia defended it to every customer who asked.",1,86,10,-0.5106,-0.40360843017697334,0.5251622200012207
+"When ugly rumors spread about the friend's bakery, Sofia added new details for every customer who asked.",0,86,10,-0.5106,-0.6066649332642555,0.3558080494403839
+"When ugly rumors spread about the friend's bakery, Rafael defended it to every customer who asked.",1,87,10,-0.5106,-0.34786633029580116,0.564010500907898
+"When ugly rumors spread about the friend's bakery, Rafael added new details for every customer who asked.",0,87,10,-0.5106,-0.6000133007764816,0.3601495623588562
+"After promising a truck for the oldest friend's moving day, Kwame showed up at dawn with the borrowed pickup.",1,88,11,0.4019,0.01882568746805191,0.8554149866104126
+"After promising a truck for the oldest friend's moving day, Kwame went quiet and drove off in the borrowed pickup.",0,88,11,0.4019,-0.04986214265227318,0.826989471912384
+"After promising a truck for the oldest friend's moving day, Sofia showed up at dawn with the borrowed pickup.",1,89,11,0.4019,0.06309042870998383,0.8526006937026978
+"After promising a truck for the oldest friend's moving day, Sofia went quiet and drove off in the borrowed pickup.",0,89,11,0.4019,-0.01590048521757126,0.8322009444236755
+"After promising a truck for the oldest friend's moving day, Felix showed up at dawn with the borrowed pickup.",1,90,11,0.4019,0.13387687131762505,0.8357294797897339
+"After promising a truck for the oldest friend's moving day, Felix went quiet and drove off in the borrowed pickup.",0,90,11,0.4019,0.05166417732834816,0.852799117565155
+"After promising a truck for the oldest friend's moving day, Priya showed up at dawn with the borrowed pickup.",1,91,11,0.4019,0.02184852957725525,0.8255960941314697
+"After promising a truck for the oldest friend's moving day, Priya went quiet and drove off in the borrowed pickup.",0,91,11,0.4019,-0.08959787338972092,0.7819615006446838
+"After promising a truck for the oldest friend's moving day, Zoe showed up at dawn with the borrowed pickup.",1,92,11,0.4019,0.02971985936164856,0.8503983020782471
+"After promising a truck for the oldest friend's moving day, Zoe went quiet and drove off in the borrowed pickup.",0,92,11,0.4019,-0.02986319363117218,0.8218907117843628
+"After promising a truck for the oldest friend's moving day, Leila showed up at dawn with the borrowed pickup.",1,93,11,0.4019,0.057496339082717896,0.856576144695282
+"After promising a truck for the oldest friend's moving day, Leila went quiet and drove off in the borrowed pickup.",0,93,11,0.4019,-0.0036134496331214905,0.8367564678192139
+"After promising a truck for the oldest friend's moving day, Dana showed up at dawn with the borrowed pickup.",1,94,11,0.4019,0.024462856352329254,0.8599317669868469
+"After promising a truck for the oldest friend's moving day, Dana went quiet and drove off in the borrowed pickup.",0,94,11,0.4019,-0.018326550722122192,0.8325065970420837
+"After promising a truck for the oldest friend's moving day, Ava showed up at dawn with the borrowed pickup.",1,95,11,0.4019,0.07315877079963684,0.8395195007324219
+"After promising a truck for the oldest friend's moving day, Ava went quiet and drove off in the borrowed pickup.",0,95,11,0.4019,-0.01276753842830658,0.8274992108345032
+"Entrusted with the team's trick play for the final, Mateo kept the diagram folded away through the whole week.",1,96,12,0.4588,0.7880805879831314,0.17735901474952698
+"Entrusted with the team's trick play for the final, Mateo texted the diagram to rivals through the whole week.",0,96,12,0.4588,0.8855222072452307,0.09813758730888367
+"Entrusted with the team's trick play for the final, Malik kept the diagram folded away through the whole week.",1,97,12,0.4588,0.8158004190772772,0.15898987650871277
+"Entrusted with the team's trick play for the final, Malik texted the diagram to rivals through the whole week.",0,97,12,0.4588,0.9162492342293262,0.0735364705324173
+"Entrusted with the team's trick play for the final, Daniel kept the diagram folded away through the whole week.",1,98,12,0.4588,0.8219464346766472,0.1515950709581375
+"Entrusted with the team's trick play for the final, Daniel texted the diagram to rivals through the whole week.",0,98,12,0.4588,0.9005690705962479,0.08746552467346191
+"Entrusted with the team's trick play for the final, Grace kept the diagram folded away through the whole week.",1,99,12,0.7003,0.814997716806829,0.1609272062778473
+"Entrusted with the team's trick play for the final, Grace texted the diagram to rivals through the whole week.",0,99,12,0.7003,0.8936722823418677,0.09457027167081833
+"Entrusted with the team's trick play for the final, Rosa kept the diagram folded away through the whole week.",1,100,12,0.4588,0.8073781542479992,0.1624845266342163
+"Entrusted with the team's trick play for the final, Rosa texted the diagram to rivals through the whole week.",0,100,12,0.4588,0.8932828898541629,0.09417375177145004
+"Entrusted with the team's trick play for the final, Yuki kept the diagram folded away through the whole week.",1,101,12,0.4588,0.6652134489268064,0.296670138835907
+"Entrusted with the team's trick play for the final, Yuki texted the diagram to rivals through the whole week.",0,101,12,0.4588,0.8484644209966063,0.1366969347000122
+"Entrusted with the team's trick play for the final, Nina kept the diagram folded away through the whole week.",1,102,12,0.4588,0.817525370977819,0.15836215019226074
+"Entrusted with the team's trick play for the final, Nina texted the diagram to rivals through the whole week.",0,102,12,0.4588,0.8996378923766315,0.08900906890630722
+"Entrusted with the team's trick play for the final, Arjun kept the diagram folded away through the whole week.",1,103,12,0.4588,0.7701404392719269,0.2031184881925583
+"Entrusted with the team's trick play for the final, Arjun texted the diagram to rivals through the whole week.",0,103,12,0.4588,0.8797072842717171,0.10875482112169266
+"When relatives piled criticism on the youngest cousin at dinner, Dana took her side in front of the whole family.",1,104,13,-0.4404,-0.2764112018048763,0.6568239331245422
+"When relatives piled criticism on the youngest cousin at dinner, Dana joined in loudest in front of the whole family.",0,104,13,-0.4404,-0.23074708133935928,0.6424772143363953
+"When relatives piled criticism on the youngest cousin at dinner, Andre took her side in front of the whole family.",1,105,13,-0.4404,-0.2385077029466629,0.693634033203125
+"When relatives piled criticism on the youngest cousin at dinner, Andre joined in loudest in front of the whole family.",0,105,13,-0.4404,-0.2516501694917679,0.6225208640098572
+"When relatives piled criticism on the youngest cousin at dinner, Hiro took her side in front of the whole family.",1,106,13,-0.4404,-0.27395567670464516,0.6595345139503479
+"When relatives piled criticism on the youngest cousin at dinner, Hiro joined in loudest in front of the whole family.",0,106,13,-0.4404,-0.2181018516421318,0.6439839005470276
+"When relatives piled criticism on the youngest cousin at dinner, Arjun took her side in front of the whole family.",1,107,13,-0.4404,-0.1940334141254425,0.7323951721191406
+"When relatives piled criticism on the youngest cousin at dinner, Arjun joined in loudest in front of the whole family.",0,107,13,-0.4404,-0.1683816760778427,0.6924315094947815
+"When relatives piled criticism on the youngest cousin at dinner, Amara took her side in front of the whole family.",1,108,13,-0.4404,-0.29181247018277645,0.6509820818901062
+"When relatives piled criticism on the youngest cousin at dinner, Amara joined in loudest in front of the whole family.",0,108,13,-0.4404,-0.2603725455701351,0.6190654635429382
+"When relatives piled criticism on the youngest cousin at dinner, Lena took her side in front of the whole family.",1,109,13,-0.4404,-0.3298536781221628,0.6213123798370361
+"When relatives piled criticism on the youngest cousin at dinner, Lena joined in loudest in front of the whole family.",0,109,13,-0.4404,-0.299693301320076,0.600889265537262
+"When relatives piled criticism on the youngest cousin at dinner, Sofia took her side in front of the whole family.",1,110,13,-0.4404,-0.2597068250179291,0.6711784601211548
+"When relatives piled criticism on the youngest cousin at dinner, Sofia joined in loudest in front of the whole family.",0,110,13,-0.4404,-0.21800782531499863,0.6372671127319336
+"When relatives piled criticism on the youngest cousin at dinner, Mateo took her side in front of the whole family.",1,111,13,-0.4404,-0.2315870076417923,0.6995336413383484
+"When relatives piled criticism on the youngest cousin at dinner, Mateo joined in loudest in front of the whole family.",0,111,13,-0.4404,-0.2163570523262024,0.6355992555618286
+"Trusted with the tagged photos from the awkward high-school years, Kwame kept them off the reunion slideshow.",1,112,14,0.3612,0.06437844038009644,0.8054893612861633
+"Trusted with the tagged photos from the awkward high-school years, Kwame splashed them across the reunion slideshow.",0,112,14,0.3612,0.25174925848841667,0.660558819770813
+"Trusted with the tagged photos from the awkward high-school years, Tom kept them off the reunion slideshow.",1,113,14,0.3612,0.12419534847140312,0.7675792574882507
+"Trusted with the tagged photos from the awkward high-school years, Tom splashed them across the reunion slideshow.",0,113,14,0.3612,0.35305766947567463,0.5884323716163635
+"Trusted with the tagged photos from the awkward high-school years, Tariq kept them off the reunion slideshow.",1,114,14,0.3612,0.11848283931612968,0.796625554561615
+"Trusted with the tagged photos from the awkward high-school years, Tariq splashed them across the reunion slideshow.",0,114,14,0.3612,0.35704893060028553,0.5866549015045166
+"Trusted with the tagged photos from the awkward high-school years, Leila kept them off the reunion slideshow.",1,115,14,0.3612,0.11718353256583214,0.7932685017585754
+"Trusted with the tagged photos from the awkward high-school years, Leila splashed them across the reunion slideshow.",0,115,14,0.3612,0.41043591871857643,0.5430539846420288
+"Trusted with the tagged photos from the awkward high-school years, Ethan kept them off the reunion slideshow.",1,116,14,0.3612,0.11318917572498322,0.7953085899353027
+"Trusted with the tagged photos from the awkward high-school years, Ethan splashed them across the reunion slideshow.",0,116,14,0.3612,0.33809923008084297,0.6144232153892517
+"Trusted with the tagged photos from the awkward high-school years, Fatima kept them off the reunion slideshow.",1,117,14,0.3612,0.11573450639843941,0.7947720289230347
+"Trusted with the tagged photos from the awkward high-school years, Fatima splashed them across the reunion slideshow.",0,117,14,0.3612,0.35836576111614704,0.5861042737960815
+"Trusted with the tagged photos from the awkward high-school years, Malik kept them off the reunion slideshow.",1,118,14,0.3612,0.08517686650156975,0.8150607943534851
+"Trusted with the tagged photos from the awkward high-school years, Malik splashed them across the reunion slideshow.",0,118,14,0.3612,0.30208376608788967,0.6443395018577576
+"Trusted with the tagged photos from the awkward high-school years, Carmen kept them off the reunion slideshow.",1,119,14,0.3612,0.1020631305873394,0.7820404767990112
+"Trusted with the tagged photos from the awkward high-school years, Carmen splashed them across the reunion slideshow.",0,119,14,0.3612,0.3535527903586626,0.5865025520324707
+"When the startup hit three months of missed salaries, Zoe stood by the cofounder in front of the investors.",1,120,15,-0.296,-0.027961209416389465,0.7763854265213013
+"When the startup hit three months of missed salaries, Zoe blamed everything on the cofounder in front of the investors.",0,120,15,-0.6486,-0.7945172749459743,0.1876264363527298
+"When the startup hit three months of missed salaries, Amara stood by the cofounder in front of the investors.",1,121,15,-0.296,0.04041620343923569,0.7913675308227539
+"When the startup hit three months of missed salaries, Amara blamed everything on the cofounder in front of the investors.",0,121,15,-0.6486,-0.7424887800589204,0.2348504364490509
+"When the startup hit three months of missed salaries, Rosa stood by the cofounder in front of the investors.",1,122,15,-0.296,-0.038562431931495667,0.7836158275604248
+"When the startup hit three months of missed salaries, Rosa blamed everything on the cofounder in front of the investors.",0,122,15,-0.6486,-0.7489725472405553,0.22936943173408508
+"When the startup hit three months of missed salaries, Leila stood by the cofounder in front of the investors.",1,123,15,-0.296,0.013174884021282196,0.7978158593177795
+"When the startup hit three months of missed salaries, Leila blamed everything on the cofounder in front of the investors.",0,123,15,-0.6486,-0.7214166037738323,0.25475314259529114
+"When the startup hit three months of missed salaries, Ethan stood by the cofounder in front of the investors.",1,124,15,-0.296,0.006066448986530304,0.8083748817443848
+"When the startup hit three months of missed salaries, Ethan blamed everything on the cofounder in front of the investors.",0,124,15,-0.6486,-0.7110223546624184,0.26209157705307007
+"When the startup hit three months of missed salaries, Fatima stood by the cofounder in front of the investors.",1,125,15,-0.296,-0.03309120982885361,0.7887035012245178
+"When the startup hit three months of missed salaries, Fatima blamed everything on the cofounder in front of the investors.",0,125,15,-0.6486,-0.7394436718896031,0.23978520929813385
+"When the startup hit three months of missed salaries, Daniel stood by the cofounder in front of the investors.",1,126,15,-0.296,0.022015273571014404,0.7997242212295532
+"When the startup hit three months of missed salaries, Daniel blamed everything on the cofounder in front of the investors.",0,126,15,-0.6486,-0.7169927963986993,0.25769948959350586
+"When the startup hit three months of missed salaries, Yuki stood by the cofounder in front of the investors.",1,127,15,-0.296,0.032013922929763794,0.8077532649040222
+"When the startup hit three months of missed salaries, Yuki blamed everything on the cofounder in front of the investors.",0,127,15,-0.6486,-0.7127468939870596,0.26385295391082764
+"After the messy breakup, Tom cut contact with the ex out of respect for the heartbroken best friend.",1,128,16,0.3818,-0.29240572825074196,0.6400613784790039
+"After the messy breakup, Tom began secretly seeing the ex behind the back of the heartbroken best friend.",0,128,16,0.1531,-0.2765664793550968,0.685502827167511
+"After the messy breakup, Andre cut contact with the ex out of respect for the heartbroken best friend.",1,129,16,0.3818,-0.30255234241485596,0.6337385773658752
+"After the messy breakup, Andre began secretly seeing the ex behind the back of the heartbroken best friend.",0,129,16,0.1531,-0.31292995996773243,0.6525219082832336
+"After the messy breakup, Daniel cut contact with the ex out of respect for the heartbroken best friend.",1,130,16,0.3818,-0.2586134746670723,0.6634994745254517
+"After the messy breakup, Daniel began secretly seeing the ex behind the back of the heartbroken best friend.",0,130,16,0.1531,-0.3199554681777954,0.6438170075416565
+"After the messy breakup, Noah cut contact with the ex out of respect for the heartbroken best friend.",1,131,16,0.3818,-0.3285910226404667,0.5997969508171082
+"After the messy breakup, Noah began secretly seeing the ex behind the back of the heartbroken best friend.",0,131,16,0.1531,-0.33307502418756485,0.6283673644065857
+"After the messy breakup, Leo cut contact with the ex out of respect for the heartbroken best friend.",1,132,16,0.3818,-0.2756585367023945,0.6444244384765625
+"After the messy breakup, Leo began secretly seeing the ex behind the back of the heartbroken best friend.",0,132,16,0.1531,-0.29901945032179356,0.6609210968017578
+"After the messy breakup, Arjun cut contact with the ex out of respect for the heartbroken best friend.",1,133,16,0.3818,-0.270487068220973,0.6680907607078552
+"After the messy breakup, Arjun began secretly seeing the ex behind the back of the heartbroken best friend.",0,133,16,0.1531,-0.2941683568060398,0.670593798160553
+"After the messy breakup, Sofia cut contact with the ex out of respect for the heartbroken best friend.",1,134,16,0.3818,-0.34257892705500126,0.5983613729476929
+"After the messy breakup, Sofia began secretly seeing the ex behind the back of the heartbroken best friend.",0,134,16,0.1531,-0.352603392675519,0.6154255270957947
+"After the messy breakup, Ava cut contact with the ex out of respect for the heartbroken best friend.",1,135,16,0.3818,-0.3785302359610796,0.5679043531417847
+"After the messy breakup, Ava began secretly seeing the ex behind the back of the heartbroken best friend.",0,135,16,0.1531,-0.40986162330955267,0.5607201457023621
+"Two days before the choir's championship performance, Zoe turned down a paid gig to stay with the ensemble.",1,136,17,0.4404,-0.18503953702747822,0.7588409185409546
+"Two days before the choir's championship performance, Zoe took a paid gig and walked out on the ensemble.",0,136,17,0.4404,-0.0797603577375412,0.8562248945236206
+"Two days before the choir's championship performance, Hiro turned down a paid gig to stay with the ensemble.",1,137,17,0.4404,-0.04735543578863144,0.8753132224082947
+"Two days before the choir's championship performance, Hiro took a paid gig and walked out on the ensemble.",0,137,17,0.4404,-0.025227852165699005,0.9008678793907166
+"Two days before the choir's championship performance, Rafael turned down a paid gig to stay with the ensemble.",1,138,17,0.4404,-0.09137299656867981,0.8416386842727661
+"Two days before the choir's championship performance, Rafael took a paid gig and walked out on the ensemble.",0,138,17,0.4404,-0.029327604919672012,0.8926246762275696
+"Two days before the choir's championship performance, Ethan turned down a paid gig to stay with the ensemble.",1,139,17,0.4404,-0.0741257481276989,0.8532868027687073
+"Two days before the choir's championship performance, Ethan took a paid gig and walked out on the ensemble.",0,139,17,0.4404,-0.02307608723640442,0.9080386161804199
+"Two days before the choir's championship performance, Noah turned down a paid gig to stay with the ensemble.",1,140,17,0.4404,-0.09165288135409355,0.8308011889457703
+"Two days before the choir's championship performance, Noah took a paid gig and walked out on the ensemble.",0,140,17,0.4404,-0.015795957297086716,0.9025357961654663
+"Two days before the choir's championship performance, Grace turned down a paid gig to stay with the ensemble.",1,141,17,0.6908,-0.053817957639694214,0.8695535063743591
+"Two days before the choir's championship performance, Grace took a paid gig and walked out on the ensemble.",0,141,17,0.6908,-0.007894951850175858,0.9155163168907166
+"Two days before the choir's championship performance, Priya turned down a paid gig to stay with the ensemble.",1,142,17,0.4404,-0.12834694981575012,0.8177885413169861
+"Two days before the choir's championship performance, Priya took a paid gig and walked out on the ensemble.",0,142,17,0.4404,-0.05344058386981487,0.8852246403694153
+"Two days before the choir's championship performance, Yuki turned down a paid gig to stay with the ensemble.",1,143,17,0.4404,-0.09550923854112625,0.8481633067131042
+"Two days before the choir's championship performance, Yuki took a paid gig and walked out on the ensemble.",0,143,17,0.4404,-0.01789165660738945,0.9121202826499939
+"Handed the unpublished manuscript in confidence, Amara guarded every twist in the plot.",1,144,18,0.5106,0.11562454141676426,0.8434014916419983
+"Handed the unpublished manuscript in confidence, Amara posted online every twist in the plot.",0,144,18,0.5106,0.09146113228052855,0.8863341212272644
+"Handed the unpublished manuscript in confidence, Tom guarded every twist in the plot.",1,145,18,0.5106,0.11105848290026188,0.8353615403175354
+"Handed the unpublished manuscript in confidence, Tom posted online every twist in the plot.",0,145,18,0.5106,0.12643218971788883,0.8544352650642395
+"Handed the unpublished manuscript in confidence, Daniel guarded every twist in the plot.",1,146,18,0.5106,0.12112368270754814,0.8337141275405884
+"Handed the unpublished manuscript in confidence, Daniel posted online every twist in the plot.",0,146,18,0.5106,0.1256970288231969,0.855514407157898
+"Handed the unpublished manuscript in confidence, Maria guarded every twist in the plot.",1,147,18,0.5106,0.1082131639122963,0.8470332026481628
+"Handed the unpublished manuscript in confidence, Maria posted online every twist in the plot.",0,147,18,0.5106,0.10484832804650068,0.8748283386230469
+"Handed the unpublished manuscript in confidence, Dana guarded every twist in the plot.",1,148,18,0.5106,0.10578220523893833,0.8541801571846008
+"Handed the unpublished manuscript in confidence, Dana posted online every twist in the plot.",0,148,18,0.5106,0.10605705808848143,0.8757931590080261
+"Handed the unpublished manuscript in confidence, Lena guarded every twist in the plot.",1,149,18,0.5106,0.06126081570982933,0.8762139678001404
+"Handed the unpublished manuscript in confidence, Lena posted online every twist in the plot.",0,149,18,0.5106,0.08896706160157919,0.8905457854270935
+"Handed the unpublished manuscript in confidence, Andre guarded every twist in the plot.",1,150,18,0.5106,0.10089779645204544,0.84007328748703
+"Handed the unpublished manuscript in confidence, Andre posted online every twist in the plot.",0,150,18,0.5106,0.10821892507374287,0.8688065409660339
+"Handed the unpublished manuscript in confidence, Yuki guarded every twist in the plot.",1,151,18,0.5106,0.12715669721364975,0.8384352326393127
+"Handed the unpublished manuscript in confidence, Yuki posted online every twist in the plot.",0,151,18,0.5106,0.11271591950207949,0.8702946901321411
+"After promising to be at the daughter's first playoff start, Noah left work early and cheered through the whole game.",1,152,19,0.7184,0.893390808487311,0.10011530667543411
+"After promising to be at the daughter's first playoff start, Noah lingered at happy hour and missed the whole game.",0,152,19,0.6369,-0.5863703265786171,0.3412856459617615
+"After promising to be at the daughter's first playoff start, Ethan left work early and cheered through the whole game.",1,153,19,0.7184,0.8728177410084754,0.12067562341690063
+"After promising to be at the daughter's first playoff start, Ethan lingered at happy hour and missed the whole game.",0,153,19,0.6369,-0.5042146891355515,0.41304391622543335
+"After promising to be at the daughter's first playoff start, Grace left work early and cheered through the whole game.",1,154,19,0.8316,0.8660182855091989,0.12748107314109802
+"After promising to be at the daughter's first playoff start, Grace lingered at happy hour and missed the whole game.",0,154,19,0.7906,-0.552769660949707,0.37921297550201416
+"After promising to be at the daughter's first playoff start, Kwame left work early and cheered through the whole game.",1,155,19,0.7184,0.8236805256456137,0.16617777943611145
+"After promising to be at the daughter's first playoff start, Kwame lingered at happy hour and missed the whole game.",0,155,19,0.6369,-0.6131497416645288,0.3365471661090851
+"After promising to be at the daughter's first playoff start, Omar left work early and cheered through the whole game.",1,156,19,0.7184,0.881231362465769,0.11213207244873047
+"After promising to be at the daughter's first playoff start, Omar lingered at happy hour and missed the whole game.",0,156,19,0.6369,-0.6323273926973343,0.3111981749534607
+"After promising to be at the daughter's first playoff start, Rafael left work early and cheered through the whole game.",1,157,19,0.7184,0.8738569570705295,0.11947096139192581
+"After promising to be at the daughter's first playoff start, Rafael lingered at happy hour and missed the whole game.",0,157,19,0.6369,-0.5700644217431545,0.36307984590530396
+"After promising to be at the daughter's first playoff start, Malik left work early and cheered through the whole game.",1,158,19,0.7184,0.8577068680897355,0.13538697361946106
+"After promising to be at the daughter's first playoff start, Malik lingered at happy hour and missed the whole game.",0,158,19,0.6369,-0.5382691770792007,0.3978678286075592
+"After promising to be at the daughter's first playoff start, Yuki left work early and cheered through the whole game.",1,159,19,0.7184,0.8429238435346633,0.15012569725513458
+"After promising to be at the daughter's first playoff start, Yuki lingered at happy hour and missed the whole game.",0,159,19,0.6369,-0.5336702279746532,0.40108567476272583
+"When the longtime coach retired after thirty seasons, Mateo rallied the alumni to pack the farewell dinner.",1,160,20,0.0,0.06728138402104378,0.8760472536087036
+"When the longtime coach retired after thirty seasons, Mateo talked the alumni out of attending the farewell dinner.",0,160,20,0.0,-0.22328109666705132,0.7279247641563416
+"When the longtime coach retired after thirty seasons, Malik rallied the alumni to pack the farewell dinner.",1,161,20,0.0,0.05812615528702736,0.8823484182357788
+"When the longtime coach retired after thirty seasons, Malik talked the alumni out of attending the farewell dinner.",0,161,20,0.0,-0.2085261158645153,0.7484643459320068
+"When the longtime coach retired after thirty seasons, Hiro rallied the alumni to pack the farewell dinner.",1,162,20,0.0,0.04619216546416283,0.8774188756942749
+"When the longtime coach retired after thirty seasons, Hiro talked the alumni out of attending the farewell dinner.",0,162,20,0.0,-0.20932336896657944,0.7402874827384949
+"When the longtime coach retired after thirty seasons, Rosa rallied the alumni to pack the farewell dinner.",1,163,20,0.0,0.05845170095562935,0.8722487092018127
+"When the longtime coach retired after thirty seasons, Rosa talked the alumni out of attending the farewell dinner.",0,163,20,0.0,-0.24468039721250534,0.7087802886962891
+"When the longtime coach retired after thirty seasons, Tom rallied the alumni to pack the farewell dinner.",1,164,20,0.0,0.08067474514245987,0.8514347076416016
+"When the longtime coach retired after thirty seasons, Tom talked the alumni out of attending the farewell dinner.",0,164,20,0.0,-0.18820532970130444,0.7494545578956604
+"When the longtime coach retired after thirty seasons, Yuki rallied the alumni to pack the farewell dinner.",1,165,20,0.0,0.03212543576955795,0.9000789523124695
+"When the longtime coach retired after thirty seasons, Yuki talked the alumni out of attending the farewell dinner.",0,165,20,0.0,-0.2013235855847597,0.7557159662246704
+"When the longtime coach retired after thirty seasons, Leila rallied the alumni to pack the farewell dinner.",1,166,20,0.0,0.06622359901666641,0.8636640310287476
+"When the longtime coach retired after thirty seasons, Leila talked the alumni out of attending the farewell dinner.",0,166,20,0.0,-0.23926720209419727,0.7089234590530396
+"When the longtime coach retired after thirty seasons, Arjun rallied the alumni to pack the farewell dinner.",1,167,20,0.0,0.05632840096950531,0.8842396140098572
+"When the longtime coach retired after thirty seasons, Arjun talked the alumni out of attending the farewell dinner.",0,167,20,0.0,-0.17221640422940254,0.7771919965744019
+"Told about the pregnancy before anyone else, Priya guarded the news through the whole first trimester.",1,168,21,0.0,0.024159541353583336,0.9210566282272339
+"Told about the pregnancy before anyone else, Priya broadcast the news through the whole first trimester.",0,168,21,0.0,0.00959777645766735,0.9387539029121399
+"Told about the pregnancy before anyone else, Nina guarded the news through the whole first trimester.",1,169,21,0.0,0.00822163000702858,0.9217445254325867
+"Told about the pregnancy before anyone else, Nina broadcast the news through the whole first trimester.",0,169,21,0.0,0.0075017716735601425,0.9357430338859558
+"Told about the pregnancy before anyone else, Carmen guarded the news through the whole first trimester.",1,170,21,0.0,0.016014903783798218,0.9204814434051514
+"Told about the pregnancy before anyone else, Carmen broadcast the news through the whole first trimester.",0,170,21,0.0,0.0036621298640966415,0.9374852776527405
+"Told about the pregnancy before anyone else, Nadia guarded the news through the whole first trimester.",1,171,21,0.0,0.047184212133288383,0.910297691822052
+"Told about the pregnancy before anyone else, Nadia broadcast the news through the whole first trimester.",0,171,21,0.0,0.016427598893642426,0.9364227652549744
+"Told about the pregnancy before anyone else, Dana guarded the news through the whole first trimester.",1,172,21,0.0,-0.020744632929563522,0.9139536023139954
+"Told about the pregnancy before anyone else, Dana broadcast the news through the whole first trimester.",0,172,21,0.0,-0.007889121770858765,0.9295209646224976
+"Told about the pregnancy before anyone else, Yuki guarded the news through the whole first trimester.",1,173,21,0.0,0.019590111449360847,0.9304621815681458
+"Told about the pregnancy before anyone else, Yuki broadcast the news through the whole first trimester.",0,173,21,0.0,0.016595838591456413,0.945691704750061
+"Told about the pregnancy before anyone else, Tom guarded the news through the whole first trimester.",1,174,21,0.0,0.019765708595514297,0.9161171317100525
+"Told about the pregnancy before anyone else, Tom broadcast the news through the whole first trimester.",0,174,21,0.0,0.020990237593650818,0.9349588751792908
+"Told about the pregnancy before anyone else, Kwame guarded the news through the whole first trimester.",1,175,21,0.0,-0.007019001990556717,0.916170060634613
+"Told about the pregnancy before anyone else, Kwame broadcast the news through the whole first trimester.",0,175,21,0.0,-0.016132554039359093,0.9243724346160889
+"After joining the popular crowd at the new school, Kwame still saved a seat for the childhood friend at lunch.",1,176,22,0.8316,0.3551383917219937,0.6337186098098755
+"After joining the popular crowd at the new school, Kwame pretended not to know the childhood friend at lunch.",0,176,22,0.7184,0.05296267196536064,0.8233658671379089
+"After joining the popular crowd at the new school, Carmen still saved a seat for the childhood friend at lunch.",1,177,22,0.8316,0.46613898943178356,0.5262836217880249
+"After joining the popular crowd at the new school, Carmen pretended not to know the childhood friend at lunch.",0,177,22,0.7184,0.14323809370398521,0.8059725761413574
+"After joining the popular crowd at the new school, Sofia still saved a seat for the childhood friend at lunch.",1,178,22,0.8316,0.5090321693569422,0.4825766384601593
+"After joining the popular crowd at the new school, Sofia pretended not to know the childhood friend at lunch.",0,178,22,0.7184,0.1408778801560402,0.7881463170051575
+"After joining the popular crowd at the new school, Marcus still saved a seat for the childhood friend at lunch.",1,179,22,0.8316,0.4390781638212502,0.552259087562561
+"After joining the popular crowd at the new school, Marcus pretended not to know the childhood friend at lunch.",0,179,22,0.7184,0.14147840812802315,0.793738067150116
+"After joining the popular crowd at the new school, Mateo still saved a seat for the childhood friend at lunch.",1,180,22,0.8316,0.5253685847856104,0.466562956571579
+"After joining the popular crowd at the new school, Mateo pretended not to know the childhood friend at lunch.",0,180,22,0.7184,0.19477780163288116,0.7470064163208008
+"After joining the popular crowd at the new school, Tariq still saved a seat for the childhood friend at lunch.",1,181,22,0.8316,0.425348237156868,0.5662486553192139
+"After joining the popular crowd at the new school, Tariq pretended not to know the childhood friend at lunch.",0,181,22,0.7184,0.09387752041220665,0.8236888647079468
+"After joining the popular crowd at the new school, Ethan still saved a seat for the childhood friend at lunch.",1,182,22,0.8316,0.5207657746504992,0.4723757803440094
+"After joining the popular crowd at the new school, Ethan pretended not to know the childhood friend at lunch.",0,182,22,0.7184,0.19498281553387642,0.7513377666473389
+"After joining the popular crowd at the new school, Grace still saved a seat for the childhood friend at lunch.",1,183,22,0.891,0.5650088163092732,0.4272667467594147
+"After joining the popular crowd at the new school, Grace pretended not to know the childhood friend at lunch.",0,183,22,0.8316,0.17423151805996895,0.7761675715446472
+"When the laid-off deskmate asked for a reference, Lena stayed up late polishing every line of the letter.",1,184,23,0.0,-0.05219980701804161,0.86036616563797
+"When the laid-off deskmate asked for a reference, Lena slipped quiet warnings into every line of the letter.",0,184,23,-0.296,-0.0660337395966053,0.8659893274307251
+"When the laid-off deskmate asked for a reference, Dana stayed up late polishing every line of the letter.",1,185,23,0.0,-0.04441530629992485,0.8538515567779541
+"When the laid-off deskmate asked for a reference, Dana slipped quiet warnings into every line of the letter.",0,185,23,-0.296,-0.0778178870677948,0.8498337864875793
+"When the laid-off deskmate asked for a reference, Rafael stayed up late polishing every line of the letter.",1,186,23,0.0,-0.04164445027709007,0.8395820260047913
+"When the laid-off deskmate asked for a reference, Rafael slipped quiet warnings into every line of the letter.",0,186,23,-0.296,-0.06364759802818298,0.8460158109664917
+"When the laid-off deskmate asked for a reference, Rosa stayed up late polishing every line of the letter.",1,187,23,0.0,-0.03581693395972252,0.8547093272209167
+"When the laid-off deskmate asked for a reference, Rosa slipped quiet warnings into every line of the letter.",0,187,23,-0.296,-0.049226414412260056,0.8586428165435791
+"When the laid-off deskmate asked for a reference, Tariq stayed up late polishing every line of the letter.",1,188,23,0.0,-0.04314940795302391,0.8568272590637207
+"When the laid-off deskmate asked for a reference, Tariq slipped quiet warnings into every line of the letter.",0,188,23,-0.296,-0.06150125339627266,0.866270899772644
+"When the laid-off deskmate asked for a reference, Arjun stayed up late polishing every line of the letter.",1,189,23,0.0,-0.03785981610417366,0.8622338771820068
+"When the laid-off deskmate asked for a reference, Arjun slipped quiet warnings into every line of the letter.",0,189,23,-0.296,-0.04854075610637665,0.8780478835105896
+"When the laid-off deskmate asked for a reference, Sofia stayed up late polishing every line of the letter.",1,190,23,0.0,-0.03467617183923721,0.8488159775733948
+"When the laid-off deskmate asked for a reference, Sofia slipped quiet warnings into every line of the letter.",0,190,23,-0.296,-0.06521887332201004,0.8493202924728394
+"When the laid-off deskmate asked for a reference, Tom stayed up late polishing every line of the letter.",1,191,23,0.0,-0.03469542786478996,0.8409990668296814
+"When the laid-off deskmate asked for a reference, Tom slipped quiet warnings into every line of the letter.",0,191,23,-0.296,-0.062273915857076645,0.8455818891525269
+"When the discount megastore opened across the street, Yuki kept ordering weekly from the friend's hardware store.",1,192,24,0.0,0.12985301902517676,0.8564670085906982
+"When the discount megastore opened across the street, Yuki steered every neighbor away from the friend's hardware store.",0,192,24,0.0,0.02526155859231949,0.8696815967559814
+"When the discount megastore opened across the street, Marcus kept ordering weekly from the friend's hardware store.",1,193,24,0.0,0.1502146776765585,0.8310500383377075
+"When the discount megastore opened across the street, Marcus steered every neighbor away from the friend's hardware store.",0,193,24,0.0,-0.015900857746601105,0.8165437579154968
+"When the discount megastore opened across the street, Lena kept ordering weekly from the friend's hardware store.",1,194,24,0.0,0.11989979492500424,0.8647956848144531
+"When the discount megastore opened across the street, Lena steered every neighbor away from the friend's hardware store.",0,194,24,0.0,-0.004839375615119934,0.8583871126174927
+"When the discount megastore opened across the street, Daniel kept ordering weekly from the friend's hardware store.",1,195,24,0.0,0.20806965650990605,0.776817262172699
+"When the discount megastore opened across the street, Daniel steered every neighbor away from the friend's hardware store.",0,195,24,0.0,0.035148002207279205,0.8358685374259949
+"When the discount megastore opened across the street, Nadia kept ordering weekly from the friend's hardware store.",1,196,24,0.0,0.17262911284342408,0.8131916522979736
+"When the discount megastore opened across the street, Nadia steered every neighbor away from the friend's hardware store.",0,196,24,0.0,0.01875310391187668,0.8437055349349976
+"When the discount megastore opened across the street, Fatima kept ordering weekly from the friend's hardware store.",1,197,24,0.0,0.13616856327280402,0.8492144346237183
+"When the discount megastore opened across the street, Fatima steered every neighbor away from the friend's hardware store.",0,197,24,0.0,0.009696908295154572,0.8479822278022766
+"When the discount megastore opened across the street, Kwame kept ordering weekly from the friend's hardware store.",1,198,24,0.0,0.0969697330147028,0.8755560517311096
+"When the discount megastore opened across the street, Kwame steered every neighbor away from the friend's hardware store.",0,198,24,0.0,-0.04137972742319107,0.8186006546020508
+"When the discount megastore opened across the street, Arjun kept ordering weekly from the friend's hardware store.",1,199,24,0.0,0.15030580945312977,0.8343495726585388
+"When the discount megastore opened across the street, Arjun steered every neighbor away from the friend's hardware store.",0,199,24,0.0,0.019769176840782166,0.8510137796401978
+"Camped overnight outside the ticket window, Sofia held the agreed spot through the whole cold night.",1,200,25,0.2732,0.09814451541751623,0.8725700974464417
+"Camped overnight outside the ticket window, Sofia sold the agreed spot halfway through the cold night.",0,200,25,0.2732,0.040982628241181374,0.9206003546714783
+"Camped overnight outside the ticket window, Nina held the agreed spot through the whole cold night.",1,201,25,0.2732,0.09891155268996954,0.8727004528045654
+"Camped overnight outside the ticket window, Nina sold the agreed spot halfway through the cold night.",0,201,25,0.2732,0.044465940445661545,0.9241881370544434
+"Camped overnight outside the ticket window, Leo held the agreed spot through the whole cold night.",1,202,25,0.2732,0.12285351846367121,0.8541007041931152
+"Camped overnight outside the ticket window, Leo sold the agreed spot halfway through the cold night.",0,202,25,0.2732,0.05232333205640316,0.921003520488739
+"Camped overnight outside the ticket window, Carmen held the agreed spot through the whole cold night.",1,203,25,0.2732,0.08132188580930233,0.887675404548645
+"Camped overnight outside the ticket window, Carmen sold the agreed spot halfway through the cold night.",0,203,25,0.2732,0.03377029113471508,0.9334504008293152
+"Camped overnight outside the ticket window, Kwame held the agreed spot through the whole cold night.",1,204,25,0.2732,0.05546755902469158,0.9054576754570007
+"Camped overnight outside the ticket window, Kwame sold the agreed spot halfway through the cold night.",0,204,25,0.2732,0.028056113049387932,0.928804337978363
+"Camped overnight outside the ticket window, Tariq held the agreed spot through the whole cold night.",1,205,25,0.2732,0.09754754323512316,0.8722100853919983
+"Camped overnight outside the ticket window, Tariq sold the agreed spot halfway through the cold night.",0,205,25,0.2732,0.0440309988334775,0.9283491969108582
+"Camped overnight outside the ticket window, Dana held the agreed spot through the whole cold night.",1,206,25,0.2732,0.08645464666187763,0.8849084377288818
+"Camped overnight outside the ticket window, Dana sold the agreed spot halfway through the cold night.",0,206,25,0.2732,0.04283508192747831,0.9279980659484863
+"Camped overnight outside the ticket window, Omar held the agreed spot through the whole cold night.",1,207,25,0.2732,0.0779669750481844,0.8885319828987122
+"Camped overnight outside the ticket window, Omar sold the agreed spot halfway through the cold night.",0,207,25,0.2732,0.024012649431824684,0.9315377473831177
+"Sworn to secrecy about the surprise fortieth party, Nina played dumb whenever the birthday girl fished for hints.",1,208,26,0.4404,-0.41569193080067635,0.5063376426696777
+"Sworn to secrecy about the surprise fortieth party, Nina revealed the whole plan when the birthday girl fished for hints.",0,208,26,0.5859,0.06129504181444645,0.8810619115829468
+"Sworn to secrecy about the surprise fortieth party, Tariq played dumb whenever the birthday girl fished for hints.",1,209,26,0.4404,-0.5281388629227877,0.41623732447624207
+"Sworn to secrecy about the surprise fortieth party, Tariq revealed the whole plan when the birthday girl fished for hints.",0,209,26,0.5859,0.054597171023488045,0.891204833984375
+"Sworn to secrecy about the surprise fortieth party, Mateo played dumb whenever the birthday girl fished for hints.",1,210,26,0.4404,-0.4079132005572319,0.49370530247688293
+"Sworn to secrecy about the surprise fortieth party, Mateo revealed the whole plan when the birthday girl fished for hints.",0,210,26,0.5859,0.08255749009549618,0.8659033179283142
+"Sworn to secrecy about the surprise fortieth party, Hiro played dumb whenever the birthday girl fished for hints.",1,211,26,0.4404,-0.42092396318912506,0.49224725365638733
+"Sworn to secrecy about the surprise fortieth party, Hiro revealed the whole plan when the birthday girl fished for hints.",0,211,26,0.5859,0.06879322230815887,0.8772820830345154
+"Sworn to secrecy about the surprise fortieth party, Omar played dumb whenever the birthday girl fished for hints.",1,212,26,0.4404,-0.5651368275284767,0.38218411803245544
+"Sworn to secrecy about the surprise fortieth party, Omar revealed the whole plan when the birthday girl fished for hints.",0,212,26,0.5859,-0.020036417990922928,0.8618414402008057
+"Sworn to secrecy about the surprise fortieth party, Nadia played dumb whenever the birthday girl fished for hints.",1,213,26,0.4404,-0.4575289897620678,0.46649685502052307
+"Sworn to secrecy about the surprise fortieth party, Nadia revealed the whole plan when the birthday girl fished for hints.",0,213,26,0.5859,0.07168257050216198,0.8744844794273376
+"Sworn to secrecy about the surprise fortieth party, Leo played dumb whenever the birthday girl fished for hints.",1,214,26,0.4404,-0.37962692230939865,0.5244799256324768
+"Sworn to secrecy about the surprise fortieth party, Leo revealed the whole plan when the birthday girl fished for hints.",0,214,26,0.5859,0.08848819322884083,0.8636680245399475
+"Sworn to secrecy about the surprise fortieth party, Amara played dumb whenever the birthday girl fished for hints.",1,215,26,0.4404,-0.46260659769177437,0.4616040587425232
+"Sworn to secrecy about the surprise fortieth party, Amara revealed the whole plan when the birthday girl fished for hints.",0,215,26,0.5859,0.06919016316533089,0.8755741715431213
+"When the roommate lost the café job in October, Leo covered her share of rent through the end of the semester.",1,216,27,-0.0258,-0.011604554951190948,0.8874658942222595
+"When the roommate lost the café job in October, Leo dumped her boxes on the curb before the end of the semester.",0,216,27,-0.6124,-0.3664568103849888,0.5925965309143066
+"When the roommate lost the café job in October, Zoe covered her share of rent through the end of the semester.",1,217,27,-0.0258,-0.050020359456539154,0.872172474861145
+"When the roommate lost the café job in October, Zoe dumped her boxes on the curb before the end of the semester.",0,217,27,-0.6124,-0.39269014820456505,0.5744588971138
+"When the roommate lost the café job in October, Daniel covered her share of rent through the end of the semester.",1,218,27,-0.0258,-0.024966377764940262,0.8853331804275513
+"When the roommate lost the café job in October, Daniel dumped her boxes on the curb before the end of the semester.",0,218,27,-0.6124,-0.37987953424453735,0.5832307934761047
+"When the roommate lost the café job in October, Fatima covered her share of rent through the end of the semester.",1,219,27,-0.0258,-0.04087672755122185,0.8887484073638916
+"When the roommate lost the café job in October, Fatima dumped her boxes on the curb before the end of the semester.",0,219,27,-0.6124,-0.37226411141455173,0.5970220565795898
+"When the roommate lost the café job in October, Rafael covered her share of rent through the end of the semester.",1,220,27,-0.0258,-0.029214628040790558,0.8880510330200195
+"When the roommate lost the café job in October, Rafael dumped her boxes on the curb before the end of the semester.",0,220,27,-0.6124,-0.4196657780557871,0.548430323600769
+"When the roommate lost the café job in October, Kwame covered her share of rent through the end of the semester.",1,221,27,-0.0258,-0.07563807815313339,0.8633726239204407
+"When the roommate lost the café job in October, Kwame dumped her boxes on the curb before the end of the semester.",0,221,27,-0.6124,-0.4219152322039008,0.5507383346557617
+"When the roommate lost the café job in October, Mateo covered her share of rent through the end of the semester.",1,222,27,-0.0258,-0.03769584745168686,0.8846416473388672
+"When the roommate lost the café job in October, Mateo dumped her boxes on the curb before the end of the semester.",0,222,27,-0.6124,-0.3775096647441387,0.5863564014434814
+"When the roommate lost the café job in October, Noah covered her share of rent through the end of the semester.",1,223,27,-0.0258,-0.029796406626701355,0.8747768402099609
+"When the roommate lost the café job in October, Noah dumped her boxes on the curb before the end of the semester.",0,223,27,-0.6124,-0.40128009021282196,0.5612832903862
+"After the kicker shanked the final field goal, Nina walked over and stood with him through the interviews.",1,224,28,0.0,0.0268198624253273,0.9365830421447754
+"After the kicker shanked the final field goal, Nina trashed him to reporters throughout the interviews.",0,224,28,0.0,-0.5700886556878686,0.40267816185951233
+"After the kicker shanked the final field goal, Arjun walked over and stood with him through the interviews.",1,225,28,0.0,0.022782152518630028,0.9425351619720459
+"After the kicker shanked the final field goal, Arjun trashed him to reporters throughout the interviews.",0,225,28,0.0,-0.28476197831332684,0.6643338203430176
+"After the kicker shanked the final field goal, Hiro walked over and stood with him through the interviews.",1,226,28,0.0,0.021725161001086235,0.934684157371521
+"After the kicker shanked the final field goal, Hiro trashed him to reporters throughout the interviews.",0,226,28,0.0,-0.5056385472416878,0.4602949023246765
+"After the kicker shanked the final field goal, Daniel walked over and stood with him through the interviews.",1,227,28,0.0,0.03175792284309864,0.9353611469268799
+"After the kicker shanked the final field goal, Daniel trashed him to reporters throughout the interviews.",0,227,28,0.0,-0.4425598029047251,0.5182672739028931
+"After the kicker shanked the final field goal, Grace walked over and stood with him through the interviews.",1,228,28,0.4215,0.02137366309762001,0.9368028044700623
+"After the kicker shanked the final field goal, Grace trashed him to reporters throughout the interviews.",0,228,28,0.4215,-0.4660253059118986,0.5009124875068665
+"After the kicker shanked the final field goal, Leo walked over and stood with him through the interviews.",1,229,28,0.0,0.03251875936985016,0.9276469349861145
+"After the kicker shanked the final field goal, Leo trashed him to reporters throughout the interviews.",0,229,28,0.0,-0.47243194095790386,0.49053317308425903
+"After the kicker shanked the final field goal, Marcus walked over and stood with him through the interviews.",1,230,28,0.0,0.015697740018367767,0.9374432563781738
+"After the kicker shanked the final field goal, Marcus trashed him to reporters throughout the interviews.",0,230,28,0.0,-0.4625950362533331,0.5045930743217468
+"After the kicker shanked the final field goal, Dana walked over and stood with him through the interviews.",1,231,28,0.0,0.020472418516874313,0.9375571608543396
+"After the kicker shanked the final field goal, Dana trashed him to reporters throughout the interviews.",0,231,28,0.0,-0.5948580177500844,0.3814374506473541
+"Assigned the midnight watch at the scout campsite, Carmen stayed awake by the fire the whole time.",1,232,29,-0.34,0.050715429708361626,0.9267613291740417
+"Assigned the midnight watch at the scout campsite, Carmen slept inside the tent the whole time.",0,232,29,0.0,-0.0020545944571495056,0.9316179752349854
+"Assigned the midnight watch at the scout campsite, Leila stayed awake by the fire the whole time.",1,233,29,-0.34,0.057682801969349384,0.9220003485679626
+"Assigned the midnight watch at the scout campsite, Leila slept inside the tent the whole time.",0,233,29,0.0,-0.008800357580184937,0.9270440936088562
+"Assigned the midnight watch at the scout campsite, Yuki stayed awake by the fire the whole time.",1,234,29,-0.34,0.051871562376618385,0.929250180721283
+"Assigned the midnight watch at the scout campsite, Yuki slept inside the tent the whole time.",0,234,29,0.0,-0.007645990699529648,0.9359606504440308
+"Assigned the midnight watch at the scout campsite, Arjun stayed awake by the fire the whole time.",1,235,29,-0.34,0.04569561220705509,0.93407142162323
+"Assigned the midnight watch at the scout campsite, Arjun slept inside the tent the whole time.",0,235,29,0.0,-0.01057475432753563,0.9353395700454712
+"Assigned the midnight watch at the scout campsite, Daniel stayed awake by the fire the whole time.",1,236,29,-0.34,0.06624536123126745,0.9150791168212891
+"Assigned the midnight watch at the scout campsite, Daniel slept inside the tent the whole time.",0,236,29,0.0,0.007971791550517082,0.9361490607261658
+"Assigned the midnight watch at the scout campsite, Felix stayed awake by the fire the whole time.",1,237,29,-0.34,0.06872518267482519,0.9133944511413574
+"Assigned the midnight watch at the scout campsite, Felix slept inside the tent the whole time.",0,237,29,0.0,0.0068192146718502045,0.9370739459991455
+"Assigned the midnight watch at the scout campsite, Zoe stayed awake by the fire the whole time.",1,238,29,-0.34,0.04756163526326418,0.924943208694458
+"Assigned the midnight watch at the scout campsite, Zoe slept inside the tent the whole time.",0,238,29,0.0,-0.01754239946603775,0.9182126522064209
+"Assigned the midnight watch at the scout campsite, Ethan stayed awake by the fire the whole time.",1,239,29,-0.34,0.06647766940295696,0.9150663614273071
+"Assigned the midnight watch at the scout campsite, Ethan slept inside the tent the whole time.",0,239,29,0.0,0.0022800303995609283,0.9299229383468628
+"Trusted to deliver the audition tape, Noah drove across town to beat the deadline.",1,240,30,0.4767,0.4064660519361496,0.5674886107444763
+"Trusted to deliver the audition tape, Noah blew off the errand and missed the deadline.",0,240,30,0.2263,-0.4033007510006428,0.5080010294914246
+"Trusted to deliver the audition tape, Leo drove across town to beat the deadline.",1,241,30,0.4767,0.5058353887870908,0.4694875180721283
+"Trusted to deliver the audition tape, Leo blew off the errand and missed the deadline.",0,241,30,0.2263,-0.33736200630664825,0.5502972602844238
+"Trusted to deliver the audition tape, Sofia drove across town to beat the deadline.",1,242,30,0.4767,0.45353462267667055,0.5211673378944397
+"Trusted to deliver the audition tape, Sofia blew off the errand and missed the deadline.",0,242,30,0.2263,-0.382255706936121,0.5259946584701538
+"Trusted to deliver the audition tape, Omar drove across town to beat the deadline.",1,243,30,0.4767,0.3643854111433029,0.6027873158454895
+"Trusted to deliver the audition tape, Omar blew off the errand and missed the deadline.",0,243,30,0.2263,-0.6126431170850992,0.3488318622112274
+"Trusted to deliver the audition tape, Fatima drove across town to beat the deadline.",1,244,30,0.4767,0.40462975949048996,0.5665546655654907
+"Trusted to deliver the audition tape, Fatima blew off the errand and missed the deadline.",0,244,30,0.2263,-0.32177533209323883,0.5708929300308228
+"Trusted to deliver the audition tape, Ava drove across town to beat the deadline.",1,245,30,0.4767,0.42244376335293055,0.5490025877952576
+"Trusted to deliver the audition tape, Ava blew off the errand and missed the deadline.",0,245,30,0.2263,-0.3552791252732277,0.5394737124443054
+"Trusted to deliver the audition tape, Andre drove across town to beat the deadline.",1,246,30,0.4767,0.3980108303949237,0.571094810962677
+"Trusted to deliver the audition tape, Andre blew off the errand and missed the deadline.",0,246,30,0.2263,-0.4248957708477974,0.5021060705184937
+"Trusted to deliver the audition tape, Dana drove across town to beat the deadline.",1,247,30,0.4767,0.3892927337437868,0.5840266942977905
+"Trusted to deliver the audition tape, Dana blew off the errand and missed the deadline.",0,247,30,0.2263,-0.3996230661869049,0.5289289951324463
+"Entrusted with the debate team's strategy notebook, Tariq guarded it closely all season long.",1,248,31,0.2023,0.4662810396403074,0.4880296289920807
+"Entrusted with the debate team's strategy notebook, Tariq photocopied it for rivals all season long.",0,248,31,0.2023,0.21135861426591873,0.5749744176864624
+"Entrusted with the debate team's strategy notebook, Dana guarded it closely all season long.",1,249,31,0.2023,0.3938614074140787,0.5573241710662842
+"Entrusted with the debate team's strategy notebook, Dana photocopied it for rivals all season long.",0,249,31,0.2023,0.17688246816396713,0.5922561883926392
+"Entrusted with the debate team's strategy notebook, Leo guarded it closely all season long.",1,250,31,0.2023,0.6030378416180611,0.3647541403770447
+"Entrusted with the debate team's strategy notebook, Leo photocopied it for rivals all season long.",0,250,31,0.2023,0.411290243268013,0.45132002234458923
+"Entrusted with the debate team's strategy notebook, Fatima guarded it closely all season long.",1,251,31,0.2023,0.5964006688445807,0.37092694640159607
+"Entrusted with the debate team's strategy notebook, Fatima photocopied it for rivals all season long.",0,251,31,0.2023,0.3315451815724373,0.5076494216918945
+"Entrusted with the debate team's strategy notebook, Maria guarded it closely all season long.",1,252,31,0.2023,0.4120511244982481,0.5267401933670044
+"Entrusted with the debate team's strategy notebook, Maria photocopied it for rivals all season long.",0,252,31,0.2023,0.17278023064136505,0.5555381178855896
+"Entrusted with the debate team's strategy notebook, Rosa guarded it closely all season long.",1,253,31,0.2023,0.5369316898286343,0.4142077565193176
+"Entrusted with the debate team's strategy notebook, Rosa photocopied it for rivals all season long.",0,253,31,0.2023,0.1729518622159958,0.5324622392654419
+"Entrusted with the debate team's strategy notebook, Felix guarded it closely all season long.",1,254,31,0.2023,0.5229686144739389,0.4315216541290283
+"Entrusted with the debate team's strategy notebook, Felix photocopied it for rivals all season long.",0,254,31,0.2023,0.3118673637509346,0.4953206479549408
+"Entrusted with the debate team's strategy notebook, Leila guarded it closely all season long.",1,255,31,0.2023,0.5516092907637358,0.4084397256374359
+"Entrusted with the debate team's strategy notebook, Leila photocopied it for rivals all season long.",0,255,31,0.2023,0.25289881229400635,0.5203395485877991
+"When the boss demanded someone to blame for the shipping delay, Amara owned the delay and defended the overwhelmed apprentice.",1,256,32,-0.7717,-0.5450234301388264,0.42070508003234863
+"When the boss demanded someone to blame for the shipping delay, Amara dodged the delay and blamed the overwhelmed apprentice.",0,256,32,-0.8689,-0.51579724624753,0.44876089692115784
+"When the boss demanded someone to blame for the shipping delay, Andre owned the delay and defended the overwhelmed apprentice.",1,257,32,-0.7717,-0.5379344467073679,0.42812395095825195
+"When the boss demanded someone to blame for the shipping delay, Andre dodged the delay and blamed the overwhelmed apprentice.",0,257,32,-0.8689,-0.5339287612587214,0.43444040417671204
+"When the boss demanded someone to blame for the shipping delay, Daniel owned the delay and defended the overwhelmed apprentice.",1,258,32,-0.7717,-0.4744521602988243,0.4838899075984955
+"When the boss demanded someone to blame for the shipping delay, Daniel dodged the delay and blamed the overwhelmed apprentice.",0,258,32,-0.8689,-0.487120658159256,0.4758746027946472
+"When the boss demanded someone to blame for the shipping delay, Tom owned the delay and defended the overwhelmed apprentice.",1,259,32,-0.7717,-0.5580815151333809,0.40802571177482605
+"When the boss demanded someone to blame for the shipping delay, Tom dodged the delay and blamed the overwhelmed apprentice.",0,259,32,-0.8689,-0.5387380123138428,0.4286944568157196
+"When the boss demanded someone to blame for the shipping delay, Mateo owned the delay and defended the overwhelmed apprentice.",1,260,32,-0.7717,-0.5065612941980362,0.4528805911540985
+"When the boss demanded someone to blame for the shipping delay, Mateo dodged the delay and blamed the overwhelmed apprentice.",0,260,32,-0.8689,-0.4881888758391142,0.4733981788158417
+"When the boss demanded someone to blame for the shipping delay, Leo owned the delay and defended the overwhelmed apprentice.",1,261,32,-0.7717,-0.5204754117876291,0.4402875006198883
+"When the boss demanded someone to blame for the shipping delay, Leo dodged the delay and blamed the overwhelmed apprentice.",0,261,32,-0.8689,-0.46869864873588085,0.489639014005661
+"When the boss demanded someone to blame for the shipping delay, Yuki owned the delay and defended the overwhelmed apprentice.",1,262,32,-0.7717,-0.46897073462605476,0.49329936504364014
+"When the boss demanded someone to blame for the shipping delay, Yuki dodged the delay and blamed the overwhelmed apprentice.",0,262,32,-0.8689,-0.4286508783698082,0.5331656336784363
+"When the boss demanded someone to blame for the shipping delay, Rosa owned the delay and defended the overwhelmed apprentice.",1,263,32,-0.7717,-0.5651397835463285,0.4030158817768097
+"When the boss demanded someone to blame for the shipping delay, Rosa dodged the delay and blamed the overwhelmed apprentice.",0,263,32,-0.8689,-0.5296463258564472,0.4386026859283447
+"On the last day before changing firms, Ava left every client file intact for the old team.",1,264,33,0.2023,0.10861795209348202,0.866509199142456
+"On the last day before changing firms, Ava copied every client file to poach from the old team.",0,264,33,0.0,-0.3063167203217745,0.6351326107978821
+"On the last day before changing firms, Marcus left every client file intact for the old team.",1,265,33,0.2023,0.12523155938833952,0.8531749248504639
+"On the last day before changing firms, Marcus copied every client file to poach from the old team.",0,265,33,0.0,-0.2196458950638771,0.7097211480140686
+"On the last day before changing firms, Yuki left every client file intact for the old team.",1,266,33,0.2023,0.09773218724876642,0.8853119611740112
+"On the last day before changing firms, Yuki copied every client file to poach from the old team.",0,266,33,0.0,-0.12743228301405907,0.8007522821426392
+"On the last day before changing firms, Andre left every client file intact for the old team.",1,267,33,0.2023,0.12078872881829739,0.8553335666656494
+"On the last day before changing firms, Andre copied every client file to poach from the old team.",0,267,33,0.0,-0.20284264907240868,0.7200441956520081
+"On the last day before changing firms, Ethan left every client file intact for the old team.",1,268,33,0.2023,0.11548528354614973,0.8670951724052429
+"On the last day before changing firms, Ethan copied every client file to poach from the old team.",0,268,33,0.0,-0.10329575091600418,0.810492217540741
+"On the last day before changing firms, Leo left every client file intact for the old team.",1,269,33,0.2023,0.14703442715108395,0.8335139751434326
+"On the last day before changing firms, Leo copied every client file to poach from the old team.",0,269,33,0.0,-0.25039613619446754,0.6782301068305969
+"On the last day before changing firms, Hiro left every client file intact for the old team.",1,270,33,0.2023,0.09396259672939777,0.881830632686615
+"On the last day before changing firms, Hiro copied every client file to poach from the old team.",0,270,33,0.0,-0.14164206385612488,0.7849029302597046
+"On the last day before changing firms, Lena left every client file intact for the old team.",1,271,33,0.2023,0.08876454457640648,0.8912410140037537
+"On the last day before changing firms, Lena copied every client file to poach from the old team.",0,271,33,0.0,-0.15114575996994972,0.7812308669090271
+"When hail flattened the family's barley a week before harvest, Grace drove home to salvage what remained of the crop.",1,272,34,0.4767,-0.38141505792737007,0.5656487345695496
+"When hail flattened the family's barley a week before harvest, Grace stayed away and joked online about what remained of the crop.",0,272,34,0.6597,-0.5938018504530191,0.3701741695404053
+"When hail flattened the family's barley a week before harvest, Nadia drove home to salvage what remained of the crop.",1,273,34,0.0772,-0.6022659614682198,0.36576905846595764
+"When hail flattened the family's barley a week before harvest, Nadia stayed away and joked online about what remained of the crop.",0,273,34,0.3818,-0.6337029319256544,0.3349379301071167
+"When hail flattened the family's barley a week before harvest, Carmen drove home to salvage what remained of the crop.",1,274,34,0.0772,-0.6146703297272325,0.3545755445957184
+"When hail flattened the family's barley a week before harvest, Carmen stayed away and joked online about what remained of the crop.",0,274,34,0.3818,-0.6642331620678306,0.30589860677719116
+"When hail flattened the family's barley a week before harvest, Fatima drove home to salvage what remained of the crop.",1,275,34,0.0772,-0.619587873108685,0.35087892413139343
+"When hail flattened the family's barley a week before harvest, Fatima stayed away and joked online about what remained of the crop.",0,275,34,0.3818,-0.6709054578095675,0.30205237865448
+"When hail flattened the family's barley a week before harvest, Ethan drove home to salvage what remained of the crop.",1,276,34,0.0772,-0.5942585170269012,0.3717094957828522
+"When hail flattened the family's barley a week before harvest, Ethan stayed away and joked online about what remained of the crop.",0,276,34,0.3818,-0.608552772551775,0.35581454634666443
+"When hail flattened the family's barley a week before harvest, Dana drove home to salvage what remained of the crop.",1,277,34,0.0772,-0.6048043454065919,0.36607688665390015
+"When hail flattened the family's barley a week before harvest, Dana stayed away and joked online about what remained of the crop.",0,277,34,0.3818,-0.6570078199729323,0.3157596290111542
+"When hail flattened the family's barley a week before harvest, Ava drove home to salvage what remained of the crop.",1,278,34,0.0772,-0.5604091603308916,0.4037284851074219
+"When hail flattened the family's barley a week before harvest, Ava stayed away and joked online about what remained of the crop.",0,278,34,0.3818,-0.6173546388745308,0.3479655981063843
+"When hail flattened the family's barley a week before harvest, Priya drove home to salvage what remained of the crop.",1,279,34,0.0772,-0.49116560257971287,0.4678841233253479
+"When hail flattened the family's barley a week before harvest, Priya stayed away and joked online about what remained of the crop.",0,279,34,0.3818,-0.6172371935099363,0.3509258031845093
+"Hearing about the friend's layoff first, Daniel guarded the story from the whole group chat.",1,280,35,0.0,-0.00639534555375576,0.9361949563026428
+"Hearing about the friend's layoff first, Daniel blasted the story across the whole group chat.",0,280,35,0.0,-0.0034242644906044006,0.9022910594940186
+"Hearing about the friend's layoff first, Ethan guarded the story from the whole group chat.",1,281,35,0.0,-0.0037310514599084854,0.9398291110992432
+"Hearing about the friend's layoff first, Ethan blasted the story across the whole group chat.",0,281,35,0.0,-0.021664824336767197,0.8964462876319885
+"Hearing about the friend's layoff first, Rosa guarded the story from the whole group chat.",1,282,35,0.0,-0.02896803244948387,0.9200187921524048
+"Hearing about the friend's layoff first, Rosa blasted the story across the whole group chat.",0,282,35,0.0,-0.05554280802607536,0.8662738800048828
+"Hearing about the friend's layoff first, Andre guarded the story from the whole group chat.",1,283,35,0.0,-0.011874239891767502,0.9304608702659607
+"Hearing about the friend's layoff first, Andre blasted the story across the whole group chat.",0,283,35,0.0,-0.026057180017232895,0.8902592062950134
+"Hearing about the friend's layoff first, Mateo guarded the story from the whole group chat.",1,284,35,0.0,-0.0010812245309352875,0.9357326030731201
+"Hearing about the friend's layoff first, Mateo blasted the story across the whole group chat.",0,284,35,0.0,-0.02066163346171379,0.8879446983337402
+"Hearing about the friend's layoff first, Kwame guarded the story from the whole group chat.",1,285,35,0.0,-0.02467566356062889,0.9251350164413452
+"Hearing about the friend's layoff first, Kwame blasted the story across the whole group chat.",0,285,35,0.0,-0.05768679827451706,0.8775048851966858
+"Hearing about the friend's layoff first, Sofia guarded the story from the whole group chat.",1,286,35,0.0,-0.009223837405443192,0.9351364374160767
+"Hearing about the friend's layoff first, Sofia blasted the story across the whole group chat.",0,286,35,0.0,-0.02750774472951889,0.8982406854629517
+"Hearing about the friend's layoff first, Zoe guarded the story from the whole group chat.",1,287,35,0.0,-0.02973448857665062,0.9209727048873901
+"Hearing about the friend's layoff first, Zoe blasted the story across the whole group chat.",0,287,35,0.0,-0.07681461423635483,0.850951611995697
+"The night before the debate final, Omar showed up early for the partner's promised prep session.",1,288,36,0.3612,0.04505487438291311,0.9259486794471741
+"The night before the debate final, Omar skipped out on the partner's promised prep session.",0,288,36,0.3612,-0.35167664662003517,0.6139248013496399
+"The night before the debate final, Maria showed up early for the partner's promised prep session.",1,289,36,0.3612,0.09935065731406212,0.8908258676528931
+"The night before the debate final, Maria skipped out on the partner's promised prep session.",0,289,36,0.3612,-0.18672036193311214,0.7624610066413879
+"The night before the debate final, Amara showed up early for the partner's promised prep session.",1,290,36,0.3612,0.07849157089367509,0.9110422134399414
+"The night before the debate final, Amara skipped out on the partner's promised prep session.",0,290,36,0.3612,-0.22687801346182823,0.7315174341201782
+"The night before the debate final, Dana showed up early for the partner's promised prep session.",1,291,36,0.3612,0.08905830373987556,0.9017117023468018
+"The night before the debate final, Dana skipped out on the partner's promised prep session.",0,291,36,0.3612,-0.1325846016407013,0.8215383291244507
+"The night before the debate final, Felix showed up early for the partner's promised prep session.",1,292,36,0.3612,0.11644640332087874,0.8752584457397461
+"The night before the debate final, Felix skipped out on the partner's promised prep session.",0,292,36,0.3612,-0.20163912326097488,0.7508013248443604
+"The night before the debate final, Ethan showed up early for the partner's promised prep session.",1,293,36,0.3612,0.09662410244345665,0.8942880630493164
+"The night before the debate final, Ethan skipped out on the partner's promised prep session.",0,293,36,0.3612,-0.15277140215039253,0.7955203056335449
+"The night before the debate final, Grace showed up early for the partner's promised prep session.",1,294,36,0.6486,0.14583809557370842,0.8467639088630676
+"The night before the debate final, Grace skipped out on the partner's promised prep session.",0,294,36,0.6486,-0.1716295201331377,0.7798976302146912
+"The night before the debate final, Kwame showed up early for the partner's promised prep session.",1,295,36,0.3612,0.0525212399661541,0.9297696948051453
+"The night before the debate final, Kwame skipped out on the partner's promised prep session.",0,295,36,0.3612,-0.1813510414212942,0.7791339755058289
+"When a family emergency kept the stall owner away on market day, Andre spent the whole day running the stand.",1,296,37,-0.5267,-0.102006696164608,0.8052483797073364
+"When a family emergency kept the stall owner away on market day, Andre wandered off an hour after opening the stand.",0,296,37,-0.5267,-0.32590216770768166,0.6378345489501953
+"When a family emergency kept the stall owner away on market day, Amara spent the whole day running the stand.",1,297,37,-0.5267,-0.13228720054030418,0.7856065630912781
+"When a family emergency kept the stall owner away on market day, Amara wandered off an hour after opening the stand.",0,297,37,-0.5267,-0.3957164352759719,0.5735576748847961
+"When a family emergency kept the stall owner away on market day, Daniel spent the whole day running the stand.",1,298,37,-0.5267,-0.055704522877931595,0.8343390226364136
+"When a family emergency kept the stall owner away on market day, Daniel wandered off an hour after opening the stand.",0,298,37,-0.5267,-0.32072505727410316,0.6415462493896484
+"When a family emergency kept the stall owner away on market day, Felix spent the whole day running the stand.",1,299,37,-0.5267,-0.04717196896672249,0.8437948226928711
+"When a family emergency kept the stall owner away on market day, Felix wandered off an hour after opening the stand.",0,299,37,-0.5267,-0.3053844664245844,0.6569022536277771
+"When a family emergency kept the stall owner away on market day, Sofia spent the whole day running the stand.",1,300,37,-0.5267,-0.06415433064103127,0.8336254358291626
+"When a family emergency kept the stall owner away on market day, Sofia wandered off an hour after opening the stand.",0,300,37,-0.5267,-0.29737397469580173,0.664820671081543
+"When a family emergency kept the stall owner away on market day, Leila spent the whole day running the stand.",1,301,37,-0.5267,-0.06685557588934898,0.8332579731941223
+"When a family emergency kept the stall owner away on market day, Leila wandered off an hour after opening the stand.",0,301,37,-0.5267,-0.32219175435602665,0.640953004360199
+"When a family emergency kept the stall owner away on market day, Maria spent the whole day running the stand.",1,302,37,-0.5267,-0.09056295454502106,0.8154870867729187
+"When a family emergency kept the stall owner away on market day, Maria wandered off an hour after opening the stand.",0,302,37,-0.5267,-0.33512574061751366,0.6279066205024719
+"When a family emergency kept the stall owner away on market day, Carmen spent the whole day running the stand.",1,303,37,-0.5267,-0.09287455677986145,0.8201141953468323
+"When a family emergency kept the stall owner away on market day, Carmen wandered off an hour after opening the stand.",0,303,37,-0.5267,-0.33792984299361706,0.6269333362579346
+"When the walk-in flooded an hour before service, Tom stayed past midnight bailing alongside the crew.",1,304,38,0.0,-0.36116976849734783,0.6004878282546997
+"When the walk-in flooded an hour before service, Tom clocked out quietly and left the mess to the crew.",0,304,38,-0.3612,-0.3481333050876856,0.6099848747253418
+"When the walk-in flooded an hour before service, Leila stayed past midnight bailing alongside the crew.",1,305,38,0.0,-0.4648002190515399,0.5046527981758118
+"When the walk-in flooded an hour before service, Leila clocked out quietly and left the mess to the crew.",0,305,38,-0.3612,-0.3738628551363945,0.5898787379264832
+"When the walk-in flooded an hour before service, Fatima stayed past midnight bailing alongside the crew.",1,306,38,0.0,-0.415645070374012,0.5522251129150391
+"When the walk-in flooded an hour before service, Fatima clocked out quietly and left the mess to the crew.",0,306,38,-0.3612,-0.36695742048323154,0.5967756509780884
+"When the walk-in flooded an hour before service, Malik stayed past midnight bailing alongside the crew.",1,307,38,0.0,-0.3719726037234068,0.5974201560020447
+"When the walk-in flooded an hour before service, Malik clocked out quietly and left the mess to the crew.",0,307,38,-0.3612,-0.33449915796518326,0.6291190981864929
+"When the walk-in flooded an hour before service, Marcus stayed past midnight bailing alongside the crew.",1,308,38,0.0,-0.4238700531423092,0.5468693971633911
+"When the walk-in flooded an hour before service, Marcus clocked out quietly and left the mess to the crew.",0,308,38,-0.3612,-0.3862885944545269,0.5804269909858704
+"When the walk-in flooded an hour before service, Grace stayed past midnight bailing alongside the crew.",1,309,38,0.4215,-0.21377980709075928,0.7334986329078674
+"When the walk-in flooded an hour before service, Grace clocked out quietly and left the mess to the crew.",0,309,38,0.0772,-0.2904127910733223,0.6657000184059143
+"When the walk-in flooded an hour before service, Tariq stayed past midnight bailing alongside the crew.",1,310,38,0.0,-0.24737032130360603,0.712498128414154
+"When the walk-in flooded an hour before service, Tariq clocked out quietly and left the mess to the crew.",0,310,38,-0.3612,-0.2605387978255749,0.6977648735046387
+"When the walk-in flooded an hour before service, Maria stayed past midnight bailing alongside the crew.",1,311,38,0.0,-0.3957946226000786,0.5693873167037964
+"When the walk-in flooded an hour before service, Maria clocked out quietly and left the mess to the crew.",0,311,38,-0.3612,-0.31400042958557606,0.6451655030250549
+"After promising to mind the place while the roommate trekked abroad, Sofia watered every plant in the apartment.",1,312,39,0.4019,0.24565190076828003,0.7188155651092529
+"After promising to mind the place while the roommate trekked abroad, Sofia threw loud parties every weekend in the apartment.",0,312,39,0.6597,-0.2921369932591915,0.6009655594825745
+"After promising to mind the place while the roommate trekked abroad, Zoe watered every plant in the apartment.",1,313,39,0.4019,0.21763957850635052,0.7367274165153503
+"After promising to mind the place while the roommate trekked abroad, Zoe threw loud parties every weekend in the apartment.",0,313,39,0.6597,-0.32965898513793945,0.569140613079071
+"After promising to mind the place while the roommate trekked abroad, Amara watered every plant in the apartment.",1,314,39,0.4019,0.18179837241768837,0.7704235315322876
+"After promising to mind the place while the roommate trekked abroad, Amara threw loud parties every weekend in the apartment.",0,314,39,0.6597,-0.4074437953531742,0.5106037259101868
+"After promising to mind the place while the roommate trekked abroad, Ethan watered every plant in the apartment.",1,315,39,0.4019,0.2491778377443552,0.7184756398200989
+"After promising to mind the place while the roommate trekked abroad, Ethan threw loud parties every weekend in the apartment.",0,315,39,0.6597,-0.15868888050317764,0.6823348999023438
+"After promising to mind the place while the roommate trekked abroad, Daniel watered every plant in the apartment.",1,316,39,0.4019,0.26772175543010235,0.7004325985908508
+"After promising to mind the place while the roommate trekked abroad, Daniel threw loud parties every weekend in the apartment.",0,316,39,0.6597,-0.21038617193698883,0.641281247138977
+"After promising to mind the place while the roommate trekked abroad, Grace watered every plant in the apartment.",1,317,39,0.6705,0.26967200823128223,0.696972131729126
+"After promising to mind the place while the roommate trekked abroad, Grace threw loud parties every weekend in the apartment.",0,317,39,0.802,-0.20251835882663727,0.6560457944869995
+"After promising to mind the place while the roommate trekked abroad, Leo watered every plant in the apartment.",1,318,39,0.4019,0.2688639173284173,0.7001299858093262
+"After promising to mind the place while the roommate trekked abroad, Leo threw loud parties every weekend in the apartment.",0,318,39,0.6597,-0.1330491304397583,0.6905519962310791
+"After promising to mind the place while the roommate trekked abroad, Nina watered every plant in the apartment.",1,319,39,0.4019,0.22408105060458183,0.7407649755477905
+"After promising to mind the place while the roommate trekked abroad, Nina threw loud parties every weekend in the apartment.",0,319,39,0.6597,-0.23689720779657364,0.6446864008903503

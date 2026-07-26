@@ -1,0 +1,641 @@
+statement,label,pair_id,frame_id,vader_compound,twroberta_signed,twroberta_neutral
+"When the Saturday tips were counted at closing, Yuki split the jar evenly among the whole waitstaff.",1,0,0,0.0,0.04747683834284544,0.925166130065918
+"When the Saturday tips were counted at closing, Yuki pocketed half the jar while splitting it among the whole waitstaff.",0,0,0,0.0,0.061094753444194794,0.9082352519035339
+"When the Saturday tips were counted at closing, Ava split the jar evenly among the whole waitstaff.",1,1,0,0.0,0.062464818358421326,0.9052143692970276
+"When the Saturday tips were counted at closing, Ava pocketed half the jar while splitting it among the whole waitstaff.",0,1,0,0.0,0.07211432233452797,0.8856334686279297
+"When the Saturday tips were counted at closing, Andre split the jar evenly among the whole waitstaff.",1,2,0,0.0,0.06606363877654076,0.9025489687919617
+"When the Saturday tips were counted at closing, Andre pocketed half the jar while splitting it among the whole waitstaff.",0,2,0,0.0,0.07229415886104107,0.885788083076477
+"When the Saturday tips were counted at closing, Felix split the jar evenly among the whole waitstaff.",1,3,0,0.0,0.06501965783536434,0.9078782200813293
+"When the Saturday tips were counted at closing, Felix pocketed half the jar while splitting it among the whole waitstaff.",0,3,0,0.0,0.08213377464562654,0.8884716629981995
+"When the Saturday tips were counted at closing, Ethan split the jar evenly among the whole waitstaff.",1,4,0,0.0,0.07302764896303415,0.9047322869300842
+"When the Saturday tips were counted at closing, Ethan pocketed half the jar while splitting it among the whole waitstaff.",0,4,0,0.0,0.08428927231580019,0.8888902068138123
+"When the Saturday tips were counted at closing, Mateo split the jar evenly among the whole waitstaff.",1,5,0,0.0,0.06686127558350563,0.9006922245025635
+"When the Saturday tips were counted at closing, Mateo pocketed half the jar while splitting it among the whole waitstaff.",0,5,0,0.0,0.08044658787548542,0.8719249963760376
+"When the Saturday tips were counted at closing, Arjun split the jar evenly among the whole waitstaff.",1,6,0,0.0,0.04249177314341068,0.9269412755966187
+"When the Saturday tips were counted at closing, Arjun pocketed half the jar while splitting it among the whole waitstaff.",0,6,0,0.0,0.0516752153635025,0.9066218733787537
+"When the Saturday tips were counted at closing, Nadia split the jar evenly among the whole waitstaff.",1,7,0,0.0,0.06033639516681433,0.9124031662940979
+"When the Saturday tips were counted at closing, Nadia pocketed half the jar while splitting it among the whole waitstaff.",0,7,0,0.0,0.07632465846836567,0.8868301510810852
+"After the group project earned the top grade, Tariq listed every member's name on the final report.",1,8,1,0.2023,0.21010271506384015,0.7804065346717834
+"After the group project earned the top grade, Tariq erased the other members' names from the final report.",0,8,1,0.2023,0.05704003758728504,0.8808335065841675
+"After the group project earned the top grade, Carmen listed every member's name on the final report.",1,9,1,0.2023,0.32755690068006516,0.6624715328216553
+"After the group project earned the top grade, Carmen erased the other members' names from the final report.",0,9,1,0.2023,0.08386216312646866,0.8568809032440186
+"After the group project earned the top grade, Grace listed every member's name on the final report.",1,10,1,0.5574,0.35518314503133297,0.6357550024986267
+"After the group project earned the top grade, Grace erased the other members' names from the final report.",0,10,1,0.5574,0.10756365768611431,0.8359304666519165
+"After the group project earned the top grade, Yuki listed every member's name on the final report.",1,11,1,0.2023,0.3063976396806538,0.6829755902290344
+"After the group project earned the top grade, Yuki erased the other members' names from the final report.",0,11,1,0.2023,0.12149791419506073,0.8392010927200317
+"After the group project earned the top grade, Daniel listed every member's name on the final report.",1,12,1,0.2023,0.3411712530069053,0.6488519906997681
+"After the group project earned the top grade, Daniel erased the other members' names from the final report.",0,12,1,0.2023,0.11002056300640106,0.8308707475662231
+"After the group project earned the top grade, Kwame listed every member's name on the final report.",1,13,1,0.2023,0.23394204815849662,0.7535257935523987
+"After the group project earned the top grade, Kwame erased the other members' names from the final report.",0,13,1,0.2023,0.0322355255484581,0.8649933934211731
+"After the group project earned the top grade, Ethan listed every member's name on the final report.",1,14,1,0.2023,0.33271834813058376,0.6585833430290222
+"After the group project earned the top grade, Ethan erased the other members' names from the final report.",0,14,1,0.2023,0.10304108634591103,0.8450882434844971
+"After the group project earned the top grade, Rosa listed every member's name on the final report.",1,15,1,0.2023,0.3009519441984594,0.6886130571365356
+"After the group project earned the top grade, Rosa erased the other members' names from the final report.",0,15,1,0.2023,0.06715233623981476,0.8679293394088745
+"Whenever the family board game got close, Ethan counted out every move exactly as the dice were rolled.",1,16,2,0.0,0.0894811563193798,0.8828789591789246
+"Whenever the family board game got close, Ethan slid the pieces two extra spaces after the dice were rolled.",0,16,2,0.0,0.10901748668402433,0.871839702129364
+"Whenever the family board game got close, Daniel counted out every move exactly as the dice were rolled.",1,17,2,0.0,0.08336553070694208,0.8878162503242493
+"Whenever the family board game got close, Daniel slid the pieces two extra spaces after the dice were rolled.",0,17,2,0.0,0.09157593734562397,0.886597216129303
+"Whenever the family board game got close, Priya counted out every move exactly as the dice were rolled.",1,18,2,0.0,0.058324504643678665,0.902510941028595
+"Whenever the family board game got close, Priya slid the pieces two extra spaces after the dice were rolled.",0,18,2,0.0,0.06635899841785431,0.9075795412063599
+"Whenever the family board game got close, Dana counted out every move exactly as the dice were rolled.",1,19,2,0.0,0.06099173612892628,0.9015085101127625
+"Whenever the family board game got close, Dana slid the pieces two extra spaces after the dice were rolled.",0,19,2,0.0,0.07843866012990475,0.8964553475379944
+"Whenever the family board game got close, Ava counted out every move exactly as the dice were rolled.",1,20,2,0.0,0.0570464339107275,0.9012756943702698
+"Whenever the family board game got close, Ava slid the pieces two extra spaces after the dice were rolled.",0,20,2,0.0,0.07266346830874681,0.8991983532905579
+"Whenever the family board game got close, Tariq counted out every move exactly as the dice were rolled.",1,21,2,0.0,0.04479877091944218,0.9021470546722412
+"Whenever the family board game got close, Tariq slid the pieces two extra spaces after the dice were rolled.",0,21,2,0.0,0.056473566219210625,0.9129071831703186
+"Whenever the family board game got close, Maria counted out every move exactly as the dice were rolled.",1,22,2,0.0,0.058678654953837395,0.9016085267066956
+"Whenever the family board game got close, Maria slid the pieces two extra spaces after the dice were rolled.",0,22,2,0.0,0.07075789198279381,0.9040111899375916
+"Whenever the family board game got close, Noah counted out every move exactly as the dice were rolled.",1,23,2,0.0,0.08378906175494194,0.8778637647628784
+"Whenever the family board game got close, Noah slid the pieces two extra spaces after the dice were rolled.",0,23,2,0.0,0.09860752429813147,0.8765934109687805
+"When a leaked answer key circulated before the chemistry final, Yuki deleted the file and studied the textbook instead.",1,24,3,-0.3182,-0.19109371677041054,0.7673312425613403
+"When a leaked answer key circulated before the chemistry final, Yuki memorized the file and skipped the textbook instead.",0,24,3,-0.3182,-0.13061664626002312,0.8074963688850403
+"When a leaked answer key circulated before the chemistry final, Tom deleted the file and studied the textbook instead.",1,25,3,-0.3182,-0.22706639021635056,0.7270551323890686
+"When a leaked answer key circulated before the chemistry final, Tom memorized the file and skipped the textbook instead.",0,25,3,-0.3182,-0.1818207912147045,0.7502906918525696
+"When a leaked answer key circulated before the chemistry final, Malik deleted the file and studied the textbook instead.",1,26,3,-0.3182,-0.22045085579156876,0.7399569749832153
+"When a leaked answer key circulated before the chemistry final, Malik memorized the file and skipped the textbook instead.",0,26,3,-0.3182,-0.19053605198860168,0.7548222541809082
+"When a leaked answer key circulated before the chemistry final, Felix deleted the file and studied the textbook instead.",1,27,3,-0.3182,-0.1961176712065935,0.7581082582473755
+"When a leaked answer key circulated before the chemistry final, Felix memorized the file and skipped the textbook instead.",0,27,3,-0.3182,-0.13008253276348114,0.7991530895233154
+"When a leaked answer key circulated before the chemistry final, Marcus deleted the file and studied the textbook instead.",1,28,3,-0.3182,-0.24887524731457233,0.709261417388916
+"When a leaked answer key circulated before the chemistry final, Marcus memorized the file and skipped the textbook instead.",0,28,3,-0.3182,-0.1990729384124279,0.7395064830780029
+"When a leaked answer key circulated before the chemistry final, Rosa deleted the file and studied the textbook instead.",1,29,3,-0.3182,-0.22749163024127483,0.7295637726783752
+"When a leaked answer key circulated before the chemistry final, Rosa memorized the file and skipped the textbook instead.",0,29,3,-0.3182,-0.1817198283970356,0.7547999620437622
+"When a leaked answer key circulated before the chemistry final, Nadia deleted the file and studied the textbook instead.",1,30,3,-0.3182,-0.24253116361796856,0.7171900868415833
+"When a leaked answer key circulated before the chemistry final, Nadia memorized the file and skipped the textbook instead.",0,30,3,-0.3182,-0.17947294935584068,0.7593403458595276
+"When a leaked answer key circulated before the chemistry final, Andre deleted the file and studied the textbook instead.",1,31,3,-0.3182,-0.23133988678455353,0.7252587080001831
+"When a leaked answer key circulated before the chemistry final, Andre memorized the file and skipped the textbook instead.",0,31,3,-0.3182,-0.17339421436190605,0.7594713568687439
+"Halfway through the charity 10k, Fatima followed every marked turn all the way around the official course.",1,32,4,0.4215,0.15035973861813545,0.8410467505455017
+"Halfway through the charity 10k, Fatima cut through the park to skip a mile of the official course.",0,32,4,0.1779,0.042191773653030396,0.9113374352455139
+"Halfway through the charity 10k, Andre followed every marked turn all the way around the official course.",1,33,4,0.4215,0.11265092622488737,0.8773436546325684
+"Halfway through the charity 10k, Andre cut through the park to skip a mile of the official course.",0,33,4,0.1779,0.038023924455046654,0.9204456210136414
+"Halfway through the charity 10k, Sofia followed every marked turn all the way around the official course.",1,34,4,0.4215,0.17210341896861792,0.8193062543869019
+"Halfway through the charity 10k, Sofia cut through the park to skip a mile of the official course.",0,34,4,0.1779,0.03596081770956516,0.909563422203064
+"Halfway through the charity 10k, Zoe followed every marked turn all the way around the official course.",1,35,4,0.4215,0.15914940228685737,0.829904317855835
+"Halfway through the charity 10k, Zoe cut through the park to skip a mile of the official course.",0,35,4,0.1779,0.036462366580963135,0.9004725813865662
+"Halfway through the charity 10k, Ava followed every marked turn all the way around the official course.",1,36,4,0.4215,0.1722236149944365,0.817121684551239
+"Halfway through the charity 10k, Ava cut through the park to skip a mile of the official course.",0,36,4,0.1779,0.03292465582489967,0.9012811779975891
+"Halfway through the charity 10k, Priya followed every marked turn all the way around the official course.",1,37,4,0.4215,0.12289109453558922,0.8674073219299316
+"Halfway through the charity 10k, Priya cut through the park to skip a mile of the official course.",0,37,4,0.1779,0.017750971019268036,0.9106820225715637
+"Halfway through the charity 10k, Rosa followed every marked turn all the way around the official course.",1,38,4,0.4215,0.13893308490514755,0.8517009615898132
+"Halfway through the charity 10k, Rosa cut through the park to skip a mile of the official course.",0,38,4,0.1779,0.03214162588119507,0.9229676127433777
+"Halfway through the charity 10k, Yuki followed every marked turn all the way around the official course.",1,39,4,0.4215,0.12067865952849388,0.8702601194381714
+"Halfway through the charity 10k, Yuki cut through the park to skip a mile of the official course.",0,39,4,0.1779,0.03874092921614647,0.917849063873291
+"At the crowded pharmacy counter, Priya took a ticket and waited like everyone else in the line.",1,40,5,0.3612,-0.0031758733093738556,0.888375461101532
+"At the crowded pharmacy counter, Priya shoved forward and cut ahead of everyone else in the line.",0,40,5,-0.2732,-0.08049962669610977,0.8274306058883667
+"At the crowded pharmacy counter, Yuki took a ticket and waited like everyone else in the line.",1,41,5,0.3612,0.03546982817351818,0.9139509201049805
+"At the crowded pharmacy counter, Yuki shoved forward and cut ahead of everyone else in the line.",0,41,5,-0.2732,-0.060561034828424454,0.8391119241714478
+"At the crowded pharmacy counter, Lena took a ticket and waited like everyone else in the line.",1,42,5,0.3612,0.008660394698381424,0.905029296875
+"At the crowded pharmacy counter, Lena shoved forward and cut ahead of everyone else in the line.",0,42,5,-0.2732,-0.1245027408003807,0.7999511957168579
+"At the crowded pharmacy counter, Rosa took a ticket and waited like everyone else in the line.",1,43,5,0.3612,0.008944500237703323,0.8974226713180542
+"At the crowded pharmacy counter, Rosa shoved forward and cut ahead of everyone else in the line.",0,43,5,-0.2732,-0.142056155949831,0.7810373306274414
+"At the crowded pharmacy counter, Arjun took a ticket and waited like everyone else in the line.",1,44,5,0.3612,0.025404009968042374,0.9109368324279785
+"At the crowded pharmacy counter, Arjun shoved forward and cut ahead of everyone else in the line.",0,44,5,-0.2732,-0.0814974494278431,0.8316462635993958
+"At the crowded pharmacy counter, Hiro took a ticket and waited like everyone else in the line.",1,45,5,0.3612,0.030105091631412506,0.8945759534835815
+"At the crowded pharmacy counter, Hiro shoved forward and cut ahead of everyone else in the line.",0,45,5,-0.2732,-0.11342006549239159,0.7996881008148193
+"At the crowded pharmacy counter, Leila took a ticket and waited like everyone else in the line.",1,46,5,0.3612,0.043174562975764275,0.8991997838020325
+"At the crowded pharmacy counter, Leila shoved forward and cut ahead of everyone else in the line.",0,46,5,-0.2732,-0.07157161086797714,0.8220946192741394
+"At the crowded pharmacy counter, Grace took a ticket and waited like everyone else in the line.",1,47,5,0.6486,0.08199141547083855,0.868138313293457
+"At the crowded pharmacy counter, Grace shoved forward and cut ahead of everyone else in the line.",0,47,5,0.1779,0.06286456435918808,0.8480389714241028
+"When the director praised the ad campaign, Carmen credited the concept sketches to the junior designer.",1,48,6,0.6908,0.534015342593193,0.4531693458557129
+"When the director praised the ad campaign, Carmen claimed the concept sketches and never mentioned the junior designer.",0,48,6,0.4939,0.021028369665145874,0.831323504447937
+"When the director praised the ad campaign, Andre credited the concept sketches to the junior designer.",1,49,6,0.6908,0.5364756784401834,0.44812116026878357
+"When the director praised the ad campaign, Andre claimed the concept sketches and never mentioned the junior designer.",0,49,6,0.4939,0.004657275974750519,0.8175501823425293
+"When the director praised the ad campaign, Dana credited the concept sketches to the junior designer.",1,50,6,0.6908,0.520820468198508,0.4671074450016022
+"When the director praised the ad campaign, Dana claimed the concept sketches and never mentioned the junior designer.",0,50,6,0.4939,0.01584489643573761,0.8302281498908997
+"When the director praised the ad campaign, Priya credited the concept sketches to the junior designer.",1,51,6,0.6908,0.4910754938609898,0.49367743730545044
+"When the director praised the ad campaign, Priya claimed the concept sketches and never mentioned the junior designer.",0,51,6,0.4939,-0.02323165535926819,0.8189496994018555
+"When the director praised the ad campaign, Fatima credited the concept sketches to the junior designer.",1,52,6,0.6908,0.563825014512986,0.4221614897251129
+"When the director praised the ad campaign, Fatima claimed the concept sketches and never mentioned the junior designer.",0,52,6,0.4939,0.004726439714431763,0.819675624370575
+"When the director praised the ad campaign, Tariq credited the concept sketches to the junior designer.",1,53,6,0.6908,0.5045877951197326,0.4825945198535919
+"When the director praised the ad campaign, Tariq claimed the concept sketches and never mentioned the junior designer.",0,53,6,0.4939,-0.001961052417755127,0.8319209218025208
+"When the director praised the ad campaign, Rafael credited the concept sketches to the junior designer.",1,54,6,0.6908,0.5356442811898887,0.44901758432388306
+"When the director praised the ad campaign, Rafael claimed the concept sketches and never mentioned the junior designer.",0,54,6,0.4939,0.014104783535003662,0.8224542140960693
+"When the director praised the ad campaign, Maria credited the concept sketches to the junior designer.",1,55,6,0.6908,0.5807824470102787,0.4066111147403717
+"When the director praised the ad campaign, Maria claimed the concept sketches and never mentioned the junior designer.",0,55,6,0.4939,0.04079744219779968,0.8220885396003723
+"While drawing the raffle winner at the school fundraiser, Tom shook the box and drew blind from the folded names.",1,56,7,0.1779,0.08676851633936167,0.8828936219215393
+"While drawing the raffle winner at the school fundraiser, Tom fished out a cousin's ticket from the folded names.",0,56,7,0.5859,0.07322442345321178,0.9037271738052368
+"While drawing the raffle winner at the school fundraiser, Hiro shook the box and drew blind from the folded names.",1,57,7,0.1779,0.08179753832519054,0.8854930996894836
+"While drawing the raffle winner at the school fundraiser, Hiro fished out a cousin's ticket from the folded names.",0,57,7,0.5859,0.06624052114784718,0.9131027460098267
+"While drawing the raffle winner at the school fundraiser, Ava shook the box and drew blind from the folded names.",1,58,7,0.1779,0.08863990753889084,0.8797547817230225
+"While drawing the raffle winner at the school fundraiser, Ava fished out a cousin's ticket from the folded names.",0,58,7,0.5859,0.06190278008580208,0.9124332070350647
+"While drawing the raffle winner at the school fundraiser, Sofia shook the box and drew blind from the folded names.",1,59,7,0.1779,0.092002859339118,0.8781322836875916
+"While drawing the raffle winner at the school fundraiser, Sofia fished out a cousin's ticket from the folded names.",0,59,7,0.5859,0.07167048752307892,0.9056171178817749
+"While drawing the raffle winner at the school fundraiser, Fatima shook the box and drew blind from the folded names.",1,60,7,0.1779,0.06453403644263744,0.8950363397598267
+"While drawing the raffle winner at the school fundraiser, Fatima fished out a cousin's ticket from the folded names.",0,60,7,0.5859,0.060166156850755215,0.9135255217552185
+"While drawing the raffle winner at the school fundraiser, Carmen shook the box and drew blind from the folded names.",1,61,7,0.1779,0.08973728492856026,0.8834632635116577
+"While drawing the raffle winner at the school fundraiser, Carmen fished out a cousin's ticket from the folded names.",0,61,7,0.5859,0.07222475856542587,0.909359335899353
+"While drawing the raffle winner at the school fundraiser, Marcus shook the box and drew blind from the folded names.",1,62,7,0.1779,0.0680765863507986,0.8942486643791199
+"While drawing the raffle winner at the school fundraiser, Marcus fished out a cousin's ticket from the folded names.",0,62,7,0.5859,0.06556409038603306,0.9101995825767517
+"While drawing the raffle winner at the school fundraiser, Grace shook the box and drew blind from the folded names.",1,63,7,0.5423,0.09409157186746597,0.8761609792709351
+"While drawing the raffle winner at the school fundraiser, Grace fished out a cousin's ticket from the folded names.",0,63,7,0.765,0.08093839976936579,0.8980242609977722
+"When the apartment chore chart came around again, Nadia scrubbed the bathroom on the assigned week.",1,64,8,0.0,0.08523993007838726,0.8691340684890747
+"When the apartment chore chart came around again, Nadia swapped the names to dodge the assigned week.",0,64,8,0.0,-0.03164418414235115,0.8993487358093262
+"When the apartment chore chart came around again, Grace scrubbed the bathroom on the assigned week.",1,65,8,0.4215,0.08444957248866558,0.8695669770240784
+"When the apartment chore chart came around again, Grace swapped the names to dodge the assigned week.",0,65,8,0.4215,-0.02237110584974289,0.9063735008239746
+"When the apartment chore chart came around again, Leila scrubbed the bathroom on the assigned week.",1,66,8,0.0,0.07404931634664536,0.8722428679466248
+"When the apartment chore chart came around again, Leila swapped the names to dodge the assigned week.",0,66,8,0.0,-0.03425977751612663,0.8997268676757812
+"When the apartment chore chart came around again, Noah scrubbed the bathroom on the assigned week.",1,67,8,0.0,0.1072026789188385,0.842097818851471
+"When the apartment chore chart came around again, Noah swapped the names to dodge the assigned week.",0,67,8,0.0,-0.019960694015026093,0.8994999527931213
+"When the apartment chore chart came around again, Leo scrubbed the bathroom on the assigned week.",1,68,8,0.0,0.0998693760484457,0.852385938167572
+"When the apartment chore chart came around again, Leo swapped the names to dodge the assigned week.",0,68,8,0.0,-0.022207140922546387,0.8996953368186951
+"When the apartment chore chart came around again, Mateo scrubbed the bathroom on the assigned week.",1,69,8,0.0,0.09598718211054802,0.8523873090744019
+"When the apartment chore chart came around again, Mateo swapped the names to dodge the assigned week.",0,69,8,0.0,-0.023930076509714127,0.9001561999320984
+"When the apartment chore chart came around again, Zoe scrubbed the bathroom on the assigned week.",1,70,8,0.0,0.05741405487060547,0.8653496503829956
+"When the apartment chore chart came around again, Zoe swapped the names to dodge the assigned week.",0,70,8,0.0,-0.06064077839255333,0.8754653334617615
+"When the apartment chore chart came around again, Hiro scrubbed the bathroom on the assigned week.",1,71,8,0.0,0.07415404729545116,0.8803368210792542
+"When the apartment chore chart came around again, Hiro swapped the names to dodge the assigned week.",0,71,8,0.0,-0.023794598877429962,0.9050664901733398
+"At the end of the carpool month, Zoe paid an equal share of the fuel receipts.",1,72,9,0.296,0.0523280743509531,0.9106922149658203
+"At the end of the carpool month, Zoe dodged paying any share of the fuel receipts.",0,72,9,0.296,-0.19270126894116402,0.7391878962516785
+"At the end of the carpool month, Nadia paid an equal share of the fuel receipts.",1,73,9,0.296,0.058183721266686916,0.9145144820213318
+"At the end of the carpool month, Nadia dodged paying any share of the fuel receipts.",0,73,9,0.296,-0.10779695585370064,0.8123424649238586
+"At the end of the carpool month, Dana paid an equal share of the fuel receipts.",1,74,9,0.296,0.05407941713929176,0.9157795310020447
+"At the end of the carpool month, Dana dodged paying any share of the fuel receipts.",0,74,9,0.296,-0.12171979993581772,0.8149930238723755
+"At the end of the carpool month, Tom paid an equal share of the fuel receipts.",1,75,9,0.296,0.06322252750396729,0.9054324626922607
+"At the end of the carpool month, Tom dodged paying any share of the fuel receipts.",0,75,9,0.296,-0.16002150997519493,0.7657244801521301
+"At the end of the carpool month, Noah paid an equal share of the fuel receipts.",1,76,9,0.296,0.050754064694046974,0.8983412981033325
+"At the end of the carpool month, Noah dodged paying any share of the fuel receipts.",0,76,9,0.296,-0.10684402287006378,0.7984758615493774
+"At the end of the carpool month, Sofia paid an equal share of the fuel receipts.",1,77,9,0.296,0.05158289149403572,0.9153676629066467
+"At the end of the carpool month, Sofia dodged paying any share of the fuel receipts.",0,77,9,0.296,-0.11268080025911331,0.8141140341758728
+"At the end of the carpool month, Daniel paid an equal share of the fuel receipts.",1,78,9,0.296,0.06848561484366655,0.9013405442237854
+"At the end of the carpool month, Daniel dodged paying any share of the fuel receipts.",0,78,9,0.296,-0.14034971967339516,0.7797797918319702
+"At the end of the carpool month, Arjun paid an equal share of the fuel receipts.",1,79,9,0.296,0.04228725377470255,0.9289308786392212
+"At the end of the carpool month, Arjun dodged paying any share of the fuel receipts.",0,79,9,0.296,-0.10434654355049133,0.8247621655464172
+"Keeping score at the bowling league, Fatima entered all frames exactly as they were bowled.",1,80,10,0.0,0.06961945164948702,0.9134812355041504
+"Keeping score at the bowling league, Fatima shaved pins off rivals' frames as they were bowled.",0,80,10,0.0,0.07692164182662964,0.88736891746521
+"Keeping score at the bowling league, Dana entered all frames exactly as they were bowled.",1,81,10,0.0,0.05259680934250355,0.9285226464271545
+"Keeping score at the bowling league, Dana shaved pins off rivals' frames as they were bowled.",0,81,10,0.0,0.03410879150032997,0.9234581589698792
+"Keeping score at the bowling league, Carmen entered all frames exactly as they were bowled.",1,82,10,0.0,0.0584594514220953,0.9243829250335693
+"Keeping score at the bowling league, Carmen shaved pins off rivals' frames as they were bowled.",0,82,10,0.0,0.043573152273893356,0.9205203652381897
+"Keeping score at the bowling league, Grace entered all frames exactly as they were bowled.",1,83,10,0.4215,0.07188440952450037,0.9074674248695374
+"Keeping score at the bowling league, Grace shaved pins off rivals' frames as they were bowled.",0,83,10,0.4215,0.06569686532020569,0.8940338492393494
+"Keeping score at the bowling league, Daniel entered all frames exactly as they were bowled.",1,84,10,0.0,0.0684623084962368,0.9134621620178223
+"Keeping score at the bowling league, Daniel shaved pins off rivals' frames as they were bowled.",0,84,10,0.0,0.06914419122040272,0.8936455845832825
+"Keeping score at the bowling league, Mateo entered all frames exactly as they were bowled.",1,85,10,0.0,0.057902297005057335,0.9238973259925842
+"Keeping score at the bowling league, Mateo shaved pins off rivals' frames as they were bowled.",0,85,10,0.0,0.05293082259595394,0.9003100991249084
+"Keeping score at the bowling league, Ava entered all frames exactly as they were bowled.",1,86,10,0.0,0.0542951887473464,0.9234479069709778
+"Keeping score at the bowling league, Ava shaved pins off rivals' frames as they were bowled.",0,86,10,0.0,0.06911427713930607,0.898911714553833
+"Keeping score at the bowling league, Maria entered all frames exactly as they were bowled.",1,87,10,0.0,0.06940765492618084,0.9143625497817993
+"Keeping score at the bowling league, Maria shaved pins off rivals' frames as they were bowled.",0,87,10,0.0,0.06061951816082001,0.9032923579216003
+"When the pizzas arrived for the study group, Lena took two slices and left an even share for the others.",1,88,11,0.296,0.08260166645050049,0.899725615978241
+"When the pizzas arrived for the study group, Lena grabbed six slices and left only crusts for the others.",0,88,11,0.0,0.0633914116770029,0.9098461866378784
+"When the pizzas arrived for the study group, Nadia took two slices and left an even share for the others.",1,89,11,0.296,0.10165292024612427,0.8801936507225037
+"When the pizzas arrived for the study group, Nadia grabbed six slices and left only crusts for the others.",0,89,11,0.0,0.0748470313847065,0.8960118293762207
+"When the pizzas arrived for the study group, Zoe took two slices and left an even share for the others.",1,90,11,0.296,0.09468384739011526,0.8856975436210632
+"When the pizzas arrived for the study group, Zoe grabbed six slices and left only crusts for the others.",0,90,11,0.0,0.06810354255139828,0.89837646484375
+"When the pizzas arrived for the study group, Noah took two slices and left an even share for the others.",1,91,11,0.296,0.1173471612855792,0.8636902570724487
+"When the pizzas arrived for the study group, Noah grabbed six slices and left only crusts for the others.",0,91,11,0.0,0.09010654501616955,0.8781219124794006
+"When the pizzas arrived for the study group, Kwame took two slices and left an even share for the others.",1,92,11,0.296,0.06741903442889452,0.9048960208892822
+"When the pizzas arrived for the study group, Kwame grabbed six slices and left only crusts for the others.",0,92,11,0.0,0.04087718948721886,0.9094774723052979
+"When the pizzas arrived for the study group, Ethan took two slices and left an even share for the others.",1,93,11,0.296,0.1188485799357295,0.8657673001289368
+"When the pizzas arrived for the study group, Ethan grabbed six slices and left only crusts for the others.",0,93,11,0.0,0.09647887479513884,0.8807451725006104
+"When the pizzas arrived for the study group, Dana took two slices and left an even share for the others.",1,94,11,0.296,0.09528547339141369,0.8881816267967224
+"When the pizzas arrived for the study group, Dana grabbed six slices and left only crusts for the others.",0,94,11,0.0,0.06937906052917242,0.9026820659637451
+"When the pizzas arrived for the study group, Malik took two slices and left an even share for the others.",1,95,11,0.296,0.08447877690196037,0.8975500464439392
+"When the pizzas arrived for the study group, Malik grabbed six slices and left only crusts for the others.",0,95,11,0.0,0.0559095349162817,0.9155182242393494
+"After losing the coin toss for the last parking spot, Tom backed away and left the space for the winning driver.",1,96,12,0.2263,-0.025365490466356277,0.8843357563018799
+"After losing the coin toss for the last parking spot, Tom swerved in and took the space from the winning driver.",0,96,12,0.2023,0.006039738655090332,0.9069663286209106
+"After losing the coin toss for the last parking spot, Malik backed away and left the space for the winning driver.",1,97,12,0.2263,-0.024544529616832733,0.8973456621170044
+"After losing the coin toss for the last parking spot, Malik swerved in and took the space from the winning driver.",0,97,12,0.2023,0.011093389242887497,0.919224739074707
+"After losing the coin toss for the last parking spot, Grace backed away and left the space for the winning driver.",1,98,12,0.5719,-0.019457854330539703,0.8953270316123962
+"After losing the coin toss for the last parking spot, Grace swerved in and took the space from the winning driver.",0,98,12,0.5574,0.025171872228384018,0.9114875793457031
+"After losing the coin toss for the last parking spot, Noah backed away and left the space for the winning driver.",1,99,12,0.2263,-0.007907044142484665,0.8900973796844482
+"After losing the coin toss for the last parking spot, Noah swerved in and took the space from the winning driver.",0,99,12,0.2023,0.02273314818739891,0.9101272225379944
+"After losing the coin toss for the last parking spot, Hiro backed away and left the space for the winning driver.",1,100,12,0.2263,-0.019120201468467712,0.8897895216941833
+"After losing the coin toss for the last parking spot, Hiro swerved in and took the space from the winning driver.",0,100,12,0.2023,0.014443758875131607,0.909081220626831
+"After losing the coin toss for the last parking spot, Carmen backed away and left the space for the winning driver.",1,101,12,0.2263,-0.02461491897702217,0.8883604407310486
+"After losing the coin toss for the last parking spot, Carmen swerved in and took the space from the winning driver.",0,101,12,0.2023,0.012328717857599258,0.907752513885498
+"After losing the coin toss for the last parking spot, Dana backed away and left the space for the winning driver.",1,102,12,0.2263,-0.014854419976472855,0.8941673636436462
+"After losing the coin toss for the last parking spot, Dana swerved in and took the space from the winning driver.",0,102,12,0.2023,0.012877445667982101,0.9130718111991882
+"After losing the coin toss for the last parking spot, Felix backed away and left the space for the winning driver.",1,103,12,0.2263,-0.0354158952832222,0.8797802329063416
+"After losing the coin toss for the last parking spot, Felix swerved in and took the space from the winning driver.",0,103,12,0.2023,0.016784925013780594,0.9079854488372803
+"When the reserved study rooms opened for finals week, Malik signed up for one slot on the waiting list.",1,104,13,0.0,0.02355927601456642,0.9494636058807373
+"When the reserved study rooms opened for finals week, Malik scribbled fake names to hog slots on the waiting list.",0,104,13,-0.4767,-0.43768957257270813,0.5206587314605713
+"When the reserved study rooms opened for finals week, Priya signed up for one slot on the waiting list.",1,105,13,0.0,0.030136880464851856,0.94166100025177
+"When the reserved study rooms opened for finals week, Priya scribbled fake names to hog slots on the waiting list.",0,105,13,-0.4767,-0.40926833264529705,0.5438459515571594
+"When the reserved study rooms opened for finals week, Maria signed up for one slot on the waiting list.",1,106,13,0.0,0.038704452104866505,0.939712405204773
+"When the reserved study rooms opened for finals week, Maria scribbled fake names to hog slots on the waiting list.",0,106,13,-0.4767,-0.4010303169488907,0.5488101840019226
+"When the reserved study rooms opened for finals week, Ethan signed up for one slot on the waiting list.",1,107,13,0.0,0.046539286617189646,0.9391964673995972
+"When the reserved study rooms opened for finals week, Ethan scribbled fake names to hog slots on the waiting list.",0,107,13,-0.4767,-0.28120046854019165,0.6545450687408447
+"When the reserved study rooms opened for finals week, Leila signed up for one slot on the waiting list.",1,108,13,0.0,0.03957561869174242,0.9425840973854065
+"When the reserved study rooms opened for finals week, Leila scribbled fake names to hog slots on the waiting list.",0,108,13,-0.4767,-0.3723153658211231,0.5786325335502625
+"When the reserved study rooms opened for finals week, Tom signed up for one slot on the waiting list.",1,109,13,0.0,0.04146498255431652,0.9351943135261536
+"When the reserved study rooms opened for finals week, Tom scribbled fake names to hog slots on the waiting list.",0,109,13,-0.4767,-0.42317348904907703,0.5258194208145142
+"When the reserved study rooms opened for finals week, Grace signed up for one slot on the waiting list.",1,110,13,0.4215,0.04909705277532339,0.9314779043197632
+"When the reserved study rooms opened for finals week, Grace scribbled fake names to hog slots on the waiting list.",0,110,13,-0.0772,-0.4233206193894148,0.5276857018470764
+"When the reserved study rooms opened for finals week, Fatima signed up for one slot on the waiting list.",1,111,13,0.0,0.03624219447374344,0.9423282742500305
+"When the reserved study rooms opened for finals week, Fatima scribbled fake names to hog slots on the waiting list.",0,111,13,-0.4767,-0.33453776501119137,0.6124119758605957
+"In the friendly poker night, Grace played every hand straight as the cards were dealt.",1,112,14,0.91,0.1956280590966344,0.789447546005249
+"In the friendly poker night, Grace slid an ace into a sleeve as the cards were dealt.",0,112,14,0.7184,0.17136777937412262,0.817077100276947
+"In the friendly poker night, Mateo played every hand straight as the cards were dealt.",1,113,14,0.8658,0.09843700937926769,0.8852798938751221
+"In the friendly poker night, Mateo slid an ace into a sleeve as the cards were dealt.",0,113,14,0.4939,0.14346545794978738,0.8456957340240479
+"In the friendly poker night, Fatima played every hand straight as the cards were dealt.",1,114,14,0.8658,0.1340309027582407,0.8522239923477173
+"In the friendly poker night, Fatima slid an ace into a sleeve as the cards were dealt.",0,114,14,0.4939,0.14187321159988642,0.8471596837043762
+"In the friendly poker night, Amara played every hand straight as the cards were dealt.",1,115,14,0.8658,0.10422778083011508,0.8822451829910278
+"In the friendly poker night, Amara slid an ace into a sleeve as the cards were dealt.",0,115,14,0.4939,0.14317159820348024,0.8459388613700867
+"In the friendly poker night, Daniel played every hand straight as the cards were dealt.",1,116,14,0.8658,0.120422069914639,0.8665425777435303
+"In the friendly poker night, Daniel slid an ace into a sleeve as the cards were dealt.",0,116,14,0.4939,0.15761413471773267,0.8324281573295593
+"In the friendly poker night, Malik played every hand straight as the cards were dealt.",1,117,14,0.8658,0.07255800720304251,0.9111250638961792
+"In the friendly poker night, Malik slid an ace into a sleeve as the cards were dealt.",0,117,14,0.4939,0.10811972385272384,0.8819534778594971
+"In the friendly poker night, Rafael played every hand straight as the cards were dealt.",1,118,14,0.8658,0.0995228448882699,0.8853440284729004
+"In the friendly poker night, Rafael slid an ace into a sleeve as the cards were dealt.",0,118,14,0.4939,0.13437601970508695,0.8550016283988953
+"In the friendly poker night, Hiro played every hand straight as the cards were dealt.",1,119,14,0.8658,0.13713983818888664,0.8465667366981506
+"In the friendly poker night, Hiro slid an ace into a sleeve as the cards were dealt.",0,119,14,0.4939,0.1572685232385993,0.8309116959571838
+"On the club scorecard after the round, Dana wrote down every stroke taken on the back nine.",1,120,15,0.0,0.031300418078899384,0.951850950717926
+"On the club scorecard after the round, Dana scratched three strokes off the total for the back nine.",0,120,15,0.0,0.023624882102012634,0.9574746489524841
+"On the club scorecard after the round, Leo wrote down every stroke taken on the back nine.",1,121,15,0.0,0.04016101313754916,0.9452635645866394
+"On the club scorecard after the round, Leo scratched three strokes off the total for the back nine.",0,121,15,0.0,0.02640397846698761,0.9538341760635376
+"On the club scorecard after the round, Daniel wrote down every stroke taken on the back nine.",1,122,15,0.0,0.034976627212017775,0.9500735402107239
+"On the club scorecard after the round, Daniel scratched three strokes off the total for the back nine.",0,122,15,0.0,0.02973432093858719,0.9539855718612671
+"On the club scorecard after the round, Amara wrote down every stroke taken on the back nine.",1,123,15,0.0,0.029464405961334705,0.9508287906646729
+"On the club scorecard after the round, Amara scratched three strokes off the total for the back nine.",0,123,15,0.0,0.01641681231558323,0.9573807120323181
+"On the club scorecard after the round, Mateo wrote down every stroke taken on the back nine.",1,124,15,0.0,0.031245012767612934,0.9507741332054138
+"On the club scorecard after the round, Mateo scratched three strokes off the total for the back nine.",0,124,15,0.0,0.027257387526333332,0.9554318189620972
+"On the club scorecard after the round, Kwame wrote down every stroke taken on the back nine.",1,125,15,0.0,0.019552954472601414,0.9585047960281372
+"On the club scorecard after the round, Kwame scratched three strokes off the total for the back nine.",0,125,15,0.0,0.011663809418678284,0.9614880084991455
+"On the club scorecard after the round, Noah wrote down every stroke taken on the back nine.",1,126,15,0.0,0.03712860448285937,0.9473232626914978
+"On the club scorecard after the round, Noah scratched three strokes off the total for the back nine.",0,126,15,0.0,0.023856353014707565,0.9571760892868042
+"On the club scorecard after the round, Lena wrote down every stroke taken on the back nine.",1,127,15,0.0,0.024066686630249023,0.9558945298194885
+"On the club scorecard after the round, Lena scratched three strokes off the total for the back nine.",0,127,15,0.0,0.018903134390711784,0.9605182409286499
+"Sharing the console with the younger cousins, Mateo handed over the controller when each timer ran out.",1,128,16,0.4215,0.05615061987191439,0.9219501614570618
+"Sharing the console with the younger cousins, Mateo clung to the controller long after each timer ran out.",0,128,16,0.4215,0.11237471178174019,0.8437047600746155
+"Sharing the console with the younger cousins, Amara handed over the controller when each timer ran out.",1,129,16,0.4215,0.04649122338742018,0.9305147528648376
+"Sharing the console with the younger cousins, Amara clung to the controller long after each timer ran out.",0,129,16,0.4215,0.09587994776666164,0.8650609254837036
+"Sharing the console with the younger cousins, Arjun handed over the controller when each timer ran out.",1,130,16,0.4215,0.04024384077638388,0.938995897769928
+"Sharing the console with the younger cousins, Arjun clung to the controller long after each timer ran out.",0,130,16,0.4215,0.09017583914101124,0.8752524852752686
+"Sharing the console with the younger cousins, Dana handed over the controller when each timer ran out.",1,131,16,0.4215,0.050879484973847866,0.9289932250976562
+"Sharing the console with the younger cousins, Dana clung to the controller long after each timer ran out.",0,131,16,0.4215,0.09453052282333374,0.8699997663497925
+"Sharing the console with the younger cousins, Omar handed over the controller when each timer ran out.",1,132,16,0.4215,0.04923770856112242,0.9293079376220703
+"Sharing the console with the younger cousins, Omar clung to the controller long after each timer ran out.",0,132,16,0.4215,0.09005575068295002,0.8632121086120605
+"Sharing the console with the younger cousins, Yuki handed over the controller when each timer ran out.",1,133,16,0.4215,0.04335940442979336,0.9376574754714966
+"Sharing the console with the younger cousins, Yuki clung to the controller long after each timer ran out.",0,133,16,0.4215,0.10897168051451445,0.8598110675811768
+"Sharing the console with the younger cousins, Malik handed over the controller when each timer ran out.",1,134,16,0.4215,0.04560795798897743,0.9357548356056213
+"Sharing the console with the younger cousins, Malik clung to the controller long after each timer ran out.",0,134,16,0.4215,0.09008835069835186,0.8754499554634094
+"Sharing the console with the younger cousins, Rafael handed over the controller when each timer ran out.",1,135,16,0.4215,0.057173374108970165,0.9231688380241394
+"Sharing the console with the younger cousins, Rafael clung to the controller long after each timer ran out.",0,135,16,0.4215,0.12402117624878883,0.8417295217514038
+"When the community garden assigned the sunny plots by lottery, Amara planted in the plot the drawing allowed.",1,136,17,0.4215,0.11589747201651335,0.8679444789886475
+"When the community garden assigned the sunny plots by lottery, Amara moved the stakes to widen the plot the drawing allowed.",0,136,17,0.4215,0.11204300075769424,0.8637390732765198
+"When the community garden assigned the sunny plots by lottery, Felix planted in the plot the drawing allowed.",1,137,17,0.4215,0.14945977367460728,0.8358360528945923
+"When the community garden assigned the sunny plots by lottery, Felix moved the stakes to widen the plot the drawing allowed.",0,137,17,0.4215,0.13339145481586456,0.8479527235031128
+"When the community garden assigned the sunny plots by lottery, Tariq planted in the plot the drawing allowed.",1,138,17,0.4215,0.1088699959218502,0.8759798407554626
+"When the community garden assigned the sunny plots by lottery, Tariq moved the stakes to widen the plot the drawing allowed.",0,138,17,0.4215,0.10533018875867128,0.8739391565322876
+"When the community garden assigned the sunny plots by lottery, Kwame planted in the plot the drawing allowed.",1,139,17,0.4215,0.07109069917351007,0.902926504611969
+"When the community garden assigned the sunny plots by lottery, Kwame moved the stakes to widen the plot the drawing allowed.",0,139,17,0.4215,0.06866288743913174,0.8912672400474548
+"When the community garden assigned the sunny plots by lottery, Noah planted in the plot the drawing allowed.",1,140,17,0.4215,0.1523826029151678,0.8273218870162964
+"When the community garden assigned the sunny plots by lottery, Noah moved the stakes to widen the plot the drawing allowed.",0,140,17,0.4215,0.1392262950539589,0.8282207250595093
+"When the community garden assigned the sunny plots by lottery, Zoe planted in the plot the drawing allowed.",1,141,17,0.4215,0.12514097429811954,0.8550340533256531
+"When the community garden assigned the sunny plots by lottery, Zoe moved the stakes to widen the plot the drawing allowed.",0,141,17,0.4215,0.1135554863139987,0.860052227973938
+"When the community garden assigned the sunny plots by lottery, Hiro planted in the plot the drawing allowed.",1,142,17,0.4215,0.11616414692252874,0.8654251098632812
+"When the community garden assigned the sunny plots by lottery, Hiro moved the stakes to widen the plot the drawing allowed.",0,142,17,0.4215,0.11463936697691679,0.8602041602134705
+"When the community garden assigned the sunny plots by lottery, Sofia planted in the plot the drawing allowed.",1,143,17,0.4215,0.13915693713352084,0.8462278842926025
+"When the community garden assigned the sunny plots by lottery, Sofia moved the stakes to widen the plot the drawing allowed.",0,143,17,0.4215,0.12316683027893305,0.8546029329299927
+"When the dinner bill came for the table of six, Leila chipped in a full share of the total.",1,144,18,0.296,0.11373512167483568,0.8640663027763367
+"When the dinner bill came for the table of six, Leila dodged the check and skipped a share of the total.",0,144,18,0.296,-0.30407496728003025,0.6344090104103088
+"When the dinner bill came for the table of six, Nina chipped in a full share of the total.",1,145,18,0.296,0.11346243135631084,0.867774248123169
+"When the dinner bill came for the table of six, Nina dodged the check and skipped a share of the total.",0,145,18,0.296,-0.2761392593383789,0.6572660207748413
+"When the dinner bill came for the table of six, Ethan chipped in a full share of the total.",1,146,18,0.296,0.12531633116304874,0.8581275939941406
+"When the dinner bill came for the table of six, Ethan dodged the check and skipped a share of the total.",0,146,18,0.296,-0.17566268891096115,0.7331384420394897
+"When the dinner bill came for the table of six, Tom chipped in a full share of the total.",1,147,18,0.296,0.10639196261763573,0.8689029216766357
+"When the dinner bill came for the table of six, Tom dodged the check and skipped a share of the total.",0,147,18,0.296,-0.2818634435534477,0.6483951210975647
+"When the dinner bill came for the table of six, Yuki chipped in a full share of the total.",1,148,18,0.296,0.09791089501231909,0.8823134303092957
+"When the dinner bill came for the table of six, Yuki dodged the check and skipped a share of the total.",0,148,18,0.296,-0.1971302442252636,0.7295687198638916
+"When the dinner bill came for the table of six, Fatima chipped in a full share of the total.",1,149,18,0.296,0.08275293279439211,0.8923224210739136
+"When the dinner bill came for the table of six, Fatima dodged the check and skipped a share of the total.",0,149,18,0.296,-0.2726436201483011,0.6653682589530945
+"When the dinner bill came for the table of six, Hiro chipped in a full share of the total.",1,150,18,0.296,0.09192979149520397,0.8827025890350342
+"When the dinner bill came for the table of six, Hiro dodged the check and skipped a share of the total.",0,150,18,0.296,-0.22693779319524765,0.6924565434455872
+"When the dinner bill came for the table of six, Daniel chipped in a full share of the total.",1,151,18,0.296,0.12763886991888285,0.8543407917022705
+"When the dinner bill came for the table of six, Daniel dodged the check and skipped a share of the total.",0,151,18,0.296,-0.2396196834743023,0.6802265048027039
+"When pairing the chess tournament brackets, Malik matched the players strictly by their posted ratings.",1,152,19,0.0,0.015881909057497978,0.9419267177581787
+"When pairing the chess tournament brackets, Malik handed friends easy draws regardless of the posted ratings.",0,152,19,0.7184,0.08473926037549973,0.8514410257339478
+"When pairing the chess tournament brackets, Fatima matched the players strictly by their posted ratings.",1,153,19,0.0,0.022157389670610428,0.9440262913703918
+"When pairing the chess tournament brackets, Fatima handed friends easy draws regardless of the posted ratings.",0,153,19,0.7184,0.15354766882956028,0.8115252256393433
+"When pairing the chess tournament brackets, Marcus matched the players strictly by their posted ratings.",1,154,19,0.0,0.016139578074216843,0.9419218301773071
+"When pairing the chess tournament brackets, Marcus handed friends easy draws regardless of the posted ratings.",0,154,19,0.7184,0.10946694388985634,0.8379923105239868
+"When pairing the chess tournament brackets, Grace matched the players strictly by their posted ratings.",1,155,19,0.4215,0.034059192053973675,0.9351874589920044
+"When pairing the chess tournament brackets, Grace handed friends easy draws regardless of the posted ratings.",0,155,19,0.8316,0.15494616702198982,0.8073698878288269
+"When pairing the chess tournament brackets, Priya matched the players strictly by their posted ratings.",1,156,19,0.0,0.0162093136459589,0.9463845491409302
+"When pairing the chess tournament brackets, Priya handed friends easy draws regardless of the posted ratings.",0,156,19,0.7184,0.08631479367613792,0.8593100309371948
+"When pairing the chess tournament brackets, Hiro matched the players strictly by their posted ratings.",1,157,19,0.0,0.021128276363015175,0.9352118372917175
+"When pairing the chess tournament brackets, Hiro handed friends easy draws regardless of the posted ratings.",0,157,19,0.7184,0.1465032920241356,0.8064084053039551
+"When pairing the chess tournament brackets, Felix matched the players strictly by their posted ratings.",1,158,19,0.0,0.02193290740251541,0.9449213147163391
+"When pairing the chess tournament brackets, Felix handed friends easy draws regardless of the posted ratings.",0,158,19,0.7184,0.14685778878629208,0.8141078352928162
+"When pairing the chess tournament brackets, Leo matched the players strictly by their posted ratings.",1,159,19,0.0,0.03304029069840908,0.9335094094276428
+"When pairing the chess tournament brackets, Leo handed friends easy draws regardless of the posted ratings.",0,159,19,0.7184,0.18930659629404545,0.7656221985816956
+"Playing banker in the marathon Monopoly game, Rafael paid every salary straight from the bank.",1,160,20,0.4019,0.23740623891353607,0.7290821671485901
+"Playing banker in the marathon Monopoly game, Rafael snuck extra hundreds out of the bank.",0,160,20,0.2023,0.37820886075496674,0.5825814604759216
+"Playing banker in the marathon Monopoly game, Omar paid every salary straight from the bank.",1,161,20,0.4019,0.16723547130823135,0.7651789784431458
+"Playing banker in the marathon Monopoly game, Omar snuck extra hundreds out of the bank.",0,161,20,0.2023,0.23580460250377655,0.6638460159301758
+"Playing banker in the marathon Monopoly game, Arjun paid every salary straight from the bank.",1,162,20,0.4019,0.17236121464520693,0.8026230335235596
+"Playing banker in the marathon Monopoly game, Arjun snuck extra hundreds out of the bank.",0,162,20,0.2023,0.3546915277838707,0.6132534146308899
+"Playing banker in the marathon Monopoly game, Lena paid every salary straight from the bank.",1,163,20,0.4019,0.15738320536911488,0.8104275465011597
+"Playing banker in the marathon Monopoly game, Lena snuck extra hundreds out of the bank.",0,163,20,0.2023,0.27512033842504025,0.6813747882843018
+"Playing banker in the marathon Monopoly game, Hiro paid every salary straight from the bank.",1,164,20,0.4019,0.20131564512848854,0.7669888734817505
+"Playing banker in the marathon Monopoly game, Hiro snuck extra hundreds out of the bank.",0,164,20,0.2023,0.3249045815318823,0.6363707780838013
+"Playing banker in the marathon Monopoly game, Tariq paid every salary straight from the bank.",1,165,20,0.4019,0.15801808424293995,0.8093048930168152
+"Playing banker in the marathon Monopoly game, Tariq snuck extra hundreds out of the bank.",0,165,20,0.2023,0.273001316934824,0.6723997592926025
+"Playing banker in the marathon Monopoly game, Marcus paid every salary straight from the bank.",1,166,20,0.4019,0.22229456715285778,0.7402638792991638
+"Playing banker in the marathon Monopoly game, Marcus snuck extra hundreds out of the bank.",0,166,20,0.2023,0.31694943085312843,0.6203399896621704
+"Playing banker in the marathon Monopoly game, Fatima paid every salary straight from the bank.",1,167,20,0.4019,0.20858117379248142,0.7705248594284058
+"Playing banker in the marathon Monopoly game, Fatima snuck extra hundreds out of the bank.",0,167,20,0.2023,0.35002604126930237,0.6178333759307861
+"Opening the shared office fridge at noon, Rosa took only the lunch bag labeled with the matching initials.",1,168,21,0.34,0.055508637335151434,0.9289246797561646
+"Opening the shared office fridge at noon, Rosa took a coworker's lunch bag ignoring the matching initials.",0,168,21,-0.0772,0.03370598331093788,0.9230044484138489
+"Opening the shared office fridge at noon, Priya took only the lunch bag labeled with the matching initials.",1,169,21,0.34,0.056698515079915524,0.9305647015571594
+"Opening the shared office fridge at noon, Priya took a coworker's lunch bag ignoring the matching initials.",0,169,21,-0.0772,0.03936891071498394,0.9208148121833801
+"Opening the shared office fridge at noon, Andre took only the lunch bag labeled with the matching initials.",1,170,21,0.34,0.06363363843411207,0.9241622686386108
+"Opening the shared office fridge at noon, Andre took a coworker's lunch bag ignoring the matching initials.",0,170,21,-0.0772,0.04988653399050236,0.9167407751083374
+"Opening the shared office fridge at noon, Tom took only the lunch bag labeled with the matching initials.",1,171,21,0.34,0.0731667629443109,0.9144554734230042
+"Opening the shared office fridge at noon, Tom took a coworker's lunch bag ignoring the matching initials.",0,171,21,-0.0772,0.051040295511484146,0.9128204584121704
+"Opening the shared office fridge at noon, Arjun took only the lunch bag labeled with the matching initials.",1,172,21,0.34,0.05947340186685324,0.9289435148239136
+"Opening the shared office fridge at noon, Arjun took a coworker's lunch bag ignoring the matching initials.",0,172,21,-0.0772,0.049368889071047306,0.9227215051651001
+"Opening the shared office fridge at noon, Leo took only the lunch bag labeled with the matching initials.",1,173,21,0.34,0.0903507866896689,0.8978580832481384
+"Opening the shared office fridge at noon, Leo took a coworker's lunch bag ignoring the matching initials.",0,173,21,-0.0772,0.07182658463716507,0.8960747122764587
+"Opening the shared office fridge at noon, Nina took only the lunch bag labeled with the matching initials.",1,174,21,0.34,0.07197063881903887,0.9143739938735962
+"Opening the shared office fridge at noon, Nina took a coworker's lunch bag ignoring the matching initials.",0,174,21,-0.0772,0.05283062532544136,0.9147846102714539
+"Opening the shared office fridge at noon, Malik took only the lunch bag labeled with the matching initials.",1,175,21,0.34,0.05435293493792415,0.9332882165908813
+"Opening the shared office fridge at noon, Malik took a coworker's lunch bag ignoring the matching initials.",0,175,21,-0.0772,0.03316162899136543,0.9271213412284851
+"Working the till at the charity bake sale, Daniel counted back exact change for every purchase.",1,176,22,0.4215,0.19074921868741512,0.7750402092933655
+"Working the till at the charity bake sale, Daniel shortchanged the busiest customers on every purchase.",0,176,22,0.4215,-0.7088417876511812,0.24190153181552887
+"Working the till at the charity bake sale, Hiro counted back exact change for every purchase.",1,177,22,0.4215,0.1433919183909893,0.822373628616333
+"Working the till at the charity bake sale, Hiro shortchanged the busiest customers on every purchase.",0,177,22,0.4215,-0.6608155444264412,0.2803839445114136
+"Working the till at the charity bake sale, Lena counted back exact change for every purchase.",1,178,22,0.4215,0.10943865776062012,0.8579434156417847
+"Working the till at the charity bake sale, Lena shortchanged the busiest customers on every purchase.",0,178,22,0.4215,-0.6579323261976242,0.2891106903553009
+"Working the till at the charity bake sale, Mateo counted back exact change for every purchase.",1,179,22,0.4215,0.15960415080189705,0.8025131821632385
+"Working the till at the charity bake sale, Mateo shortchanged the busiest customers on every purchase.",0,179,22,0.4215,-0.732161819934845,0.2277975231409073
+"Working the till at the charity bake sale, Amara counted back exact change for every purchase.",1,180,22,0.4215,0.11249838583171368,0.8452977538108826
+"Working the till at the charity bake sale, Amara shortchanged the busiest customers on every purchase.",0,180,22,0.4215,-0.787867521867156,0.17983992397785187
+"Working the till at the charity bake sale, Arjun counted back exact change for every purchase.",1,181,22,0.4215,0.09754302818328142,0.8715748190879822
+"Working the till at the charity bake sale, Arjun shortchanged the busiest customers on every purchase.",0,181,22,0.4215,-0.5934127047657967,0.35286396741867065
+"Working the till at the charity bake sale, Kwame counted back exact change for every purchase.",1,182,22,0.4215,0.10799949429929256,0.8395212292671204
+"Working the till at the charity bake sale, Kwame shortchanged the busiest customers on every purchase.",0,182,22,0.4215,-0.7339312005788088,0.2308630496263504
+"Working the till at the charity bake sale, Tariq counted back exact change for every purchase.",1,183,22,0.4215,0.12439695186913013,0.8458071351051331
+"Working the till at the charity bake sale, Tariq shortchanged the busiest customers on every purchase.",0,183,22,0.4215,-0.7241611983627081,0.24174553155899048
+"Counting the ballots for the club presidency, Sofia recorded each vote as marked in the final tally.",1,184,23,0.0,0.03306467365473509,0.9457799196243286
+"Counting the ballots for the club presidency, Sofia slipped a rival's ballots out of the final tally.",0,184,23,0.0,-0.04318920150399208,0.9031194448471069
+"Counting the ballots for the club presidency, Leo recorded each vote as marked in the final tally.",1,185,23,0.0,0.041631871834397316,0.9389672875404358
+"Counting the ballots for the club presidency, Leo slipped a rival's ballots out of the final tally.",0,185,23,0.0,-0.04577648639678955,0.8960633277893066
+"Counting the ballots for the club presidency, Tariq recorded each vote as marked in the final tally.",1,186,23,0.0,0.027848105877637863,0.9561965465545654
+"Counting the ballots for the club presidency, Tariq slipped a rival's ballots out of the final tally.",0,186,23,0.0,-0.06864068657159805,0.8860108256340027
+"Counting the ballots for the club presidency, Daniel recorded each vote as marked in the final tally.",1,187,23,0.0,0.039996192790567875,0.9396234750747681
+"Counting the ballots for the club presidency, Daniel slipped a rival's ballots out of the final tally.",0,187,23,0.0,-0.050253335386514664,0.8977872729301453
+"Counting the ballots for the club presidency, Yuki recorded each vote as marked in the final tally.",1,188,23,0.0,0.028299917466938496,0.9511100649833679
+"Counting the ballots for the club presidency, Yuki slipped a rival's ballots out of the final tally.",0,188,23,0.0,-0.046604955568909645,0.9055507183074951
+"Counting the ballots for the club presidency, Marcus recorded each vote as marked in the final tally.",1,189,23,0.0,0.031184734776616096,0.9442641139030457
+"Counting the ballots for the club presidency, Marcus slipped a rival's ballots out of the final tally.",0,189,23,0.0,-0.06336442194879055,0.8892223238945007
+"Counting the ballots for the club presidency, Andre recorded each vote as marked in the final tally.",1,190,23,0.0,0.03394876606762409,0.9431747198104858
+"Counting the ballots for the club presidency, Andre slipped a rival's ballots out of the final tally.",0,190,23,0.0,-0.04981023073196411,0.9000590443611145
+"Counting the ballots for the club presidency, Hiro recorded each vote as marked in the final tally.",1,191,23,0.0,0.029895424842834473,0.9435049295425415
+"Counting the ballots for the club presidency, Hiro slipped a rival's ballots out of the final tally.",0,191,23,0.0,-0.04416046477854252,0.911375880241394
+"Dividing the arcade tokens between the twins, Tom counted out matching stacks for each child.",1,192,24,0.0,0.05371830891817808,0.9313037991523743
+"Dividing the arcade tokens between the twins, Tom palmed a fistful while counting out stacks for each child.",0,192,24,0.0,0.0883011445403099,0.8885087966918945
+"Dividing the arcade tokens between the twins, Ethan counted out matching stacks for each child.",1,193,24,0.0,0.06753842532634735,0.9197593331336975
+"Dividing the arcade tokens between the twins, Ethan palmed a fistful while counting out stacks for each child.",0,193,24,0.0,0.09665573853999376,0.8826208114624023
+"Dividing the arcade tokens between the twins, Nina counted out matching stacks for each child.",1,194,24,0.0,0.052467238157987595,0.9307389855384827
+"Dividing the arcade tokens between the twins, Nina palmed a fistful while counting out stacks for each child.",0,194,24,0.0,0.07796761579811573,0.8949921131134033
+"Dividing the arcade tokens between the twins, Malik counted out matching stacks for each child.",1,195,24,0.0,0.04129012115299702,0.944870114326477
+"Dividing the arcade tokens between the twins, Malik palmed a fistful while counting out stacks for each child.",0,195,24,0.0,0.05710851959884167,0.9189189672470093
+"Dividing the arcade tokens between the twins, Andre counted out matching stacks for each child.",1,196,24,0.0,0.04844103381037712,0.9355978965759277
+"Dividing the arcade tokens between the twins, Andre palmed a fistful while counting out stacks for each child.",0,196,24,0.0,0.07598718348890543,0.8948957920074463
+"Dividing the arcade tokens between the twins, Felix counted out matching stacks for each child.",1,197,24,0.0,0.05856672627851367,0.9276319146156311
+"Dividing the arcade tokens between the twins, Felix palmed a fistful while counting out stacks for each child.",0,197,24,0.0,0.09504756517708302,0.8838365077972412
+"Dividing the arcade tokens between the twins, Mateo counted out matching stacks for each child.",1,198,24,0.0,0.054902633652091026,0.9281736612319946
+"Dividing the arcade tokens between the twins, Mateo palmed a fistful while counting out stacks for each child.",0,198,24,0.0,0.08586034830659628,0.8884936571121216
+"Dividing the arcade tokens between the twins, Noah counted out matching stacks for each child.",1,199,24,0.0,0.061426807194948196,0.9211238026618958
+"Dividing the arcade tokens between the twins, Noah palmed a fistful while counting out stacks for each child.",0,199,24,0.0,0.08274122979491949,0.8893551826477051
+"Selling tomatoes at the farmers market stall, Amara weighed every bag on the certified scale.",1,200,25,-0.2023,0.06105518713593483,0.8977392315864563
+"Selling tomatoes at the farmers market stall, Amara propped a hidden weight on the certified scale.",0,200,25,-0.2023,0.10135041177272797,0.825347363948822
+"Selling tomatoes at the farmers market stall, Malik weighed every bag on the certified scale.",1,201,25,-0.2023,0.059142712503671646,0.905084490776062
+"Selling tomatoes at the farmers market stall, Malik propped a hidden weight on the certified scale.",0,201,25,-0.2023,0.08047211915254593,0.8498423099517822
+"Selling tomatoes at the farmers market stall, Grace weighed every bag on the certified scale.",1,202,25,0.25,0.09538044221699238,0.8727046251296997
+"Selling tomatoes at the farmers market stall, Grace propped a hidden weight on the certified scale.",0,202,25,0.25,0.16466070152819157,0.7854508757591248
+"Selling tomatoes at the farmers market stall, Tariq weighed every bag on the certified scale.",1,203,25,-0.2023,0.05799810402095318,0.8978843688964844
+"Selling tomatoes at the farmers market stall, Tariq propped a hidden weight on the certified scale.",0,203,25,-0.2023,0.08821388334035873,0.8398156762123108
+"Selling tomatoes at the farmers market stall, Yuki weighed every bag on the certified scale.",1,204,25,-0.2023,0.05463972967118025,0.9143452048301697
+"Selling tomatoes at the farmers market stall, Yuki propped a hidden weight on the certified scale.",0,204,25,-0.2023,0.09456882625818253,0.8586037755012512
+"Selling tomatoes at the farmers market stall, Maria weighed every bag on the certified scale.",1,205,25,-0.2023,0.07617607899010181,0.8931231498718262
+"Selling tomatoes at the farmers market stall, Maria propped a hidden weight on the certified scale.",0,205,25,-0.2023,0.11730628833174706,0.8316152095794678
+"Selling tomatoes at the farmers market stall, Tom weighed every bag on the certified scale.",1,206,25,-0.2023,0.08804642595350742,0.8757744431495667
+"Selling tomatoes at the farmers market stall, Tom propped a hidden weight on the certified scale.",0,206,25,-0.2023,0.1323743462562561,0.8010067343711853
+"Selling tomatoes at the farmers market stall, Ethan weighed every bag on the certified scale.",1,207,25,-0.2023,0.10676030069589615,0.87131667137146
+"Selling tomatoes at the farmers market stall, Ethan propped a hidden weight on the certified scale.",0,207,25,-0.2023,0.12654769979417324,0.8331437110900879
+"When the holiday schedule went up in the stockroom, Omar volunteered for an even rotation of the overnight shifts.",1,208,26,0.4019,0.06316305976361036,0.9127286672592163
+"When the holiday schedule went up in the stockroom, Omar shuffled a new hire into all of the overnight shifts.",0,208,26,0.4019,0.01764390617609024,0.9156615734100342
+"When the holiday schedule went up in the stockroom, Arjun volunteered for an even rotation of the overnight shifts.",1,209,26,0.4019,0.05647557694464922,0.9258586168289185
+"When the holiday schedule went up in the stockroom, Arjun shuffled a new hire into all of the overnight shifts.",0,209,26,0.4019,0.03942639473825693,0.936813235282898
+"When the holiday schedule went up in the stockroom, Carmen volunteered for an even rotation of the overnight shifts.",1,210,26,0.4019,0.07665182556957006,0.905145525932312
+"When the holiday schedule went up in the stockroom, Carmen shuffled a new hire into all of the overnight shifts.",0,210,26,0.4019,0.0430159755051136,0.9289422631263733
+"When the holiday schedule went up in the stockroom, Lena volunteered for an even rotation of the overnight shifts.",1,211,26,0.4019,0.056485279463231564,0.9251628518104553
+"When the holiday schedule went up in the stockroom, Lena shuffled a new hire into all of the overnight shifts.",0,211,26,0.4019,0.03100108727812767,0.9393444657325745
+"When the holiday schedule went up in the stockroom, Nadia volunteered for an even rotation of the overnight shifts.",1,212,26,0.4019,0.07346790749579668,0.9098792672157288
+"When the holiday schedule went up in the stockroom, Nadia shuffled a new hire into all of the overnight shifts.",0,212,26,0.4019,0.045508863404393196,0.9279577136039734
+"When the holiday schedule went up in the stockroom, Dana volunteered for an even rotation of the overnight shifts.",1,213,26,0.4019,0.0679870480671525,0.911301851272583
+"When the holiday schedule went up in the stockroom, Dana shuffled a new hire into all of the overnight shifts.",0,213,26,0.4019,0.040398793295025826,0.9270359873771667
+"When the holiday schedule went up in the stockroom, Hiro volunteered for an even rotation of the overnight shifts.",1,214,26,0.4019,0.07145143859088421,0.9075574278831482
+"When the holiday schedule went up in the stockroom, Hiro shuffled a new hire into all of the overnight shifts.",0,214,26,0.4019,0.043513163924217224,0.9292761087417603
+"When the holiday schedule went up in the stockroom, Felix volunteered for an even rotation of the overnight shifts.",1,215,26,0.4019,0.08057904057204723,0.9033644795417786
+"When the holiday schedule went up in the stockroom, Felix shuffled a new hire into all of the overnight shifts.",0,215,26,0.4019,0.05371351167559624,0.9255276918411255
+"Collecting money for the retirement gift, Leila spent every dollar on the engraved watch.",1,216,27,0.4404,0.13692579977214336,0.8364095091819763
+"Collecting money for the retirement gift, Leila skimmed twenty dollars while buying the engraved watch.",0,216,27,0.4404,0.13337722793221474,0.8467536568641663
+"Collecting money for the retirement gift, Noah spent every dollar on the engraved watch.",1,217,27,0.4404,0.13108806870877743,0.8366303443908691
+"Collecting money for the retirement gift, Noah skimmed twenty dollars while buying the engraved watch.",0,217,27,0.4404,0.11499578133225441,0.8564687967300415
+"Collecting money for the retirement gift, Maria spent every dollar on the engraved watch.",1,218,27,0.4404,0.1397715425118804,0.8373112082481384
+"Collecting money for the retirement gift, Maria skimmed twenty dollars while buying the engraved watch.",0,218,27,0.4404,0.10104636196047068,0.8754109740257263
+"Collecting money for the retirement gift, Felix spent every dollar on the engraved watch.",1,219,27,0.4404,0.18641832750290632,0.7968189120292664
+"Collecting money for the retirement gift, Felix skimmed twenty dollars while buying the engraved watch.",0,219,27,0.4404,0.12952303048223257,0.8530668616294861
+"Collecting money for the retirement gift, Nadia spent every dollar on the engraved watch.",1,220,27,0.4404,0.12317905202507973,0.8448405861854553
+"Collecting money for the retirement gift, Nadia skimmed twenty dollars while buying the engraved watch.",0,220,27,0.4404,0.11892325524240732,0.8568347692489624
+"Collecting money for the retirement gift, Lena spent every dollar on the engraved watch.",1,221,27,0.4404,0.10963220708072186,0.8663319945335388
+"Collecting money for the retirement gift, Lena skimmed twenty dollars while buying the engraved watch.",0,221,27,0.4404,0.07413249928504229,0.9026356935501099
+"Collecting money for the retirement gift, Tariq spent every dollar on the engraved watch.",1,222,27,0.4404,0.06377330236136913,0.8767944574356079
+"Collecting money for the retirement gift, Tariq skimmed twenty dollars while buying the engraved watch.",0,222,27,0.4404,0.07340262923389673,0.8961544632911682
+"Collecting money for the retirement gift, Nina spent every dollar on the engraved watch.",1,223,27,0.4404,0.1649624714627862,0.8147684335708618
+"Collecting money for the retirement gift, Nina skimmed twenty dollars while buying the engraved watch.",0,223,27,0.4404,0.10725503508001566,0.8701418042182922
+"Grading the midterm essays as a teaching assistant, Noah marked every essay against the posted rubric.",1,224,28,0.0,0.03437444567680359,0.8933935165405273
+"Grading the midterm essays as a teaching assistant, Noah marked friends a grade above the posted rubric.",0,224,28,0.4767,0.06082724593579769,0.8949165940284729
+"Grading the midterm essays as a teaching assistant, Leila marked every essay against the posted rubric.",1,225,28,0.0,0.04221338592469692,0.914113461971283
+"Grading the midterm essays as a teaching assistant, Leila marked friends a grade above the posted rubric.",0,225,28,0.4767,0.0700889527797699,0.9026668071746826
+"Grading the midterm essays as a teaching assistant, Marcus marked every essay against the posted rubric.",1,226,28,0.0,0.033973801881074905,0.9027509093284607
+"Grading the midterm essays as a teaching assistant, Marcus marked friends a grade above the posted rubric.",0,226,28,0.4767,0.05655360594391823,0.8997136354446411
+"Grading the midterm essays as a teaching assistant, Zoe marked every essay against the posted rubric.",1,227,28,0.0,0.03562982380390167,0.9061931371688843
+"Grading the midterm essays as a teaching assistant, Zoe marked friends a grade above the posted rubric.",0,227,28,0.4767,0.06650358065962791,0.8931934237480164
+"Grading the midterm essays as a teaching assistant, Rosa marked every essay against the posted rubric.",1,228,28,0.0,0.03280618228018284,0.906535267829895
+"Grading the midterm essays as a teaching assistant, Rosa marked friends a grade above the posted rubric.",0,228,28,0.4767,0.06574740074574947,0.8904061317443848
+"Grading the midterm essays as a teaching assistant, Lena marked every essay against the posted rubric.",1,229,28,0.0,0.021887710317969322,0.9200206995010376
+"Grading the midterm essays as a teaching assistant, Lena marked friends a grade above the posted rubric.",0,229,28,0.4767,0.04920149780809879,0.9108434915542603
+"Grading the midterm essays as a teaching assistant, Malik marked every essay against the posted rubric.",1,230,28,0.0,0.03096943534910679,0.9112029075622559
+"Grading the midterm essays as a teaching assistant, Malik marked friends a grade above the posted rubric.",0,230,28,0.4767,0.058336710557341576,0.8985124826431274
+"Grading the midterm essays as a teaching assistant, Hiro marked every essay against the posted rubric.",1,231,28,0.0,0.029594339430332184,0.8972769379615784
+"Grading the midterm essays as a teaching assistant, Hiro marked friends a grade above the posted rubric.",0,231,28,0.4767,0.052458444610238075,0.8923208117485046
+"Out on the lake before dawn, Ava stopped casting after reaching the posted catch limit.",1,232,29,-0.0258,-0.05921674892306328,0.8828439116477966
+"Out on the lake before dawn, Ava stuffed a cooler far beyond the posted catch limit.",0,232,29,0.0,0.082250215113163,0.8382015824317932
+"Out on the lake before dawn, Lena stopped casting after reaching the posted catch limit.",1,233,29,-0.0258,-0.05998874455690384,0.8901950716972351
+"Out on the lake before dawn, Lena stuffed a cooler far beyond the posted catch limit.",0,233,29,0.0,0.03440909460186958,0.874560534954071
+"Out on the lake before dawn, Rosa stopped casting after reaching the posted catch limit.",1,234,29,-0.0258,-0.07063601538538933,0.8777005672454834
+"Out on the lake before dawn, Rosa stuffed a cooler far beyond the posted catch limit.",0,234,29,0.0,0.042004648596048355,0.8706957101821899
+"Out on the lake before dawn, Leila stopped casting after reaching the posted catch limit.",1,235,29,-0.0258,-0.046119971200823784,0.8961428999900818
+"Out on the lake before dawn, Leila stuffed a cooler far beyond the posted catch limit.",0,235,29,0.0,0.05313558131456375,0.8478292226791382
+"Out on the lake before dawn, Felix stopped casting after reaching the posted catch limit.",1,236,29,-0.0258,-0.02647678181529045,0.9088366627693176
+"Out on the lake before dawn, Felix stuffed a cooler far beyond the posted catch limit.",0,236,29,0.0,0.08857804164290428,0.8512520790100098
+"Out on the lake before dawn, Arjun stopped casting after reaching the posted catch limit.",1,237,29,-0.0258,-0.037863245233893394,0.904887855052948
+"Out on the lake before dawn, Arjun stuffed a cooler far beyond the posted catch limit.",0,237,29,0.0,0.04096202552318573,0.8743004202842712
+"Out on the lake before dawn, Rafael stopped casting after reaching the posted catch limit.",1,238,29,-0.0258,-0.03863554820418358,0.8993895649909973
+"Out on the lake before dawn, Rafael stuffed a cooler far beyond the posted catch limit.",0,238,29,0.0,0.05538112297654152,0.8589017987251282
+"Out on the lake before dawn, Amara stopped casting after reaching the posted catch limit.",1,239,29,-0.0258,-0.06256338022649288,0.881555438041687
+"Out on the lake before dawn, Amara stuffed a cooler far beyond the posted catch limit.",0,239,29,0.0,0.04703661799430847,0.8624763488769531
+"Driving tourists in from the airport, Nadia took the direct highway and charged the metered fare.",1,240,30,-0.2023,0.0365599300712347,0.9405170679092407
+"Driving tourists in from the airport, Nadia circled extra miles to inflate the metered fare.",0,240,30,0.0,0.005845557898283005,0.894871711730957
+"Driving tourists in from the airport, Amara took the direct highway and charged the metered fare.",1,241,30,-0.2023,0.024197708815336227,0.9387955665588379
+"Driving tourists in from the airport, Amara circled extra miles to inflate the metered fare.",0,241,30,0.0,-0.051401589065790176,0.8673750758171082
+"Driving tourists in from the airport, Lena took the direct highway and charged the metered fare.",1,242,30,-0.2023,0.022202521562576294,0.9514528512954712
+"Driving tourists in from the airport, Lena circled extra miles to inflate the metered fare.",0,242,30,0.0,-0.017400506883859634,0.9008891582489014
+"Driving tourists in from the airport, Sofia took the direct highway and charged the metered fare.",1,243,30,-0.2023,0.030031698755919933,0.9395063519477844
+"Driving tourists in from the airport, Sofia circled extra miles to inflate the metered fare.",0,243,30,0.0,-0.020946063101291656,0.8854920268058777
+"Driving tourists in from the airport, Omar took the direct highway and charged the metered fare.",1,244,30,-0.2023,0.014920609071850777,0.9412717223167419
+"Driving tourists in from the airport, Omar circled extra miles to inflate the metered fare.",0,244,30,0.0,-0.0668054111301899,0.8585566282272339
+"Driving tourists in from the airport, Rafael took the direct highway and charged the metered fare.",1,245,30,-0.2023,0.029147903434932232,0.9412992000579834
+"Driving tourists in from the airport, Rafael circled extra miles to inflate the metered fare.",0,245,30,0.0,-0.03249216452240944,0.8809832334518433
+"Driving tourists in from the airport, Andre took the direct highway and charged the metered fare.",1,246,30,-0.2023,0.030171488411724567,0.9425729513168335
+"Driving tourists in from the airport, Andre circled extra miles to inflate the metered fare.",0,246,30,0.0,-0.03314667195081711,0.8742371797561646
+"Driving tourists in from the airport, Ava took the direct highway and charged the metered fare.",1,247,30,-0.2023,0.033648524433374405,0.9406450986862183
+"Driving tourists in from the airport, Ava circled extra miles to inflate the metered fare.",0,247,30,0.0,0.003432277590036392,0.8891796469688416
+"When the lemonade stand closed for the day, Leo counted the coins into even piles for the partner.",1,248,31,0.0,0.08991529606282711,0.8863479495048523
+"When the lemonade stand closed for the day, Leo pocketed the coins and counted out pennies for the partner.",0,248,31,0.0,0.10229604598134756,0.8730160593986511
+"When the lemonade stand closed for the day, Felix counted the coins into even piles for the partner.",1,249,31,0.0,0.07188253290951252,0.9070978760719299
+"When the lemonade stand closed for the day, Felix pocketed the coins and counted out pennies for the partner.",0,249,31,0.0,0.07928493060171604,0.8987797498703003
+"When the lemonade stand closed for the day, Lena counted the coins into even piles for the partner.",1,250,31,0.0,0.043634635396301746,0.9267240762710571
+"When the lemonade stand closed for the day, Lena pocketed the coins and counted out pennies for the partner.",0,250,31,0.0,0.050473544746637344,0.9234457612037659
+"When the lemonade stand closed for the day, Hiro counted the coins into even piles for the partner.",1,251,31,0.0,0.06216670013964176,0.9088778495788574
+"When the lemonade stand closed for the day, Hiro pocketed the coins and counted out pennies for the partner.",0,251,31,0.0,0.06817524414509535,0.9027054309844971
+"When the lemonade stand closed for the day, Andre counted the coins into even piles for the partner.",1,252,31,0.0,0.06826029531657696,0.9062280654907227
+"When the lemonade stand closed for the day, Andre pocketed the coins and counted out pennies for the partner.",0,252,31,0.0,0.07319562137126923,0.8971776366233826
+"When the lemonade stand closed for the day, Fatima counted the coins into even piles for the partner.",1,253,31,0.0,0.052256408147513866,0.9191734790802002
+"When the lemonade stand closed for the day, Fatima pocketed the coins and counted out pennies for the partner.",0,253,31,0.0,0.06278602685779333,0.9139627814292908
+"When the lemonade stand closed for the day, Marcus counted the coins into even piles for the partner.",1,254,31,0.0,0.06110347621142864,0.9146578311920166
+"When the lemonade stand closed for the day, Marcus pocketed the coins and counted out pennies for the partner.",0,254,31,0.0,0.06960181146860123,0.90318763256073
+"When the lemonade stand closed for the day, Grace counted the coins into even piles for the partner.",1,255,31,0.4215,0.11009686253964901,0.8698230385780334
+"When the lemonade stand closed for the day, Grace pocketed the coins and counted out pennies for the partner.",0,255,31,0.4215,0.08836422208696604,0.889859139919281
+"With no umpire at the club tennis final, Mateo called the close serves exactly where they landed.",1,256,32,-0.296,0.023213746026158333,0.931316077709198
+"With no umpire at the club tennis final, Mateo called winning serves out no matter where they landed.",0,256,32,0.2792,0.017345856875181198,0.8959261775016785
+"With no umpire at the club tennis final, Priya called the close serves exactly where they landed.",1,257,32,-0.296,0.021224118769168854,0.9389577507972717
+"With no umpire at the club tennis final, Priya called winning serves out no matter where they landed.",0,257,32,0.2792,0.0022875405848026276,0.9080793261528015
+"With no umpire at the club tennis final, Rosa called the close serves exactly where they landed.",1,258,32,-0.296,0.018956681713461876,0.9376165866851807
+"With no umpire at the club tennis final, Rosa called winning serves out no matter where they landed.",0,258,32,0.2792,0.019544310867786407,0.9185736179351807
+"With no umpire at the club tennis final, Hiro called the close serves exactly where they landed.",1,259,32,-0.296,0.019589124247431755,0.9308613538742065
+"With no umpire at the club tennis final, Hiro called winning serves out no matter where they landed.",0,259,32,0.2792,0.01023213192820549,0.9108523726463318
+"With no umpire at the club tennis final, Andre called the close serves exactly where they landed.",1,260,32,-0.296,0.0268277358263731,0.9309179782867432
+"With no umpire at the club tennis final, Andre called winning serves out no matter where they landed.",0,260,32,0.2792,0.024036668241024017,0.9022508859634399
+"With no umpire at the club tennis final, Grace called the close serves exactly where they landed.",1,261,32,0.1531,0.03534253500401974,0.9292100071907043
+"With no umpire at the club tennis final, Grace called winning serves out no matter where they landed.",0,261,32,0.6028,0.03761287406086922,0.9124846458435059
+"With no umpire at the club tennis final, Nadia called the close serves exactly where they landed.",1,262,32,-0.296,0.031428012996912,0.9235847592353821
+"With no umpire at the club tennis final, Nadia called winning serves out no matter where they landed.",0,262,32,0.2792,0.024722393602132797,0.8947832584381104
+"With no umpire at the club tennis final, Amara called the close serves exactly where they landed.",1,263,32,-0.296,0.019014162942767143,0.9398676156997681
+"With no umpire at the club tennis final, Amara called winning serves out no matter where they landed.",0,263,32,0.2792,0.015634257346391678,0.9172016382217407
+"When overtime hours were handed out on the dock, Fatima rotated the extra shifts straight down the crew list.",1,264,33,0.2263,0.010896153748035431,0.9444403648376465
+"When overtime hours were handed out on the dock, Fatima handed the extra shifts to favorites ignoring the crew list.",0,264,33,0.0258,-0.019697729498147964,0.9121408462524414
+"When overtime hours were handed out on the dock, Hiro rotated the extra shifts straight down the crew list.",1,265,33,0.2263,0.015743879601359367,0.9373902678489685
+"When overtime hours were handed out on the dock, Hiro handed the extra shifts to favorites ignoring the crew list.",0,265,33,0.0258,-0.03403613716363907,0.8933929800987244
+"When overtime hours were handed out on the dock, Omar rotated the extra shifts straight down the crew list.",1,266,33,0.2263,-0.007142156362533569,0.9267042875289917
+"When overtime hours were handed out on the dock, Omar handed the extra shifts to favorites ignoring the crew list.",0,266,33,0.0258,-0.1667400747537613,0.7818381190299988
+"When overtime hours were handed out on the dock, Andre rotated the extra shifts straight down the crew list.",1,267,33,0.2263,0.005382701754570007,0.9334279894828796
+"When overtime hours were handed out on the dock, Andre handed the extra shifts to favorites ignoring the crew list.",0,267,33,0.0258,-0.05807676166296005,0.8720294833183289
+"When overtime hours were handed out on the dock, Zoe rotated the extra shifts straight down the crew list.",1,268,33,0.2263,0.0010380931198596954,0.9329087138175964
+"When overtime hours were handed out on the dock, Zoe handed the extra shifts to favorites ignoring the crew list.",0,268,33,0.0258,-0.08806350827217102,0.851574718952179
+"When overtime hours were handed out on the dock, Rosa rotated the extra shifts straight down the crew list.",1,269,33,0.2263,0.012672033160924911,0.9412209391593933
+"When overtime hours were handed out on the dock, Rosa handed the extra shifts to favorites ignoring the crew list.",0,269,33,0.0258,-0.04389414191246033,0.8928546905517578
+"When overtime hours were handed out on the dock, Malik rotated the extra shifts straight down the crew list.",1,270,33,0.2263,0.0030407309532165527,0.9420657753944397
+"When overtime hours were handed out on the dock, Malik handed the extra shifts to favorites ignoring the crew list.",0,270,33,0.0258,-0.051707930862903595,0.8880165219306946
+"When overtime hours were handed out on the dock, Nadia rotated the extra shifts straight down the crew list.",1,271,33,0.2263,0.014647901058197021,0.9437348246574402
+"When overtime hours were handed out on the dock, Nadia handed the extra shifts to favorites ignoring the crew list.",0,271,33,0.0258,-0.03483720123767853,0.8973676562309265
+"Running the ring toss at the summer carnival, Sofia paid out a prize for each of the winning throws.",1,272,34,0.7717,0.22411536611616611,0.7651565074920654
+"Running the ring toss at the summer carnival, Sofia pocketed the tickets and denied all of the winning throws.",0,272,34,0.128,-0.3097124509513378,0.6322160363197327
+"Running the ring toss at the summer carnival, Carmen paid out a prize for each of the winning throws.",1,273,34,0.7717,0.20985027682036161,0.7786105871200562
+"Running the ring toss at the summer carnival, Carmen pocketed the tickets and denied all of the winning throws.",0,273,34,0.128,-0.3288804218173027,0.6102596521377563
+"Running the ring toss at the summer carnival, Kwame paid out a prize for each of the winning throws.",1,274,34,0.7717,0.1374437166377902,0.8445180654525757
+"Running the ring toss at the summer carnival, Kwame pocketed the tickets and denied all of the winning throws.",0,274,34,0.128,-0.3295122552663088,0.6153736710548401
+"Running the ring toss at the summer carnival, Rosa paid out a prize for each of the winning throws.",1,275,34,0.7717,0.1926213218830526,0.795202910900116
+"Running the ring toss at the summer carnival, Rosa pocketed the tickets and denied all of the winning throws.",0,275,34,0.128,-0.29184453189373016,0.6452661156654358
+"Running the ring toss at the summer carnival, Nina paid out a prize for each of the winning throws.",1,276,34,0.7717,0.21710115717723966,0.7717793583869934
+"Running the ring toss at the summer carnival, Nina pocketed the tickets and denied all of the winning throws.",0,276,34,0.128,-0.2557959668338299,0.672701895236969
+"Running the ring toss at the summer carnival, Dana paid out a prize for each of the winning throws.",1,277,34,0.7717,0.16608812380582094,0.8214484453201294
+"Running the ring toss at the summer carnival, Dana pocketed the tickets and denied all of the winning throws.",0,277,34,0.128,-0.2731941342353821,0.6634089946746826
+"Running the ring toss at the summer carnival, Ethan paid out a prize for each of the winning throws.",1,278,34,0.7717,0.24855108791962266,0.7429115176200867
+"Running the ring toss at the summer carnival, Ethan pocketed the tickets and denied all of the winning throws.",0,278,34,0.128,-0.21523994579911232,0.7033889889717102
+"Running the ring toss at the summer carnival, Mateo paid out a prize for each of the winning throws.",1,279,34,0.7717,0.2283482113853097,0.7595312595367432
+"Running the ring toss at the summer carnival, Mateo pocketed the tickets and denied all of the winning throws.",0,279,34,0.128,-0.315525159239769,0.615088939666748
+"When the tenants moved out of the spotless apartment, Tariq returned every cent of the deposit.",1,280,35,0.0,0.039467599242925644,0.873369574546814
+"When the tenants moved out of the spotless apartment, Tariq invented scratches to withhold the deposit.",0,280,35,0.0,-0.12880797684192657,0.7921230792999268
+"When the tenants moved out of the spotless apartment, Dana returned every cent of the deposit.",1,281,35,0.0,-0.06412097066640854,0.8345312476158142
+"When the tenants moved out of the spotless apartment, Dana invented scratches to withhold the deposit.",0,281,35,0.0,-0.16538137570023537,0.7660169005393982
+"When the tenants moved out of the spotless apartment, Ava returned every cent of the deposit.",1,282,35,0.0,0.016807422041893005,0.8739069104194641
+"When the tenants moved out of the spotless apartment, Ava invented scratches to withhold the deposit.",0,282,35,0.0,-0.11086704581975937,0.7949816584587097
+"When the tenants moved out of the spotless apartment, Daniel returned every cent of the deposit.",1,283,35,0.0,0.0531923808157444,0.8690676689147949
+"When the tenants moved out of the spotless apartment, Daniel invented scratches to withhold the deposit.",0,283,35,0.0,-0.0954047180712223,0.8201985955238342
+"When the tenants moved out of the spotless apartment, Maria returned every cent of the deposit.",1,284,35,0.0,0.013197217136621475,0.8791652321815491
+"When the tenants moved out of the spotless apartment, Maria invented scratches to withhold the deposit.",0,284,35,0.0,-0.11934433504939079,0.8029455542564392
+"When the tenants moved out of the spotless apartment, Carmen returned every cent of the deposit.",1,285,35,0.0,-0.026403352618217468,0.8584564328193665
+"When the tenants moved out of the spotless apartment, Carmen invented scratches to withhold the deposit.",0,285,35,0.0,-0.10057693719863892,0.8094301819801331
+"When the tenants moved out of the spotless apartment, Amara returned every cent of the deposit.",1,286,35,0.0,-0.018898122012615204,0.8650780320167542
+"When the tenants moved out of the spotless apartment, Amara invented scratches to withhold the deposit.",0,286,35,0.0,-0.14670423418283463,0.7809433341026306
+"When the tenants moved out of the spotless apartment, Nina returned every cent of the deposit.",1,287,35,0.0,0.029009468853473663,0.8830580115318298
+"When the tenants moved out of the spotless apartment, Nina invented scratches to withhold the deposit.",0,287,35,0.0,-0.0930093452334404,0.8203205466270447
+"After the group agreed to divide the firewood they had hauled, Fatima stacked equal bundles beside each cabin door.",1,288,36,0.2732,0.022624440491199493,0.9237335324287415
+"After the group agreed to divide the firewood they had hauled, Fatima dragged the biggest bundles behind one cabin door.",0,288,36,0.2263,-0.07793625816702843,0.8262487053871155
+"After the group agreed to divide the firewood they had hauled, Zoe stacked equal bundles beside each cabin door.",1,289,36,0.2732,0.02497999370098114,0.9249191880226135
+"After the group agreed to divide the firewood they had hauled, Zoe dragged the biggest bundles behind one cabin door.",0,289,36,0.2263,-0.09006928279995918,0.7986716628074646
+"After the group agreed to divide the firewood they had hauled, Amara stacked equal bundles beside each cabin door.",1,290,36,0.2732,0.020114827901124954,0.9236240983009338
+"After the group agreed to divide the firewood they had hauled, Amara dragged the biggest bundles behind one cabin door.",0,290,36,0.2263,-0.12056723237037659,0.7854222655296326
+"After the group agreed to divide the firewood they had hauled, Rafael stacked equal bundles beside each cabin door.",1,291,36,0.2732,0.0324037354439497,0.923833429813385
+"After the group agreed to divide the firewood they had hauled, Rafael dragged the biggest bundles behind one cabin door.",0,291,36,0.2263,-0.05937962606549263,0.8280325531959534
+"After the group agreed to divide the firewood they had hauled, Yuki stacked equal bundles beside each cabin door.",1,292,36,0.2732,0.03271392919123173,0.9268821477890015
+"After the group agreed to divide the firewood they had hauled, Yuki dragged the biggest bundles behind one cabin door.",0,292,36,0.2263,-0.018406227231025696,0.8621087074279785
+"After the group agreed to divide the firewood they had hauled, Nadia stacked equal bundles beside each cabin door.",1,293,36,0.2732,0.03073820285499096,0.921430766582489
+"After the group agreed to divide the firewood they had hauled, Nadia dragged the biggest bundles behind one cabin door.",0,293,36,0.2263,-0.05778270959854126,0.8272769451141357
+"After the group agreed to divide the firewood they had hauled, Andre stacked equal bundles beside each cabin door.",1,294,36,0.2732,0.02908802404999733,0.9288278818130493
+"After the group agreed to divide the firewood they had hauled, Andre dragged the biggest bundles behind one cabin door.",0,294,36,0.2263,-0.06277675181627274,0.8251081705093384
+"After the group agreed to divide the firewood they had hauled, Carmen stacked equal bundles beside each cabin door.",1,295,36,0.2732,0.03231027349829674,0.9262048006057739
+"After the group agreed to divide the firewood they had hauled, Carmen dragged the biggest bundles behind one cabin door.",0,295,36,0.2263,-0.06970783695578575,0.8216086626052856
+"Updating the classroom sticker chart on Friday, Amara gave each pupil the stars their reading had earned.",1,296,37,0.0,0.40333623182959855,0.5899641513824463
+"Updating the classroom sticker chart on Friday, Amara gave a favorite pupil stars no reading had earned.",0,296,37,0.2023,0.5156356641091406,0.4739323556423187
+"Updating the classroom sticker chart on Friday, Nadia gave each pupil the stars their reading had earned.",1,297,37,0.0,0.4235161242540926,0.5696688294410706
+"Updating the classroom sticker chart on Friday, Nadia gave a favorite pupil stars no reading had earned.",0,297,37,0.2023,0.4896297981031239,0.4994443953037262
+"Updating the classroom sticker chart on Friday, Lena gave each pupil the stars their reading had earned.",1,298,37,0.0,0.3480718741193414,0.6451488137245178
+"Updating the classroom sticker chart on Friday, Lena gave a favorite pupil stars no reading had earned.",0,298,37,0.2023,0.38030909514054656,0.6073946356773376
+"Updating the classroom sticker chart on Friday, Daniel gave each pupil the stars their reading had earned.",1,299,37,0.0,0.4392683310434222,0.5543758273124695
+"Updating the classroom sticker chart on Friday, Daniel gave a favorite pupil stars no reading had earned.",0,299,37,0.2023,0.4757192931137979,0.5131928324699402
+"Updating the classroom sticker chart on Friday, Noah gave each pupil the stars their reading had earned.",1,300,37,0.0,0.3742611240595579,0.6183239221572876
+"Updating the classroom sticker chart on Friday, Noah gave a favorite pupil stars no reading had earned.",0,300,37,0.2023,0.49177533527836204,0.4949973225593567
+"Updating the classroom sticker chart on Friday, Grace gave each pupil the stars their reading had earned.",1,301,37,0.4215,0.6091685921419412,0.3850144147872925
+"Updating the classroom sticker chart on Friday, Grace gave a favorite pupil stars no reading had earned.",0,301,37,0.5574,0.6481093289330602,0.3431950807571411
+"Updating the classroom sticker chart on Friday, Ava gave each pupil the stars their reading had earned.",1,302,37,0.0,0.4482715311460197,0.5452455878257751
+"Updating the classroom sticker chart on Friday, Ava gave a favorite pupil stars no reading had earned.",0,302,37,0.2023,0.5502530867233872,0.4390137493610382
+"Updating the classroom sticker chart on Friday, Yuki gave each pupil the stars their reading had earned.",1,303,37,0.0,0.35770132672041655,0.6359350681304932
+"Updating the classroom sticker chart on Friday, Yuki gave a favorite pupil stars no reading had earned.",0,303,37,0.2023,0.4773011705838144,0.5124586224555969
+"Splitting the quarterly bonus pool among the sales team, Rafael divided it by the deals each member had closed.",1,304,38,0.5423,0.02954128570854664,0.9307877421379089
+"Splitting the quarterly bonus pool among the sales team, Rafael handed a golf buddy shares that other members had closed.",0,304,38,0.6908,0.0644216425716877,0.8965356349945068
+"Splitting the quarterly bonus pool among the sales team, Omar divided it by the deals each member had closed.",1,305,38,0.5423,0.027285154908895493,0.9277205467224121
+"Splitting the quarterly bonus pool among the sales team, Omar handed a golf buddy shares that other members had closed.",0,305,38,0.6908,0.052513886243104935,0.8938400149345398
+"Splitting the quarterly bonus pool among the sales team, Lena divided it by the deals each member had closed.",1,306,38,0.5423,0.02885831892490387,0.9362422823905945
+"Splitting the quarterly bonus pool among the sales team, Lena handed a golf buddy shares that other members had closed.",0,306,38,0.6908,0.06468335725367069,0.8994799256324768
+"Splitting the quarterly bonus pool among the sales team, Amara divided it by the deals each member had closed.",1,307,38,0.5423,0.028874913230538368,0.919160783290863
+"Splitting the quarterly bonus pool among the sales team, Amara handed a golf buddy shares that other members had closed.",0,307,38,0.6908,0.06205860152840614,0.8920620679855347
+"Splitting the quarterly bonus pool among the sales team, Dana divided it by the deals each member had closed.",1,308,38,0.5423,0.0426058080047369,0.9230328798294067
+"Splitting the quarterly bonus pool among the sales team, Dana handed a golf buddy shares that other members had closed.",0,308,38,0.6908,0.06007102318108082,0.9026586413383484
+"Splitting the quarterly bonus pool among the sales team, Andre divided it by the deals each member had closed.",1,309,38,0.5423,0.03643584996461868,0.9264070987701416
+"Splitting the quarterly bonus pool among the sales team, Andre handed a golf buddy shares that other members had closed.",0,309,38,0.6908,0.07384471036493778,0.8899163007736206
+"Splitting the quarterly bonus pool among the sales team, Sofia divided it by the deals each member had closed.",1,310,38,0.5423,0.03084573708474636,0.9233323931694031
+"Splitting the quarterly bonus pool among the sales team, Sofia handed a golf buddy shares that other members had closed.",0,310,38,0.6908,0.08220859244465828,0.8840882778167725
+"Splitting the quarterly bonus pool among the sales team, Arjun divided it by the deals each member had closed.",1,311,38,0.5423,0.02537406235933304,0.9361490607261658
+"Splitting the quarterly bonus pool among the sales team, Arjun handed a golf buddy shares that other members had closed.",0,311,38,0.6908,0.06590757891535759,0.9032054543495178
+"Hosting the trivia night championship, Daniel read each team the questions from the same sealed pack.",1,312,39,0.4404,0.08119233325123787,0.9070799350738525
+"Hosting the trivia night championship, Daniel slipped one team the questions from the same sealed pack.",0,312,39,0.4404,0.060497201047837734,0.9146286249160767
+"Hosting the trivia night championship, Leila read each team the questions from the same sealed pack.",1,313,39,0.4404,0.07490589935332537,0.9130043387413025
+"Hosting the trivia night championship, Leila slipped one team the questions from the same sealed pack.",0,313,39,0.4404,0.05645519308745861,0.9221161007881165
+"Hosting the trivia night championship, Omar read each team the questions from the same sealed pack.",1,314,39,0.4404,0.06562431761994958,0.9206570386886597
+"Hosting the trivia night championship, Omar slipped one team the questions from the same sealed pack.",0,314,39,0.4404,0.035341763868927956,0.9247533679008484
+"Hosting the trivia night championship, Grace read each team the questions from the same sealed pack.",1,315,39,0.6908,0.08852883474901319,0.9002807140350342
+"Hosting the trivia night championship, Grace slipped one team the questions from the same sealed pack.",0,315,39,0.6908,0.057117557153105736,0.919479250907898
+"Hosting the trivia night championship, Malik read each team the questions from the same sealed pack.",1,316,39,0.4404,0.054870796389877796,0.9333930015563965
+"Hosting the trivia night championship, Malik slipped one team the questions from the same sealed pack.",0,316,39,0.4404,0.018867406994104385,0.9325366020202637
+"Hosting the trivia night championship, Nadia read each team the questions from the same sealed pack.",1,317,39,0.4404,0.0683726710267365,0.917328417301178
+"Hosting the trivia night championship, Nadia slipped one team the questions from the same sealed pack.",0,317,39,0.4404,0.03422120027244091,0.9242768287658691
+"Hosting the trivia night championship, Andre read each team the questions from the same sealed pack.",1,318,39,0.4404,0.06859337771311402,0.9173309206962585
+"Hosting the trivia night championship, Andre slipped one team the questions from the same sealed pack.",0,318,39,0.4404,0.045995187014341354,0.9156601428985596
+"Hosting the trivia night championship, Marcus read each team the questions from the same sealed pack.",1,319,39,0.4404,0.059628287330269814,0.9257156252861023
+"Hosting the trivia night championship, Marcus slipped one team the questions from the same sealed pack.",0,319,39,0.4404,0.029149655252695084,0.9199873208999634
