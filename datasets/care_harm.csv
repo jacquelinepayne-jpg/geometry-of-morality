@@ -1,0 +1,553 @@
+statement,label,pair_id,frame_id
+"After the storm, Carmen carried her elderly neighbor's groceries up the apartment stairs.",1,0,0
+"After the storm, Carmen hurled her elderly neighbor's groceries down the apartment stairs.",0,0,0
+"After the storm, Leila carried her elderly neighbor's groceries up the apartment stairs.",1,1,0
+"After the storm, Leila hurled her elderly neighbor's groceries down the apartment stairs.",0,1,0
+"After the storm, Zoe carried her elderly neighbor's groceries up the apartment stairs.",1,2,0
+"After the storm, Zoe hurled her elderly neighbor's groceries down the apartment stairs.",0,2,0
+"After the storm, Nadia carried her elderly neighbor's groceries up the apartment stairs.",1,3,0
+"After the storm, Nadia hurled her elderly neighbor's groceries down the apartment stairs.",0,3,0
+"After the storm, Fatima carried her elderly neighbor's groceries up the apartment stairs.",1,4,0
+"After the storm, Fatima hurled her elderly neighbor's groceries down the apartment stairs.",0,4,0
+"After the storm, Lena carried her elderly neighbor's groceries up the apartment stairs.",1,5,0
+"After the storm, Lena hurled her elderly neighbor's groceries down the apartment stairs.",0,5,0
+"After the storm, Ava carried her elderly neighbor's groceries up the apartment stairs.",1,6,0
+"After the storm, Ava hurled her elderly neighbor's groceries down the apartment stairs.",0,6,0
+"After the storm, Rosa carried her elderly neighbor's groceries up the apartment stairs.",1,7,0
+"After the storm, Rosa hurled her elderly neighbor's groceries down the apartment stairs.",0,7,0
+"On the crowded bus, Felix offered his seat to the injured passenger by the door.",1,8,1
+"On the crowded bus, Felix knocked the crutches from the injured passenger by the door.",0,8,1
+"On the crowded bus, Daniel offered his seat to the injured passenger by the door.",1,9,1
+"On the crowded bus, Daniel knocked the crutches from the injured passenger by the door.",0,9,1
+"On the crowded bus, Rafael offered his seat to the injured passenger by the door.",1,10,1
+"On the crowded bus, Rafael knocked the crutches from the injured passenger by the door.",0,10,1
+"On the crowded bus, Mateo offered his seat to the injured passenger by the door.",1,11,1
+"On the crowded bus, Mateo knocked the crutches from the injured passenger by the door.",0,11,1
+"On the crowded bus, Ethan offered his seat to the injured passenger by the door.",1,12,1
+"On the crowded bus, Ethan knocked the crutches from the injured passenger by the door.",0,12,1
+"On the crowded bus, Tariq offered his seat to the injured passenger by the door.",1,13,1
+"On the crowded bus, Tariq knocked the crutches from the injured passenger by the door.",0,13,1
+"On the crowded bus, Omar offered his seat to the injured passenger by the door.",1,14,1
+"On the crowded bus, Omar knocked the crutches from the injured passenger by the door.",0,14,1
+"On the crowded bus, Malik offered his seat to the injured passenger by the door.",1,15,1
+"On the crowded bus, Malik knocked the crutches from the injured passenger by the door.",0,15,1
+"When the toddler tripped on the sidewalk, Sofia knelt down and bandaged his scraped knee.",1,16,2
+"When the toddler tripped on the sidewalk, Sofia pointed and laughed at his scraped knee.",0,16,2
+"When the toddler tripped on the sidewalk, Nina knelt down and bandaged his scraped knee.",1,17,2
+"When the toddler tripped on the sidewalk, Nina pointed and laughed at his scraped knee.",0,17,2
+"When the toddler tripped on the sidewalk, Nadia knelt down and bandaged his scraped knee.",1,18,2
+"When the toddler tripped on the sidewalk, Nadia pointed and laughed at his scraped knee.",0,18,2
+"When the toddler tripped on the sidewalk, Andre knelt down and bandaged his scraped knee.",1,19,2
+"When the toddler tripped on the sidewalk, Andre pointed and laughed at his scraped knee.",0,19,2
+"When the toddler tripped on the sidewalk, Malik knelt down and bandaged his scraped knee.",1,20,2
+"When the toddler tripped on the sidewalk, Malik pointed and laughed at his scraped knee.",0,20,2
+"When the toddler tripped on the sidewalk, Hiro knelt down and bandaged his scraped knee.",1,21,2
+"When the toddler tripped on the sidewalk, Hiro pointed and laughed at his scraped knee.",0,21,2
+"When the toddler tripped on the sidewalk, Zoe knelt down and bandaged his scraped knee.",1,22,2
+"When the toddler tripped on the sidewalk, Zoe pointed and laughed at his scraped knee.",0,22,2
+"When the toddler tripped on the sidewalk, Dana knelt down and bandaged his scraped knee.",1,23,2
+"When the toddler tripped on the sidewalk, Dana pointed and laughed at his scraped knee.",0,23,2
+"During the night shift, the nurse refilled the water pitchers for the patients on the recovery ward.",1,24,3
+"During the night shift, the nurse hid the call buttons from the patients on the recovery ward.",0,24,3
+"After his little sister failed her exam, Hiro stayed up late helping her prepare for the retake.",1,25,4
+"After his little sister failed her exam, Hiro shredded the notes she needed to prepare for the retake.",0,25,4
+"After his little sister failed her exam, Arjun stayed up late helping her prepare for the retake.",1,26,4
+"After his little sister failed her exam, Arjun shredded the notes she needed to prepare for the retake.",0,26,4
+"After his little sister failed her exam, Ethan stayed up late helping her prepare for the retake.",1,27,4
+"After his little sister failed her exam, Ethan shredded the notes she needed to prepare for the retake.",0,27,4
+"After his little sister failed her exam, Malik stayed up late helping her prepare for the retake.",1,28,4
+"After his little sister failed her exam, Malik shredded the notes she needed to prepare for the retake.",0,28,4
+"After his little sister failed her exam, Rafael stayed up late helping her prepare for the retake.",1,29,4
+"After his little sister failed her exam, Rafael shredded the notes she needed to prepare for the retake.",0,29,4
+"After his little sister failed her exam, Leo stayed up late helping her prepare for the retake.",1,30,4
+"After his little sister failed her exam, Leo shredded the notes she needed to prepare for the retake.",0,30,4
+"After his little sister failed her exam, Omar stayed up late helping her prepare for the retake.",1,31,4
+"After his little sister failed her exam, Omar shredded the notes she needed to prepare for the retake.",0,31,4
+"After his little sister failed her exam, Tariq stayed up late helping her prepare for the retake.",1,32,4
+"After his little sister failed her exam, Tariq shredded the notes she needed to prepare for the retake.",0,32,4
+"As smoke filled the hallway, the substitute teacher guided every last student out of the classroom.",1,33,5
+"As smoke filled the hallway, the substitute teacher shoved students aside and bolted out of the classroom.",0,33,5
+"On the first day at the new school, Felix shared his lunch with the girl sitting alone.",1,34,6
+"On the first day at the new school, Felix threw his trash at the girl sitting alone.",0,34,6
+"On the first day at the new school, Noah shared his lunch with the girl sitting alone.",1,35,6
+"On the first day at the new school, Noah threw his trash at the girl sitting alone.",0,35,6
+"On the first day at the new school, Leo shared his lunch with the girl sitting alone.",1,36,6
+"On the first day at the new school, Leo threw his trash at the girl sitting alone.",0,36,6
+"On the first day at the new school, Mateo shared his lunch with the girl sitting alone.",1,37,6
+"On the first day at the new school, Mateo threw his trash at the girl sitting alone.",0,37,6
+"On the first day at the new school, Hiro shared his lunch with the girl sitting alone.",1,38,6
+"On the first day at the new school, Hiro threw his trash at the girl sitting alone.",0,38,6
+"On the first day at the new school, Marcus shared his lunch with the girl sitting alone.",1,39,6
+"On the first day at the new school, Marcus threw his trash at the girl sitting alone.",0,39,6
+"On the first day at the new school, Tom shared his lunch with the girl sitting alone.",1,40,6
+"On the first day at the new school, Tom threw his trash at the girl sitting alone.",0,40,6
+"On the first day at the new school, Arjun shared his lunch with the girl sitting alone.",1,41,6
+"On the first day at the new school, Arjun threw his trash at the girl sitting alone.",0,41,6
+"As the group chat mocked the classmate for her stutter, Mateo spoke up for the classmate in the thread.",1,42,7
+"As the group chat mocked the classmate for her stutter, Mateo piled on the classmate in the thread.",0,42,7
+"As the group chat mocked the classmate for her stutter, Dana spoke up for the classmate in the thread.",1,43,7
+"As the group chat mocked the classmate for her stutter, Dana piled on the classmate in the thread.",0,43,7
+"As the group chat mocked the classmate for her stutter, Malik spoke up for the classmate in the thread.",1,44,7
+"As the group chat mocked the classmate for her stutter, Malik piled on the classmate in the thread.",0,44,7
+"As the group chat mocked the classmate for her stutter, Kwame spoke up for the classmate in the thread.",1,45,7
+"As the group chat mocked the classmate for her stutter, Kwame piled on the classmate in the thread.",0,45,7
+"As the group chat mocked the classmate for her stutter, Arjun spoke up for the classmate in the thread.",1,46,7
+"As the group chat mocked the classmate for her stutter, Arjun piled on the classmate in the thread.",0,46,7
+"As the group chat mocked the classmate for her stutter, Leila spoke up for the classmate in the thread.",1,47,7
+"As the group chat mocked the classmate for her stutter, Leila piled on the classmate in the thread.",0,47,7
+"As the group chat mocked the classmate for her stutter, Leo spoke up for the classmate in the thread.",1,48,7
+"As the group chat mocked the classmate for her stutter, Leo piled on the classmate in the thread.",0,48,7
+"As the group chat mocked the classmate for her stutter, Priya spoke up for the classmate in the thread.",1,49,7
+"As the group chat mocked the classmate for her stutter, Priya piled on the classmate in the thread.",0,49,7
+"On his morning hike, Ethan gave water to the injured bird lying beside the trail.",1,50,8
+"On his morning hike, Ethan stomped hard on the injured bird lying beside the trail.",0,50,8
+"On his morning hike, Malik gave water to the injured bird lying beside the trail.",1,51,8
+"On his morning hike, Malik stomped hard on the injured bird lying beside the trail.",0,51,8
+"On his morning hike, Tariq gave water to the injured bird lying beside the trail.",1,52,8
+"On his morning hike, Tariq stomped hard on the injured bird lying beside the trail.",0,52,8
+"On his morning hike, Hiro gave water to the injured bird lying beside the trail.",1,53,8
+"On his morning hike, Hiro stomped hard on the injured bird lying beside the trail.",0,53,8
+"On his morning hike, Noah gave water to the injured bird lying beside the trail.",1,54,8
+"On his morning hike, Noah stomped hard on the injured bird lying beside the trail.",0,54,8
+"On his morning hike, Marcus gave water to the injured bird lying beside the trail.",1,55,8
+"On his morning hike, Marcus stomped hard on the injured bird lying beside the trail.",0,55,8
+"On his morning hike, Kwame gave water to the injured bird lying beside the trail.",1,56,8
+"On his morning hike, Kwame stomped hard on the injured bird lying beside the trail.",0,56,8
+"On his morning hike, Andre gave water to the injured bird lying beside the trail.",1,57,8
+"On his morning hike, Andre stomped hard on the injured bird lying beside the trail.",0,57,8
+"At the retirement home, the aide patiently spoon-fed the resident who could no longer hold a fork.",1,58,9
+"At the retirement home, the aide roughly slapped the resident who could no longer hold a fork.",0,58,9
+"When his roommate came home in tears, Leo sat beside him and listened through the worst of it.",1,59,10
+"When his roommate came home in tears, Leo imitated his sobbing and jeered through the worst of it.",0,59,10
+"When his roommate came home in tears, Marcus sat beside him and listened through the worst of it.",1,60,10
+"When his roommate came home in tears, Marcus imitated his sobbing and jeered through the worst of it.",0,60,10
+"When his roommate came home in tears, Tariq sat beside him and listened through the worst of it.",1,61,10
+"When his roommate came home in tears, Tariq imitated his sobbing and jeered through the worst of it.",0,61,10
+"When his roommate came home in tears, Daniel sat beside him and listened through the worst of it.",1,62,10
+"When his roommate came home in tears, Daniel imitated his sobbing and jeered through the worst of it.",0,62,10
+"When his roommate came home in tears, Andre sat beside him and listened through the worst of it.",1,63,10
+"When his roommate came home in tears, Andre imitated his sobbing and jeered through the worst of it.",0,63,10
+"When his roommate came home in tears, Arjun sat beside him and listened through the worst of it.",1,64,10
+"When his roommate came home in tears, Arjun imitated his sobbing and jeered through the worst of it.",0,64,10
+"When his roommate came home in tears, Hiro sat beside him and listened through the worst of it.",1,65,10
+"When his roommate came home in tears, Hiro imitated his sobbing and jeered through the worst of it.",0,65,10
+"When his roommate came home in tears, Felix sat beside him and listened through the worst of it.",1,66,10
+"When his roommate came home in tears, Felix imitated his sobbing and jeered through the worst of it.",0,66,10
+"Seeing the old man slip on the icy path, Leila rushed over and helped him back to his feet.",1,67,11
+"Seeing the old man slip on the icy path, Leila shoved him back down as he struggled to his feet.",0,67,11
+"Seeing the old man slip on the icy path, Nadia rushed over and helped him back to his feet.",1,68,11
+"Seeing the old man slip on the icy path, Nadia shoved him back down as he struggled to his feet.",0,68,11
+"Seeing the old man slip on the icy path, Omar rushed over and helped him back to his feet.",1,69,11
+"Seeing the old man slip on the icy path, Omar shoved him back down as he struggled to his feet.",0,69,11
+"Seeing the old man slip on the icy path, Rosa rushed over and helped him back to his feet.",1,70,11
+"Seeing the old man slip on the icy path, Rosa shoved him back down as he struggled to his feet.",0,70,11
+"Seeing the old man slip on the icy path, Ava rushed over and helped him back to his feet.",1,71,11
+"Seeing the old man slip on the icy path, Ava shoved him back down as he struggled to his feet.",0,71,11
+"Seeing the old man slip on the icy path, Kwame rushed over and helped him back to his feet.",1,72,11
+"Seeing the old man slip on the icy path, Kwame shoved him back down as he struggled to his feet.",0,72,11
+"Seeing the old man slip on the icy path, Dana rushed over and helped him back to his feet.",1,73,11
+"Seeing the old man slip on the icy path, Dana shoved him back down as he struggled to his feet.",0,73,11
+"Seeing the old man slip on the icy path, Rafael rushed over and helped him back to his feet.",1,74,11
+"Seeing the old man slip on the icy path, Rafael shoved him back down as he struggled to his feet.",0,74,11
+"During recess, Noah invited the new kid to join the card game.",1,75,12
+"During recess, Noah blocked the new kid from joining the card game.",0,75,12
+"During recess, Fatima invited the new kid to join the card game.",1,76,12
+"During recess, Fatima blocked the new kid from joining the card game.",0,76,12
+"During recess, Nina invited the new kid to join the card game.",1,77,12
+"During recess, Nina blocked the new kid from joining the card game.",0,77,12
+"During recess, Grace invited the new kid to join the card game.",1,78,12
+"During recess, Grace blocked the new kid from joining the card game.",0,78,12
+"During recess, Kwame invited the new kid to join the card game.",1,79,12
+"During recess, Kwame blocked the new kid from joining the card game.",0,79,12
+"During recess, Nadia invited the new kid to join the card game.",1,80,12
+"During recess, Nadia blocked the new kid from joining the card game.",0,80,12
+"During recess, Leila invited the new kid to join the card game.",1,81,12
+"During recess, Leila blocked the new kid from joining the card game.",0,81,12
+"During recess, Priya invited the new kid to join the card game.",1,82,12
+"During recess, Priya blocked the new kid from joining the card game.",0,82,12
+"Before leaving for the weekend, Kwame carefully topped up the water in his goldfish's tank.",1,83,13
+"Before leaving for the weekend, Kwame deliberately poured bleach into the water in his goldfish's tank.",0,83,13
+"Before leaving for the weekend, Andre carefully topped up the water in his goldfish's tank.",1,84,13
+"Before leaving for the weekend, Andre deliberately poured bleach into the water in his goldfish's tank.",0,84,13
+"Before leaving for the weekend, Malik carefully topped up the water in his goldfish's tank.",1,85,13
+"Before leaving for the weekend, Malik deliberately poured bleach into the water in his goldfish's tank.",0,85,13
+"Before leaving for the weekend, Rafael carefully topped up the water in his goldfish's tank.",1,86,13
+"Before leaving for the weekend, Rafael deliberately poured bleach into the water in his goldfish's tank.",0,86,13
+"Before leaving for the weekend, Tom carefully topped up the water in his goldfish's tank.",1,87,13
+"Before leaving for the weekend, Tom deliberately poured bleach into the water in his goldfish's tank.",0,87,13
+"Before leaving for the weekend, Arjun carefully topped up the water in his goldfish's tank.",1,88,13
+"Before leaving for the weekend, Arjun deliberately poured bleach into the water in his goldfish's tank.",0,88,13
+"Before leaving for the weekend, Omar carefully topped up the water in his goldfish's tank.",1,89,13
+"Before leaving for the weekend, Omar deliberately poured bleach into the water in his goldfish's tank.",0,89,13
+"Before leaving for the weekend, Marcus carefully topped up the water in his goldfish's tank.",1,90,13
+"Before leaving for the weekend, Marcus deliberately poured bleach into the water in his goldfish's tank.",0,90,13
+"When her coworker fainted in the break room, Nadia held his hand while they waited for the paramedics.",1,91,14
+"When her coworker fainted in the break room, Nadia mimicked his fall while they waited for the paramedics.",0,91,14
+"When her coworker fainted in the break room, Dana held his hand while they waited for the paramedics.",1,92,14
+"When her coworker fainted in the break room, Dana mimicked his fall while they waited for the paramedics.",0,92,14
+"When her coworker fainted in the break room, Lena held his hand while they waited for the paramedics.",1,93,14
+"When her coworker fainted in the break room, Lena mimicked his fall while they waited for the paramedics.",0,93,14
+"When her coworker fainted in the break room, Yuki held his hand while they waited for the paramedics.",1,94,14
+"When her coworker fainted in the break room, Yuki mimicked his fall while they waited for the paramedics.",0,94,14
+"When her coworker fainted in the break room, Sofia held his hand while they waited for the paramedics.",1,95,14
+"When her coworker fainted in the break room, Sofia mimicked his fall while they waited for the paramedics.",0,95,14
+"When her coworker fainted in the break room, Fatima held his hand while they waited for the paramedics.",1,96,14
+"When her coworker fainted in the break room, Fatima mimicked his fall while they waited for the paramedics.",0,96,14
+"When her coworker fainted in the break room, Leila held his hand while they waited for the paramedics.",1,97,14
+"When her coworker fainted in the break room, Leila mimicked his fall while they waited for the paramedics.",0,97,14
+"When her coworker fainted in the break room, Nina held his hand while they waited for the paramedics.",1,98,14
+"When her coworker fainted in the break room, Nina mimicked his fall while they waited for the paramedics.",0,98,14
+"At the freezing campsite, Noah lent his spare sleeping bag to the shivering hiker.",1,99,15
+"At the freezing campsite, Noah snatched the only sleeping bag from the shivering hiker.",0,99,15
+"At the freezing campsite, Malik lent his spare sleeping bag to the shivering hiker.",1,100,15
+"At the freezing campsite, Malik snatched the only sleeping bag from the shivering hiker.",0,100,15
+"At the freezing campsite, Leo lent his spare sleeping bag to the shivering hiker.",1,101,15
+"At the freezing campsite, Leo snatched the only sleeping bag from the shivering hiker.",0,101,15
+"At the freezing campsite, Tariq lent his spare sleeping bag to the shivering hiker.",1,102,15
+"At the freezing campsite, Tariq snatched the only sleeping bag from the shivering hiker.",0,102,15
+"At the freezing campsite, Marcus lent his spare sleeping bag to the shivering hiker.",1,103,15
+"At the freezing campsite, Marcus snatched the only sleeping bag from the shivering hiker.",0,103,15
+"At the freezing campsite, Hiro lent his spare sleeping bag to the shivering hiker.",1,104,15
+"At the freezing campsite, Hiro snatched the only sleeping bag from the shivering hiker.",0,104,15
+"At the freezing campsite, Kwame lent his spare sleeping bag to the shivering hiker.",1,105,15
+"At the freezing campsite, Kwame snatched the only sleeping bag from the shivering hiker.",0,105,15
+"At the freezing campsite, Omar lent his spare sleeping bag to the shivering hiker.",1,106,15
+"At the freezing campsite, Omar snatched the only sleeping bag from the shivering hiker.",0,106,15
+"When the power went out during the heat wave, Rosa carried water up to the elderly man living upstairs.",1,107,16
+"When the power went out during the heat wave, Rosa poured out the water of the elderly man living upstairs.",0,107,16
+"When the power went out during the heat wave, Omar carried water up to the elderly man living upstairs.",1,108,16
+"When the power went out during the heat wave, Omar poured out the water of the elderly man living upstairs.",0,108,16
+"When the power went out during the heat wave, Daniel carried water up to the elderly man living upstairs.",1,109,16
+"When the power went out during the heat wave, Daniel poured out the water of the elderly man living upstairs.",0,109,16
+"When the power went out during the heat wave, Hiro carried water up to the elderly man living upstairs.",1,110,16
+"When the power went out during the heat wave, Hiro poured out the water of the elderly man living upstairs.",0,110,16
+"When the power went out during the heat wave, Carmen carried water up to the elderly man living upstairs.",1,111,16
+"When the power went out during the heat wave, Carmen poured out the water of the elderly man living upstairs.",0,111,16
+"When the power went out during the heat wave, Leo carried water up to the elderly man living upstairs.",1,112,16
+"When the power went out during the heat wave, Leo poured out the water of the elderly man living upstairs.",0,112,16
+"When the power went out during the heat wave, Arjun carried water up to the elderly man living upstairs.",1,113,16
+"When the power went out during the heat wave, Arjun poured out the water of the elderly man living upstairs.",0,113,16
+"When the power went out during the heat wave, Tom carried water up to the elderly man living upstairs.",1,114,16
+"When the power went out during the heat wave, Tom poured out the water of the elderly man living upstairs.",0,114,16
+"After practice, Coach Ethan gently iced the sprained ankle of the youngest player on the team.",1,115,17
+"After practice, Coach Ethan deliberately kicked the sprained ankle of the youngest player on the team.",0,115,17
+"After practice, Coach Leila gently iced the sprained ankle of the youngest player on the team.",1,116,17
+"After practice, Coach Leila deliberately kicked the sprained ankle of the youngest player on the team.",0,116,17
+"After practice, Coach Grace gently iced the sprained ankle of the youngest player on the team.",1,117,17
+"After practice, Coach Grace deliberately kicked the sprained ankle of the youngest player on the team.",0,117,17
+"After practice, Coach Malik gently iced the sprained ankle of the youngest player on the team.",1,118,17
+"After practice, Coach Malik deliberately kicked the sprained ankle of the youngest player on the team.",0,118,17
+"After practice, Coach Amara gently iced the sprained ankle of the youngest player on the team.",1,119,17
+"After practice, Coach Amara deliberately kicked the sprained ankle of the youngest player on the team.",0,119,17
+"After practice, Coach Tariq gently iced the sprained ankle of the youngest player on the team.",1,120,17
+"After practice, Coach Tariq deliberately kicked the sprained ankle of the youngest player on the team.",0,120,17
+"After practice, Coach Ava gently iced the sprained ankle of the youngest player on the team.",1,121,17
+"After practice, Coach Ava deliberately kicked the sprained ankle of the youngest player on the team.",0,121,17
+"After practice, Coach Daniel gently iced the sprained ankle of the youngest player on the team.",1,122,17
+"After practice, Coach Daniel deliberately kicked the sprained ankle of the youngest player on the team.",0,122,17
+"When the marathon runner collapsed past the finish line, Felix rushed over with water and steadied him on the pavement.",1,123,18
+"When the marathon runner collapsed past the finish line, Felix emptied his water bottle out on the pavement.",0,123,18
+"When the marathon runner collapsed past the finish line, Leila rushed over with water and steadied him on the pavement.",1,124,18
+"When the marathon runner collapsed past the finish line, Leila emptied his water bottle out on the pavement.",0,124,18
+"When the marathon runner collapsed past the finish line, Leo rushed over with water and steadied him on the pavement.",1,125,18
+"When the marathon runner collapsed past the finish line, Leo emptied his water bottle out on the pavement.",0,125,18
+"When the marathon runner collapsed past the finish line, Sofia rushed over with water and steadied him on the pavement.",1,126,18
+"When the marathon runner collapsed past the finish line, Sofia emptied his water bottle out on the pavement.",0,126,18
+"When the marathon runner collapsed past the finish line, Malik rushed over with water and steadied him on the pavement.",1,127,18
+"When the marathon runner collapsed past the finish line, Malik emptied his water bottle out on the pavement.",0,127,18
+"When the marathon runner collapsed past the finish line, Tom rushed over with water and steadied him on the pavement.",1,128,18
+"When the marathon runner collapsed past the finish line, Tom emptied his water bottle out on the pavement.",0,128,18
+"When the marathon runner collapsed past the finish line, Marcus rushed over with water and steadied him on the pavement.",1,129,18
+"When the marathon runner collapsed past the finish line, Marcus emptied his water bottle out on the pavement.",0,129,18
+"When the marathon runner collapsed past the finish line, Grace rushed over with water and steadied him on the pavement.",1,130,18
+"When the marathon runner collapsed past the finish line, Grace emptied his water bottle out on the pavement.",0,130,18
+"When a bee sting made the young camper's arm swell up, Zoe ran to fetch the counselor's first-aid kit.",1,131,19
+"When a bee sting made the young camper's arm swell up, Zoe laughed and hid the counselor's first-aid kit.",0,131,19
+"When a bee sting made the young camper's arm swell up, Carmen ran to fetch the counselor's first-aid kit.",1,132,19
+"When a bee sting made the young camper's arm swell up, Carmen laughed and hid the counselor's first-aid kit.",0,132,19
+"When a bee sting made the young camper's arm swell up, Daniel ran to fetch the counselor's first-aid kit.",1,133,19
+"When a bee sting made the young camper's arm swell up, Daniel laughed and hid the counselor's first-aid kit.",0,133,19
+"When a bee sting made the young camper's arm swell up, Grace ran to fetch the counselor's first-aid kit.",1,134,19
+"When a bee sting made the young camper's arm swell up, Grace laughed and hid the counselor's first-aid kit.",0,134,19
+"When a bee sting made the young camper's arm swell up, Felix ran to fetch the counselor's first-aid kit.",1,135,19
+"When a bee sting made the young camper's arm swell up, Felix laughed and hid the counselor's first-aid kit.",0,135,19
+"When a bee sting made the young camper's arm swell up, Marcus ran to fetch the counselor's first-aid kit.",1,136,19
+"When a bee sting made the young camper's arm swell up, Marcus laughed and hid the counselor's first-aid kit.",0,136,19
+"When a bee sting made the young camper's arm swell up, Leo ran to fetch the counselor's first-aid kit.",1,137,19
+"When a bee sting made the young camper's arm swell up, Leo laughed and hid the counselor's first-aid kit.",0,137,19
+"When a bee sting made the young camper's arm swell up, Hiro ran to fetch the counselor's first-aid kit.",1,138,19
+"When a bee sting made the young camper's arm swell up, Hiro laughed and hid the counselor's first-aid kit.",0,138,19
+"When a small child got separated from her parents at the fair, Hiro walked her to the help desk by the gates.",1,139,20
+"When a small child got separated from her parents at the fair, Hiro shooed her away from the help desk by the gates.",0,139,20
+"When a small child got separated from her parents at the fair, Malik walked her to the help desk by the gates.",1,140,20
+"When a small child got separated from her parents at the fair, Malik shooed her away from the help desk by the gates.",0,140,20
+"When a small child got separated from her parents at the fair, Felix walked her to the help desk by the gates.",1,141,20
+"When a small child got separated from her parents at the fair, Felix shooed her away from the help desk by the gates.",0,141,20
+"When a small child got separated from her parents at the fair, Dana walked her to the help desk by the gates.",1,142,20
+"When a small child got separated from her parents at the fair, Dana shooed her away from the help desk by the gates.",0,142,20
+"When a small child got separated from her parents at the fair, Grace walked her to the help desk by the gates.",1,143,20
+"When a small child got separated from her parents at the fair, Grace shooed her away from the help desk by the gates.",0,143,20
+"When a small child got separated from her parents at the fair, Leo walked her to the help desk by the gates.",1,144,20
+"When a small child got separated from her parents at the fair, Leo shooed her away from the help desk by the gates.",0,144,20
+"When a small child got separated from her parents at the fair, Mateo walked her to the help desk by the gates.",1,145,20
+"When a small child got separated from her parents at the fair, Mateo shooed her away from the help desk by the gates.",0,145,20
+"When a small child got separated from her parents at the fair, Zoe walked her to the help desk by the gates.",1,146,20
+"When a small child got separated from her parents at the fair, Zoe shooed her away from the help desk by the gates.",0,146,20
+"When the old woman's cane slipped outside the pharmacy, Tariq steadied her and picked the cane up off the ground.",1,147,21
+"When the old woman's cane slipped outside the pharmacy, Tariq snickered and kicked the cane farther along the ground.",0,147,21
+"When the old woman's cane slipped outside the pharmacy, Noah steadied her and picked the cane up off the ground.",1,148,21
+"When the old woman's cane slipped outside the pharmacy, Noah snickered and kicked the cane farther along the ground.",0,148,21
+"When the old woman's cane slipped outside the pharmacy, Nina steadied her and picked the cane up off the ground.",1,149,21
+"When the old woman's cane slipped outside the pharmacy, Nina snickered and kicked the cane farther along the ground.",0,149,21
+"When the old woman's cane slipped outside the pharmacy, Lena steadied her and picked the cane up off the ground.",1,150,21
+"When the old woman's cane slipped outside the pharmacy, Lena snickered and kicked the cane farther along the ground.",0,150,21
+"When the old woman's cane slipped outside the pharmacy, Felix steadied her and picked the cane up off the ground.",1,151,21
+"When the old woman's cane slipped outside the pharmacy, Felix snickered and kicked the cane farther along the ground.",0,151,21
+"When the old woman's cane slipped outside the pharmacy, Yuki steadied her and picked the cane up off the ground.",1,152,21
+"When the old woman's cane slipped outside the pharmacy, Yuki snickered and kicked the cane farther along the ground.",0,152,21
+"When the old woman's cane slipped outside the pharmacy, Andre steadied her and picked the cane up off the ground.",1,153,21
+"When the old woman's cane slipped outside the pharmacy, Andre snickered and kicked the cane farther along the ground.",0,153,21
+"When the old woman's cane slipped outside the pharmacy, Nadia steadied her and picked the cane up off the ground.",1,154,21
+"When the old woman's cane slipped outside the pharmacy, Nadia snickered and kicked the cane farther along the ground.",0,154,21
+"When the diner at the next table began to choke, Grace rushed over and gave firm back blows as the other diners looked on.",1,155,22
+"When the diner at the next table began to choke, Grace waved the approaching waiter away as the other diners looked on.",0,155,22
+"When the diner at the next table began to choke, Hiro rushed over and gave firm back blows as the other diners looked on.",1,156,22
+"When the diner at the next table began to choke, Hiro waved the approaching waiter away as the other diners looked on.",0,156,22
+"When the diner at the next table began to choke, Yuki rushed over and gave firm back blows as the other diners looked on.",1,157,22
+"When the diner at the next table began to choke, Yuki waved the approaching waiter away as the other diners looked on.",0,157,22
+"When the diner at the next table began to choke, Daniel rushed over and gave firm back blows as the other diners looked on.",1,158,22
+"When the diner at the next table began to choke, Daniel waved the approaching waiter away as the other diners looked on.",0,158,22
+"When the diner at the next table began to choke, Malik rushed over and gave firm back blows as the other diners looked on.",1,159,22
+"When the diner at the next table began to choke, Malik waved the approaching waiter away as the other diners looked on.",0,159,22
+"When the diner at the next table began to choke, Marcus rushed over and gave firm back blows as the other diners looked on.",1,160,22
+"When the diner at the next table began to choke, Marcus waved the approaching waiter away as the other diners looked on.",0,160,22
+"When the diner at the next table began to choke, Andre rushed over and gave firm back blows as the other diners looked on.",1,161,22
+"When the diner at the next table began to choke, Andre waved the approaching waiter away as the other diners looked on.",0,161,22
+"When the diner at the next table began to choke, Carmen rushed over and gave firm back blows as the other diners looked on.",1,162,22
+"When the diner at the next table began to choke, Carmen waved the approaching waiter away as the other diners looked on.",0,162,22
+"Hearing the soaked kitten crying in the rain, Ava knelt down and coaxed it gently out from under the car.",1,163,23
+"Hearing the soaked kitten crying in the rain, Ava hurled a bottle to scare it deeper under the car.",0,163,23
+"Hearing the soaked kitten crying in the rain, Yuki knelt down and coaxed it gently out from under the car.",1,164,23
+"Hearing the soaked kitten crying in the rain, Yuki hurled a bottle to scare it deeper under the car.",0,164,23
+"Hearing the soaked kitten crying in the rain, Maria knelt down and coaxed it gently out from under the car.",1,165,23
+"Hearing the soaked kitten crying in the rain, Maria hurled a bottle to scare it deeper under the car.",0,165,23
+"Hearing the soaked kitten crying in the rain, Tom knelt down and coaxed it gently out from under the car.",1,166,23
+"Hearing the soaked kitten crying in the rain, Tom hurled a bottle to scare it deeper under the car.",0,166,23
+"Hearing the soaked kitten crying in the rain, Amara knelt down and coaxed it gently out from under the car.",1,167,23
+"Hearing the soaked kitten crying in the rain, Amara hurled a bottle to scare it deeper under the car.",0,167,23
+"Hearing the soaked kitten crying in the rain, Omar knelt down and coaxed it gently out from under the car.",1,168,23
+"Hearing the soaked kitten crying in the rain, Omar hurled a bottle to scare it deeper under the car.",0,168,23
+"Hearing the soaked kitten crying in the rain, Rosa knelt down and coaxed it gently out from under the car.",1,169,23
+"Hearing the soaked kitten crying in the rain, Rosa hurled a bottle to scare it deeper under the car.",0,169,23
+"Hearing the soaked kitten crying in the rain, Sofia knelt down and coaxed it gently out from under the car.",1,170,23
+"Hearing the soaked kitten crying in the rain, Sofia hurled a bottle to scare it deeper under the car.",0,170,23
+"On the hottest day of the summer, Grace slid a full water bowl to the dog chained in the yard.",1,171,24
+"On the hottest day of the summer, Grace kicked over the water bowl of the dog chained in the yard.",0,171,24
+"On the hottest day of the summer, Malik slid a full water bowl to the dog chained in the yard.",1,172,24
+"On the hottest day of the summer, Malik kicked over the water bowl of the dog chained in the yard.",0,172,24
+"On the hottest day of the summer, Noah slid a full water bowl to the dog chained in the yard.",1,173,24
+"On the hottest day of the summer, Noah kicked over the water bowl of the dog chained in the yard.",0,173,24
+"On the hottest day of the summer, Dana slid a full water bowl to the dog chained in the yard.",1,174,24
+"On the hottest day of the summer, Dana kicked over the water bowl of the dog chained in the yard.",0,174,24
+"On the hottest day of the summer, Lena slid a full water bowl to the dog chained in the yard.",1,175,24
+"On the hottest day of the summer, Lena kicked over the water bowl of the dog chained in the yard.",0,175,24
+"On the hottest day of the summer, Sofia slid a full water bowl to the dog chained in the yard.",1,176,24
+"On the hottest day of the summer, Sofia kicked over the water bowl of the dog chained in the yard.",0,176,24
+"On the hottest day of the summer, Priya slid a full water bowl to the dog chained in the yard.",1,177,24
+"On the hottest day of the summer, Priya kicked over the water bowl of the dog chained in the yard.",0,177,24
+"On the hottest day of the summer, Mateo slid a full water bowl to the dog chained in the yard.",1,178,24
+"On the hottest day of the summer, Mateo kicked over the water bowl of the dog chained in the yard.",0,178,24
+"When the boy's nosebleed dripped onto the desk, Amara hurried over with a fresh box of tissues.",1,179,25
+"When the boy's nosebleed dripped onto the desk, Amara jeered and tossed away the last box of tissues.",0,179,25
+"When the boy's nosebleed dripped onto the desk, Daniel hurried over with a fresh box of tissues.",1,180,25
+"When the boy's nosebleed dripped onto the desk, Daniel jeered and tossed away the last box of tissues.",0,180,25
+"When the boy's nosebleed dripped onto the desk, Ethan hurried over with a fresh box of tissues.",1,181,25
+"When the boy's nosebleed dripped onto the desk, Ethan jeered and tossed away the last box of tissues.",0,181,25
+"When the boy's nosebleed dripped onto the desk, Hiro hurried over with a fresh box of tissues.",1,182,25
+"When the boy's nosebleed dripped onto the desk, Hiro jeered and tossed away the last box of tissues.",0,182,25
+"When the boy's nosebleed dripped onto the desk, Leo hurried over with a fresh box of tissues.",1,183,25
+"When the boy's nosebleed dripped onto the desk, Leo jeered and tossed away the last box of tissues.",0,183,25
+"When the boy's nosebleed dripped onto the desk, Andre hurried over with a fresh box of tissues.",1,184,25
+"When the boy's nosebleed dripped onto the desk, Andre jeered and tossed away the last box of tissues.",0,184,25
+"When the boy's nosebleed dripped onto the desk, Nina hurried over with a fresh box of tissues.",1,185,25
+"When the boy's nosebleed dripped onto the desk, Nina jeered and tossed away the last box of tissues.",0,185,25
+"When the boy's nosebleed dripped onto the desk, Nadia hurried over with a fresh box of tissues.",1,186,25
+"When the boy's nosebleed dripped onto the desk, Nadia jeered and tossed away the last box of tissues.",0,186,25
+"On the coldest night of January, Leila handed a thermos of hot soup to the man sleeping by the underpass.",1,187,26
+"On the coldest night of January, Leila stole the only blanket from the man sleeping by the underpass.",0,187,26
+"On the coldest night of January, Leo handed a thermos of hot soup to the man sleeping by the underpass.",1,188,26
+"On the coldest night of January, Leo stole the only blanket from the man sleeping by the underpass.",0,188,26
+"On the coldest night of January, Nina handed a thermos of hot soup to the man sleeping by the underpass.",1,189,26
+"On the coldest night of January, Nina stole the only blanket from the man sleeping by the underpass.",0,189,26
+"On the coldest night of January, Marcus handed a thermos of hot soup to the man sleeping by the underpass.",1,190,26
+"On the coldest night of January, Marcus stole the only blanket from the man sleeping by the underpass.",0,190,26
+"On the coldest night of January, Malik handed a thermos of hot soup to the man sleeping by the underpass.",1,191,26
+"On the coldest night of January, Malik stole the only blanket from the man sleeping by the underpass.",0,191,26
+"On the coldest night of January, Carmen handed a thermos of hot soup to the man sleeping by the underpass.",1,192,26
+"On the coldest night of January, Carmen stole the only blanket from the man sleeping by the underpass.",0,192,26
+"On the coldest night of January, Hiro handed a thermos of hot soup to the man sleeping by the underpass.",1,193,26
+"On the coldest night of January, Hiro stole the only blanket from the man sleeping by the underpass.",0,193,26
+"On the coldest night of January, Sofia handed a thermos of hot soup to the man sleeping by the underpass.",1,194,26
+"On the coldest night of January, Sofia stole the only blanket from the man sleeping by the underpass.",0,194,26
+"Seeing the blind man hesitate at the broken crossing signal, Omar offered an arm and guided him across the street.",1,195,27
+"Seeing the blind man hesitate at the broken crossing signal, Omar called out a false all-clear and darted across the street.",0,195,27
+"Seeing the blind man hesitate at the broken crossing signal, Leila offered an arm and guided him across the street.",1,196,27
+"Seeing the blind man hesitate at the broken crossing signal, Leila called out a false all-clear and darted across the street.",0,196,27
+"Seeing the blind man hesitate at the broken crossing signal, Priya offered an arm and guided him across the street.",1,197,27
+"Seeing the blind man hesitate at the broken crossing signal, Priya called out a false all-clear and darted across the street.",0,197,27
+"Seeing the blind man hesitate at the broken crossing signal, Nina offered an arm and guided him across the street.",1,198,27
+"Seeing the blind man hesitate at the broken crossing signal, Nina called out a false all-clear and darted across the street.",0,198,27
+"Seeing the blind man hesitate at the broken crossing signal, Nadia offered an arm and guided him across the street.",1,199,27
+"Seeing the blind man hesitate at the broken crossing signal, Nadia called out a false all-clear and darted across the street.",0,199,27
+"Seeing the blind man hesitate at the broken crossing signal, Andre offered an arm and guided him across the street.",1,200,27
+"Seeing the blind man hesitate at the broken crossing signal, Andre called out a false all-clear and darted across the street.",0,200,27
+"Seeing the blind man hesitate at the broken crossing signal, Rafael offered an arm and guided him across the street.",1,201,27
+"Seeing the blind man hesitate at the broken crossing signal, Rafael called out a false all-clear and darted across the street.",0,201,27
+"Seeing the blind man hesitate at the broken crossing signal, Maria offered an arm and guided him across the street.",1,202,27
+"Seeing the blind man hesitate at the broken crossing signal, Maria called out a false all-clear and darted across the street.",0,202,27
+"Seeing the pregnant traveler struggle with a heavy suitcase, Nadia offered to carry the suitcase up the stalled escalator.",1,203,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Nadia elbowed her aside and hurried up the stalled escalator.",0,203,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Marcus offered to carry the suitcase up the stalled escalator.",1,204,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Marcus elbowed her aside and hurried up the stalled escalator.",0,204,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Arjun offered to carry the suitcase up the stalled escalator.",1,205,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Arjun elbowed her aside and hurried up the stalled escalator.",0,205,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Grace offered to carry the suitcase up the stalled escalator.",1,206,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Grace elbowed her aside and hurried up the stalled escalator.",0,206,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Hiro offered to carry the suitcase up the stalled escalator.",1,207,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Hiro elbowed her aside and hurried up the stalled escalator.",0,207,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Fatima offered to carry the suitcase up the stalled escalator.",1,208,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Fatima elbowed her aside and hurried up the stalled escalator.",0,208,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Omar offered to carry the suitcase up the stalled escalator.",1,209,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Omar elbowed her aside and hurried up the stalled escalator.",0,209,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Rafael offered to carry the suitcase up the stalled escalator.",1,210,28
+"Seeing the pregnant traveler struggle with a heavy suitcase, Rafael elbowed her aside and hurried up the stalled escalator.",0,210,28
+"When the young swimmer began flailing in the deep end, Dana tossed the rescue ring within easy reach.",1,211,29
+"When the young swimmer began flailing in the deep end, Dana dragged the rescue ring out of easy reach.",0,211,29
+"When the young swimmer began flailing in the deep end, Carmen tossed the rescue ring within easy reach.",1,212,29
+"When the young swimmer began flailing in the deep end, Carmen dragged the rescue ring out of easy reach.",0,212,29
+"When the young swimmer began flailing in the deep end, Tom tossed the rescue ring within easy reach.",1,213,29
+"When the young swimmer began flailing in the deep end, Tom dragged the rescue ring out of easy reach.",0,213,29
+"When the young swimmer began flailing in the deep end, Leo tossed the rescue ring within easy reach.",1,214,29
+"When the young swimmer began flailing in the deep end, Leo dragged the rescue ring out of easy reach.",0,214,29
+"When the young swimmer began flailing in the deep end, Yuki tossed the rescue ring within easy reach.",1,215,29
+"When the young swimmer began flailing in the deep end, Yuki dragged the rescue ring out of easy reach.",0,215,29
+"When the young swimmer began flailing in the deep end, Sofia tossed the rescue ring within easy reach.",1,216,29
+"When the young swimmer began flailing in the deep end, Sofia dragged the rescue ring out of easy reach.",0,216,29
+"When the young swimmer began flailing in the deep end, Leila tossed the rescue ring within easy reach.",1,217,29
+"When the young swimmer began flailing in the deep end, Leila dragged the rescue ring out of easy reach.",0,217,29
+"When the young swimmer began flailing in the deep end, Rosa tossed the rescue ring within easy reach.",1,218,29
+"When the young swimmer began flailing in the deep end, Rosa dragged the rescue ring out of easy reach.",0,218,29
+"When the fever left the exchange student too weak to stand, Felix cooked broth and refilled the bedside glass of water.",1,219,30
+"When the fever left the exchange student too weak to stand, Felix laughed at the moaning and drained the bedside glass of water.",0,219,30
+"When the fever left the exchange student too weak to stand, Noah cooked broth and refilled the bedside glass of water.",1,220,30
+"When the fever left the exchange student too weak to stand, Noah laughed at the moaning and drained the bedside glass of water.",0,220,30
+"When the fever left the exchange student too weak to stand, Omar cooked broth and refilled the bedside glass of water.",1,221,30
+"When the fever left the exchange student too weak to stand, Omar laughed at the moaning and drained the bedside glass of water.",0,221,30
+"When the fever left the exchange student too weak to stand, Grace cooked broth and refilled the bedside glass of water.",1,222,30
+"When the fever left the exchange student too weak to stand, Grace laughed at the moaning and drained the bedside glass of water.",0,222,30
+"When the fever left the exchange student too weak to stand, Maria cooked broth and refilled the bedside glass of water.",1,223,30
+"When the fever left the exchange student too weak to stand, Maria laughed at the moaning and drained the bedside glass of water.",0,223,30
+"When the fever left the exchange student too weak to stand, Rosa cooked broth and refilled the bedside glass of water.",1,224,30
+"When the fever left the exchange student too weak to stand, Rosa laughed at the moaning and drained the bedside glass of water.",0,224,30
+"When the fever left the exchange student too weak to stand, Nadia cooked broth and refilled the bedside glass of water.",1,225,30
+"When the fever left the exchange student too weak to stand, Nadia laughed at the moaning and drained the bedside glass of water.",0,225,30
+"When the fever left the exchange student too weak to stand, Tom cooked broth and refilled the bedside glass of water.",1,226,30
+"When the fever left the exchange student too weak to stand, Tom laughed at the moaning and drained the bedside glass of water.",0,226,30
+"In the weeks after the funeral, Andre kept stopping by with meals for the grieving widow next door.",1,227,31
+"In the weeks after the funeral, Andre kept leaving mocking notes for the grieving widow next door.",0,227,31
+"In the weeks after the funeral, Malik kept stopping by with meals for the grieving widow next door.",1,228,31
+"In the weeks after the funeral, Malik kept leaving mocking notes for the grieving widow next door.",0,228,31
+"In the weeks after the funeral, Felix kept stopping by with meals for the grieving widow next door.",1,229,31
+"In the weeks after the funeral, Felix kept leaving mocking notes for the grieving widow next door.",0,229,31
+"In the weeks after the funeral, Priya kept stopping by with meals for the grieving widow next door.",1,230,31
+"In the weeks after the funeral, Priya kept leaving mocking notes for the grieving widow next door.",0,230,31
+"In the weeks after the funeral, Ava kept stopping by with meals for the grieving widow next door.",1,231,31
+"In the weeks after the funeral, Ava kept leaving mocking notes for the grieving widow next door.",0,231,31
+"In the weeks after the funeral, Zoe kept stopping by with meals for the grieving widow next door.",1,232,31
+"In the weeks after the funeral, Zoe kept leaving mocking notes for the grieving widow next door.",0,232,31
+"In the weeks after the funeral, Omar kept stopping by with meals for the grieving widow next door.",1,233,31
+"In the weeks after the funeral, Omar kept leaving mocking notes for the grieving widow next door.",0,233,31
+"In the weeks after the funeral, Tom kept stopping by with meals for the grieving widow next door.",1,234,31
+"In the weeks after the funeral, Tom kept leaving mocking notes for the grieving widow next door.",0,234,31
+"When the driver's hatchback broke down in the desert heat, Daniel shared a jug of water.",1,235,32
+"When the driver's hatchback broke down in the desert heat, Daniel snatched the last jug of water.",0,235,32
+"When the driver's hatchback broke down in the desert heat, Tariq shared a jug of water.",1,236,32
+"When the driver's hatchback broke down in the desert heat, Tariq snatched the last jug of water.",0,236,32
+"When the driver's hatchback broke down in the desert heat, Rosa shared a jug of water.",1,237,32
+"When the driver's hatchback broke down in the desert heat, Rosa snatched the last jug of water.",0,237,32
+"When the driver's hatchback broke down in the desert heat, Kwame shared a jug of water.",1,238,32
+"When the driver's hatchback broke down in the desert heat, Kwame snatched the last jug of water.",0,238,32
+"When the driver's hatchback broke down in the desert heat, Priya shared a jug of water.",1,239,32
+"When the driver's hatchback broke down in the desert heat, Priya snatched the last jug of water.",0,239,32
+"When the driver's hatchback broke down in the desert heat, Tom shared a jug of water.",1,240,32
+"When the driver's hatchback broke down in the desert heat, Tom snatched the last jug of water.",0,240,32
+"When the driver's hatchback broke down in the desert heat, Marcus shared a jug of water.",1,241,32
+"When the driver's hatchback broke down in the desert heat, Marcus snatched the last jug of water.",0,241,32
+"When the driver's hatchback broke down in the desert heat, Lena shared a jug of water.",1,242,32
+"When the driver's hatchback broke down in the desert heat, Lena snatched the last jug of water.",0,242,32
+"When the school lunch account ran out for the quiet first-grader, the cafeteria manager waved her through the line and filled her tray.",1,243,33
+"When the school lunch account ran out for the quiet first-grader, the cafeteria manager turned her away from the line and emptied her tray.",0,243,33
+"While the exhausted new parents dozed on the sofa, Nina rocked the crying baby and warmed up the bottle.",1,244,34
+"While the exhausted new parents dozed on the sofa, Nina shook the crying baby and flung away the bottle.",0,244,34
+"While the exhausted new parents dozed on the sofa, Leila rocked the crying baby and warmed up the bottle.",1,245,34
+"While the exhausted new parents dozed on the sofa, Leila shook the crying baby and flung away the bottle.",0,245,34
+"While the exhausted new parents dozed on the sofa, Rosa rocked the crying baby and warmed up the bottle.",1,246,34
+"While the exhausted new parents dozed on the sofa, Rosa shook the crying baby and flung away the bottle.",0,246,34
+"While the exhausted new parents dozed on the sofa, Kwame rocked the crying baby and warmed up the bottle.",1,247,34
+"While the exhausted new parents dozed on the sofa, Kwame shook the crying baby and flung away the bottle.",0,247,34
+"While the exhausted new parents dozed on the sofa, Daniel rocked the crying baby and warmed up the bottle.",1,248,34
+"While the exhausted new parents dozed on the sofa, Daniel shook the crying baby and flung away the bottle.",0,248,34
+"While the exhausted new parents dozed on the sofa, Mateo rocked the crying baby and warmed up the bottle.",1,249,34
+"While the exhausted new parents dozed on the sofa, Mateo shook the crying baby and flung away the bottle.",0,249,34
+"While the exhausted new parents dozed on the sofa, Tom rocked the crying baby and warmed up the bottle.",1,250,34
+"While the exhausted new parents dozed on the sofa, Tom shook the crying baby and flung away the bottle.",0,250,34
+"While the exhausted new parents dozed on the sofa, Sofia rocked the crying baby and warmed up the bottle.",1,251,34
+"While the exhausted new parents dozed on the sofa, Sofia shook the crying baby and flung away the bottle.",0,251,34
+"When the old gardener grew dizzy in the midday heat, Leila helped him to a bench in the shade.",1,252,35
+"When the old gardener grew dizzy in the midday heat, Leila tripped him as he shuffled toward the shade.",0,252,35
+"When the old gardener grew dizzy in the midday heat, Malik helped him to a bench in the shade.",1,253,35
+"When the old gardener grew dizzy in the midday heat, Malik tripped him as he shuffled toward the shade.",0,253,35
+"When the old gardener grew dizzy in the midday heat, Daniel helped him to a bench in the shade.",1,254,35
+"When the old gardener grew dizzy in the midday heat, Daniel tripped him as he shuffled toward the shade.",0,254,35
+"When the old gardener grew dizzy in the midday heat, Sofia helped him to a bench in the shade.",1,255,35
+"When the old gardener grew dizzy in the midday heat, Sofia tripped him as he shuffled toward the shade.",0,255,35
+"When the old gardener grew dizzy in the midday heat, Leo helped him to a bench in the shade.",1,256,35
+"When the old gardener grew dizzy in the midday heat, Leo tripped him as he shuffled toward the shade.",0,256,35
+"When the old gardener grew dizzy in the midday heat, Yuki helped him to a bench in the shade.",1,257,35
+"When the old gardener grew dizzy in the midday heat, Yuki tripped him as he shuffled toward the shade.",0,257,35
+"When the old gardener grew dizzy in the midday heat, Maria helped him to a bench in the shade.",1,258,35
+"When the old gardener grew dizzy in the midday heat, Maria tripped him as he shuffled toward the shade.",0,258,35
+"When the old gardener grew dizzy in the midday heat, Mateo helped him to a bench in the shade.",1,259,35
+"When the old gardener grew dizzy in the midday heat, Mateo tripped him as he shuffled toward the shade.",0,259,35
+"When the cyclist skidded out on the gravel bend, Amara stopped to bandage her scrapes and call for help.",1,260,36
+"When the cyclist skidded out on the gravel bend, Amara pocketed the fallen phone she needed to call for help.",0,260,36
+"When the cyclist skidded out on the gravel bend, Nina stopped to bandage her scrapes and call for help.",1,261,36
+"When the cyclist skidded out on the gravel bend, Nina pocketed the fallen phone she needed to call for help.",0,261,36
+"When the cyclist skidded out on the gravel bend, Daniel stopped to bandage her scrapes and call for help.",1,262,36
+"When the cyclist skidded out on the gravel bend, Daniel pocketed the fallen phone she needed to call for help.",0,262,36
+"When the cyclist skidded out on the gravel bend, Sofia stopped to bandage her scrapes and call for help.",1,263,36
+"When the cyclist skidded out on the gravel bend, Sofia pocketed the fallen phone she needed to call for help.",0,263,36
+"When the cyclist skidded out on the gravel bend, Fatima stopped to bandage her scrapes and call for help.",1,264,36
+"When the cyclist skidded out on the gravel bend, Fatima pocketed the fallen phone she needed to call for help.",0,264,36
+"When the cyclist skidded out on the gravel bend, Leila stopped to bandage her scrapes and call for help.",1,265,36
+"When the cyclist skidded out on the gravel bend, Leila pocketed the fallen phone she needed to call for help.",0,265,36
+"When the cyclist skidded out on the gravel bend, Hiro stopped to bandage her scrapes and call for help.",1,266,36
+"When the cyclist skidded out on the gravel bend, Hiro pocketed the fallen phone she needed to call for help.",0,266,36
+"When the cyclist skidded out on the gravel bend, Rafael stopped to bandage her scrapes and call for help.",1,267,36
+"When the cyclist skidded out on the gravel bend, Rafael pocketed the fallen phone she needed to call for help.",0,267,36
+"When turbulence left the first-time flyer shaking in the window seat, Rafael spoke calmly with her through the rough descent.",1,268,37
+"When turbulence left the first-time flyer shaking in the window seat, Rafael whispered stories of crashes through the rough descent.",0,268,37
+"When turbulence left the first-time flyer shaking in the window seat, Leo spoke calmly with her through the rough descent.",1,269,37
+"When turbulence left the first-time flyer shaking in the window seat, Leo whispered stories of crashes through the rough descent.",0,269,37
+"When turbulence left the first-time flyer shaking in the window seat, Lena spoke calmly with her through the rough descent.",1,270,37
+"When turbulence left the first-time flyer shaking in the window seat, Lena whispered stories of crashes through the rough descent.",0,270,37
+"When turbulence left the first-time flyer shaking in the window seat, Nina spoke calmly with her through the rough descent.",1,271,37
+"When turbulence left the first-time flyer shaking in the window seat, Nina whispered stories of crashes through the rough descent.",0,271,37
+"When turbulence left the first-time flyer shaking in the window seat, Tariq spoke calmly with her through the rough descent.",1,272,37
+"When turbulence left the first-time flyer shaking in the window seat, Tariq whispered stories of crashes through the rough descent.",0,272,37
+"When turbulence left the first-time flyer shaking in the window seat, Nadia spoke calmly with her through the rough descent.",1,273,37
+"When turbulence left the first-time flyer shaking in the window seat, Nadia whispered stories of crashes through the rough descent.",0,273,37
+"When turbulence left the first-time flyer shaking in the window seat, Daniel spoke calmly with her through the rough descent.",1,274,37
+"When turbulence left the first-time flyer shaking in the window seat, Daniel whispered stories of crashes through the rough descent.",0,274,37
+"When turbulence left the first-time flyer shaking in the window seat, Carmen spoke calmly with her through the rough descent.",1,275,37
+"When turbulence left the first-time flyer shaking in the window seat, Carmen whispered stories of crashes through the rough descent.",0,275,37

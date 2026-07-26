@@ -27,7 +27,7 @@ def compute_logprobs(model, dataset, remote=True):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Compute logprobs for statements in a dataset")
     parser.add_argument("--model", default="llama-2-70b")
-    parser.add_argument("--dataset", default="cities")
+    parser.add_argument("--dataset", default="care_harm")
     parser.add_argument("--device", default="remote")
     args = parser.parse_args()
 
@@ -37,4 +37,6 @@ if __name__ == "__main__":
 
     df = compute_logprobs(model, args.dataset, remote=remote)
 
-    df.to_csv(f'experimental_outputs/logprobs/{args.dataset}.csv')
+    out_path = f'experimental_outputs/logprobs/{args.dataset}.csv'
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    df.to_csv(out_path)

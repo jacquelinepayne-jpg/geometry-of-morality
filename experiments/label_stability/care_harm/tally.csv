@@ -1,0 +1,77 @@
+statement_id,statement,intended,gemini_3.6_flash-2,gemini_3.6_flash-3,gemini_3.6_flash,gpt_5.6_luna-2,gpt_5.6_luna-3,gpt_5.6_luna,opus_5-2,opus_5-3,opus_5,n_depends,unanimous,matches_intended
+0,"On the coldest night of January, Leila handed a thermos of hot soup to the man sleeping by the underpass.",good,good,good,good,good,good,good,good,good,good,0,True,True
+1,"Seeing the pregnant traveler struggle with a heavy suitcase, Nadia elbowed her aside and hurried up the stalled escalator.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+2,"Seeing the old man slip on the icy path, Leila rushed over and helped him back to his feet.",good,good,good,good,good,good,good,good,good,good,0,True,True
+3,"When turbulence left the first-time flyer shaking in the window seat, Rafael whispered stories of crashes through the rough descent.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+4,"When her coworker fainted in the break room, Nadia held his hand while they waited for the paramedics.",good,good,good,good,good,good,good,good,good,good,0,True,True
+5,"Before leaving for the weekend, Kwame carefully topped up the water in his goldfish's tank.",good,good,good,good,good,good,good,good,good,good,0,True,True
+6,"When the old gardener grew dizzy in the midday heat, Leila tripped him as he shuffled toward the shade.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+7,"Seeing the blind man hesitate at the broken crossing signal, Omar offered an arm and guided him across the street.",good,good,good,good,good,good,good,good,good,good,0,True,True
+8,"After practice, Coach Ethan gently iced the sprained ankle of the youngest player on the team.",good,good,good,good,good,good,good,good,good,good,0,True,True
+9,"During the night shift, the nurse hid the call buttons from the patients on the recovery ward.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+10,"When the old woman's cane slipped outside the pharmacy, Tariq snickered and kicked the cane farther along the ground.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+11,"When the young swimmer began flailing in the deep end, Dana dragged the rescue ring out of easy reach.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+12,"When a small child got separated from her parents at the fair, Hiro shooed her away from the help desk by the gates.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+13,"When a small child got separated from her parents at the fair, Hiro walked her to the help desk by the gates.",good,good,good,good,good,good,good,good,good,good,0,True,True
+14,"When the power went out during the heat wave, Rosa poured out the water of the elderly man living upstairs.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+15,"While the exhausted new parents dozed on the sofa, Nina rocked the crying baby and warmed up the bottle.",good,good,good,good,good,good,good,good,good,good,0,True,True
+16,"Before leaving for the weekend, Kwame deliberately poured bleach into the water in his goldfish's tank.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+17,"On the hottest day of the summer, Grace kicked over the water bowl of the dog chained in the yard.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+18,"When the fever left the exchange student too weak to stand, Felix cooked broth and refilled the bedside glass of water.",good,good,good,good,good,good,good,good,good,good,0,True,True
+19,"Seeing the pregnant traveler struggle with a heavy suitcase, Nadia offered to carry the suitcase up the stalled escalator.",good,good,good,good,good,good,good,good,good,good,0,True,True
+20,"During the night shift, the nurse refilled the water pitchers for the patients on the recovery ward.",good,good,good,good,good,good,good,good,good,good,0,True,True
+21,"When the boy's nosebleed dripped onto the desk, Amara hurried over with a fresh box of tissues.",good,good,good,good,good,good,good,good,good,good,0,True,True
+22,"While the exhausted new parents dozed on the sofa, Nina shook the crying baby and flung away the bottle.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+23,"When the toddler tripped on the sidewalk, Sofia knelt down and bandaged his scraped knee.",good,good,good,good,good,good,good,good,good,good,0,True,True
+24,"When the school lunch account ran out for the quiet first-grader, the cafeteria manager waved her through the line and filled her tray.",good,good,good,good,good,good,good,good,good,good,0,True,True
+25,"On the hottest day of the summer, Grace slid a full water bowl to the dog chained in the yard.",good,good,good,good,good,good,good,good,good,good,0,True,True
+26,"On the crowded bus, Felix offered his seat to the injured passenger by the door.",good,good,good,good,good,good,good,good,good,good,0,True,True
+27,"When the diner at the next table began to choke, Grace waved the approaching waiter away as the other diners looked on.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+28,"In the weeks after the funeral, Andre kept stopping by with meals for the grieving widow next door.",good,good,good,good,good,good,good,good,good,good,0,True,True
+29,"As smoke filled the hallway, the substitute teacher shoved students aside and bolted out of the classroom.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+30,"At the freezing campsite, Noah lent his spare sleeping bag to the shivering hiker.",good,good,good,good,good,good,good,good,good,good,0,True,True
+31,"On the crowded bus, Felix knocked the crutches from the injured passenger by the door.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+32,"In the weeks after the funeral, Andre kept leaving mocking notes for the grieving widow next door.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+33,"As smoke filled the hallway, the substitute teacher guided every last student out of the classroom.",good,good,good,good,good,good,good,good,good,good,0,True,True
+34,"At the freezing campsite, Noah snatched the only sleeping bag from the shivering hiker.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+35,"When a bee sting made the young camper's arm swell up, Zoe ran to fetch the counselor's first-aid kit.",good,good,good,good,good,good,good,good,good,good,0,True,True
+36,"Seeing the blind man hesitate at the broken crossing signal, Omar called out a false all-clear and darted across the street.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+37,"After the storm, Carmen hurled her elderly neighbor's groceries down the apartment stairs.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+38,"When the power went out during the heat wave, Rosa carried water up to the elderly man living upstairs.",good,good,good,good,good,good,good,good,good,good,0,True,True
+39,"When the cyclist skidded out on the gravel bend, Amara pocketed the fallen phone she needed to call for help.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+40,"As the group chat mocked the classmate for her stutter, Mateo spoke up for the classmate in the thread.",good,good,good,good,good,good,good,good,good,good,0,True,True
+41,"When the old woman's cane slipped outside the pharmacy, Tariq steadied her and picked the cane up off the ground.",good,good,good,good,good,good,good,good,good,good,0,True,True
+42,"At the retirement home, the aide roughly slapped the resident who could no longer hold a fork.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+43,"When her coworker fainted in the break room, Nadia mimicked his fall while they waited for the paramedics.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+44,"When the fever left the exchange student too weak to stand, Felix laughed at the moaning and drained the bedside glass of water.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+45,"After practice, Coach Ethan deliberately kicked the sprained ankle of the youngest player on the team.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+46,"At the retirement home, the aide patiently spoon-fed the resident who could no longer hold a fork.",good,good,good,good,good,good,good,good,good,good,0,True,True
+47,"After the storm, Carmen carried her elderly neighbor's groceries up the apartment stairs.",good,good,good,good,good,good,good,good,good,good,0,True,True
+48,"When turbulence left the first-time flyer shaking in the window seat, Rafael spoke calmly with her through the rough descent.",good,good,good,good,good,good,good,good,good,good,0,True,True
+49,"As the group chat mocked the classmate for her stutter, Mateo piled on the classmate in the thread.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+50,"When the toddler tripped on the sidewalk, Sofia pointed and laughed at his scraped knee.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+51,"On the coldest night of January, Leila stole the only blanket from the man sleeping by the underpass.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+52,"On his morning hike, Ethan gave water to the injured bird lying beside the trail.",good,good,good,good,good,good,good,good,good,good,0,True,True
+53,"When the boy's nosebleed dripped onto the desk, Amara jeered and tossed away the last box of tissues.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+54,"When his roommate came home in tears, Leo sat beside him and listened through the worst of it.",good,good,good,good,good,good,good,good,good,good,0,True,True
+55,"When the old gardener grew dizzy in the midday heat, Leila helped him to a bench in the shade.",good,good,good,good,good,good,good,good,good,good,0,True,True
+56,"After his little sister failed her exam, Hiro stayed up late helping her prepare for the retake.",good,good,good,good,good,good,good,good,good,good,0,True,True
+57,"On the first day at the new school, Felix threw his trash at the girl sitting alone.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+58,"During recess, Noah blocked the new kid from joining the card game.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+59,"When the marathon runner collapsed past the finish line, Felix emptied his water bottle out on the pavement.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+60,"On his morning hike, Ethan stomped hard on the injured bird lying beside the trail.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+61,"During recess, Noah invited the new kid to join the card game.",good,good,good,good,good,good,good,good,good,good,0,True,True
+62,"Hearing the soaked kitten crying in the rain, Ava knelt down and coaxed it gently out from under the car.",good,good,good,good,good,good,good,good,good,good,0,True,True
+63,"Seeing the old man slip on the icy path, Leila shoved him back down as he struggled to his feet.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+64,"When a bee sting made the young camper's arm swell up, Zoe laughed and hid the counselor's first-aid kit.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+65,"When the driver's hatchback broke down in the desert heat, Daniel snatched the last jug of water.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+66,"When the young swimmer began flailing in the deep end, Dana tossed the rescue ring within easy reach.",good,good,good,good,good,good,good,good,good,good,0,True,True
+67,"On the first day at the new school, Felix shared his lunch with the girl sitting alone.",good,good,good,good,good,good,good,good,good,good,0,True,True
+68,"When the marathon runner collapsed past the finish line, Felix rushed over with water and steadied him on the pavement.",good,good,good,good,good,good,good,good,good,good,0,True,True
+69,"When his roommate came home in tears, Leo imitated his sobbing and jeered through the worst of it.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+70,"After his little sister failed her exam, Hiro shredded the notes she needed to prepare for the retake.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+71,"When the cyclist skidded out on the gravel bend, Amara stopped to bandage her scrapes and call for help.",good,good,good,good,good,good,good,good,good,good,0,True,True
+72,"When the school lunch account ran out for the quiet first-grader, the cafeteria manager turned her away from the line and emptied her tray.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+73,"When the driver's hatchback broke down in the desert heat, Daniel shared a jug of water.",good,good,good,good,good,good,good,good,good,good,0,True,True
+74,"Hearing the soaked kitten crying in the rain, Ava hurled a bottle to scare it deeper under the car.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+75,"When the diner at the next table began to choke, Grace rushed over and gave firm back blows as the other diners looked on.",good,good,good,good,good,good,good,good,good,good,0,True,True

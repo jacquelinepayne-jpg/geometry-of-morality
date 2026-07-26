@@ -74,8 +74,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', default='llama-2-70b')
     parser.add_argument('--probe', default='LRProbe')
-    parser.add_argument('--train_datasets', nargs='+', default=['cities', 'neg_cities'], type=str)
-    parser.add_argument('--val_dataset', default = 'sp_en_trans', type=str)
+    parser.add_argument('--train_datasets', nargs='+', default=['care_harm', 'neg_care_harm'], type=str)
+    parser.add_argument('--val_dataset', default = 'geometry_of_truth/sp_en_trans', type=str)
     parser.add_argument('--batch_size', default=32, type=int)
     parser.add_argument('--intervention', default='none', type=str)
     parser.add_argument('--subset', default='all', type=str)
@@ -132,12 +132,12 @@ if __name__ == '__main__':
     direction = direction.cpu()
 
     # set prompt (hardcoded for now)
-    if args.model == 'llama-2-70b' and args.val_dataset == 'sp_en_trans':
+    if args.model == 'llama-2-70b' and args.val_dataset.split('/')[-1] == 'sp_en_trans':
         prompt = """\
 The Spanish word 'fruta' means 'goat'. This statement is: FALSE
 The Spanish word 'carne' means 'meat'. This statement is: TRUE
 """
-    elif args.model == 'llama-2-13b' and args.val_dataset == 'sp_en_trans':
+    elif args.model == 'llama-2-13b' and args.val_dataset.split('/')[-1] == 'sp_en_trans':
         prompt = """\
 The Spanish word 'jirafa' means 'giraffe'. This statement is: TRUE
 The Spanish word 'escribir' means 'to write'. This statement is: TRUE

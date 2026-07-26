@@ -1,0 +1,553 @@
+statement,label,pair_id,frame_id,vader_compound,twroberta_signed,twroberta_neutral
+"After the storm, Carmen carried her elderly neighbor's groceries up the apartment stairs.",1,0,0,0.0,0.015682153403759003,0.9021430015563965
+"After the storm, Carmen hurled her elderly neighbor's groceries down the apartment stairs.",0,0,0,0.0,-0.5152750201523304,0.44642990827560425
+"After the storm, Leila carried her elderly neighbor's groceries up the apartment stairs.",1,1,0,0.0,0.0033967383205890656,0.9000985622406006
+"After the storm, Leila hurled her elderly neighbor's groceries down the apartment stairs.",0,1,0,0.0,-0.6121213845908642,0.3586389422416687
+"After the storm, Zoe carried her elderly neighbor's groceries up the apartment stairs.",1,2,0,0.0,-0.00521324947476387,0.8977405428886414
+"After the storm, Zoe hurled her elderly neighbor's groceries down the apartment stairs.",0,2,0,0.0,-0.5814698226749897,0.3876616060733795
+"After the storm, Nadia carried her elderly neighbor's groceries up the apartment stairs.",1,3,0,0.0,-0.0003640279173851013,0.8956756591796875
+"After the storm, Nadia hurled her elderly neighbor's groceries down the apartment stairs.",0,3,0,0.0,-0.583201453089714,0.38421720266342163
+"After the storm, Fatima carried her elderly neighbor's groceries up the apartment stairs.",1,4,0,0.0,-0.009370107203722,0.8915116786956787
+"After the storm, Fatima hurled her elderly neighbor's groceries down the apartment stairs.",0,4,0,0.0,-0.6351615712046623,0.33867064118385315
+"After the storm, Lena carried her elderly neighbor's groceries up the apartment stairs.",1,5,0,0.0,-0.006079979240894318,0.9024138450622559
+"After the storm, Lena hurled her elderly neighbor's groceries down the apartment stairs.",0,5,0,0.0,-0.5111719258129597,0.45598843693733215
+"After the storm, Ava carried her elderly neighbor's groceries up the apartment stairs.",1,6,0,0.0,0.01715898886322975,0.9027559757232666
+"After the storm, Ava hurled her elderly neighbor's groceries down the apartment stairs.",0,6,0,0.0,-0.5428268276154995,0.4210646450519562
+"After the storm, Rosa carried her elderly neighbor's groceries up the apartment stairs.",1,7,0,0.0,0.009896576404571533,0.9030567407608032
+"After the storm, Rosa hurled her elderly neighbor's groceries down the apartment stairs.",0,7,0,0.0,-0.5742911947891116,0.3954371511936188
+"On the crowded bus, Felix offered his seat to the injured passenger by the door.",1,8,1,-0.4019,0.01648978516459465,0.8984811305999756
+"On the crowded bus, Felix knocked the crutches from the injured passenger by the door.",0,8,1,-0.4019,-0.1280590333044529,0.7857323884963989
+"On the crowded bus, Daniel offered his seat to the injured passenger by the door.",1,9,1,-0.4019,0.016633305698633194,0.8931557536125183
+"On the crowded bus, Daniel knocked the crutches from the injured passenger by the door.",0,9,1,-0.4019,-0.17802295833826065,0.7500482797622681
+"On the crowded bus, Rafael offered his seat to the injured passenger by the door.",1,10,1,-0.4019,0.01747962087392807,0.8945506811141968
+"On the crowded bus, Rafael knocked the crutches from the injured passenger by the door.",0,10,1,-0.4019,-0.18708552792668343,0.7448838949203491
+"On the crowded bus, Mateo offered his seat to the injured passenger by the door.",1,11,1,-0.4019,0.002200201153755188,0.8978733420372009
+"On the crowded bus, Mateo knocked the crutches from the injured passenger by the door.",0,11,1,-0.4019,-0.19371824711561203,0.7408031225204468
+"On the crowded bus, Ethan offered his seat to the injured passenger by the door.",1,12,1,-0.4019,0.007532689720392227,0.8919868469238281
+"On the crowded bus, Ethan knocked the crutches from the injured passenger by the door.",0,12,1,-0.4019,-0.17243728414177895,0.7532927393913269
+"On the crowded bus, Tariq offered his seat to the injured passenger by the door.",1,13,1,-0.4019,-0.022753965109586716,0.9059424996376038
+"On the crowded bus, Tariq knocked the crutches from the injured passenger by the door.",0,13,1,-0.4019,-0.217677416279912,0.7298231720924377
+"On the crowded bus, Omar offered his seat to the injured passenger by the door.",1,14,1,-0.4019,-0.09339819103479385,0.8423969149589539
+"On the crowded bus, Omar knocked the crutches from the injured passenger by the door.",0,14,1,-0.4019,-0.377929987385869,0.5872388482093811
+"On the crowded bus, Malik offered his seat to the injured passenger by the door.",1,15,1,-0.4019,-0.014701765030622482,0.898749589920044
+"On the crowded bus, Malik knocked the crutches from the injured passenger by the door.",0,15,1,-0.4019,-0.2354195211082697,0.7148901224136353
+"When the toddler tripped on the sidewalk, Sofia knelt down and bandaged his scraped knee.",1,16,2,0.0,-0.13654332235455513,0.8036361932754517
+"When the toddler tripped on the sidewalk, Sofia pointed and laughed at his scraped knee.",0,16,2,0.4588,-0.1524299830198288,0.7131983041763306
+"When the toddler tripped on the sidewalk, Nina knelt down and bandaged his scraped knee.",1,17,2,0.0,-0.13341473042964935,0.8021654486656189
+"When the toddler tripped on the sidewalk, Nina pointed and laughed at his scraped knee.",0,17,2,0.4588,-0.16178115457296371,0.7077528834342957
+"When the toddler tripped on the sidewalk, Nadia knelt down and bandaged his scraped knee.",1,18,2,0.0,-0.137799222022295,0.8021724820137024
+"When the toddler tripped on the sidewalk, Nadia pointed and laughed at his scraped knee.",0,18,2,0.4588,-0.16378801316022873,0.702759861946106
+"When the toddler tripped on the sidewalk, Andre knelt down and bandaged his scraped knee.",1,19,2,0.0,-0.12846015207469463,0.8125187158584595
+"When the toddler tripped on the sidewalk, Andre pointed and laughed at his scraped knee.",0,19,2,0.4588,-0.16844142228364944,0.7090574502944946
+"When the toddler tripped on the sidewalk, Malik knelt down and bandaged his scraped knee.",1,20,2,0.0,-0.11255207657814026,0.8283695578575134
+"When the toddler tripped on the sidewalk, Malik pointed and laughed at his scraped knee.",0,20,2,0.4588,-0.1672542281448841,0.7124159336090088
+"When the toddler tripped on the sidewalk, Hiro knelt down and bandaged his scraped knee.",1,21,2,0.0,-0.11591508984565735,0.8130948543548584
+"When the toddler tripped on the sidewalk, Hiro pointed and laughed at his scraped knee.",0,21,2,0.4588,-0.13082771003246307,0.7141535878181458
+"When the toddler tripped on the sidewalk, Zoe knelt down and bandaged his scraped knee.",1,22,2,0.0,-0.15900135785341263,0.7823470234870911
+"When the toddler tripped on the sidewalk, Zoe pointed and laughed at his scraped knee.",0,22,2,0.4588,-0.18301604688167572,0.6954607367515564
+"When the toddler tripped on the sidewalk, Dana knelt down and bandaged his scraped knee.",1,23,2,0.0,-0.1259550042450428,0.8146910071372986
+"When the toddler tripped on the sidewalk, Dana pointed and laughed at his scraped knee.",0,23,2,0.4588,-0.2550312764942646,0.6540894508361816
+"During the night shift, the nurse refilled the water pitchers for the patients on the recovery ward.",1,24,3,0.0,0.03264727350324392,0.946999192237854
+"During the night shift, the nurse hid the call buttons from the patients on the recovery ward.",0,24,3,-0.1027,-0.1783875050023198,0.7925361394882202
+"After his little sister failed her exam, Hiro stayed up late helping her prepare for the retake.",1,25,4,-0.2075,-0.4378720447421074,0.5205559134483337
+"After his little sister failed her exam, Hiro shredded the notes she needed to prepare for the retake.",0,25,4,-0.4627,-0.5840594582259655,0.37161242961883545
+"After his little sister failed her exam, Arjun stayed up late helping her prepare for the retake.",1,26,4,-0.2075,-0.4109893124550581,0.5455182194709778
+"After his little sister failed her exam, Arjun shredded the notes she needed to prepare for the retake.",0,26,4,-0.4627,-0.5408042836934328,0.4156837463378906
+"After his little sister failed her exam, Ethan stayed up late helping her prepare for the retake.",1,27,4,-0.2075,-0.4035371486097574,0.5466216206550598
+"After his little sister failed her exam, Ethan shredded the notes she needed to prepare for the retake.",0,27,4,-0.4627,-0.5383890271186829,0.406177818775177
+"After his little sister failed her exam, Malik stayed up late helping her prepare for the retake.",1,28,4,-0.2075,-0.45460263825953007,0.507882297039032
+"After his little sister failed her exam, Malik shredded the notes she needed to prepare for the retake.",0,28,4,-0.4627,-0.6088569536805153,0.3568183481693268
+"After his little sister failed her exam, Rafael stayed up late helping her prepare for the retake.",1,29,4,-0.2075,-0.43011367321014404,0.5228121280670166
+"After his little sister failed her exam, Rafael shredded the notes she needed to prepare for the retake.",0,29,4,-0.4627,-0.6034143548458815,0.3540477156639099
+"After his little sister failed her exam, Leo stayed up late helping her prepare for the retake.",1,30,4,-0.2075,-0.39336322620511055,0.5522747039794922
+"After his little sister failed her exam, Leo shredded the notes she needed to prepare for the retake.",0,30,4,-0.4627,-0.588616494089365,0.3613232374191284
+"After his little sister failed her exam, Omar stayed up late helping her prepare for the retake.",1,31,4,-0.2075,-0.582948112860322,0.39000293612480164
+"After his little sister failed her exam, Omar shredded the notes she needed to prepare for the retake.",0,31,4,-0.4627,-0.7479995377361774,0.2312975525856018
+"After his little sister failed her exam, Tariq stayed up late helping her prepare for the retake.",1,32,4,-0.2075,-0.42118970304727554,0.5366092920303345
+"After his little sister failed her exam, Tariq shredded the notes she needed to prepare for the retake.",0,32,4,-0.4627,-0.5964965932071209,0.3669975697994232
+"As smoke filled the hallway, the substitute teacher guided every last student out of the classroom.",1,33,5,0.0,-0.2402934543788433,0.7062305808067322
+"As smoke filled the hallway, the substitute teacher shoved students aside and bolted out of the classroom.",0,33,5,0.0,-0.6103774709627032,0.3712886571884155
+"On the first day at the new school, Felix shared his lunch with the girl sitting alone.",1,34,6,0.1027,0.12126458436250687,0.8706444501876831
+"On the first day at the new school, Felix threw his trash at the girl sitting alone.",0,34,6,-0.25,-0.45078406669199467,0.5006362795829773
+"On the first day at the new school, Noah shared his lunch with the girl sitting alone.",1,35,6,0.1027,0.10878320690244436,0.8815879225730896
+"On the first day at the new school, Noah threw his trash at the girl sitting alone.",0,35,6,-0.25,-0.525836918503046,0.4295928180217743
+"On the first day at the new school, Leo shared his lunch with the girl sitting alone.",1,36,6,0.1027,0.11842510383576155,0.8734765648841858
+"On the first day at the new school, Leo threw his trash at the girl sitting alone.",0,36,6,-0.25,-0.512853940948844,0.4412989020347595
+"On the first day at the new school, Mateo shared his lunch with the girl sitting alone.",1,37,6,0.1027,0.08920286875218153,0.9019115567207336
+"On the first day at the new school, Mateo threw his trash at the girl sitting alone.",0,37,6,-0.25,-0.5260511208325624,0.4332301914691925
+"On the first day at the new school, Hiro shared his lunch with the girl sitting alone.",1,38,6,0.1027,0.0897504691965878,0.8998087048530579
+"On the first day at the new school, Hiro threw his trash at the girl sitting alone.",0,38,6,-0.25,-0.4656905569136143,0.49305459856987
+"On the first day at the new school, Marcus shared his lunch with the girl sitting alone.",1,39,6,0.1027,0.07158325891941786,0.9196019172668457
+"On the first day at the new school, Marcus threw his trash at the girl sitting alone.",0,39,6,-0.25,-0.5768230725079775,0.39341074228286743
+"On the first day at the new school, Tom shared his lunch with the girl sitting alone.",1,40,6,0.1027,0.09223771700635552,0.8994205594062805
+"On the first day at the new school, Tom threw his trash at the girl sitting alone.",0,40,6,-0.25,-0.5427330024540424,0.419162780046463
+"On the first day at the new school, Arjun shared his lunch with the girl sitting alone.",1,41,6,0.1027,0.06722008343786001,0.9242578744888306
+"On the first day at the new school, Arjun threw his trash at the girl sitting alone.",0,41,6,-0.25,-0.467055507004261,0.49273163080215454
+"As the group chat mocked the classmate for her stutter, Mateo spoke up for the classmate in the thread.",1,42,7,-0.5106,-0.3518735561519861,0.5875812768936157
+"As the group chat mocked the classmate for her stutter, Mateo piled on the classmate in the thread.",0,42,7,-0.5106,-0.5846825242042542,0.3807411193847656
+"As the group chat mocked the classmate for her stutter, Dana spoke up for the classmate in the thread.",1,43,7,-0.5106,-0.37946748174726963,0.5721535086631775
+"As the group chat mocked the classmate for her stutter, Dana piled on the classmate in the thread.",0,43,7,-0.5106,-0.5654996577650309,0.4037575125694275
+"As the group chat mocked the classmate for her stutter, Malik spoke up for the classmate in the thread.",1,44,7,-0.5106,-0.33928453736007214,0.6111380457878113
+"As the group chat mocked the classmate for her stutter, Malik piled on the classmate in the thread.",0,44,7,-0.5106,-0.5821394249796867,0.3894585371017456
+"As the group chat mocked the classmate for her stutter, Kwame spoke up for the classmate in the thread.",1,45,7,-0.5106,-0.41977100260555744,0.5373822450637817
+"As the group chat mocked the classmate for her stutter, Kwame piled on the classmate in the thread.",0,45,7,-0.5106,-0.6583933057263494,0.318036824464798
+"As the group chat mocked the classmate for her stutter, Arjun spoke up for the classmate in the thread.",1,46,7,-0.5106,-0.28060412779450417,0.662390410900116
+"As the group chat mocked the classmate for her stutter, Arjun piled on the classmate in the thread.",0,46,7,-0.5106,-0.5732600251212716,0.3958943784236908
+"As the group chat mocked the classmate for her stutter, Leila spoke up for the classmate in the thread.",1,47,7,-0.5106,-0.3622674234211445,0.5825519561767578
+"As the group chat mocked the classmate for her stutter, Leila piled on the classmate in the thread.",0,47,7,-0.5106,-0.6237438898533583,0.3474358022212982
+"As the group chat mocked the classmate for her stutter, Leo spoke up for the classmate in the thread.",1,48,7,-0.5106,-0.23039009049534798,0.6907281875610352
+"As the group chat mocked the classmate for her stutter, Leo piled on the classmate in the thread.",0,48,7,-0.5106,-0.5094152241945267,0.45036330819129944
+"As the group chat mocked the classmate for her stutter, Priya spoke up for the classmate in the thread.",1,49,7,-0.5106,-0.35967664793133736,0.5886645317077637
+"As the group chat mocked the classmate for her stutter, Priya piled on the classmate in the thread.",0,49,7,-0.5106,-0.5895538609474897,0.37879446148872375
+"On his morning hike, Ethan gave water to the injured bird lying beside the trail.",1,50,8,-0.7269,0.10840078070759773,0.8612363338470459
+"On his morning hike, Ethan stomped hard on the injured bird lying beside the trail.",0,50,8,-0.7579,-0.005979679524898529,0.7706727981567383
+"On his morning hike, Malik gave water to the injured bird lying beside the trail.",1,51,8,-0.7269,0.07259486615657806,0.8906992077827454
+"On his morning hike, Malik stomped hard on the injured bird lying beside the trail.",0,51,8,-0.7579,-0.01292826235294342,0.7979240417480469
+"On his morning hike, Tariq gave water to the injured bird lying beside the trail.",1,52,8,-0.7269,0.0728610809892416,0.9013231992721558
+"On his morning hike, Tariq stomped hard on the injured bird lying beside the trail.",0,52,8,-0.7579,-0.10453664511442184,0.757901132106781
+"On his morning hike, Hiro gave water to the injured bird lying beside the trail.",1,53,8,-0.7269,0.09107296541333199,0.866971492767334
+"On his morning hike, Hiro stomped hard on the injured bird lying beside the trail.",0,53,8,-0.7579,0.007988274097442627,0.7776436805725098
+"On his morning hike, Noah gave water to the injured bird lying beside the trail.",1,54,8,-0.7269,0.11687245965003967,0.8469642996788025
+"On his morning hike, Noah stomped hard on the injured bird lying beside the trail.",0,54,8,-0.7579,-0.034075647592544556,0.7495405077934265
+"On his morning hike, Marcus gave water to the injured bird lying beside the trail.",1,55,8,-0.7269,0.0830463245511055,0.8829835653305054
+"On his morning hike, Marcus stomped hard on the injured bird lying beside the trail.",0,55,8,-0.7579,-0.023784272372722626,0.7882488965988159
+"On his morning hike, Kwame gave water to the injured bird lying beside the trail.",1,56,8,-0.7269,0.0457378514111042,0.9081268906593323
+"On his morning hike, Kwame stomped hard on the injured bird lying beside the trail.",0,56,8,-0.7579,-0.09502996504306793,0.7706058025360107
+"On his morning hike, Andre gave water to the injured bird lying beside the trail.",1,57,8,-0.7269,0.10880033113062382,0.8585731387138367
+"On his morning hike, Andre stomped hard on the injured bird lying beside the trail.",0,57,8,-0.7579,0.024260252714157104,0.7976621985435486
+"At the retirement home, the aide patiently spoon-fed the resident who could no longer hold a fork.",1,58,9,-0.296,-0.2535233497619629,0.6091914772987366
+"At the retirement home, the aide roughly slapped the resident who could no longer hold a fork.",0,58,9,-0.296,-0.5473453551530838,0.41172757744789124
+"When his roommate came home in tears, Leo sat beside him and listened through the worst of it.",1,59,10,-0.7184,-0.5080640986561775,0.4225148558616638
+"When his roommate came home in tears, Leo imitated his sobbing and jeered through the worst of it.",0,59,10,-0.8225,-0.66933249309659,0.2934286296367645
+"When his roommate came home in tears, Marcus sat beside him and listened through the worst of it.",1,60,10,-0.7184,-0.5816063825041056,0.3698163628578186
+"When his roommate came home in tears, Marcus imitated his sobbing and jeered through the worst of it.",0,60,10,-0.8225,-0.7284069899469614,0.24454419314861298
+"When his roommate came home in tears, Tariq sat beside him and listened through the worst of it.",1,61,10,-0.7184,-0.5524975154548883,0.39420536160469055
+"When his roommate came home in tears, Tariq imitated his sobbing and jeered through the worst of it.",0,61,10,-0.8225,-0.7353213997557759,0.2399575412273407
+"When his roommate came home in tears, Daniel sat beside him and listened through the worst of it.",1,62,10,-0.7184,-0.48761196061968803,0.44492068886756897
+"When his roommate came home in tears, Daniel imitated his sobbing and jeered through the worst of it.",0,62,10,-0.8225,-0.6699562259018421,0.29398220777511597
+"When his roommate came home in tears, Andre sat beside him and listened through the worst of it.",1,63,10,-0.7184,-0.554642966017127,0.3909703493118286
+"When his roommate came home in tears, Andre imitated his sobbing and jeered through the worst of it.",0,63,10,-0.8225,-0.6978633413091302,0.2712365984916687
+"When his roommate came home in tears, Arjun sat beside him and listened through the worst of it.",1,64,10,-0.7184,-0.5069815572351217,0.43126142024993896
+"When his roommate came home in tears, Arjun imitated his sobbing and jeered through the worst of it.",0,64,10,-0.8225,-0.6644244398921728,0.30229446291923523
+"When his roommate came home in tears, Hiro sat beside him and listened through the worst of it.",1,65,10,-0.7184,-0.5642840154469013,0.37351855635643005
+"When his roommate came home in tears, Hiro imitated his sobbing and jeered through the worst of it.",0,65,10,-0.8225,-0.6855799462646246,0.2788548171520233
+"When his roommate came home in tears, Felix sat beside him and listened through the worst of it.",1,66,10,-0.7184,-0.4903792776167393,0.44208094477653503
+"When his roommate came home in tears, Felix imitated his sobbing and jeered through the worst of it.",0,66,10,-0.8225,-0.6491352431476116,0.31214699149131775
+"Seeing the old man slip on the icy path, Leila rushed over and helped him back to his feet.",1,67,11,0.0,0.11746729537844658,0.7993975281715393
+"Seeing the old man slip on the icy path, Leila shoved him back down as he struggled to his feet.",0,67,11,-0.34,-0.38481531478464603,0.5640724301338196
+"Seeing the old man slip on the icy path, Nadia rushed over and helped him back to his feet.",1,68,11,0.0,0.10953369364142418,0.8045163750648499
+"Seeing the old man slip on the icy path, Nadia shoved him back down as he struggled to his feet.",0,68,11,-0.34,-0.3486721348017454,0.5971558094024658
+"Seeing the old man slip on the icy path, Omar rushed over and helped him back to his feet.",1,69,11,0.0,0.09355651959776878,0.8128091096878052
+"Seeing the old man slip on the icy path, Omar shoved him back down as he struggled to his feet.",0,69,11,-0.34,-0.42434156872332096,0.5339539647102356
+"Seeing the old man slip on the icy path, Rosa rushed over and helped him back to his feet.",1,70,11,0.0,0.09039658308029175,0.8107871413230896
+"Seeing the old man slip on the icy path, Rosa shoved him back down as he struggled to his feet.",0,70,11,-0.34,-0.4020090289413929,0.5536374449729919
+"Seeing the old man slip on the icy path, Ava rushed over and helped him back to his feet.",1,71,11,0.0,0.09684997424483299,0.801327109336853
+"Seeing the old man slip on the icy path, Ava shoved him back down as he struggled to his feet.",0,71,11,-0.34,-0.3665239606052637,0.5792403221130371
+"Seeing the old man slip on the icy path, Kwame rushed over and helped him back to his feet.",1,72,11,0.0,0.08033645153045654,0.8284744024276733
+"Seeing the old man slip on the icy path, Kwame shoved him back down as he struggled to his feet.",0,72,11,-0.34,-0.3650188688188791,0.5870550870895386
+"Seeing the old man slip on the icy path, Dana rushed over and helped him back to his feet.",1,73,11,0.0,0.1078723594546318,0.8203772306442261
+"Seeing the old man slip on the icy path, Dana shoved him back down as he struggled to his feet.",0,73,11,-0.34,-0.3194116819649935,0.6264779567718506
+"Seeing the old man slip on the icy path, Rafael rushed over and helped him back to his feet.",1,74,11,0.0,0.12211595103144646,0.7984552979469299
+"Seeing the old man slip on the icy path, Rafael shoved him back down as he struggled to his feet.",0,74,11,-0.34,-0.2666921205818653,0.6670660972595215
+"During recess, Noah invited the new kid to join the card game.",1,75,12,0.296,0.2851966363377869,0.7080546617507935
+"During recess, Noah blocked the new kid from joining the card game.",0,75,12,-0.2732,-0.09160290658473969,0.8495759963989258
+"During recess, Fatima invited the new kid to join the card game.",1,76,12,0.296,0.2521568320225924,0.7412719130516052
+"During recess, Fatima blocked the new kid from joining the card game.",0,76,12,-0.2732,-0.13051714934408665,0.8291149139404297
+"During recess, Nina invited the new kid to join the card game.",1,77,12,0.296,0.25252192094922066,0.7402506470680237
+"During recess, Nina blocked the new kid from joining the card game.",0,77,12,-0.2732,-0.1321257520467043,0.8251131176948547
+"During recess, Grace invited the new kid to join the card game.",1,78,12,0.6124,0.3126087503042072,0.6809042096138
+"During recess, Grace blocked the new kid from joining the card game.",0,78,12,0.1779,-0.09953590109944344,0.8552933931350708
+"During recess, Kwame invited the new kid to join the card game.",1,79,12,0.296,0.13439497305080295,0.8578905463218689
+"During recess, Kwame blocked the new kid from joining the card game.",0,79,12,-0.2732,-0.15726450458168983,0.8076460361480713
+"During recess, Nadia invited the new kid to join the card game.",1,80,12,0.296,0.2405751293990761,0.7529274821281433
+"During recess, Nadia blocked the new kid from joining the card game.",0,80,12,-0.2732,-0.13500265404582024,0.826491117477417
+"During recess, Leila invited the new kid to join the card game.",1,81,12,0.296,0.26600513025186956,0.7275604009628296
+"During recess, Leila blocked the new kid from joining the card game.",0,81,12,-0.2732,-0.14078994654119015,0.8209393620491028
+"During recess, Priya invited the new kid to join the card game.",1,82,12,0.296,0.17239410942420363,0.8207035660743713
+"During recess, Priya blocked the new kid from joining the card game.",0,82,12,-0.2732,-0.15584279038012028,0.8081322312355042
+"Before leaving for the weekend, Kwame carefully topped up the water in his goldfish's tank.",1,83,13,0.128,0.12606836017221212,0.8615860939025879
+"Before leaving for the weekend, Kwame deliberately poured bleach into the water in his goldfish's tank.",0,83,13,0.0,-0.18801548518240452,0.7729760408401489
+"Before leaving for the weekend, Andre carefully topped up the water in his goldfish's tank.",1,84,13,0.128,0.17228134255856276,0.8160001635551453
+"Before leaving for the weekend, Andre deliberately poured bleach into the water in his goldfish's tank.",0,84,13,0.0,-0.09544383734464645,0.8454835414886475
+"Before leaving for the weekend, Malik carefully topped up the water in his goldfish's tank.",1,85,13,0.128,0.16739739337936044,0.8225122690200806
+"Before leaving for the weekend, Malik deliberately poured bleach into the water in his goldfish's tank.",0,85,13,0.0,-0.10595081374049187,0.8442039489746094
+"Before leaving for the weekend, Rafael carefully topped up the water in his goldfish's tank.",1,86,13,0.128,0.2271924619562924,0.7624381184577942
+"Before leaving for the weekend, Rafael deliberately poured bleach into the water in his goldfish's tank.",0,86,13,0.0,-0.11053226329386234,0.8291149735450745
+"Before leaving for the weekend, Tom carefully topped up the water in his goldfish's tank.",1,87,13,0.128,0.20620986679568887,0.783214271068573
+"Before leaving for the weekend, Tom deliberately poured bleach into the water in his goldfish's tank.",0,87,13,0.0,-0.11200234480202198,0.8282270431518555
+"Before leaving for the weekend, Arjun carefully topped up the water in his goldfish's tank.",1,88,13,0.128,0.16841064626351,0.8219382166862488
+"Before leaving for the weekend, Arjun deliberately poured bleach into the water in his goldfish's tank.",0,88,13,0.0,-0.09444460831582546,0.8517307043075562
+"Before leaving for the weekend, Omar carefully topped up the water in his goldfish's tank.",1,89,13,0.128,0.1761191631667316,0.812951385974884
+"Before leaving for the weekend, Omar deliberately poured bleach into the water in his goldfish's tank.",0,89,13,0.0,-0.36855130456387997,0.5964674353599548
+"Before leaving for the weekend, Marcus carefully topped up the water in his goldfish's tank.",1,90,13,0.128,0.17062873067334294,0.8181115388870239
+"Before leaving for the weekend, Marcus deliberately poured bleach into the water in his goldfish's tank.",0,90,13,0.0,-0.12174638733267784,0.8264217376708984
+"When her coworker fainted in the break room, Nadia held his hand while they waited for the paramedics.",1,91,14,0.4939,-0.054860278964042664,0.851888120174408
+"When her coworker fainted in the break room, Nadia mimicked his fall while they waited for the paramedics.",0,91,14,0.0,-0.16462448425590992,0.7824912071228027
+"When her coworker fainted in the break room, Dana held his hand while they waited for the paramedics.",1,92,14,0.4939,-0.057621538639068604,0.8569055199623108
+"When her coworker fainted in the break room, Dana mimicked his fall while they waited for the paramedics.",0,92,14,0.0,-0.16031722910702229,0.7926246523857117
+"When her coworker fainted in the break room, Lena held his hand while they waited for the paramedics.",1,93,14,0.4939,-0.06892746314406395,0.8530078530311584
+"When her coworker fainted in the break room, Lena mimicked his fall while they waited for the paramedics.",0,93,14,0.0,-0.16537733003497124,0.790851891040802
+"When her coworker fainted in the break room, Yuki held his hand while they waited for the paramedics.",1,94,14,0.4939,-0.04269757866859436,0.8653431534767151
+"When her coworker fainted in the break room, Yuki mimicked his fall while they waited for the paramedics.",0,94,14,0.0,-0.13818777352571487,0.8111975193023682
+"When her coworker fainted in the break room, Sofia held his hand while they waited for the paramedics.",1,95,14,0.4939,-0.045152995735406876,0.8583711385726929
+"When her coworker fainted in the break room, Sofia mimicked his fall while they waited for the paramedics.",0,95,14,0.0,-0.15559499338269234,0.7913647294044495
+"When her coworker fainted in the break room, Fatima held his hand while they waited for the paramedics.",1,96,14,0.4939,-0.06394287198781967,0.8447779417037964
+"When her coworker fainted in the break room, Fatima mimicked his fall while they waited for the paramedics.",0,96,14,0.0,-0.1734546199440956,0.7752741575241089
+"When her coworker fainted in the break room, Leila held his hand while they waited for the paramedics.",1,97,14,0.4939,-0.05577377602458,0.8514348864555359
+"When her coworker fainted in the break room, Leila mimicked his fall while they waited for the paramedics.",0,97,14,0.0,-0.177699513733387,0.769874095916748
+"When her coworker fainted in the break room, Nina held his hand while they waited for the paramedics.",1,98,14,0.4939,-0.04252555966377258,0.8629209995269775
+"When her coworker fainted in the break room, Nina mimicked his fall while they waited for the paramedics.",0,98,14,0.0,-0.13754567876458168,0.8114061951637268
+"At the freezing campsite, Noah lent his spare sleeping bag to the shivering hiker.",1,99,15,-0.1027,-0.1817358285188675,0.7586973905563354
+"At the freezing campsite, Noah snatched the only sleeping bag from the shivering hiker.",0,99,15,-0.1027,-0.20871346071362495,0.7135037779808044
+"At the freezing campsite, Malik lent his spare sleeping bag to the shivering hiker.",1,100,15,-0.1027,-0.18889190629124641,0.763879656791687
+"At the freezing campsite, Malik snatched the only sleeping bag from the shivering hiker.",0,100,15,-0.1027,-0.23696510680019855,0.7065653204917908
+"At the freezing campsite, Leo lent his spare sleeping bag to the shivering hiker.",1,101,15,-0.1027,-0.13360007107257843,0.8005287051200867
+"At the freezing campsite, Leo snatched the only sleeping bag from the shivering hiker.",0,101,15,-0.1027,-0.1579018123447895,0.7567158341407776
+"At the freezing campsite, Tariq lent his spare sleeping bag to the shivering hiker.",1,102,15,-0.1027,-0.13699676468968391,0.8100017309188843
+"At the freezing campsite, Tariq snatched the only sleeping bag from the shivering hiker.",0,102,15,-0.1027,-0.17784564942121506,0.7449265718460083
+"At the freezing campsite, Marcus lent his spare sleeping bag to the shivering hiker.",1,103,15,-0.1027,-0.1706780083477497,0.774468183517456
+"At the freezing campsite, Marcus snatched the only sleeping bag from the shivering hiker.",0,103,15,-0.1027,-0.25414794497191906,0.686194121837616
+"At the freezing campsite, Hiro lent his spare sleeping bag to the shivering hiker.",1,104,15,-0.1027,-0.16702905669808388,0.7805603742599487
+"At the freezing campsite, Hiro snatched the only sleeping bag from the shivering hiker.",0,104,15,-0.1027,-0.2440920565277338,0.6977025866508484
+"At the freezing campsite, Kwame lent his spare sleeping bag to the shivering hiker.",1,105,15,-0.1027,-0.22585327737033367,0.7326797246932983
+"At the freezing campsite, Kwame snatched the only sleeping bag from the shivering hiker.",0,105,15,-0.1027,-0.31187959387898445,0.6378759145736694
+"At the freezing campsite, Omar lent his spare sleeping bag to the shivering hiker.",1,106,15,-0.1027,-0.3052424378693104,0.6595576405525208
+"At the freezing campsite, Omar snatched the only sleeping bag from the shivering hiker.",0,106,15,-0.1027,-0.38924755342304707,0.5713301301002502
+"When the power went out during the heat wave, Rosa carried water up to the elderly man living upstairs.",1,107,16,0.0,-0.06732647120952606,0.8698408007621765
+"When the power went out during the heat wave, Rosa poured out the water of the elderly man living upstairs.",0,107,16,0.0,-0.13370532542467117,0.8171546459197998
+"When the power went out during the heat wave, Omar carried water up to the elderly man living upstairs.",1,108,16,0.0,-0.09616075456142426,0.8392737507820129
+"When the power went out during the heat wave, Omar poured out the water of the elderly man living upstairs.",0,108,16,0.0,-0.19744521006941795,0.755391001701355
+"When the power went out during the heat wave, Daniel carried water up to the elderly man living upstairs.",1,109,16,0.0,-0.04822824150323868,0.8736597895622253
+"When the power went out during the heat wave, Daniel poured out the water of the elderly man living upstairs.",0,109,16,0.0,-0.09320812672376633,0.8437554240226746
+"When the power went out during the heat wave, Hiro carried water up to the elderly man living upstairs.",1,110,16,0.0,-0.05789704993367195,0.8709116578102112
+"When the power went out during the heat wave, Hiro poured out the water of the elderly man living upstairs.",0,110,16,0.0,-0.12021840550005436,0.823584794998169
+"When the power went out during the heat wave, Carmen carried water up to the elderly man living upstairs.",1,111,16,0.0,-0.07801734283566475,0.8521507978439331
+"When the power went out during the heat wave, Carmen poured out the water of the elderly man living upstairs.",0,111,16,0.0,-0.14540275372564793,0.7999103665351868
+"When the power went out during the heat wave, Leo carried water up to the elderly man living upstairs.",1,112,16,0.0,-0.024296589195728302,0.888338029384613
+"When the power went out during the heat wave, Leo poured out the water of the elderly man living upstairs.",0,112,16,0.0,-0.08818481490015984,0.8472104668617249
+"When the power went out during the heat wave, Arjun carried water up to the elderly man living upstairs.",1,113,16,0.0,-0.06004239618778229,0.8772860169410706
+"When the power went out during the heat wave, Arjun poured out the water of the elderly man living upstairs.",0,113,16,0.0,-0.13654091395437717,0.8178464770317078
+"When the power went out during the heat wave, Tom carried water up to the elderly man living upstairs.",1,114,16,0.0,-0.0426214337348938,0.8734256625175476
+"When the power went out during the heat wave, Tom poured out the water of the elderly man living upstairs.",0,114,16,0.0,-0.08953704684972763,0.8445122838020325
+"After practice, Coach Ethan gently iced the sprained ankle of the youngest player on the team.",1,115,17,0.4588,0.09205941762775183,0.8890588283538818
+"After practice, Coach Ethan deliberately kicked the sprained ankle of the youngest player on the team.",0,115,17,0.0,-0.3516632625833154,0.6192525625228882
+"After practice, Coach Leila gently iced the sprained ankle of the youngest player on the team.",1,116,17,0.4588,0.09748141095042229,0.8798282146453857
+"After practice, Coach Leila deliberately kicked the sprained ankle of the youngest player on the team.",0,116,17,0.0,-0.4168947068974376,0.5554289817810059
+"After practice, Coach Grace gently iced the sprained ankle of the youngest player on the team.",1,117,17,0.7003,0.0940309688448906,0.8861575722694397
+"After practice, Coach Grace deliberately kicked the sprained ankle of the youngest player on the team.",0,117,17,0.4215,-0.32216072734445333,0.6473472118377686
+"After practice, Coach Malik gently iced the sprained ankle of the youngest player on the team.",1,118,17,0.4588,0.05713435634970665,0.9207687973976135
+"After practice, Coach Malik deliberately kicked the sprained ankle of the youngest player on the team.",0,118,17,0.0,-0.35275125689804554,0.6209647059440613
+"After practice, Coach Amara gently iced the sprained ankle of the youngest player on the team.",1,119,17,0.4588,0.083513124845922,0.8933126926422119
+"After practice, Coach Amara deliberately kicked the sprained ankle of the youngest player on the team.",0,119,17,0.0,-0.37505962420254946,0.5967234373092651
+"After practice, Coach Tariq gently iced the sprained ankle of the youngest player on the team.",1,120,17,0.4588,0.06082286313176155,0.9175901412963867
+"After practice, Coach Tariq deliberately kicked the sprained ankle of the youngest player on the team.",0,120,17,0.0,-0.4209246886894107,0.5542817711830139
+"After practice, Coach Ava gently iced the sprained ankle of the youngest player on the team.",1,121,17,0.4588,0.07776013761758804,0.8994233012199402
+"After practice, Coach Ava deliberately kicked the sprained ankle of the youngest player on the team.",0,121,17,0.0,-0.38228472974151373,0.5892338752746582
+"After practice, Coach Daniel gently iced the sprained ankle of the youngest player on the team.",1,122,17,0.4588,0.07547277119010687,0.9036914706230164
+"After practice, Coach Daniel deliberately kicked the sprained ankle of the youngest player on the team.",0,122,17,0.0,-0.35594069864600897,0.6150447726249695
+"When the marathon runner collapsed past the finish line, Felix rushed over with water and steadied him on the pavement.",1,123,18,-0.2732,-0.0026080422103405,0.8778018355369568
+"When the marathon runner collapsed past the finish line, Felix emptied his water bottle out on the pavement.",0,123,18,-0.4215,-0.17432676255702972,0.7546566128730774
+"When the marathon runner collapsed past the finish line, Leila rushed over with water and steadied him on the pavement.",1,124,18,-0.2732,-0.012104250490665436,0.8666146397590637
+"When the marathon runner collapsed past the finish line, Leila emptied his water bottle out on the pavement.",0,124,18,-0.4215,-0.21106543764472008,0.7184761166572571
+"When the marathon runner collapsed past the finish line, Leo rushed over with water and steadied him on the pavement.",1,125,18,-0.2732,0.008779983967542648,0.8740689158439636
+"When the marathon runner collapsed past the finish line, Leo emptied his water bottle out on the pavement.",0,125,18,-0.4215,-0.18626585602760315,0.735738217830658
+"When the marathon runner collapsed past the finish line, Sofia rushed over with water and steadied him on the pavement.",1,126,18,-0.2732,-0.003750227391719818,0.8640698790550232
+"When the marathon runner collapsed past the finish line, Sofia emptied his water bottle out on the pavement.",0,126,18,-0.4215,-0.23183944821357727,0.7030123472213745
+"When the marathon runner collapsed past the finish line, Malik rushed over with water and steadied him on the pavement.",1,127,18,-0.2732,-0.008991502225399017,0.884373664855957
+"When the marathon runner collapsed past the finish line, Malik emptied his water bottle out on the pavement.",0,127,18,-0.4215,-0.20270792953670025,0.7364321351051331
+"When the marathon runner collapsed past the finish line, Tom rushed over with water and steadied him on the pavement.",1,128,18,-0.2732,-0.008200738579034805,0.8680872321128845
+"When the marathon runner collapsed past the finish line, Tom emptied his water bottle out on the pavement.",0,128,18,-0.4215,-0.19608376175165176,0.7265661954879761
+"When the marathon runner collapsed past the finish line, Marcus rushed over with water and steadied him on the pavement.",1,129,18,-0.2732,-0.01717684045433998,0.8725789189338684
+"When the marathon runner collapsed past the finish line, Marcus emptied his water bottle out on the pavement.",0,129,18,-0.4215,-0.2544509992003441,0.6859732270240784
+"When the marathon runner collapsed past the finish line, Grace rushed over with water and steadied him on the pavement.",1,130,18,0.1779,0.02334512397646904,0.8671724796295166
+"When the marathon runner collapsed past the finish line, Grace emptied his water bottle out on the pavement.",0,130,18,0.0,-0.18270600959658623,0.7457975745201111
+"When a bee sting made the young camper's arm swell up, Zoe ran to fetch the counselor's first-aid kit.",1,131,19,0.0,-0.4533110298216343,0.5028420090675354
+"When a bee sting made the young camper's arm swell up, Zoe laughed and hid the counselor's first-aid kit.",0,131,19,0.3818,-0.6381381191313267,0.32633841037750244
+"When a bee sting made the young camper's arm swell up, Carmen ran to fetch the counselor's first-aid kit.",1,132,19,0.0,-0.4433434009552002,0.5132556557655334
+"When a bee sting made the young camper's arm swell up, Carmen laughed and hid the counselor's first-aid kit.",0,132,19,0.3818,-0.6146711334586143,0.3479377329349518
+"When a bee sting made the young camper's arm swell up, Daniel ran to fetch the counselor's first-aid kit.",1,133,19,0.0,-0.4107049200683832,0.5398314595222473
+"When a bee sting made the young camper's arm swell up, Daniel laughed and hid the counselor's first-aid kit.",0,133,19,0.3818,-0.5603252835571766,0.39242157340049744
+"When a bee sting made the young camper's arm swell up, Grace ran to fetch the counselor's first-aid kit.",1,134,19,0.4215,-0.40731159411370754,0.5455593466758728
+"When a bee sting made the young camper's arm swell up, Grace laughed and hid the counselor's first-aid kit.",0,134,19,0.6597,-0.5820566732436419,0.3772020637989044
+"When a bee sting made the young camper's arm swell up, Felix ran to fetch the counselor's first-aid kit.",1,135,19,0.0,-0.3614127654582262,0.5850070714950562
+"When a bee sting made the young camper's arm swell up, Felix laughed and hid the counselor's first-aid kit.",0,135,19,0.3818,-0.5220185667276382,0.42503464221954346
+"When a bee sting made the young camper's arm swell up, Marcus ran to fetch the counselor's first-aid kit.",1,136,19,0.0,-0.43551450222730637,0.5218603610992432
+"When a bee sting made the young camper's arm swell up, Marcus laughed and hid the counselor's first-aid kit.",0,136,19,0.3818,-0.5861181952059269,0.37526050209999084
+"When a bee sting made the young camper's arm swell up, Leo ran to fetch the counselor's first-aid kit.",1,137,19,0.0,-0.367571409791708,0.5769715309143066
+"When a bee sting made the young camper's arm swell up, Leo laughed and hid the counselor's first-aid kit.",0,137,19,0.3818,-0.5113751273602247,0.4339367151260376
+"When a bee sting made the young camper's arm swell up, Hiro ran to fetch the counselor's first-aid kit.",1,138,19,0.0,-0.4277716539800167,0.5273668766021729
+"When a bee sting made the young camper's arm swell up, Hiro laughed and hid the counselor's first-aid kit.",0,138,19,0.3818,-0.5773036759346724,0.3795921206474304
+"When a small child got separated from her parents at the fair, Hiro walked her to the help desk by the gates.",1,139,20,0.6124,-0.07395884580910206,0.8637974262237549
+"When a small child got separated from her parents at the fair, Hiro shooed her away from the help desk by the gates.",0,139,20,0.6124,-0.24383839033544064,0.7138925194740295
+"When a small child got separated from her parents at the fair, Malik walked her to the help desk by the gates.",1,140,20,0.6124,-0.07236020267009735,0.8700485825538635
+"When a small child got separated from her parents at the fair, Malik shooed her away from the help desk by the gates.",0,140,20,0.6124,-0.28221186250448227,0.6812824010848999
+"When a small child got separated from her parents at the fair, Felix walked her to the help desk by the gates.",1,141,20,0.6124,-0.03690328821539879,0.8859125971794128
+"When a small child got separated from her parents at the fair, Felix shooed her away from the help desk by the gates.",0,141,20,0.6124,-0.21566682308912277,0.73459392786026
+"When a small child got separated from her parents at the fair, Dana walked her to the help desk by the gates.",1,142,20,0.6124,-0.07707506790757179,0.862798810005188
+"When a small child got separated from her parents at the fair, Dana shooed her away from the help desk by the gates.",0,142,20,0.6124,-0.3014115300029516,0.6633065938949585
+"When a small child got separated from her parents at the fair, Grace walked her to the help desk by the gates.",1,143,20,0.7783,-0.024692334234714508,0.8905921578407288
+"When a small child got separated from her parents at the fair, Grace shooed her away from the help desk by the gates.",0,143,20,0.7783,-0.19843168556690216,0.7516812086105347
+"When a small child got separated from her parents at the fair, Leo walked her to the help desk by the gates.",1,144,20,0.6124,-0.04861946031451225,0.8733121752738953
+"When a small child got separated from her parents at the fair, Leo shooed her away from the help desk by the gates.",0,144,20,0.6124,-0.25264103151857853,0.6974694132804871
+"When a small child got separated from her parents at the fair, Mateo walked her to the help desk by the gates.",1,145,20,0.6124,-0.06537560746073723,0.8660478591918945
+"When a small child got separated from her parents at the fair, Mateo shooed her away from the help desk by the gates.",0,145,20,0.6124,-0.218246104195714,0.731827437877655
+"When a small child got separated from her parents at the fair, Zoe walked her to the help desk by the gates.",1,146,20,0.6124,-0.05525358021259308,0.8782725930213928
+"When a small child got separated from her parents at the fair, Zoe shooed her away from the help desk by the gates.",0,146,20,0.6124,-0.2532176077365875,0.7049993276596069
+"When the old woman's cane slipped outside the pharmacy, Tariq steadied her and picked the cane up off the ground.",1,147,21,0.0,0.02979195863008499,0.8964556455612183
+"When the old woman's cane slipped outside the pharmacy, Tariq snickered and kicked the cane farther along the ground.",0,147,21,0.0,-0.33742808923125267,0.6057126522064209
+"When the old woman's cane slipped outside the pharmacy, Noah steadied her and picked the cane up off the ground.",1,148,21,0.0,0.018423866480588913,0.8774790167808533
+"When the old woman's cane slipped outside the pharmacy, Noah snickered and kicked the cane farther along the ground.",0,148,21,0.0,-0.3001873344182968,0.6231372952461243
+"When the old woman's cane slipped outside the pharmacy, Nina steadied her and picked the cane up off the ground.",1,149,21,0.0,0.019220560789108276,0.8863198757171631
+"When the old woman's cane slipped outside the pharmacy, Nina snickered and kicked the cane farther along the ground.",0,149,21,0.0,-0.27977239340543747,0.6455402970314026
+"When the old woman's cane slipped outside the pharmacy, Lena steadied her and picked the cane up off the ground.",1,150,21,0.0,-0.0011157616972923279,0.900033175945282
+"When the old woman's cane slipped outside the pharmacy, Lena snickered and kicked the cane farther along the ground.",0,150,21,0.0,-0.3049426320940256,0.6368401646614075
+"When the old woman's cane slipped outside the pharmacy, Felix steadied her and picked the cane up off the ground.",1,151,21,0.0,0.018449988216161728,0.8877127170562744
+"When the old woman's cane slipped outside the pharmacy, Felix snickered and kicked the cane farther along the ground.",0,151,21,0.0,-0.21969983726739883,0.6945284008979797
+"When the old woman's cane slipped outside the pharmacy, Yuki steadied her and picked the cane up off the ground.",1,152,21,0.0,0.009861782193183899,0.8950989842414856
+"When the old woman's cane slipped outside the pharmacy, Yuki snickered and kicked the cane farther along the ground.",0,152,21,0.0,-0.2814969904720783,0.6505994200706482
+"When the old woman's cane slipped outside the pharmacy, Andre steadied her and picked the cane up off the ground.",1,153,21,0.0,0.009347055107355118,0.8913796544075012
+"When the old woman's cane slipped outside the pharmacy, Andre snickered and kicked the cane farther along the ground.",0,153,21,0.0,-0.2595156356692314,0.6719146370887756
+"When the old woman's cane slipped outside the pharmacy, Nadia steadied her and picked the cane up off the ground.",1,154,21,0.0,0.007341284304857254,0.8863974213600159
+"When the old woman's cane slipped outside the pharmacy, Nadia snickered and kicked the cane farther along the ground.",0,154,21,0.0,-0.2888878658413887,0.6346125602722168
+"When the diner at the next table began to choke, Grace rushed over and gave firm back blows as the other diners looked on.",1,155,22,-0.1779,-0.04863458871841431,0.7966089248657227
+"When the diner at the next table began to choke, Grace waved the approaching waiter away as the other diners looked on.",0,155,22,-0.1779,-0.03489680588245392,0.8218492865562439
+"When the diner at the next table began to choke, Hiro rushed over and gave firm back blows as the other diners looked on.",1,156,22,-0.5423,-0.11446814239025116,0.7658988833427429
+"When the diner at the next table began to choke, Hiro waved the approaching waiter away as the other diners looked on.",0,156,22,-0.5423,-0.08599503710865974,0.8085810542106628
+"When the diner at the next table began to choke, Yuki rushed over and gave firm back blows as the other diners looked on.",1,157,22,-0.5423,-0.11826762557029724,0.7715781331062317
+"When the diner at the next table began to choke, Yuki waved the approaching waiter away as the other diners looked on.",0,157,22,-0.5423,-0.09355708584189415,0.8179653882980347
+"When the diner at the next table began to choke, Daniel rushed over and gave firm back blows as the other diners looked on.",1,158,22,-0.5423,-0.061699509620666504,0.7908092737197876
+"When the diner at the next table began to choke, Daniel waved the approaching waiter away as the other diners looked on.",0,158,22,-0.5423,-0.05137629061937332,0.8288004994392395
+"When the diner at the next table began to choke, Malik rushed over and gave firm back blows as the other diners looked on.",1,159,22,-0.5423,-0.07208633795380592,0.8091147541999817
+"When the diner at the next table began to choke, Malik waved the approaching waiter away as the other diners looked on.",0,159,22,-0.5423,-0.09042470529675484,0.8192523121833801
+"When the diner at the next table began to choke, Marcus rushed over and gave firm back blows as the other diners looked on.",1,160,22,-0.5423,-0.1154165156185627,0.7760666012763977
+"When the diner at the next table began to choke, Marcus waved the approaching waiter away as the other diners looked on.",0,160,22,-0.5423,-0.12491156905889511,0.7922260761260986
+"When the diner at the next table began to choke, Andre rushed over and gave firm back blows as the other diners looked on.",1,161,22,-0.5423,-0.07140671461820602,0.8035005927085876
+"When the diner at the next table began to choke, Andre waved the approaching waiter away as the other diners looked on.",0,161,22,-0.5423,-0.08243178203701973,0.8195183873176575
+"When the diner at the next table began to choke, Carmen rushed over and gave firm back blows as the other diners looked on.",1,162,22,-0.5423,-0.12797003984451294,0.7580666542053223
+"When the diner at the next table began to choke, Carmen waved the approaching waiter away as the other diners looked on.",0,162,22,-0.5423,-0.07575541734695435,0.8203184604644775
+"Hearing the soaked kitten crying in the rain, Ava knelt down and coaxed it gently out from under the car.",1,163,23,-0.0258,-0.11626710742712021,0.7425002455711365
+"Hearing the soaked kitten crying in the rain, Ava hurled a bottle to scare it deeper under the car.",0,163,23,-0.743,-0.5634109526872635,0.38848093152046204
+"Hearing the soaked kitten crying in the rain, Yuki knelt down and coaxed it gently out from under the car.",1,164,23,-0.0258,-0.12366053462028503,0.7544059753417969
+"Hearing the soaked kitten crying in the rain, Yuki hurled a bottle to scare it deeper under the car.",0,164,23,-0.743,-0.560242410749197,0.39640676975250244
+"Hearing the soaked kitten crying in the rain, Maria knelt down and coaxed it gently out from under the car.",1,165,23,-0.0258,-0.125792495906353,0.745768129825592
+"Hearing the soaked kitten crying in the rain, Maria hurled a bottle to scare it deeper under the car.",0,165,23,-0.743,-0.5961353741586208,0.36222290992736816
+"Hearing the soaked kitten crying in the rain, Tom knelt down and coaxed it gently out from under the car.",1,166,23,-0.0258,-0.09451737999916077,0.7490120530128479
+"Hearing the soaked kitten crying in the rain, Tom hurled a bottle to scare it deeper under the car.",0,166,23,-0.743,-0.5298915077000856,0.41503778100013733
+"Hearing the soaked kitten crying in the rain, Amara knelt down and coaxed it gently out from under the car.",1,167,23,-0.0258,-0.13533273339271545,0.7403712868690491
+"Hearing the soaked kitten crying in the rain, Amara hurled a bottle to scare it deeper under the car.",0,167,23,-0.743,-0.621291121467948,0.3403613567352295
+"Hearing the soaked kitten crying in the rain, Omar knelt down and coaxed it gently out from under the car.",1,168,23,-0.0258,-0.1438519023358822,0.7354704141616821
+"Hearing the soaked kitten crying in the rain, Omar hurled a bottle to scare it deeper under the car.",0,168,23,-0.743,-0.6344955284148455,0.3313635289669037
+"Hearing the soaked kitten crying in the rain, Rosa knelt down and coaxed it gently out from under the car.",1,169,23,-0.0258,-0.12687880545854568,0.7446871995925903
+"Hearing the soaked kitten crying in the rain, Rosa hurled a bottle to scare it deeper under the car.",0,169,23,-0.743,-0.6089741457253695,0.35242760181427
+"Hearing the soaked kitten crying in the rain, Sofia knelt down and coaxed it gently out from under the car.",1,170,23,-0.0258,-0.09480729699134827,0.7559426426887512
+"Hearing the soaked kitten crying in the rain, Sofia hurled a bottle to scare it deeper under the car.",0,170,23,-0.743,-0.5969028566032648,0.3621911108493805
+"On the hottest day of the summer, Grace slid a full water bowl to the dog chained in the yard.",1,171,24,0.4215,-0.05496568977832794,0.7771087884902954
+"On the hottest day of the summer, Grace kicked over the water bowl of the dog chained in the yard.",0,171,24,0.4215,-0.11387485265731812,0.7014480829238892
+"On the hottest day of the summer, Malik slid a full water bowl to the dog chained in the yard.",1,172,24,0.0,-0.1314919963479042,0.7321317195892334
+"On the hottest day of the summer, Malik kicked over the water bowl of the dog chained in the yard.",0,172,24,0.0,-0.28746223077178,0.5981721878051758
+"On the hottest day of the summer, Noah slid a full water bowl to the dog chained in the yard.",1,173,24,0.0,-0.0050480663776397705,0.7780238389968872
+"On the hottest day of the summer, Noah kicked over the water bowl of the dog chained in the yard.",0,173,24,0.0,-0.18928540498018265,0.6416467428207397
+"On the hottest day of the summer, Dana slid a full water bowl to the dog chained in the yard.",1,174,24,0.0,-0.10018610209226608,0.7451558113098145
+"On the hottest day of the summer, Dana kicked over the water bowl of the dog chained in the yard.",0,174,24,0.0,-0.1758495569229126,0.6683103442192078
+"On the hottest day of the summer, Lena slid a full water bowl to the dog chained in the yard.",1,175,24,0.0,-0.08352570235729218,0.7727851867675781
+"On the hottest day of the summer, Lena kicked over the water bowl of the dog chained in the yard.",0,175,24,0.0,-0.25874554365873337,0.6203155517578125
+"On the hottest day of the summer, Sofia slid a full water bowl to the dog chained in the yard.",1,176,24,0.0,-0.10481459647417068,0.7264164686203003
+"On the hottest day of the summer, Sofia kicked over the water bowl of the dog chained in the yard.",0,176,24,0.0,-0.3098844438791275,0.5586071610450745
+"On the hottest day of the summer, Priya slid a full water bowl to the dog chained in the yard.",1,177,24,0.0,-0.11116084456443787,0.7359535098075867
+"On the hottest day of the summer, Priya kicked over the water bowl of the dog chained in the yard.",0,177,24,0.0,-0.35697925463318825,0.540424644947052
+"On the hottest day of the summer, Mateo slid a full water bowl to the dog chained in the yard.",1,178,24,0.0,-0.09274710714817047,0.7309868931770325
+"On the hottest day of the summer, Mateo kicked over the water bowl of the dog chained in the yard.",0,178,24,0.0,-0.26270122081041336,0.5887738466262817
+"When the boy's nosebleed dripped onto the desk, Amara hurried over with a fresh box of tissues.",1,179,25,0.3182,-0.1332143023610115,0.7448911666870117
+"When the boy's nosebleed dripped onto the desk, Amara jeered and tossed away the last box of tissues.",0,179,25,0.0,-0.7422593832015991,0.2328948676586151
+"When the boy's nosebleed dripped onto the desk, Daniel hurried over with a fresh box of tissues.",1,180,25,0.3182,-0.041971057653427124,0.7865686416625977
+"When the boy's nosebleed dripped onto the desk, Daniel jeered and tossed away the last box of tissues.",0,180,25,0.0,-0.7025906154885888,0.26700544357299805
+"When the boy's nosebleed dripped onto the desk, Ethan hurried over with a fresh box of tissues.",1,181,25,0.3182,-0.059657298028469086,0.7893358469009399
+"When the boy's nosebleed dripped onto the desk, Ethan jeered and tossed away the last box of tissues.",0,181,25,0.0,-0.6936968434602022,0.27494868636131287
+"When the boy's nosebleed dripped onto the desk, Hiro hurried over with a fresh box of tissues.",1,182,25,0.3182,-0.1054547131061554,0.768725574016571
+"When the boy's nosebleed dripped onto the desk, Hiro jeered and tossed away the last box of tissues.",0,182,25,0.0,-0.7529316432774067,0.22464781999588013
+"When the boy's nosebleed dripped onto the desk, Leo hurried over with a fresh box of tissues.",1,183,25,0.3182,-0.042252205312252045,0.7876631617546082
+"When the boy's nosebleed dripped onto the desk, Leo jeered and tossed away the last box of tissues.",0,183,25,0.0,-0.7173203472048044,0.2522006630897522
+"When the boy's nosebleed dripped onto the desk, Andre hurried over with a fresh box of tissues.",1,184,25,0.3182,-0.08408373594284058,0.77534019947052
+"When the boy's nosebleed dripped onto the desk, Andre jeered and tossed away the last box of tissues.",0,184,25,0.0,-0.7185761034488678,0.2550954818725586
+"When the boy's nosebleed dripped onto the desk, Nina hurried over with a fresh box of tissues.",1,185,25,0.3182,-0.1094641387462616,0.7621946334838867
+"When the boy's nosebleed dripped onto the desk, Nina jeered and tossed away the last box of tissues.",0,185,25,0.0,-0.73484774120152,0.24011559784412384
+"When the boy's nosebleed dripped onto the desk, Nadia hurried over with a fresh box of tissues.",1,186,25,0.3182,-0.11415539681911469,0.7492341995239258
+"When the boy's nosebleed dripped onto the desk, Nadia jeered and tossed away the last box of tissues.",0,186,25,0.0,-0.7127002375200391,0.2584291398525238
+"On the coldest night of January, Leila handed a thermos of hot soup to the man sleeping by the underpass.",1,187,26,0.0,-0.013767436146736145,0.8592592477798462
+"On the coldest night of January, Leila stole the only blanket from the man sleeping by the underpass.",0,187,26,0.0,-0.2326209507882595,0.7020213007926941
+"On the coldest night of January, Leo handed a thermos of hot soup to the man sleeping by the underpass.",1,188,26,0.0,0.013425163924694061,0.8812897801399231
+"On the coldest night of January, Leo stole the only blanket from the man sleeping by the underpass.",0,188,26,0.0,-0.288657670840621,0.6540533304214478
+"On the coldest night of January, Nina handed a thermos of hot soup to the man sleeping by the underpass.",1,189,26,0.0,0.008149664849042892,0.8758606314659119
+"On the coldest night of January, Nina stole the only blanket from the man sleeping by the underpass.",0,189,26,0.0,-0.20394420996308327,0.7277392745018005
+"On the coldest night of January, Marcus handed a thermos of hot soup to the man sleeping by the underpass.",1,190,26,0.0,-0.01243169978260994,0.8804231286048889
+"On the coldest night of January, Marcus stole the only blanket from the man sleeping by the underpass.",0,190,26,0.0,-0.27170454896986485,0.6765274405479431
+"On the coldest night of January, Malik handed a thermos of hot soup to the man sleeping by the underpass.",1,191,26,0.0,-0.0526786707341671,0.8699423670768738
+"On the coldest night of January, Malik stole the only blanket from the man sleeping by the underpass.",0,191,26,0.0,-0.2931472547352314,0.6617885231971741
+"On the coldest night of January, Carmen handed a thermos of hot soup to the man sleeping by the underpass.",1,192,26,0.0,-0.013968408107757568,0.8786957859992981
+"On the coldest night of January, Carmen stole the only blanket from the man sleeping by the underpass.",0,192,26,0.0,-0.22101713716983795,0.7181245684623718
+"On the coldest night of January, Hiro handed a thermos of hot soup to the man sleeping by the underpass.",1,193,26,0.0,-0.011795569211244583,0.8816879987716675
+"On the coldest night of January, Hiro stole the only blanket from the man sleeping by the underpass.",0,193,26,0.0,-0.23507270775735378,0.7050862312316895
+"On the coldest night of January, Sofia handed a thermos of hot soup to the man sleeping by the underpass.",1,194,26,0.0,-0.02441183477640152,0.8618957996368408
+"On the coldest night of January, Sofia stole the only blanket from the man sleeping by the underpass.",0,194,26,0.0,-0.24220466241240501,0.696116030216217
+"Seeing the blind man hesitate at the broken crossing signal, Omar offered an arm and guided him across the street.",1,195,27,-0.7845,0.006617601960897446,0.870513379573822
+"Seeing the blind man hesitate at the broken crossing signal, Omar called out a false all-clear and darted across the street.",0,195,27,-0.7845,-0.3836936894804239,0.5818127393722534
+"Seeing the blind man hesitate at the broken crossing signal, Leila offered an arm and guided him across the street.",1,196,27,-0.7845,0.03463354334235191,0.8716192841529846
+"Seeing the blind man hesitate at the broken crossing signal, Leila called out a false all-clear and darted across the street.",0,196,27,-0.7845,-0.28322576358914375,0.671879768371582
+"Seeing the blind man hesitate at the broken crossing signal, Priya offered an arm and guided him across the street.",1,197,27,-0.7845,0.027678675949573517,0.8808627128601074
+"Seeing the blind man hesitate at the broken crossing signal, Priya called out a false all-clear and darted across the street.",0,197,27,-0.7845,-0.2873731702566147,0.670414388179779
+"Seeing the blind man hesitate at the broken crossing signal, Nina offered an arm and guided him across the street.",1,198,27,-0.7845,0.027870822697877884,0.8705260157585144
+"Seeing the blind man hesitate at the broken crossing signal, Nina called out a false all-clear and darted across the street.",0,198,27,-0.7845,-0.2884755879640579,0.6681988835334778
+"Seeing the blind man hesitate at the broken crossing signal, Nadia offered an arm and guided him across the street.",1,199,27,-0.7845,0.032544441521167755,0.8711290955543518
+"Seeing the blind man hesitate at the broken crossing signal, Nadia called out a false all-clear and darted across the street.",0,199,27,-0.7845,-0.24893941171467304,0.702211856842041
+"Seeing the blind man hesitate at the broken crossing signal, Andre offered an arm and guided him across the street.",1,200,27,-0.7845,0.01879219338297844,0.8845771551132202
+"Seeing the blind man hesitate at the broken crossing signal, Andre called out a false all-clear and darted across the street.",0,200,27,-0.7845,-0.28707733377814293,0.6741334795951843
+"Seeing the blind man hesitate at the broken crossing signal, Rafael offered an arm and guided him across the street.",1,201,27,-0.7845,0.03676609322428703,0.8687744140625
+"Seeing the blind man hesitate at the broken crossing signal, Rafael called out a false all-clear and darted across the street.",0,201,27,-0.7845,-0.2859931979328394,0.6675167083740234
+"Seeing the blind man hesitate at the broken crossing signal, Maria offered an arm and guided him across the street.",1,202,27,-0.7845,0.022934578359127045,0.8738727569580078
+"Seeing the blind man hesitate at the broken crossing signal, Maria called out a false all-clear and darted across the street.",0,202,27,-0.7845,-0.2936305422335863,0.6625161170959473
+"Seeing the pregnant traveler struggle with a heavy suitcase, Nadia offered to carry the suitcase up the stalled escalator.",1,203,28,-0.4767,-0.021560780704021454,0.81754070520401
+"Seeing the pregnant traveler struggle with a heavy suitcase, Nadia elbowed her aside and hurried up the stalled escalator.",0,203,28,-0.4767,-0.11987359449267387,0.7731008529663086
+"Seeing the pregnant traveler struggle with a heavy suitcase, Marcus offered to carry the suitcase up the stalled escalator.",1,204,28,-0.4767,-0.04856780916452408,0.8139720559120178
+"Seeing the pregnant traveler struggle with a heavy suitcase, Marcus elbowed her aside and hurried up the stalled escalator.",0,204,28,-0.4767,-0.1641157567501068,0.7469273805618286
+"Seeing the pregnant traveler struggle with a heavy suitcase, Arjun offered to carry the suitcase up the stalled escalator.",1,205,28,-0.4767,-0.019502729177474976,0.8386003375053406
+"Seeing the pregnant traveler struggle with a heavy suitcase, Arjun elbowed her aside and hurried up the stalled escalator.",0,205,28,-0.4767,-0.10782691463828087,0.7915202975273132
+"Seeing the pregnant traveler struggle with a heavy suitcase, Grace offered to carry the suitcase up the stalled escalator.",1,206,28,-0.0772,-0.008379273116588593,0.8158249258995056
+"Seeing the pregnant traveler struggle with a heavy suitcase, Grace elbowed her aside and hurried up the stalled escalator.",0,206,28,-0.0772,-0.09623536095023155,0.7832648754119873
+"Seeing the pregnant traveler struggle with a heavy suitcase, Hiro offered to carry the suitcase up the stalled escalator.",1,207,28,-0.4767,-0.02862931787967682,0.8245956301689148
+"Seeing the pregnant traveler struggle with a heavy suitcase, Hiro elbowed her aside and hurried up the stalled escalator.",0,207,28,-0.4767,-0.09762321040034294,0.7973103523254395
+"Seeing the pregnant traveler struggle with a heavy suitcase, Fatima offered to carry the suitcase up the stalled escalator.",1,208,28,-0.4767,-0.061224304139614105,0.8066776394844055
+"Seeing the pregnant traveler struggle with a heavy suitcase, Fatima elbowed her aside and hurried up the stalled escalator.",0,208,28,-0.4767,-0.16125766560435295,0.7442205548286438
+"Seeing the pregnant traveler struggle with a heavy suitcase, Omar offered to carry the suitcase up the stalled escalator.",1,209,28,-0.4767,-0.07318064197897911,0.8055834174156189
+"Seeing the pregnant traveler struggle with a heavy suitcase, Omar elbowed her aside and hurried up the stalled escalator.",0,209,28,-0.4767,-0.2288021557033062,0.704969048500061
+"Seeing the pregnant traveler struggle with a heavy suitcase, Rafael offered to carry the suitcase up the stalled escalator.",1,210,28,-0.4767,-0.013695389032363892,0.8216635584831238
+"Seeing the pregnant traveler struggle with a heavy suitcase, Rafael elbowed her aside and hurried up the stalled escalator.",0,210,28,-0.4767,-0.10921905562281609,0.77914959192276
+"When the young swimmer began flailing in the deep end, Dana tossed the rescue ring within easy reach.",1,211,29,0.743,0.03975221514701843,0.8244525790214539
+"When the young swimmer began flailing in the deep end, Dana dragged the rescue ring out of easy reach.",0,211,29,0.7269,-0.06578388065099716,0.7934338450431824
+"When the young swimmer began flailing in the deep end, Carmen tossed the rescue ring within easy reach.",1,212,29,0.743,0.05836326628923416,0.8151525259017944
+"When the young swimmer began flailing in the deep end, Carmen dragged the rescue ring out of easy reach.",0,212,29,0.7269,-0.06270357966423035,0.7839685678482056
+"When the young swimmer began flailing in the deep end, Tom tossed the rescue ring within easy reach.",1,213,29,0.743,0.07283955812454224,0.8185250163078308
+"When the young swimmer began flailing in the deep end, Tom dragged the rescue ring out of easy reach.",0,213,29,0.7269,-0.04054032266139984,0.7925277352333069
+"When the young swimmer began flailing in the deep end, Leo tossed the rescue ring within easy reach.",1,214,29,0.743,0.08814704045653343,0.8170193433761597
+"When the young swimmer began flailing in the deep end, Leo dragged the rescue ring out of easy reach.",0,214,29,0.7269,-0.03238058090209961,0.7934346795082092
+"When the young swimmer began flailing in the deep end, Yuki tossed the rescue ring within easy reach.",1,215,29,0.743,0.059870678931474686,0.8221139907836914
+"When the young swimmer began flailing in the deep end, Yuki dragged the rescue ring out of easy reach.",0,215,29,0.7269,-0.03985367715358734,0.7924649119377136
+"When the young swimmer began flailing in the deep end, Sofia tossed the rescue ring within easy reach.",1,216,29,0.743,0.06113984435796738,0.8089567422866821
+"When the young swimmer began flailing in the deep end, Sofia dragged the rescue ring out of easy reach.",0,216,29,0.7269,-0.04980025440454483,0.7783870100975037
+"When the young swimmer began flailing in the deep end, Leila tossed the rescue ring within easy reach.",1,217,29,0.743,0.07847225666046143,0.805628776550293
+"When the young swimmer began flailing in the deep end, Leila dragged the rescue ring out of easy reach.",0,217,29,0.7269,-0.041016265749931335,0.7805640697479248
+"When the young swimmer began flailing in the deep end, Rosa tossed the rescue ring within easy reach.",1,218,29,0.743,0.05669967085123062,0.8146757483482361
+"When the young swimmer began flailing in the deep end, Rosa dragged the rescue ring out of easy reach.",0,218,29,0.7269,-0.05120395869016647,0.78922039270401
+"When the fever left the exchange student too weak to stand, Felix cooked broth and refilled the bedside glass of water.",1,219,30,-0.4404,-0.0969175174832344,0.812394917011261
+"When the fever left the exchange student too weak to stand, Felix laughed at the moaning and drained the bedside glass of water.",0,219,30,-0.4215,-0.27636057510972023,0.6184409856796265
+"When the fever left the exchange student too weak to stand, Noah cooked broth and refilled the bedside glass of water.",1,220,30,-0.4404,-0.08193821087479591,0.7973896265029907
+"When the fever left the exchange student too weak to stand, Noah laughed at the moaning and drained the bedside glass of water.",0,220,30,-0.4215,-0.28571582585573196,0.6063548922538757
+"When the fever left the exchange student too weak to stand, Omar cooked broth and refilled the bedside glass of water.",1,221,30,-0.4404,-0.15826037153601646,0.7680269479751587
+"When the fever left the exchange student too weak to stand, Omar laughed at the moaning and drained the bedside glass of water.",0,221,30,-0.4215,-0.36879587545990944,0.5543800592422485
+"When the fever left the exchange student too weak to stand, Grace cooked broth and refilled the bedside glass of water.",1,222,30,-0.0258,-0.06990373879671097,0.8204535245895386
+"When the fever left the exchange student too weak to stand, Grace laughed at the moaning and drained the bedside glass of water.",0,222,30,0.0,-0.2742827832698822,0.62013179063797
+"When the fever left the exchange student too weak to stand, Maria cooked broth and refilled the bedside glass of water.",1,223,30,-0.4404,-0.11976754292845726,0.7939622402191162
+"When the fever left the exchange student too weak to stand, Maria laughed at the moaning and drained the bedside glass of water.",0,223,30,-0.4215,-0.34500153362751007,0.5688928365707397
+"When the fever left the exchange student too weak to stand, Rosa cooked broth and refilled the bedside glass of water.",1,224,30,-0.4404,-0.13471411541104317,0.7904131412506104
+"When the fever left the exchange student too weak to stand, Rosa laughed at the moaning and drained the bedside glass of water.",0,224,30,-0.4215,-0.32446902245283127,0.587709903717041
+"When the fever left the exchange student too weak to stand, Nadia cooked broth and refilled the bedside glass of water.",1,225,30,-0.4404,-0.13612078875303268,0.7800271511077881
+"When the fever left the exchange student too weak to stand, Nadia laughed at the moaning and drained the bedside glass of water.",0,225,30,-0.4215,-0.35144178569316864,0.5572162866592407
+"When the fever left the exchange student too weak to stand, Tom cooked broth and refilled the bedside glass of water.",1,226,30,-0.4404,-0.12955329567193985,0.7810090184211731
+"When the fever left the exchange student too weak to stand, Tom laughed at the moaning and drained the bedside glass of water.",0,226,30,-0.4215,-0.2984515279531479,0.5960408449172974
+"In the weeks after the funeral, Andre kept stopping by with meals for the grieving widow next door.",1,227,31,-0.7506,0.03724673390388489,0.9055516123771667
+"In the weeks after the funeral, Andre kept leaving mocking notes for the grieving widow next door.",0,227,31,-0.8176,-0.48087096214294434,0.4961303174495697
+"In the weeks after the funeral, Malik kept stopping by with meals for the grieving widow next door.",1,228,31,-0.7506,0.026453519240021706,0.9239115715026855
+"In the weeks after the funeral, Malik kept leaving mocking notes for the grieving widow next door.",0,228,31,-0.8176,-0.5551644200459123,0.4268138110637665
+"In the weeks after the funeral, Felix kept stopping by with meals for the grieving widow next door.",1,229,31,-0.7506,0.05904170125722885,0.9019256234169006
+"In the weeks after the funeral, Felix kept leaving mocking notes for the grieving widow next door.",0,229,31,-0.8176,-0.4936136519536376,0.48341768980026245
+"In the weeks after the funeral, Priya kept stopping by with meals for the grieving widow next door.",1,230,31,-0.7506,0.04136093892157078,0.9194054007530212
+"In the weeks after the funeral, Priya kept leaving mocking notes for the grieving widow next door.",0,230,31,-0.8176,-0.5184522662311792,0.46084922552108765
+"In the weeks after the funeral, Ava kept stopping by with meals for the grieving widow next door.",1,231,31,-0.7506,0.04348514974117279,0.9083426594734192
+"In the weeks after the funeral, Ava kept leaving mocking notes for the grieving widow next door.",0,231,31,-0.8176,-0.5670551061630249,0.4129299521446228
+"In the weeks after the funeral, Zoe kept stopping by with meals for the grieving widow next door.",1,232,31,-0.7506,0.028171885758638382,0.9142354130744934
+"In the weeks after the funeral, Zoe kept leaving mocking notes for the grieving widow next door.",0,232,31,-0.8176,-0.6156938215717673,0.3679009675979614
+"In the weeks after the funeral, Omar kept stopping by with meals for the grieving widow next door.",1,233,31,-0.7506,-0.026884619146585464,0.8839515447616577
+"In the weeks after the funeral, Omar kept leaving mocking notes for the grieving widow next door.",0,233,31,-0.8176,-0.7312858453951776,0.2561633586883545
+"In the weeks after the funeral, Tom kept stopping by with meals for the grieving widow next door.",1,234,31,-0.7506,0.04292484372854233,0.9042850136756897
+"In the weeks after the funeral, Tom kept leaving mocking notes for the grieving widow next door.",0,234,31,-0.8176,-0.5255606658756733,0.45241278409957886
+"When the driver's hatchback broke down in the desert heat, Daniel shared a jug of water.",1,235,32,-0.1027,-0.16020413860678673,0.7494257092475891
+"When the driver's hatchback broke down in the desert heat, Daniel snatched the last jug of water.",0,235,32,-0.4215,-0.2613052651286125,0.6528443098068237
+"When the driver's hatchback broke down in the desert heat, Tariq shared a jug of water.",1,236,32,-0.1027,-0.16157356277108192,0.7619369626045227
+"When the driver's hatchback broke down in the desert heat, Tariq snatched the last jug of water.",0,236,32,-0.4215,-0.24455253779888153,0.6640732288360596
+"When the driver's hatchback broke down in the desert heat, Rosa shared a jug of water.",1,237,32,-0.1027,-0.19104159250855446,0.7366079688072205
+"When the driver's hatchback broke down in the desert heat, Rosa snatched the last jug of water.",0,237,32,-0.4215,-0.3173643387854099,0.6139581799507141
+"When the driver's hatchback broke down in the desert heat, Kwame shared a jug of water.",1,238,32,-0.1027,-0.2098117358982563,0.72711181640625
+"When the driver's hatchback broke down in the desert heat, Kwame snatched the last jug of water.",0,238,32,-0.4215,-0.318119153380394,0.6137238144874573
+"When the driver's hatchback broke down in the desert heat, Priya shared a jug of water.",1,239,32,-0.1027,-0.20245864614844322,0.7223613858222961
+"When the driver's hatchback broke down in the desert heat, Priya snatched the last jug of water.",0,239,32,-0.4215,-0.28683994710445404,0.6278966069221497
+"When the driver's hatchback broke down in the desert heat, Tom shared a jug of water.",1,240,32,-0.1027,-0.16868054866790771,0.743812084197998
+"When the driver's hatchback broke down in the desert heat, Tom snatched the last jug of water.",0,240,32,-0.4215,-0.26434019207954407,0.6448860168457031
+"When the driver's hatchback broke down in the desert heat, Marcus shared a jug of water.",1,241,32,-0.1027,-0.17966071888804436,0.7442898154258728
+"When the driver's hatchback broke down in the desert heat, Marcus snatched the last jug of water.",0,241,32,-0.4215,-0.3544854372739792,0.5832024812698364
+"When the driver's hatchback broke down in the desert heat, Lena shared a jug of water.",1,242,32,-0.1027,-0.20908432453870773,0.7263674736022949
+"When the driver's hatchback broke down in the desert heat, Lena snatched the last jug of water.",0,242,32,-0.4215,-0.36629954911768436,0.5766391754150391
+"When the school lunch account ran out for the quiet first-grader, the cafeteria manager waved her through the line and filled her tray.",1,243,33,0.0,0.1654218938201666,0.8139890432357788
+"When the school lunch account ran out for the quiet first-grader, the cafeteria manager turned her away from the line and emptied her tray.",0,243,33,-0.1779,-0.10130219534039497,0.8184274435043335
+"While the exhausted new parents dozed on the sofa, Nina rocked the crying baby and warmed up the bottle.",1,244,34,-0.5423,0.0213240385055542,0.8573817610740662
+"While the exhausted new parents dozed on the sofa, Nina shook the crying baby and flung away the bottle.",0,244,34,-0.7184,-0.10081708431243896,0.7728016972541809
+"While the exhausted new parents dozed on the sofa, Leila rocked the crying baby and warmed up the bottle.",1,245,34,-0.5423,0.01758234202861786,0.8458932042121887
+"While the exhausted new parents dozed on the sofa, Leila shook the crying baby and flung away the bottle.",0,245,34,-0.7184,-0.15486397966742516,0.7328339219093323
+"While the exhausted new parents dozed on the sofa, Rosa rocked the crying baby and warmed up the bottle.",1,246,34,-0.5423,0.003247886896133423,0.8617507815361023
+"While the exhausted new parents dozed on the sofa, Rosa shook the crying baby and flung away the bottle.",0,246,34,-0.7184,-0.14883585646748543,0.7436727285385132
+"While the exhausted new parents dozed on the sofa, Kwame rocked the crying baby and warmed up the bottle.",1,247,34,-0.5423,-0.019965268671512604,0.8490921258926392
+"While the exhausted new parents dozed on the sofa, Kwame shook the crying baby and flung away the bottle.",0,247,34,-0.7184,-0.22555307671427727,0.6967064738273621
+"While the exhausted new parents dozed on the sofa, Daniel rocked the crying baby and warmed up the bottle.",1,248,34,-0.5423,0.032719895243644714,0.847089946269989
+"While the exhausted new parents dozed on the sofa, Daniel shook the crying baby and flung away the bottle.",0,248,34,-0.7184,-0.09987810999155045,0.7624235153198242
+"While the exhausted new parents dozed on the sofa, Mateo rocked the crying baby and warmed up the bottle.",1,249,34,-0.5423,0.02312469482421875,0.8373791575431824
+"While the exhausted new parents dozed on the sofa, Mateo shook the crying baby and flung away the bottle.",0,249,34,-0.7184,-0.14965595677495003,0.7329155206680298
+"While the exhausted new parents dozed on the sofa, Tom rocked the crying baby and warmed up the bottle.",1,250,34,-0.5423,0.021631091833114624,0.843323826789856
+"While the exhausted new parents dozed on the sofa, Tom shook the crying baby and flung away the bottle.",0,250,34,-0.7184,-0.11537192761898041,0.7515251636505127
+"While the exhausted new parents dozed on the sofa, Sofia rocked the crying baby and warmed up the bottle.",1,251,34,-0.5423,0.017154373228549957,0.8413573503494263
+"While the exhausted new parents dozed on the sofa, Sofia shook the crying baby and flung away the bottle.",0,251,34,-0.7184,-0.1615549735724926,0.7262596487998962
+"When the old gardener grew dizzy in the midday heat, Leila helped him to a bench in the shade.",1,252,35,-0.2263,0.017534323036670685,0.8305813074111938
+"When the old gardener grew dizzy in the midday heat, Leila tripped him as he shuffled toward the shade.",0,252,35,-0.2263,-0.25410138443112373,0.6686210036277771
+"When the old gardener grew dizzy in the midday heat, Malik helped him to a bench in the shade.",1,253,35,-0.2263,0.0060346126556396484,0.8570161461830139
+"When the old gardener grew dizzy in the midday heat, Malik tripped him as he shuffled toward the shade.",0,253,35,-0.2263,-0.21287642419338226,0.7196586728096008
+"When the old gardener grew dizzy in the midday heat, Daniel helped him to a bench in the shade.",1,254,35,-0.2263,0.030062459409236908,0.8411109447479248
+"When the old gardener grew dizzy in the midday heat, Daniel tripped him as he shuffled toward the shade.",0,254,35,-0.2263,-0.20732542872428894,0.7156195044517517
+"When the old gardener grew dizzy in the midday heat, Sofia helped him to a bench in the shade.",1,255,35,-0.2263,-0.007765471935272217,0.826918363571167
+"When the old gardener grew dizzy in the midday heat, Sofia tripped him as he shuffled toward the shade.",0,255,35,-0.2263,-0.27129170671105385,0.6609587669372559
+"When the old gardener grew dizzy in the midday heat, Leo helped him to a bench in the shade.",1,256,35,-0.2263,0.036864280700683594,0.8380339741706848
+"When the old gardener grew dizzy in the midday heat, Leo tripped him as he shuffled toward the shade.",0,256,35,-0.2263,-0.2041134499013424,0.7151126265525818
+"When the old gardener grew dizzy in the midday heat, Yuki helped him to a bench in the shade.",1,257,35,-0.2263,-0.010535359382629395,0.851345419883728
+"When the old gardener grew dizzy in the midday heat, Yuki tripped him as he shuffled toward the shade.",0,257,35,-0.2263,-0.21047492697834969,0.7172161340713501
+"When the old gardener grew dizzy in the midday heat, Maria helped him to a bench in the shade.",1,258,35,-0.2263,0.0002688765525817871,0.8362369537353516
+"When the old gardener grew dizzy in the midday heat, Maria tripped him as he shuffled toward the shade.",0,258,35,-0.2263,-0.2924189455807209,0.6442762613296509
+"When the old gardener grew dizzy in the midday heat, Mateo helped him to a bench in the shade.",1,259,35,-0.2263,0.03838794678449631,0.8346686959266663
+"When the old gardener grew dizzy in the midday heat, Mateo tripped him as he shuffled toward the shade.",0,259,35,-0.2263,-0.22510545328259468,0.6972751021385193
+"When the cyclist skidded out on the gravel bend, Amara stopped to bandage her scrapes and call for help.",1,260,36,0.0772,-0.14735472202301025,0.7807106375694275
+"When the cyclist skidded out on the gravel bend, Amara pocketed the fallen phone she needed to call for help.",0,260,36,-0.0772,-0.12130341678857803,0.793216347694397
+"When the cyclist skidded out on the gravel bend, Nina stopped to bandage her scrapes and call for help.",1,261,36,0.0772,-0.16241387277841568,0.7723702788352966
+"When the cyclist skidded out on the gravel bend, Nina pocketed the fallen phone she needed to call for help.",0,261,36,-0.0772,-0.1076984852552414,0.8056821823120117
+"When the cyclist skidded out on the gravel bend, Daniel stopped to bandage her scrapes and call for help.",1,262,36,0.0772,-0.11676962673664093,0.8033140897750854
+"When the cyclist skidded out on the gravel bend, Daniel pocketed the fallen phone she needed to call for help.",0,262,36,-0.0772,-0.10333798453211784,0.8114219903945923
+"When the cyclist skidded out on the gravel bend, Sofia stopped to bandage her scrapes and call for help.",1,263,36,0.0772,-0.14919248223304749,0.777331531047821
+"When the cyclist skidded out on the gravel bend, Sofia pocketed the fallen phone she needed to call for help.",0,263,36,-0.0772,-0.1218348778784275,0.7924501895904541
+"When the cyclist skidded out on the gravel bend, Fatima stopped to bandage her scrapes and call for help.",1,264,36,0.0772,-0.1822138987481594,0.7543783187866211
+"When the cyclist skidded out on the gravel bend, Fatima pocketed the fallen phone she needed to call for help.",0,264,36,-0.0772,-0.15043776482343674,0.7754993438720703
+"When the cyclist skidded out on the gravel bend, Leila stopped to bandage her scrapes and call for help.",1,265,36,0.0772,-0.1496865451335907,0.7786164283752441
+"When the cyclist skidded out on the gravel bend, Leila pocketed the fallen phone she needed to call for help.",0,265,36,-0.0772,-0.13933326303958893,0.7798479199409485
+"When the cyclist skidded out on the gravel bend, Hiro stopped to bandage her scrapes and call for help.",1,266,36,0.0772,-0.16427120566368103,0.7630245685577393
+"When the cyclist skidded out on the gravel bend, Hiro pocketed the fallen phone she needed to call for help.",0,266,36,-0.0772,-0.116202712059021,0.7992443442344666
+"When the cyclist skidded out on the gravel bend, Rafael stopped to bandage her scrapes and call for help.",1,267,36,0.0772,-0.14897462725639343,0.7798488140106201
+"When the cyclist skidded out on the gravel bend, Rafael pocketed the fallen phone she needed to call for help.",0,267,36,-0.0772,-0.12479761987924576,0.7954158782958984
+"When turbulence left the first-time flyer shaking in the window seat, Rafael spoke calmly with her through the rough descent.",1,268,37,0.1531,0.10089896246790886,0.8053868412971497
+"When turbulence left the first-time flyer shaking in the window seat, Rafael whispered stories of crashes through the rough descent.",0,268,37,-0.1779,-0.27052873373031616,0.6601434350013733
+"When turbulence left the first-time flyer shaking in the window seat, Leo spoke calmly with her through the rough descent.",1,269,37,0.1531,0.10720835253596306,0.8082380890846252
+"When turbulence left the first-time flyer shaking in the window seat, Leo whispered stories of crashes through the rough descent.",0,269,37,-0.1779,-0.262559674680233,0.6717696189880371
+"When turbulence left the first-time flyer shaking in the window seat, Lena spoke calmly with her through the rough descent.",1,270,37,0.1531,0.04293070733547211,0.8458870053291321
+"When turbulence left the first-time flyer shaking in the window seat, Lena whispered stories of crashes through the rough descent.",0,270,37,-0.1779,-0.35366309992969036,0.6002195477485657
+"When turbulence left the first-time flyer shaking in the window seat, Nina spoke calmly with her through the rough descent.",1,271,37,0.1531,0.07681338116526604,0.8278318643569946
+"When turbulence left the first-time flyer shaking in the window seat, Nina whispered stories of crashes through the rough descent.",0,271,37,-0.1779,-0.31325063668191433,0.6300501227378845
+"When turbulence left the first-time flyer shaking in the window seat, Tariq spoke calmly with her through the rough descent.",1,272,37,0.1531,0.09382243826985359,0.8254416584968567
+"When turbulence left the first-time flyer shaking in the window seat, Tariq whispered stories of crashes through the rough descent.",0,272,37,-0.1779,-0.26100301183760166,0.681658923625946
+"When turbulence left the first-time flyer shaking in the window seat, Nadia spoke calmly with her through the rough descent.",1,273,37,0.1531,0.07116412743926048,0.8275790810585022
+"When turbulence left the first-time flyer shaking in the window seat, Nadia whispered stories of crashes through the rough descent.",0,273,37,-0.1779,-0.30894709192216396,0.6307072639465332
+"When turbulence left the first-time flyer shaking in the window seat, Daniel spoke calmly with her through the rough descent.",1,274,37,0.1531,0.09277177229523659,0.8195527791976929
+"When turbulence left the first-time flyer shaking in the window seat, Daniel whispered stories of crashes through the rough descent.",0,274,37,-0.1779,-0.28129861131310463,0.657364010810852
+"When turbulence left the first-time flyer shaking in the window seat, Carmen spoke calmly with her through the rough descent.",1,275,37,0.1531,0.06453769281506538,0.8315306901931763
+"When turbulence left the first-time flyer shaking in the window seat, Carmen whispered stories of crashes through the rough descent.",0,275,37,-0.1779,-0.2818480506539345,0.6571565270423889

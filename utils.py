@@ -94,6 +94,8 @@ class DataManager:
         Add a dataset to the DataManager.
         label : which column of the csv file to use as the labels.
         If split is not None, gives the train/val split proportion. Uses seed for reproducibility.
+        If the csv has a frame_id column (moral datasets: name-variants of one template frame),
+        the split is grouped by frame_id so near-duplicate statements never straddle train/val.
         """
         acts = collect_acts(dataset_name, model_size, layer, noperiod=noperiod, center=center, scale=scale, device=device)
         df = pd.read_csv(os.path.join(ROOT, 'datasets', f'{dataset_name}.csv'))
@@ -107,7 +109,12 @@ class DataManager:
             if seed is None:
                 seed = random.randint(0, 1000)
             t.manual_seed(seed)
-            train = t.randperm(len(df)) < int(split * len(df))
+            if 'frame_id' in df.columns:
+                frames = df['frame_id'].unique()
+                train_frames = frames[t.randperm(len(frames)) < int(split * len(frames))]
+                train = t.tensor(df['frame_id'].isin(train_frames).values)
+            else:
+                train = t.randperm(len(df)) < int(split * len(df))
             val = ~train
             self.data['train'][dataset_name] = acts[train], labels[train]
             self.data['val'][dataset_name] = acts[val], labels[val]
