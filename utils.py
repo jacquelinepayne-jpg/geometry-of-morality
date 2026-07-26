@@ -79,6 +79,65 @@ def frame_split(df, split, seed):
         return t.tensor(df['frame_id'].isin(train_frames).values)
     return t.randperm(len(df)) < int(split * len(df))
 
+def negation_alignment(dataset_name, neg_dataset_name):
+    """Row indices `(idx, neg_idx)` such that row `neg_idx[i]` of the negated dataset is the
+    agentive-refusal negation of row `idx[i]` of the source dataset.
+
+    CCSProbe.from_data assumes row i of neg_acts negates row i of acts — true of the original
+    work's cities/neg_cities, which are row-aligned by construction, and false here: negation
+    is per-frame opt-in, so neg_care_harm holds 296 rows over 22 frames against care_harm's
+    552 over 38. This restricts both sides to the pairs that do have a negation.
+
+    The join is on (pair_id, label), with the negated set's label flipped first: refusing a
+    good act is blameworthy and refusing a harm is praiseworthy, so a statement and its
+    refusal always carry opposite labels. That is also what makes the pair a valid CCS
+    contrast — ccs_loss asks P(x) and P(neg x) to sum to 1.
+
+    Returns two LongTensors of equal length, ordered by the source dataset's row order.
+    """
+    df = pd.read_csv(os.path.join(ROOT, 'datasets', f'{dataset_name}.csv'))
+    neg_df = pd.read_csv(os.path.join(ROOT, 'datasets', f'{neg_dataset_name}.csv'))
+    for name, frame in ((dataset_name, df), (neg_dataset_name, neg_df)):
+        missing = {'pair_id', 'label'} - set(frame.columns)
+        if missing:
+            raise ValueError(f'{name} has no {sorted(missing)} column, so it cannot be aligned')
+
+    df = df.reset_index(names='row')
+    neg_df = neg_df.reset_index(names='neg_row')
+    neg_df['source_label'] = 1 - neg_df['label']
+
+    merged = df.merge(neg_df[['pair_id', 'source_label', 'neg_row']],
+                      left_on=['pair_id', 'label'], right_on=['pair_id', 'source_label'],
+                      how='inner').sort_values('row')
+    if merged['row'].duplicated().any() or merged['neg_row'].duplicated().any():
+        raise ValueError(f'{dataset_name} and {neg_dataset_name} do not align one-to-one on '
+                         f'(pair_id, label); check for duplicate pair_ids')
+    return t.tensor(merged['row'].values), t.tensor(merged['neg_row'].values)
+
+
+def ccs_pair(dataset_name, neg_dataset_name, model, layer, noperiod=False, device='cpu'):
+    """`(acts, neg_acts, labels)` ready for CCSProbe.from_data, restricted to the rows that
+    have a negation and centered over exactly those rows.
+
+    Centering is done here rather than by collect_acts because collect_acts centers over the
+    whole dataset, and the subset that survives alignment is a little over half of care_harm.
+    CCSProbe has no bias term, so where the origin sits changes what it can express; centering
+    on rows that are then discarded would leave the used rows off-center for no reason. Each
+    side is centered on its own mean, matching how the original work centered each dataset
+    separately.
+    """
+    idx, neg_idx = negation_alignment(dataset_name, neg_dataset_name)
+    acts = collect_acts(dataset_name, model, layer, noperiod=noperiod, center=False,
+                        device=device)[idx]
+    neg_acts = collect_acts(neg_dataset_name, model, layer, noperiod=noperiod, center=False,
+                            device=device)[neg_idx]
+    acts = acts - acts.mean(dim=0)
+    neg_acts = neg_acts - neg_acts.mean(dim=0)
+    labels = t.Tensor(pd.read_csv(os.path.join(ROOT, 'datasets', f'{dataset_name}.csv'))
+                      ['label'].values).to(device)[idx]
+    return acts, neg_acts, labels
+
+
 def cat_data(d):
     """
     Given a dict of datasets (possible recursively nested), returns the concatenated activations and labels.

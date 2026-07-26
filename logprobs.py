@@ -26,7 +26,7 @@ def compute_logprobs(model, dataset, remote=True):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Compute logprobs for statements in a dataset")
-    parser.add_argument("--model", default="llama-2-70b")
+    parser.add_argument("--model", default="llama-2-13b")
     parser.add_argument("--dataset", default="care_harm")
     parser.add_argument("--device", default="remote")
     args = parser.parse_args()

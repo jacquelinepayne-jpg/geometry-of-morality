@@ -32,6 +32,11 @@ def get_few_shot_accuracy(datasets, model, n_shots=5, batch_size=32, calibrated=
 
     # change padding sight to right
     model.tokenizer.padding_side = 'right'
+    # Llama's tokenizer ships without a pad token, and batching a ragged list needs one.
+    # Right padding plus causal attention means the pad choice cannot reach the position the
+    # verdict is read off, which always sits at batch_lens - 1, before any padding.
+    if model.tokenizer.pad_token is None:
+        model.tokenizer.pad_token = model.tokenizer.eos_token
 
     outs = []
     for dataset in datasets:
@@ -68,31 +73,24 @@ def get_few_shot_accuracy(datasets, model, n_shots=5, batch_size=32, calibrated=
         if 'frame_id' in queries.columns:
             out['query_frames'] = sorted(int(frame) for frame in queries['frame_id'].unique())
 
-        # cache activations over the prompt for reuse
-        with model.forward(output_hidden_states=True, remote=remote, remote_include_output=remote) as runner:
-            with runner.invoke(prompt):
-                pass
-        past_key_values = runner.output['past_key_values']
-
         # get completions and evaluate accuracy
         good_idx, bad_idx = model.tokenizer(GOOD).input_ids[-1], model.tokenizer(BAD).input_ids[-1]
-        # each query ends on the readout, so the next token is the verdict
-        query_prompts = [f'{statement} {READOUT}' for statement in queries['statement'].tolist()]
+        # Each query carries the few-shot prefix and ends on the readout, so the next token is
+        # the verdict. The prefix used to be run once and reused as past_key_values, but that
+        # cache was built at batch size 1 and handed unchanged to batch-size-n forward passes;
+        # the expansion that would have made it valid is the commented-out block this replaces,
+        # and it was written for the legacy tuple-of-tuples cache that transformers no longer
+        # returns. Recomputing the prefix per query is what the cache was approximating anyway,
+        # and the prefix is a few hundred tokens against a few hundred queries, so the saving
+        # was never worth a silent batch-dimension bug.
+        query_prompts = [f'{prompt}{statement} {READOUT}' for statement in queries['statement'].tolist()]
         diffs = []
         for batch_idx in tqdm(range(0, len(query_prompts), batch_size), desc=f'Processing {dataset}'):
             batch = query_prompts[batch_idx:batch_idx+batch_size]
 
-            # # prepare past_key_values
-            # pkv_batch = tuple((
-            #     past_key_values[layer][0].expand(len(batch), *past_key_values[layer][0].shape[1:]),
-            #     past_key_values[layer][1].expand(len(batch), *past_key_values[layer][1].shape[1:])
-            # ) for layer in range(len(past_key_values))
-            # )
-
-            batch_lens = [len(model.tokenizer.encode(query, add_special_tokens=False)) for query in batch]
-            with model.forward(past_key_values=past_key_values
-            , remote=remote, remote_include_output=False) as runner:
-                with runner.invoke(batch, add_special_tokens=False, return_attention_mask=False):
+            batch_lens = [len(model.tokenizer.encode(query)) for query in batch]
+            with model.forward(remote=remote, remote_include_output=False) as runner:
+                with runner.invoke(batch):
                     logits = model.lm_head.output
                     logits = logits[t.arange(len(batch)), t.tensor(batch_lens) - 1, :]
                     probs = logits.softmax(-1)
