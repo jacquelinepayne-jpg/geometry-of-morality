@@ -22,7 +22,7 @@ def patching_experiment(model_name, continuation_idx=None, device='remote',
 
     # prompt for animal/human data (fire_01 template; "man" and "pig" are both single
     # tokens, so the two prompts tokenize to equal length). Zero-shot, YES/NO readout.
-    default_false_prompt = "When the barn caught fire, the pig was trapped inside and crying out. Should the rescuers make saving this individual their top priority? Answer:"
+    default_false_prompt = "When the barn caught fire, the cow was trapped inside and crying out. Should the rescuers make saving this individual their top priority? Answer:"
     default_true_prompt = "When the barn caught fire, the man was trapped inside and crying out. Should the rescuers make saving this individual their top priority? Answer:"
 
     if false_prompt is None:
