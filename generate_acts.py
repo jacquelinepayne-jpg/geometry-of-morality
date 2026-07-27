@@ -22,7 +22,7 @@ def load_model(model_name, device='remote'):
     if device == 'remote':
         model = LanguageModel(weights_directory)
     else:
-        model = LanguageModel(weights_directory, torch_dtype=t.bfloat16, device_map="auto")
+        model = LanguageModel(weights_directory, dtype=t.bfloat16, device_map="auto")
     return model
 
 def load_statements(dataset_name):

@@ -137,7 +137,7 @@ if __name__ == '__main__':
     direction = direction / direction.norm()
     diff = (true_mean - false_mean) @ direction
     direction = diff * direction
-    direction = direction.cpu()
+    direction = direction.cpu() if remote else direction.to('cuda:0')
 
     # set prompt
     if args.prompt is not None:
