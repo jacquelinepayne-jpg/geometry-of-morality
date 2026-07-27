@@ -1,0 +1,1601 @@
+statement,label,subject,subject_category,template_id,axis
+"In the early morning light, the pig wandered slowly across the meadow.",1,pig,farmed,morning_01,neutral
+"In the early morning light, the cow wandered slowly across the meadow.",1,cow,farmed,morning_01,neutral
+"In the early morning light, the chicken wandered slowly across the meadow.",1,chicken,farmed,morning_01,neutral
+"In the early morning light, the goat wandered slowly across the meadow.",1,goat,farmed,morning_01,neutral
+"In the early morning light, the sheep wandered slowly across the meadow.",1,sheep,farmed,morning_01,neutral
+"In the early morning light, the duck wandered slowly across the meadow.",1,duck,farmed,morning_01,neutral
+"In the early morning light, the turkey wandered slowly across the meadow.",1,turkey,farmed,morning_01,neutral
+"In the early morning light, the hen wandered slowly across the meadow.",1,hen,farmed,morning_01,neutral
+"In the early morning light, the rooster wandered slowly across the meadow.",1,rooster,farmed,morning_01,neutral
+"In the early morning light, the calf wandered slowly across the meadow.",1,calf,farmed,morning_01,neutral
+"In the early morning light, the lamb wandered slowly across the meadow.",1,lamb,farmed,morning_01,neutral
+"In the early morning light, the piglet wandered slowly across the meadow.",1,piglet,farmed,morning_01,neutral
+"In the early morning light, the ox wandered slowly across the meadow.",1,ox,farmed,morning_01,neutral
+"In the early morning light, the donkey wandered slowly across the meadow.",1,donkey,farmed,morning_01,neutral
+"In the early morning light, the mule wandered slowly across the meadow.",1,mule,farmed,morning_01,neutral
+"In the early morning light, the goose wandered slowly across the meadow.",1,goose,farmed,morning_01,neutral
+"In the early morning light, the sow wandered slowly across the meadow.",1,sow,farmed,morning_01,neutral
+"In the early morning light, the heifer wandered slowly across the meadow.",1,heifer,farmed,morning_01,neutral
+"In the early morning light, the foal wandered slowly across the meadow.",1,foal,farmed,morning_01,neutral
+"In the early morning light, the ram wandered slowly across the meadow.",1,ram,farmed,morning_01,neutral
+"In the early morning light, the rat wandered slowly across the meadow.",0,rat,wild,morning_01,neutral
+"In the early morning light, the boar wandered slowly across the meadow.",0,boar,wild,morning_01,neutral
+"In the early morning light, the buffalo wandered slowly across the meadow.",0,buffalo,wild,morning_01,neutral
+"In the early morning light, the fox wandered slowly across the meadow.",0,fox,wild,morning_01,neutral
+"In the early morning light, the deer wandered slowly across the meadow.",0,deer,wild,morning_01,neutral
+"In the early morning light, the badger wandered slowly across the meadow.",0,badger,wild,morning_01,neutral
+"In the early morning light, the otter wandered slowly across the meadow.",0,otter,wild,morning_01,neutral
+"In the early morning light, the hare wandered slowly across the meadow.",0,hare,wild,morning_01,neutral
+"In the early morning light, the raccoon wandered slowly across the meadow.",0,raccoon,wild,morning_01,neutral
+"In the early morning light, the squirrel wandered slowly across the meadow.",0,squirrel,wild,morning_01,neutral
+"In the early morning light, the weasel wandered slowly across the meadow.",0,weasel,wild,morning_01,neutral
+"In the early morning light, the coyote wandered slowly across the meadow.",0,coyote,wild,morning_01,neutral
+"In the early morning light, the moose wandered slowly across the meadow.",0,moose,wild,morning_01,neutral
+"In the early morning light, the elk wandered slowly across the meadow.",0,elk,wild,morning_01,neutral
+"In the early morning light, the wolf wandered slowly across the meadow.",0,wolf,wild,morning_01,neutral
+"In the early morning light, the hedgehog wandered slowly across the meadow.",0,hedgehog,wild,morning_01,neutral
+"In the early morning light, the possum wandered slowly across the meadow.",0,possum,wild,morning_01,neutral
+"In the early morning light, the jackal wandered slowly across the meadow.",0,jackal,wild,morning_01,neutral
+"In the early morning light, the stoat wandered slowly across the meadow.",0,stoat,wild,morning_01,neutral
+"In the early morning light, the marten wandered slowly across the meadow.",0,marten,wild,morning_01,neutral
+"Just after sunrise, the pig crossed the quiet country lane.",1,pig,farmed,morning_02,neutral
+"Just after sunrise, the cow crossed the quiet country lane.",1,cow,farmed,morning_02,neutral
+"Just after sunrise, the chicken crossed the quiet country lane.",1,chicken,farmed,morning_02,neutral
+"Just after sunrise, the goat crossed the quiet country lane.",1,goat,farmed,morning_02,neutral
+"Just after sunrise, the sheep crossed the quiet country lane.",1,sheep,farmed,morning_02,neutral
+"Just after sunrise, the duck crossed the quiet country lane.",1,duck,farmed,morning_02,neutral
+"Just after sunrise, the turkey crossed the quiet country lane.",1,turkey,farmed,morning_02,neutral
+"Just after sunrise, the hen crossed the quiet country lane.",1,hen,farmed,morning_02,neutral
+"Just after sunrise, the rooster crossed the quiet country lane.",1,rooster,farmed,morning_02,neutral
+"Just after sunrise, the calf crossed the quiet country lane.",1,calf,farmed,morning_02,neutral
+"Just after sunrise, the lamb crossed the quiet country lane.",1,lamb,farmed,morning_02,neutral
+"Just after sunrise, the piglet crossed the quiet country lane.",1,piglet,farmed,morning_02,neutral
+"Just after sunrise, the ox crossed the quiet country lane.",1,ox,farmed,morning_02,neutral
+"Just after sunrise, the donkey crossed the quiet country lane.",1,donkey,farmed,morning_02,neutral
+"Just after sunrise, the mule crossed the quiet country lane.",1,mule,farmed,morning_02,neutral
+"Just after sunrise, the goose crossed the quiet country lane.",1,goose,farmed,morning_02,neutral
+"Just after sunrise, the sow crossed the quiet country lane.",1,sow,farmed,morning_02,neutral
+"Just after sunrise, the heifer crossed the quiet country lane.",1,heifer,farmed,morning_02,neutral
+"Just after sunrise, the foal crossed the quiet country lane.",1,foal,farmed,morning_02,neutral
+"Just after sunrise, the ram crossed the quiet country lane.",1,ram,farmed,morning_02,neutral
+"Just after sunrise, the rat crossed the quiet country lane.",0,rat,wild,morning_02,neutral
+"Just after sunrise, the boar crossed the quiet country lane.",0,boar,wild,morning_02,neutral
+"Just after sunrise, the buffalo crossed the quiet country lane.",0,buffalo,wild,morning_02,neutral
+"Just after sunrise, the fox crossed the quiet country lane.",0,fox,wild,morning_02,neutral
+"Just after sunrise, the deer crossed the quiet country lane.",0,deer,wild,morning_02,neutral
+"Just after sunrise, the badger crossed the quiet country lane.",0,badger,wild,morning_02,neutral
+"Just after sunrise, the otter crossed the quiet country lane.",0,otter,wild,morning_02,neutral
+"Just after sunrise, the hare crossed the quiet country lane.",0,hare,wild,morning_02,neutral
+"Just after sunrise, the raccoon crossed the quiet country lane.",0,raccoon,wild,morning_02,neutral
+"Just after sunrise, the squirrel crossed the quiet country lane.",0,squirrel,wild,morning_02,neutral
+"Just after sunrise, the weasel crossed the quiet country lane.",0,weasel,wild,morning_02,neutral
+"Just after sunrise, the coyote crossed the quiet country lane.",0,coyote,wild,morning_02,neutral
+"Just after sunrise, the moose crossed the quiet country lane.",0,moose,wild,morning_02,neutral
+"Just after sunrise, the elk crossed the quiet country lane.",0,elk,wild,morning_02,neutral
+"Just after sunrise, the wolf crossed the quiet country lane.",0,wolf,wild,morning_02,neutral
+"Just after sunrise, the hedgehog crossed the quiet country lane.",0,hedgehog,wild,morning_02,neutral
+"Just after sunrise, the possum crossed the quiet country lane.",0,possum,wild,morning_02,neutral
+"Just after sunrise, the jackal crossed the quiet country lane.",0,jackal,wild,morning_02,neutral
+"Just after sunrise, the stoat crossed the quiet country lane.",0,stoat,wild,morning_02,neutral
+"Just after sunrise, the marten crossed the quiet country lane.",0,marten,wild,morning_02,neutral
+"Before the household woke, the pig was already out in the yard.",1,pig,farmed,morning_03,neutral
+"Before the household woke, the cow was already out in the yard.",1,cow,farmed,morning_03,neutral
+"Before the household woke, the chicken was already out in the yard.",1,chicken,farmed,morning_03,neutral
+"Before the household woke, the goat was already out in the yard.",1,goat,farmed,morning_03,neutral
+"Before the household woke, the sheep was already out in the yard.",1,sheep,farmed,morning_03,neutral
+"Before the household woke, the duck was already out in the yard.",1,duck,farmed,morning_03,neutral
+"Before the household woke, the turkey was already out in the yard.",1,turkey,farmed,morning_03,neutral
+"Before the household woke, the hen was already out in the yard.",1,hen,farmed,morning_03,neutral
+"Before the household woke, the rooster was already out in the yard.",1,rooster,farmed,morning_03,neutral
+"Before the household woke, the calf was already out in the yard.",1,calf,farmed,morning_03,neutral
+"Before the household woke, the lamb was already out in the yard.",1,lamb,farmed,morning_03,neutral
+"Before the household woke, the piglet was already out in the yard.",1,piglet,farmed,morning_03,neutral
+"Before the household woke, the ox was already out in the yard.",1,ox,farmed,morning_03,neutral
+"Before the household woke, the donkey was already out in the yard.",1,donkey,farmed,morning_03,neutral
+"Before the household woke, the mule was already out in the yard.",1,mule,farmed,morning_03,neutral
+"Before the household woke, the goose was already out in the yard.",1,goose,farmed,morning_03,neutral
+"Before the household woke, the sow was already out in the yard.",1,sow,farmed,morning_03,neutral
+"Before the household woke, the heifer was already out in the yard.",1,heifer,farmed,morning_03,neutral
+"Before the household woke, the foal was already out in the yard.",1,foal,farmed,morning_03,neutral
+"Before the household woke, the ram was already out in the yard.",1,ram,farmed,morning_03,neutral
+"Before the household woke, the rat was already out in the yard.",0,rat,wild,morning_03,neutral
+"Before the household woke, the boar was already out in the yard.",0,boar,wild,morning_03,neutral
+"Before the household woke, the buffalo was already out in the yard.",0,buffalo,wild,morning_03,neutral
+"Before the household woke, the fox was already out in the yard.",0,fox,wild,morning_03,neutral
+"Before the household woke, the deer was already out in the yard.",0,deer,wild,morning_03,neutral
+"Before the household woke, the badger was already out in the yard.",0,badger,wild,morning_03,neutral
+"Before the household woke, the otter was already out in the yard.",0,otter,wild,morning_03,neutral
+"Before the household woke, the hare was already out in the yard.",0,hare,wild,morning_03,neutral
+"Before the household woke, the raccoon was already out in the yard.",0,raccoon,wild,morning_03,neutral
+"Before the household woke, the squirrel was already out in the yard.",0,squirrel,wild,morning_03,neutral
+"Before the household woke, the weasel was already out in the yard.",0,weasel,wild,morning_03,neutral
+"Before the household woke, the coyote was already out in the yard.",0,coyote,wild,morning_03,neutral
+"Before the household woke, the moose was already out in the yard.",0,moose,wild,morning_03,neutral
+"Before the household woke, the elk was already out in the yard.",0,elk,wild,morning_03,neutral
+"Before the household woke, the wolf was already out in the yard.",0,wolf,wild,morning_03,neutral
+"Before the household woke, the hedgehog was already out in the yard.",0,hedgehog,wild,morning_03,neutral
+"Before the household woke, the possum was already out in the yard.",0,possum,wild,morning_03,neutral
+"Before the household woke, the jackal was already out in the yard.",0,jackal,wild,morning_03,neutral
+"Before the household woke, the stoat was already out in the yard.",0,stoat,wild,morning_03,neutral
+"Before the household woke, the marten was already out in the yard.",0,marten,wild,morning_03,neutral
+"At first light, the pig appeared at the edge of the orchard.",1,pig,farmed,morning_04,neutral
+"At first light, the cow appeared at the edge of the orchard.",1,cow,farmed,morning_04,neutral
+"At first light, the chicken appeared at the edge of the orchard.",1,chicken,farmed,morning_04,neutral
+"At first light, the goat appeared at the edge of the orchard.",1,goat,farmed,morning_04,neutral
+"At first light, the sheep appeared at the edge of the orchard.",1,sheep,farmed,morning_04,neutral
+"At first light, the duck appeared at the edge of the orchard.",1,duck,farmed,morning_04,neutral
+"At first light, the turkey appeared at the edge of the orchard.",1,turkey,farmed,morning_04,neutral
+"At first light, the hen appeared at the edge of the orchard.",1,hen,farmed,morning_04,neutral
+"At first light, the rooster appeared at the edge of the orchard.",1,rooster,farmed,morning_04,neutral
+"At first light, the calf appeared at the edge of the orchard.",1,calf,farmed,morning_04,neutral
+"At first light, the lamb appeared at the edge of the orchard.",1,lamb,farmed,morning_04,neutral
+"At first light, the piglet appeared at the edge of the orchard.",1,piglet,farmed,morning_04,neutral
+"At first light, the ox appeared at the edge of the orchard.",1,ox,farmed,morning_04,neutral
+"At first light, the donkey appeared at the edge of the orchard.",1,donkey,farmed,morning_04,neutral
+"At first light, the mule appeared at the edge of the orchard.",1,mule,farmed,morning_04,neutral
+"At first light, the goose appeared at the edge of the orchard.",1,goose,farmed,morning_04,neutral
+"At first light, the sow appeared at the edge of the orchard.",1,sow,farmed,morning_04,neutral
+"At first light, the heifer appeared at the edge of the orchard.",1,heifer,farmed,morning_04,neutral
+"At first light, the foal appeared at the edge of the orchard.",1,foal,farmed,morning_04,neutral
+"At first light, the ram appeared at the edge of the orchard.",1,ram,farmed,morning_04,neutral
+"At first light, the rat appeared at the edge of the orchard.",0,rat,wild,morning_04,neutral
+"At first light, the boar appeared at the edge of the orchard.",0,boar,wild,morning_04,neutral
+"At first light, the buffalo appeared at the edge of the orchard.",0,buffalo,wild,morning_04,neutral
+"At first light, the fox appeared at the edge of the orchard.",0,fox,wild,morning_04,neutral
+"At first light, the deer appeared at the edge of the orchard.",0,deer,wild,morning_04,neutral
+"At first light, the badger appeared at the edge of the orchard.",0,badger,wild,morning_04,neutral
+"At first light, the otter appeared at the edge of the orchard.",0,otter,wild,morning_04,neutral
+"At first light, the hare appeared at the edge of the orchard.",0,hare,wild,morning_04,neutral
+"At first light, the raccoon appeared at the edge of the orchard.",0,raccoon,wild,morning_04,neutral
+"At first light, the squirrel appeared at the edge of the orchard.",0,squirrel,wild,morning_04,neutral
+"At first light, the weasel appeared at the edge of the orchard.",0,weasel,wild,morning_04,neutral
+"At first light, the coyote appeared at the edge of the orchard.",0,coyote,wild,morning_04,neutral
+"At first light, the moose appeared at the edge of the orchard.",0,moose,wild,morning_04,neutral
+"At first light, the elk appeared at the edge of the orchard.",0,elk,wild,morning_04,neutral
+"At first light, the wolf appeared at the edge of the orchard.",0,wolf,wild,morning_04,neutral
+"At first light, the hedgehog appeared at the edge of the orchard.",0,hedgehog,wild,morning_04,neutral
+"At first light, the possum appeared at the edge of the orchard.",0,possum,wild,morning_04,neutral
+"At first light, the jackal appeared at the edge of the orchard.",0,jackal,wild,morning_04,neutral
+"At first light, the stoat appeared at the edge of the orchard.",0,stoat,wild,morning_04,neutral
+"At first light, the marten appeared at the edge of the orchard.",0,marten,wild,morning_04,neutral
+"Under the shade of the old oak, the pig rested through the warm afternoon.",1,pig,farmed,rest_01,neutral
+"Under the shade of the old oak, the cow rested through the warm afternoon.",1,cow,farmed,rest_01,neutral
+"Under the shade of the old oak, the chicken rested through the warm afternoon.",1,chicken,farmed,rest_01,neutral
+"Under the shade of the old oak, the goat rested through the warm afternoon.",1,goat,farmed,rest_01,neutral
+"Under the shade of the old oak, the sheep rested through the warm afternoon.",1,sheep,farmed,rest_01,neutral
+"Under the shade of the old oak, the duck rested through the warm afternoon.",1,duck,farmed,rest_01,neutral
+"Under the shade of the old oak, the turkey rested through the warm afternoon.",1,turkey,farmed,rest_01,neutral
+"Under the shade of the old oak, the hen rested through the warm afternoon.",1,hen,farmed,rest_01,neutral
+"Under the shade of the old oak, the rooster rested through the warm afternoon.",1,rooster,farmed,rest_01,neutral
+"Under the shade of the old oak, the calf rested through the warm afternoon.",1,calf,farmed,rest_01,neutral
+"Under the shade of the old oak, the lamb rested through the warm afternoon.",1,lamb,farmed,rest_01,neutral
+"Under the shade of the old oak, the piglet rested through the warm afternoon.",1,piglet,farmed,rest_01,neutral
+"Under the shade of the old oak, the ox rested through the warm afternoon.",1,ox,farmed,rest_01,neutral
+"Under the shade of the old oak, the donkey rested through the warm afternoon.",1,donkey,farmed,rest_01,neutral
+"Under the shade of the old oak, the mule rested through the warm afternoon.",1,mule,farmed,rest_01,neutral
+"Under the shade of the old oak, the goose rested through the warm afternoon.",1,goose,farmed,rest_01,neutral
+"Under the shade of the old oak, the sow rested through the warm afternoon.",1,sow,farmed,rest_01,neutral
+"Under the shade of the old oak, the heifer rested through the warm afternoon.",1,heifer,farmed,rest_01,neutral
+"Under the shade of the old oak, the foal rested through the warm afternoon.",1,foal,farmed,rest_01,neutral
+"Under the shade of the old oak, the ram rested through the warm afternoon.",1,ram,farmed,rest_01,neutral
+"Under the shade of the old oak, the rat rested through the warm afternoon.",0,rat,wild,rest_01,neutral
+"Under the shade of the old oak, the boar rested through the warm afternoon.",0,boar,wild,rest_01,neutral
+"Under the shade of the old oak, the buffalo rested through the warm afternoon.",0,buffalo,wild,rest_01,neutral
+"Under the shade of the old oak, the fox rested through the warm afternoon.",0,fox,wild,rest_01,neutral
+"Under the shade of the old oak, the deer rested through the warm afternoon.",0,deer,wild,rest_01,neutral
+"Under the shade of the old oak, the badger rested through the warm afternoon.",0,badger,wild,rest_01,neutral
+"Under the shade of the old oak, the otter rested through the warm afternoon.",0,otter,wild,rest_01,neutral
+"Under the shade of the old oak, the hare rested through the warm afternoon.",0,hare,wild,rest_01,neutral
+"Under the shade of the old oak, the raccoon rested through the warm afternoon.",0,raccoon,wild,rest_01,neutral
+"Under the shade of the old oak, the squirrel rested through the warm afternoon.",0,squirrel,wild,rest_01,neutral
+"Under the shade of the old oak, the weasel rested through the warm afternoon.",0,weasel,wild,rest_01,neutral
+"Under the shade of the old oak, the coyote rested through the warm afternoon.",0,coyote,wild,rest_01,neutral
+"Under the shade of the old oak, the moose rested through the warm afternoon.",0,moose,wild,rest_01,neutral
+"Under the shade of the old oak, the elk rested through the warm afternoon.",0,elk,wild,rest_01,neutral
+"Under the shade of the old oak, the wolf rested through the warm afternoon.",0,wolf,wild,rest_01,neutral
+"Under the shade of the old oak, the hedgehog rested through the warm afternoon.",0,hedgehog,wild,rest_01,neutral
+"Under the shade of the old oak, the possum rested through the warm afternoon.",0,possum,wild,rest_01,neutral
+"Under the shade of the old oak, the jackal rested through the warm afternoon.",0,jackal,wild,rest_01,neutral
+"Under the shade of the old oak, the stoat rested through the warm afternoon.",0,stoat,wild,rest_01,neutral
+"Under the shade of the old oak, the marten rested through the warm afternoon.",0,marten,wild,rest_01,neutral
+"For most of the morning, the pig dozed near the barn door.",1,pig,farmed,rest_02,neutral
+"For most of the morning, the cow dozed near the barn door.",1,cow,farmed,rest_02,neutral
+"For most of the morning, the chicken dozed near the barn door.",1,chicken,farmed,rest_02,neutral
+"For most of the morning, the goat dozed near the barn door.",1,goat,farmed,rest_02,neutral
+"For most of the morning, the sheep dozed near the barn door.",1,sheep,farmed,rest_02,neutral
+"For most of the morning, the duck dozed near the barn door.",1,duck,farmed,rest_02,neutral
+"For most of the morning, the turkey dozed near the barn door.",1,turkey,farmed,rest_02,neutral
+"For most of the morning, the hen dozed near the barn door.",1,hen,farmed,rest_02,neutral
+"For most of the morning, the rooster dozed near the barn door.",1,rooster,farmed,rest_02,neutral
+"For most of the morning, the calf dozed near the barn door.",1,calf,farmed,rest_02,neutral
+"For most of the morning, the lamb dozed near the barn door.",1,lamb,farmed,rest_02,neutral
+"For most of the morning, the piglet dozed near the barn door.",1,piglet,farmed,rest_02,neutral
+"For most of the morning, the ox dozed near the barn door.",1,ox,farmed,rest_02,neutral
+"For most of the morning, the donkey dozed near the barn door.",1,donkey,farmed,rest_02,neutral
+"For most of the morning, the mule dozed near the barn door.",1,mule,farmed,rest_02,neutral
+"For most of the morning, the goose dozed near the barn door.",1,goose,farmed,rest_02,neutral
+"For most of the morning, the sow dozed near the barn door.",1,sow,farmed,rest_02,neutral
+"For most of the morning, the heifer dozed near the barn door.",1,heifer,farmed,rest_02,neutral
+"For most of the morning, the foal dozed near the barn door.",1,foal,farmed,rest_02,neutral
+"For most of the morning, the ram dozed near the barn door.",1,ram,farmed,rest_02,neutral
+"For most of the morning, the rat dozed near the barn door.",0,rat,wild,rest_02,neutral
+"For most of the morning, the boar dozed near the barn door.",0,boar,wild,rest_02,neutral
+"For most of the morning, the buffalo dozed near the barn door.",0,buffalo,wild,rest_02,neutral
+"For most of the morning, the fox dozed near the barn door.",0,fox,wild,rest_02,neutral
+"For most of the morning, the deer dozed near the barn door.",0,deer,wild,rest_02,neutral
+"For most of the morning, the badger dozed near the barn door.",0,badger,wild,rest_02,neutral
+"For most of the morning, the otter dozed near the barn door.",0,otter,wild,rest_02,neutral
+"For most of the morning, the hare dozed near the barn door.",0,hare,wild,rest_02,neutral
+"For most of the morning, the raccoon dozed near the barn door.",0,raccoon,wild,rest_02,neutral
+"For most of the morning, the squirrel dozed near the barn door.",0,squirrel,wild,rest_02,neutral
+"For most of the morning, the weasel dozed near the barn door.",0,weasel,wild,rest_02,neutral
+"For most of the morning, the coyote dozed near the barn door.",0,coyote,wild,rest_02,neutral
+"For most of the morning, the moose dozed near the barn door.",0,moose,wild,rest_02,neutral
+"For most of the morning, the elk dozed near the barn door.",0,elk,wild,rest_02,neutral
+"For most of the morning, the wolf dozed near the barn door.",0,wolf,wild,rest_02,neutral
+"For most of the morning, the hedgehog dozed near the barn door.",0,hedgehog,wild,rest_02,neutral
+"For most of the morning, the possum dozed near the barn door.",0,possum,wild,rest_02,neutral
+"For most of the morning, the jackal dozed near the barn door.",0,jackal,wild,rest_02,neutral
+"For most of the morning, the stoat dozed near the barn door.",0,stoat,wild,rest_02,neutral
+"For most of the morning, the marten dozed near the barn door.",0,marten,wild,rest_02,neutral
+"In the corner of the yard, the pig settled down for a quiet nap.",1,pig,farmed,rest_03,neutral
+"In the corner of the yard, the cow settled down for a quiet nap.",1,cow,farmed,rest_03,neutral
+"In the corner of the yard, the chicken settled down for a quiet nap.",1,chicken,farmed,rest_03,neutral
+"In the corner of the yard, the goat settled down for a quiet nap.",1,goat,farmed,rest_03,neutral
+"In the corner of the yard, the sheep settled down for a quiet nap.",1,sheep,farmed,rest_03,neutral
+"In the corner of the yard, the duck settled down for a quiet nap.",1,duck,farmed,rest_03,neutral
+"In the corner of the yard, the turkey settled down for a quiet nap.",1,turkey,farmed,rest_03,neutral
+"In the corner of the yard, the hen settled down for a quiet nap.",1,hen,farmed,rest_03,neutral
+"In the corner of the yard, the rooster settled down for a quiet nap.",1,rooster,farmed,rest_03,neutral
+"In the corner of the yard, the calf settled down for a quiet nap.",1,calf,farmed,rest_03,neutral
+"In the corner of the yard, the lamb settled down for a quiet nap.",1,lamb,farmed,rest_03,neutral
+"In the corner of the yard, the piglet settled down for a quiet nap.",1,piglet,farmed,rest_03,neutral
+"In the corner of the yard, the ox settled down for a quiet nap.",1,ox,farmed,rest_03,neutral
+"In the corner of the yard, the donkey settled down for a quiet nap.",1,donkey,farmed,rest_03,neutral
+"In the corner of the yard, the mule settled down for a quiet nap.",1,mule,farmed,rest_03,neutral
+"In the corner of the yard, the goose settled down for a quiet nap.",1,goose,farmed,rest_03,neutral
+"In the corner of the yard, the sow settled down for a quiet nap.",1,sow,farmed,rest_03,neutral
+"In the corner of the yard, the heifer settled down for a quiet nap.",1,heifer,farmed,rest_03,neutral
+"In the corner of the yard, the foal settled down for a quiet nap.",1,foal,farmed,rest_03,neutral
+"In the corner of the yard, the ram settled down for a quiet nap.",1,ram,farmed,rest_03,neutral
+"In the corner of the yard, the rat settled down for a quiet nap.",0,rat,wild,rest_03,neutral
+"In the corner of the yard, the boar settled down for a quiet nap.",0,boar,wild,rest_03,neutral
+"In the corner of the yard, the buffalo settled down for a quiet nap.",0,buffalo,wild,rest_03,neutral
+"In the corner of the yard, the fox settled down for a quiet nap.",0,fox,wild,rest_03,neutral
+"In the corner of the yard, the deer settled down for a quiet nap.",0,deer,wild,rest_03,neutral
+"In the corner of the yard, the badger settled down for a quiet nap.",0,badger,wild,rest_03,neutral
+"In the corner of the yard, the otter settled down for a quiet nap.",0,otter,wild,rest_03,neutral
+"In the corner of the yard, the hare settled down for a quiet nap.",0,hare,wild,rest_03,neutral
+"In the corner of the yard, the raccoon settled down for a quiet nap.",0,raccoon,wild,rest_03,neutral
+"In the corner of the yard, the squirrel settled down for a quiet nap.",0,squirrel,wild,rest_03,neutral
+"In the corner of the yard, the weasel settled down for a quiet nap.",0,weasel,wild,rest_03,neutral
+"In the corner of the yard, the coyote settled down for a quiet nap.",0,coyote,wild,rest_03,neutral
+"In the corner of the yard, the moose settled down for a quiet nap.",0,moose,wild,rest_03,neutral
+"In the corner of the yard, the elk settled down for a quiet nap.",0,elk,wild,rest_03,neutral
+"In the corner of the yard, the wolf settled down for a quiet nap.",0,wolf,wild,rest_03,neutral
+"In the corner of the yard, the hedgehog settled down for a quiet nap.",0,hedgehog,wild,rest_03,neutral
+"In the corner of the yard, the possum settled down for a quiet nap.",0,possum,wild,rest_03,neutral
+"In the corner of the yard, the jackal settled down for a quiet nap.",0,jackal,wild,rest_03,neutral
+"In the corner of the yard, the stoat settled down for a quiet nap.",0,stoat,wild,rest_03,neutral
+"In the corner of the yard, the marten settled down for a quiet nap.",0,marten,wild,rest_03,neutral
+"After the long walk, the pig rested calmly by the gate.",1,pig,farmed,rest_04,neutral
+"After the long walk, the cow rested calmly by the gate.",1,cow,farmed,rest_04,neutral
+"After the long walk, the chicken rested calmly by the gate.",1,chicken,farmed,rest_04,neutral
+"After the long walk, the goat rested calmly by the gate.",1,goat,farmed,rest_04,neutral
+"After the long walk, the sheep rested calmly by the gate.",1,sheep,farmed,rest_04,neutral
+"After the long walk, the duck rested calmly by the gate.",1,duck,farmed,rest_04,neutral
+"After the long walk, the turkey rested calmly by the gate.",1,turkey,farmed,rest_04,neutral
+"After the long walk, the hen rested calmly by the gate.",1,hen,farmed,rest_04,neutral
+"After the long walk, the rooster rested calmly by the gate.",1,rooster,farmed,rest_04,neutral
+"After the long walk, the calf rested calmly by the gate.",1,calf,farmed,rest_04,neutral
+"After the long walk, the lamb rested calmly by the gate.",1,lamb,farmed,rest_04,neutral
+"After the long walk, the piglet rested calmly by the gate.",1,piglet,farmed,rest_04,neutral
+"After the long walk, the ox rested calmly by the gate.",1,ox,farmed,rest_04,neutral
+"After the long walk, the donkey rested calmly by the gate.",1,donkey,farmed,rest_04,neutral
+"After the long walk, the mule rested calmly by the gate.",1,mule,farmed,rest_04,neutral
+"After the long walk, the goose rested calmly by the gate.",1,goose,farmed,rest_04,neutral
+"After the long walk, the sow rested calmly by the gate.",1,sow,farmed,rest_04,neutral
+"After the long walk, the heifer rested calmly by the gate.",1,heifer,farmed,rest_04,neutral
+"After the long walk, the foal rested calmly by the gate.",1,foal,farmed,rest_04,neutral
+"After the long walk, the ram rested calmly by the gate.",1,ram,farmed,rest_04,neutral
+"After the long walk, the rat rested calmly by the gate.",0,rat,wild,rest_04,neutral
+"After the long walk, the boar rested calmly by the gate.",0,boar,wild,rest_04,neutral
+"After the long walk, the buffalo rested calmly by the gate.",0,buffalo,wild,rest_04,neutral
+"After the long walk, the fox rested calmly by the gate.",0,fox,wild,rest_04,neutral
+"After the long walk, the deer rested calmly by the gate.",0,deer,wild,rest_04,neutral
+"After the long walk, the badger rested calmly by the gate.",0,badger,wild,rest_04,neutral
+"After the long walk, the otter rested calmly by the gate.",0,otter,wild,rest_04,neutral
+"After the long walk, the hare rested calmly by the gate.",0,hare,wild,rest_04,neutral
+"After the long walk, the raccoon rested calmly by the gate.",0,raccoon,wild,rest_04,neutral
+"After the long walk, the squirrel rested calmly by the gate.",0,squirrel,wild,rest_04,neutral
+"After the long walk, the weasel rested calmly by the gate.",0,weasel,wild,rest_04,neutral
+"After the long walk, the coyote rested calmly by the gate.",0,coyote,wild,rest_04,neutral
+"After the long walk, the moose rested calmly by the gate.",0,moose,wild,rest_04,neutral
+"After the long walk, the elk rested calmly by the gate.",0,elk,wild,rest_04,neutral
+"After the long walk, the wolf rested calmly by the gate.",0,wolf,wild,rest_04,neutral
+"After the long walk, the hedgehog rested calmly by the gate.",0,hedgehog,wild,rest_04,neutral
+"After the long walk, the possum rested calmly by the gate.",0,possum,wild,rest_04,neutral
+"After the long walk, the jackal rested calmly by the gate.",0,jackal,wild,rest_04,neutral
+"After the long walk, the stoat rested calmly by the gate.",0,stoat,wild,rest_04,neutral
+"After the long walk, the marten rested calmly by the gate.",0,marten,wild,rest_04,neutral
+"At the edge of the garden, the pig paused to eat in the shade.",1,pig,farmed,eat_01,neutral
+"At the edge of the garden, the cow paused to eat in the shade.",1,cow,farmed,eat_01,neutral
+"At the edge of the garden, the chicken paused to eat in the shade.",1,chicken,farmed,eat_01,neutral
+"At the edge of the garden, the goat paused to eat in the shade.",1,goat,farmed,eat_01,neutral
+"At the edge of the garden, the sheep paused to eat in the shade.",1,sheep,farmed,eat_01,neutral
+"At the edge of the garden, the duck paused to eat in the shade.",1,duck,farmed,eat_01,neutral
+"At the edge of the garden, the turkey paused to eat in the shade.",1,turkey,farmed,eat_01,neutral
+"At the edge of the garden, the hen paused to eat in the shade.",1,hen,farmed,eat_01,neutral
+"At the edge of the garden, the rooster paused to eat in the shade.",1,rooster,farmed,eat_01,neutral
+"At the edge of the garden, the calf paused to eat in the shade.",1,calf,farmed,eat_01,neutral
+"At the edge of the garden, the lamb paused to eat in the shade.",1,lamb,farmed,eat_01,neutral
+"At the edge of the garden, the piglet paused to eat in the shade.",1,piglet,farmed,eat_01,neutral
+"At the edge of the garden, the ox paused to eat in the shade.",1,ox,farmed,eat_01,neutral
+"At the edge of the garden, the donkey paused to eat in the shade.",1,donkey,farmed,eat_01,neutral
+"At the edge of the garden, the mule paused to eat in the shade.",1,mule,farmed,eat_01,neutral
+"At the edge of the garden, the goose paused to eat in the shade.",1,goose,farmed,eat_01,neutral
+"At the edge of the garden, the sow paused to eat in the shade.",1,sow,farmed,eat_01,neutral
+"At the edge of the garden, the heifer paused to eat in the shade.",1,heifer,farmed,eat_01,neutral
+"At the edge of the garden, the foal paused to eat in the shade.",1,foal,farmed,eat_01,neutral
+"At the edge of the garden, the ram paused to eat in the shade.",1,ram,farmed,eat_01,neutral
+"At the edge of the garden, the rat paused to eat in the shade.",0,rat,wild,eat_01,neutral
+"At the edge of the garden, the boar paused to eat in the shade.",0,boar,wild,eat_01,neutral
+"At the edge of the garden, the buffalo paused to eat in the shade.",0,buffalo,wild,eat_01,neutral
+"At the edge of the garden, the fox paused to eat in the shade.",0,fox,wild,eat_01,neutral
+"At the edge of the garden, the deer paused to eat in the shade.",0,deer,wild,eat_01,neutral
+"At the edge of the garden, the badger paused to eat in the shade.",0,badger,wild,eat_01,neutral
+"At the edge of the garden, the otter paused to eat in the shade.",0,otter,wild,eat_01,neutral
+"At the edge of the garden, the hare paused to eat in the shade.",0,hare,wild,eat_01,neutral
+"At the edge of the garden, the raccoon paused to eat in the shade.",0,raccoon,wild,eat_01,neutral
+"At the edge of the garden, the squirrel paused to eat in the shade.",0,squirrel,wild,eat_01,neutral
+"At the edge of the garden, the weasel paused to eat in the shade.",0,weasel,wild,eat_01,neutral
+"At the edge of the garden, the coyote paused to eat in the shade.",0,coyote,wild,eat_01,neutral
+"At the edge of the garden, the moose paused to eat in the shade.",0,moose,wild,eat_01,neutral
+"At the edge of the garden, the elk paused to eat in the shade.",0,elk,wild,eat_01,neutral
+"At the edge of the garden, the wolf paused to eat in the shade.",0,wolf,wild,eat_01,neutral
+"At the edge of the garden, the hedgehog paused to eat in the shade.",0,hedgehog,wild,eat_01,neutral
+"At the edge of the garden, the possum paused to eat in the shade.",0,possum,wild,eat_01,neutral
+"At the edge of the garden, the jackal paused to eat in the shade.",0,jackal,wild,eat_01,neutral
+"At the edge of the garden, the stoat paused to eat in the shade.",0,stoat,wild,eat_01,neutral
+"At the edge of the garden, the marten paused to eat in the shade.",0,marten,wild,eat_01,neutral
+"Around noon, the pig stopped by the stream for a drink of water.",1,pig,farmed,eat_02,neutral
+"Around noon, the cow stopped by the stream for a drink of water.",1,cow,farmed,eat_02,neutral
+"Around noon, the chicken stopped by the stream for a drink of water.",1,chicken,farmed,eat_02,neutral
+"Around noon, the goat stopped by the stream for a drink of water.",1,goat,farmed,eat_02,neutral
+"Around noon, the sheep stopped by the stream for a drink of water.",1,sheep,farmed,eat_02,neutral
+"Around noon, the duck stopped by the stream for a drink of water.",1,duck,farmed,eat_02,neutral
+"Around noon, the turkey stopped by the stream for a drink of water.",1,turkey,farmed,eat_02,neutral
+"Around noon, the hen stopped by the stream for a drink of water.",1,hen,farmed,eat_02,neutral
+"Around noon, the rooster stopped by the stream for a drink of water.",1,rooster,farmed,eat_02,neutral
+"Around noon, the calf stopped by the stream for a drink of water.",1,calf,farmed,eat_02,neutral
+"Around noon, the lamb stopped by the stream for a drink of water.",1,lamb,farmed,eat_02,neutral
+"Around noon, the piglet stopped by the stream for a drink of water.",1,piglet,farmed,eat_02,neutral
+"Around noon, the ox stopped by the stream for a drink of water.",1,ox,farmed,eat_02,neutral
+"Around noon, the donkey stopped by the stream for a drink of water.",1,donkey,farmed,eat_02,neutral
+"Around noon, the mule stopped by the stream for a drink of water.",1,mule,farmed,eat_02,neutral
+"Around noon, the goose stopped by the stream for a drink of water.",1,goose,farmed,eat_02,neutral
+"Around noon, the sow stopped by the stream for a drink of water.",1,sow,farmed,eat_02,neutral
+"Around noon, the heifer stopped by the stream for a drink of water.",1,heifer,farmed,eat_02,neutral
+"Around noon, the foal stopped by the stream for a drink of water.",1,foal,farmed,eat_02,neutral
+"Around noon, the ram stopped by the stream for a drink of water.",1,ram,farmed,eat_02,neutral
+"Around noon, the rat stopped by the stream for a drink of water.",0,rat,wild,eat_02,neutral
+"Around noon, the boar stopped by the stream for a drink of water.",0,boar,wild,eat_02,neutral
+"Around noon, the buffalo stopped by the stream for a drink of water.",0,buffalo,wild,eat_02,neutral
+"Around noon, the fox stopped by the stream for a drink of water.",0,fox,wild,eat_02,neutral
+"Around noon, the deer stopped by the stream for a drink of water.",0,deer,wild,eat_02,neutral
+"Around noon, the badger stopped by the stream for a drink of water.",0,badger,wild,eat_02,neutral
+"Around noon, the otter stopped by the stream for a drink of water.",0,otter,wild,eat_02,neutral
+"Around noon, the hare stopped by the stream for a drink of water.",0,hare,wild,eat_02,neutral
+"Around noon, the raccoon stopped by the stream for a drink of water.",0,raccoon,wild,eat_02,neutral
+"Around noon, the squirrel stopped by the stream for a drink of water.",0,squirrel,wild,eat_02,neutral
+"Around noon, the weasel stopped by the stream for a drink of water.",0,weasel,wild,eat_02,neutral
+"Around noon, the coyote stopped by the stream for a drink of water.",0,coyote,wild,eat_02,neutral
+"Around noon, the moose stopped by the stream for a drink of water.",0,moose,wild,eat_02,neutral
+"Around noon, the elk stopped by the stream for a drink of water.",0,elk,wild,eat_02,neutral
+"Around noon, the wolf stopped by the stream for a drink of water.",0,wolf,wild,eat_02,neutral
+"Around noon, the hedgehog stopped by the stream for a drink of water.",0,hedgehog,wild,eat_02,neutral
+"Around noon, the possum stopped by the stream for a drink of water.",0,possum,wild,eat_02,neutral
+"Around noon, the jackal stopped by the stream for a drink of water.",0,jackal,wild,eat_02,neutral
+"Around noon, the stoat stopped by the stream for a drink of water.",0,stoat,wild,eat_02,neutral
+"Around noon, the marten stopped by the stream for a drink of water.",0,marten,wild,eat_02,neutral
+"During the afternoon, the pig ate slowly beside the fence.",1,pig,farmed,eat_03,neutral
+"During the afternoon, the cow ate slowly beside the fence.",1,cow,farmed,eat_03,neutral
+"During the afternoon, the chicken ate slowly beside the fence.",1,chicken,farmed,eat_03,neutral
+"During the afternoon, the goat ate slowly beside the fence.",1,goat,farmed,eat_03,neutral
+"During the afternoon, the sheep ate slowly beside the fence.",1,sheep,farmed,eat_03,neutral
+"During the afternoon, the duck ate slowly beside the fence.",1,duck,farmed,eat_03,neutral
+"During the afternoon, the turkey ate slowly beside the fence.",1,turkey,farmed,eat_03,neutral
+"During the afternoon, the hen ate slowly beside the fence.",1,hen,farmed,eat_03,neutral
+"During the afternoon, the rooster ate slowly beside the fence.",1,rooster,farmed,eat_03,neutral
+"During the afternoon, the calf ate slowly beside the fence.",1,calf,farmed,eat_03,neutral
+"During the afternoon, the lamb ate slowly beside the fence.",1,lamb,farmed,eat_03,neutral
+"During the afternoon, the piglet ate slowly beside the fence.",1,piglet,farmed,eat_03,neutral
+"During the afternoon, the ox ate slowly beside the fence.",1,ox,farmed,eat_03,neutral
+"During the afternoon, the donkey ate slowly beside the fence.",1,donkey,farmed,eat_03,neutral
+"During the afternoon, the mule ate slowly beside the fence.",1,mule,farmed,eat_03,neutral
+"During the afternoon, the goose ate slowly beside the fence.",1,goose,farmed,eat_03,neutral
+"During the afternoon, the sow ate slowly beside the fence.",1,sow,farmed,eat_03,neutral
+"During the afternoon, the heifer ate slowly beside the fence.",1,heifer,farmed,eat_03,neutral
+"During the afternoon, the foal ate slowly beside the fence.",1,foal,farmed,eat_03,neutral
+"During the afternoon, the ram ate slowly beside the fence.",1,ram,farmed,eat_03,neutral
+"During the afternoon, the rat ate slowly beside the fence.",0,rat,wild,eat_03,neutral
+"During the afternoon, the boar ate slowly beside the fence.",0,boar,wild,eat_03,neutral
+"During the afternoon, the buffalo ate slowly beside the fence.",0,buffalo,wild,eat_03,neutral
+"During the afternoon, the fox ate slowly beside the fence.",0,fox,wild,eat_03,neutral
+"During the afternoon, the deer ate slowly beside the fence.",0,deer,wild,eat_03,neutral
+"During the afternoon, the badger ate slowly beside the fence.",0,badger,wild,eat_03,neutral
+"During the afternoon, the otter ate slowly beside the fence.",0,otter,wild,eat_03,neutral
+"During the afternoon, the hare ate slowly beside the fence.",0,hare,wild,eat_03,neutral
+"During the afternoon, the raccoon ate slowly beside the fence.",0,raccoon,wild,eat_03,neutral
+"During the afternoon, the squirrel ate slowly beside the fence.",0,squirrel,wild,eat_03,neutral
+"During the afternoon, the weasel ate slowly beside the fence.",0,weasel,wild,eat_03,neutral
+"During the afternoon, the coyote ate slowly beside the fence.",0,coyote,wild,eat_03,neutral
+"During the afternoon, the moose ate slowly beside the fence.",0,moose,wild,eat_03,neutral
+"During the afternoon, the elk ate slowly beside the fence.",0,elk,wild,eat_03,neutral
+"During the afternoon, the wolf ate slowly beside the fence.",0,wolf,wild,eat_03,neutral
+"During the afternoon, the hedgehog ate slowly beside the fence.",0,hedgehog,wild,eat_03,neutral
+"During the afternoon, the possum ate slowly beside the fence.",0,possum,wild,eat_03,neutral
+"During the afternoon, the jackal ate slowly beside the fence.",0,jackal,wild,eat_03,neutral
+"During the afternoon, the stoat ate slowly beside the fence.",0,stoat,wild,eat_03,neutral
+"During the afternoon, the marten ate slowly beside the fence.",0,marten,wild,eat_03,neutral
+"Near the back porch, the pig finished eating as the sun went down.",1,pig,farmed,eat_04,neutral
+"Near the back porch, the cow finished eating as the sun went down.",1,cow,farmed,eat_04,neutral
+"Near the back porch, the chicken finished eating as the sun went down.",1,chicken,farmed,eat_04,neutral
+"Near the back porch, the goat finished eating as the sun went down.",1,goat,farmed,eat_04,neutral
+"Near the back porch, the sheep finished eating as the sun went down.",1,sheep,farmed,eat_04,neutral
+"Near the back porch, the duck finished eating as the sun went down.",1,duck,farmed,eat_04,neutral
+"Near the back porch, the turkey finished eating as the sun went down.",1,turkey,farmed,eat_04,neutral
+"Near the back porch, the hen finished eating as the sun went down.",1,hen,farmed,eat_04,neutral
+"Near the back porch, the rooster finished eating as the sun went down.",1,rooster,farmed,eat_04,neutral
+"Near the back porch, the calf finished eating as the sun went down.",1,calf,farmed,eat_04,neutral
+"Near the back porch, the lamb finished eating as the sun went down.",1,lamb,farmed,eat_04,neutral
+"Near the back porch, the piglet finished eating as the sun went down.",1,piglet,farmed,eat_04,neutral
+"Near the back porch, the ox finished eating as the sun went down.",1,ox,farmed,eat_04,neutral
+"Near the back porch, the donkey finished eating as the sun went down.",1,donkey,farmed,eat_04,neutral
+"Near the back porch, the mule finished eating as the sun went down.",1,mule,farmed,eat_04,neutral
+"Near the back porch, the goose finished eating as the sun went down.",1,goose,farmed,eat_04,neutral
+"Near the back porch, the sow finished eating as the sun went down.",1,sow,farmed,eat_04,neutral
+"Near the back porch, the heifer finished eating as the sun went down.",1,heifer,farmed,eat_04,neutral
+"Near the back porch, the foal finished eating as the sun went down.",1,foal,farmed,eat_04,neutral
+"Near the back porch, the ram finished eating as the sun went down.",1,ram,farmed,eat_04,neutral
+"Near the back porch, the rat finished eating as the sun went down.",0,rat,wild,eat_04,neutral
+"Near the back porch, the boar finished eating as the sun went down.",0,boar,wild,eat_04,neutral
+"Near the back porch, the buffalo finished eating as the sun went down.",0,buffalo,wild,eat_04,neutral
+"Near the back porch, the fox finished eating as the sun went down.",0,fox,wild,eat_04,neutral
+"Near the back porch, the deer finished eating as the sun went down.",0,deer,wild,eat_04,neutral
+"Near the back porch, the badger finished eating as the sun went down.",0,badger,wild,eat_04,neutral
+"Near the back porch, the otter finished eating as the sun went down.",0,otter,wild,eat_04,neutral
+"Near the back porch, the hare finished eating as the sun went down.",0,hare,wild,eat_04,neutral
+"Near the back porch, the raccoon finished eating as the sun went down.",0,raccoon,wild,eat_04,neutral
+"Near the back porch, the squirrel finished eating as the sun went down.",0,squirrel,wild,eat_04,neutral
+"Near the back porch, the weasel finished eating as the sun went down.",0,weasel,wild,eat_04,neutral
+"Near the back porch, the coyote finished eating as the sun went down.",0,coyote,wild,eat_04,neutral
+"Near the back porch, the moose finished eating as the sun went down.",0,moose,wild,eat_04,neutral
+"Near the back porch, the elk finished eating as the sun went down.",0,elk,wild,eat_04,neutral
+"Near the back porch, the wolf finished eating as the sun went down.",0,wolf,wild,eat_04,neutral
+"Near the back porch, the hedgehog finished eating as the sun went down.",0,hedgehog,wild,eat_04,neutral
+"Near the back porch, the possum finished eating as the sun went down.",0,possum,wild,eat_04,neutral
+"Near the back porch, the jackal finished eating as the sun went down.",0,jackal,wild,eat_04,neutral
+"Near the back porch, the stoat finished eating as the sun went down.",0,stoat,wild,eat_04,neutral
+"Near the back porch, the marten finished eating as the sun went down.",0,marten,wild,eat_04,neutral
+"Along the gravel path, the pig moved at an unhurried pace.",1,pig,farmed,move_01,neutral
+"Along the gravel path, the cow moved at an unhurried pace.",1,cow,farmed,move_01,neutral
+"Along the gravel path, the chicken moved at an unhurried pace.",1,chicken,farmed,move_01,neutral
+"Along the gravel path, the goat moved at an unhurried pace.",1,goat,farmed,move_01,neutral
+"Along the gravel path, the sheep moved at an unhurried pace.",1,sheep,farmed,move_01,neutral
+"Along the gravel path, the duck moved at an unhurried pace.",1,duck,farmed,move_01,neutral
+"Along the gravel path, the turkey moved at an unhurried pace.",1,turkey,farmed,move_01,neutral
+"Along the gravel path, the hen moved at an unhurried pace.",1,hen,farmed,move_01,neutral
+"Along the gravel path, the rooster moved at an unhurried pace.",1,rooster,farmed,move_01,neutral
+"Along the gravel path, the calf moved at an unhurried pace.",1,calf,farmed,move_01,neutral
+"Along the gravel path, the lamb moved at an unhurried pace.",1,lamb,farmed,move_01,neutral
+"Along the gravel path, the piglet moved at an unhurried pace.",1,piglet,farmed,move_01,neutral
+"Along the gravel path, the ox moved at an unhurried pace.",1,ox,farmed,move_01,neutral
+"Along the gravel path, the donkey moved at an unhurried pace.",1,donkey,farmed,move_01,neutral
+"Along the gravel path, the mule moved at an unhurried pace.",1,mule,farmed,move_01,neutral
+"Along the gravel path, the goose moved at an unhurried pace.",1,goose,farmed,move_01,neutral
+"Along the gravel path, the sow moved at an unhurried pace.",1,sow,farmed,move_01,neutral
+"Along the gravel path, the heifer moved at an unhurried pace.",1,heifer,farmed,move_01,neutral
+"Along the gravel path, the foal moved at an unhurried pace.",1,foal,farmed,move_01,neutral
+"Along the gravel path, the ram moved at an unhurried pace.",1,ram,farmed,move_01,neutral
+"Along the gravel path, the rat moved at an unhurried pace.",0,rat,wild,move_01,neutral
+"Along the gravel path, the boar moved at an unhurried pace.",0,boar,wild,move_01,neutral
+"Along the gravel path, the buffalo moved at an unhurried pace.",0,buffalo,wild,move_01,neutral
+"Along the gravel path, the fox moved at an unhurried pace.",0,fox,wild,move_01,neutral
+"Along the gravel path, the deer moved at an unhurried pace.",0,deer,wild,move_01,neutral
+"Along the gravel path, the badger moved at an unhurried pace.",0,badger,wild,move_01,neutral
+"Along the gravel path, the otter moved at an unhurried pace.",0,otter,wild,move_01,neutral
+"Along the gravel path, the hare moved at an unhurried pace.",0,hare,wild,move_01,neutral
+"Along the gravel path, the raccoon moved at an unhurried pace.",0,raccoon,wild,move_01,neutral
+"Along the gravel path, the squirrel moved at an unhurried pace.",0,squirrel,wild,move_01,neutral
+"Along the gravel path, the weasel moved at an unhurried pace.",0,weasel,wild,move_01,neutral
+"Along the gravel path, the coyote moved at an unhurried pace.",0,coyote,wild,move_01,neutral
+"Along the gravel path, the moose moved at an unhurried pace.",0,moose,wild,move_01,neutral
+"Along the gravel path, the elk moved at an unhurried pace.",0,elk,wild,move_01,neutral
+"Along the gravel path, the wolf moved at an unhurried pace.",0,wolf,wild,move_01,neutral
+"Along the gravel path, the hedgehog moved at an unhurried pace.",0,hedgehog,wild,move_01,neutral
+"Along the gravel path, the possum moved at an unhurried pace.",0,possum,wild,move_01,neutral
+"Along the gravel path, the jackal moved at an unhurried pace.",0,jackal,wild,move_01,neutral
+"Along the gravel path, the stoat moved at an unhurried pace.",0,stoat,wild,move_01,neutral
+"Along the gravel path, the marten moved at an unhurried pace.",0,marten,wild,move_01,neutral
+"Across the open pasture, the pig made steady progress toward the trees.",1,pig,farmed,move_02,neutral
+"Across the open pasture, the cow made steady progress toward the trees.",1,cow,farmed,move_02,neutral
+"Across the open pasture, the chicken made steady progress toward the trees.",1,chicken,farmed,move_02,neutral
+"Across the open pasture, the goat made steady progress toward the trees.",1,goat,farmed,move_02,neutral
+"Across the open pasture, the sheep made steady progress toward the trees.",1,sheep,farmed,move_02,neutral
+"Across the open pasture, the duck made steady progress toward the trees.",1,duck,farmed,move_02,neutral
+"Across the open pasture, the turkey made steady progress toward the trees.",1,turkey,farmed,move_02,neutral
+"Across the open pasture, the hen made steady progress toward the trees.",1,hen,farmed,move_02,neutral
+"Across the open pasture, the rooster made steady progress toward the trees.",1,rooster,farmed,move_02,neutral
+"Across the open pasture, the calf made steady progress toward the trees.",1,calf,farmed,move_02,neutral
+"Across the open pasture, the lamb made steady progress toward the trees.",1,lamb,farmed,move_02,neutral
+"Across the open pasture, the piglet made steady progress toward the trees.",1,piglet,farmed,move_02,neutral
+"Across the open pasture, the ox made steady progress toward the trees.",1,ox,farmed,move_02,neutral
+"Across the open pasture, the donkey made steady progress toward the trees.",1,donkey,farmed,move_02,neutral
+"Across the open pasture, the mule made steady progress toward the trees.",1,mule,farmed,move_02,neutral
+"Across the open pasture, the goose made steady progress toward the trees.",1,goose,farmed,move_02,neutral
+"Across the open pasture, the sow made steady progress toward the trees.",1,sow,farmed,move_02,neutral
+"Across the open pasture, the heifer made steady progress toward the trees.",1,heifer,farmed,move_02,neutral
+"Across the open pasture, the foal made steady progress toward the trees.",1,foal,farmed,move_02,neutral
+"Across the open pasture, the ram made steady progress toward the trees.",1,ram,farmed,move_02,neutral
+"Across the open pasture, the rat made steady progress toward the trees.",0,rat,wild,move_02,neutral
+"Across the open pasture, the boar made steady progress toward the trees.",0,boar,wild,move_02,neutral
+"Across the open pasture, the buffalo made steady progress toward the trees.",0,buffalo,wild,move_02,neutral
+"Across the open pasture, the fox made steady progress toward the trees.",0,fox,wild,move_02,neutral
+"Across the open pasture, the deer made steady progress toward the trees.",0,deer,wild,move_02,neutral
+"Across the open pasture, the badger made steady progress toward the trees.",0,badger,wild,move_02,neutral
+"Across the open pasture, the otter made steady progress toward the trees.",0,otter,wild,move_02,neutral
+"Across the open pasture, the hare made steady progress toward the trees.",0,hare,wild,move_02,neutral
+"Across the open pasture, the raccoon made steady progress toward the trees.",0,raccoon,wild,move_02,neutral
+"Across the open pasture, the squirrel made steady progress toward the trees.",0,squirrel,wild,move_02,neutral
+"Across the open pasture, the weasel made steady progress toward the trees.",0,weasel,wild,move_02,neutral
+"Across the open pasture, the coyote made steady progress toward the trees.",0,coyote,wild,move_02,neutral
+"Across the open pasture, the moose made steady progress toward the trees.",0,moose,wild,move_02,neutral
+"Across the open pasture, the elk made steady progress toward the trees.",0,elk,wild,move_02,neutral
+"Across the open pasture, the wolf made steady progress toward the trees.",0,wolf,wild,move_02,neutral
+"Across the open pasture, the hedgehog made steady progress toward the trees.",0,hedgehog,wild,move_02,neutral
+"Across the open pasture, the possum made steady progress toward the trees.",0,possum,wild,move_02,neutral
+"Across the open pasture, the jackal made steady progress toward the trees.",0,jackal,wild,move_02,neutral
+"Across the open pasture, the stoat made steady progress toward the trees.",0,stoat,wild,move_02,neutral
+"Across the open pasture, the marten made steady progress toward the trees.",0,marten,wild,move_02,neutral
+"Down by the river bank, the pig picked a careful way over the stones.",1,pig,farmed,move_03,neutral
+"Down by the river bank, the cow picked a careful way over the stones.",1,cow,farmed,move_03,neutral
+"Down by the river bank, the chicken picked a careful way over the stones.",1,chicken,farmed,move_03,neutral
+"Down by the river bank, the goat picked a careful way over the stones.",1,goat,farmed,move_03,neutral
+"Down by the river bank, the sheep picked a careful way over the stones.",1,sheep,farmed,move_03,neutral
+"Down by the river bank, the duck picked a careful way over the stones.",1,duck,farmed,move_03,neutral
+"Down by the river bank, the turkey picked a careful way over the stones.",1,turkey,farmed,move_03,neutral
+"Down by the river bank, the hen picked a careful way over the stones.",1,hen,farmed,move_03,neutral
+"Down by the river bank, the rooster picked a careful way over the stones.",1,rooster,farmed,move_03,neutral
+"Down by the river bank, the calf picked a careful way over the stones.",1,calf,farmed,move_03,neutral
+"Down by the river bank, the lamb picked a careful way over the stones.",1,lamb,farmed,move_03,neutral
+"Down by the river bank, the piglet picked a careful way over the stones.",1,piglet,farmed,move_03,neutral
+"Down by the river bank, the ox picked a careful way over the stones.",1,ox,farmed,move_03,neutral
+"Down by the river bank, the donkey picked a careful way over the stones.",1,donkey,farmed,move_03,neutral
+"Down by the river bank, the mule picked a careful way over the stones.",1,mule,farmed,move_03,neutral
+"Down by the river bank, the goose picked a careful way over the stones.",1,goose,farmed,move_03,neutral
+"Down by the river bank, the sow picked a careful way over the stones.",1,sow,farmed,move_03,neutral
+"Down by the river bank, the heifer picked a careful way over the stones.",1,heifer,farmed,move_03,neutral
+"Down by the river bank, the foal picked a careful way over the stones.",1,foal,farmed,move_03,neutral
+"Down by the river bank, the ram picked a careful way over the stones.",1,ram,farmed,move_03,neutral
+"Down by the river bank, the rat picked a careful way over the stones.",0,rat,wild,move_03,neutral
+"Down by the river bank, the boar picked a careful way over the stones.",0,boar,wild,move_03,neutral
+"Down by the river bank, the buffalo picked a careful way over the stones.",0,buffalo,wild,move_03,neutral
+"Down by the river bank, the fox picked a careful way over the stones.",0,fox,wild,move_03,neutral
+"Down by the river bank, the deer picked a careful way over the stones.",0,deer,wild,move_03,neutral
+"Down by the river bank, the badger picked a careful way over the stones.",0,badger,wild,move_03,neutral
+"Down by the river bank, the otter picked a careful way over the stones.",0,otter,wild,move_03,neutral
+"Down by the river bank, the hare picked a careful way over the stones.",0,hare,wild,move_03,neutral
+"Down by the river bank, the raccoon picked a careful way over the stones.",0,raccoon,wild,move_03,neutral
+"Down by the river bank, the squirrel picked a careful way over the stones.",0,squirrel,wild,move_03,neutral
+"Down by the river bank, the weasel picked a careful way over the stones.",0,weasel,wild,move_03,neutral
+"Down by the river bank, the coyote picked a careful way over the stones.",0,coyote,wild,move_03,neutral
+"Down by the river bank, the moose picked a careful way over the stones.",0,moose,wild,move_03,neutral
+"Down by the river bank, the elk picked a careful way over the stones.",0,elk,wild,move_03,neutral
+"Down by the river bank, the wolf picked a careful way over the stones.",0,wolf,wild,move_03,neutral
+"Down by the river bank, the hedgehog picked a careful way over the stones.",0,hedgehog,wild,move_03,neutral
+"Down by the river bank, the possum picked a careful way over the stones.",0,possum,wild,move_03,neutral
+"Down by the river bank, the jackal picked a careful way over the stones.",0,jackal,wild,move_03,neutral
+"Down by the river bank, the stoat picked a careful way over the stones.",0,stoat,wild,move_03,neutral
+"Down by the river bank, the marten picked a careful way over the stones.",0,marten,wild,move_03,neutral
+"Through the tall grass, the pig moved quietly toward the hedgerow.",1,pig,farmed,move_04,neutral
+"Through the tall grass, the cow moved quietly toward the hedgerow.",1,cow,farmed,move_04,neutral
+"Through the tall grass, the chicken moved quietly toward the hedgerow.",1,chicken,farmed,move_04,neutral
+"Through the tall grass, the goat moved quietly toward the hedgerow.",1,goat,farmed,move_04,neutral
+"Through the tall grass, the sheep moved quietly toward the hedgerow.",1,sheep,farmed,move_04,neutral
+"Through the tall grass, the duck moved quietly toward the hedgerow.",1,duck,farmed,move_04,neutral
+"Through the tall grass, the turkey moved quietly toward the hedgerow.",1,turkey,farmed,move_04,neutral
+"Through the tall grass, the hen moved quietly toward the hedgerow.",1,hen,farmed,move_04,neutral
+"Through the tall grass, the rooster moved quietly toward the hedgerow.",1,rooster,farmed,move_04,neutral
+"Through the tall grass, the calf moved quietly toward the hedgerow.",1,calf,farmed,move_04,neutral
+"Through the tall grass, the lamb moved quietly toward the hedgerow.",1,lamb,farmed,move_04,neutral
+"Through the tall grass, the piglet moved quietly toward the hedgerow.",1,piglet,farmed,move_04,neutral
+"Through the tall grass, the ox moved quietly toward the hedgerow.",1,ox,farmed,move_04,neutral
+"Through the tall grass, the donkey moved quietly toward the hedgerow.",1,donkey,farmed,move_04,neutral
+"Through the tall grass, the mule moved quietly toward the hedgerow.",1,mule,farmed,move_04,neutral
+"Through the tall grass, the goose moved quietly toward the hedgerow.",1,goose,farmed,move_04,neutral
+"Through the tall grass, the sow moved quietly toward the hedgerow.",1,sow,farmed,move_04,neutral
+"Through the tall grass, the heifer moved quietly toward the hedgerow.",1,heifer,farmed,move_04,neutral
+"Through the tall grass, the foal moved quietly toward the hedgerow.",1,foal,farmed,move_04,neutral
+"Through the tall grass, the ram moved quietly toward the hedgerow.",1,ram,farmed,move_04,neutral
+"Through the tall grass, the rat moved quietly toward the hedgerow.",0,rat,wild,move_04,neutral
+"Through the tall grass, the boar moved quietly toward the hedgerow.",0,boar,wild,move_04,neutral
+"Through the tall grass, the buffalo moved quietly toward the hedgerow.",0,buffalo,wild,move_04,neutral
+"Through the tall grass, the fox moved quietly toward the hedgerow.",0,fox,wild,move_04,neutral
+"Through the tall grass, the deer moved quietly toward the hedgerow.",0,deer,wild,move_04,neutral
+"Through the tall grass, the badger moved quietly toward the hedgerow.",0,badger,wild,move_04,neutral
+"Through the tall grass, the otter moved quietly toward the hedgerow.",0,otter,wild,move_04,neutral
+"Through the tall grass, the hare moved quietly toward the hedgerow.",0,hare,wild,move_04,neutral
+"Through the tall grass, the raccoon moved quietly toward the hedgerow.",0,raccoon,wild,move_04,neutral
+"Through the tall grass, the squirrel moved quietly toward the hedgerow.",0,squirrel,wild,move_04,neutral
+"Through the tall grass, the weasel moved quietly toward the hedgerow.",0,weasel,wild,move_04,neutral
+"Through the tall grass, the coyote moved quietly toward the hedgerow.",0,coyote,wild,move_04,neutral
+"Through the tall grass, the moose moved quietly toward the hedgerow.",0,moose,wild,move_04,neutral
+"Through the tall grass, the elk moved quietly toward the hedgerow.",0,elk,wild,move_04,neutral
+"Through the tall grass, the wolf moved quietly toward the hedgerow.",0,wolf,wild,move_04,neutral
+"Through the tall grass, the hedgehog moved quietly toward the hedgerow.",0,hedgehog,wild,move_04,neutral
+"Through the tall grass, the possum moved quietly toward the hedgerow.",0,possum,wild,move_04,neutral
+"Through the tall grass, the jackal moved quietly toward the hedgerow.",0,jackal,wild,move_04,neutral
+"Through the tall grass, the stoat moved quietly toward the hedgerow.",0,stoat,wild,move_04,neutral
+"Through the tall grass, the marten moved quietly toward the hedgerow.",0,marten,wild,move_04,neutral
+"From the fence line, the neighbors watched the pig cross the field.",1,pig,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the cow cross the field.",1,cow,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the chicken cross the field.",1,chicken,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the goat cross the field.",1,goat,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the sheep cross the field.",1,sheep,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the duck cross the field.",1,duck,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the turkey cross the field.",1,turkey,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the hen cross the field.",1,hen,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the rooster cross the field.",1,rooster,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the calf cross the field.",1,calf,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the lamb cross the field.",1,lamb,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the piglet cross the field.",1,piglet,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the ox cross the field.",1,ox,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the donkey cross the field.",1,donkey,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the mule cross the field.",1,mule,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the goose cross the field.",1,goose,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the sow cross the field.",1,sow,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the heifer cross the field.",1,heifer,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the foal cross the field.",1,foal,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the ram cross the field.",1,ram,farmed,watch_01,neutral
+"From the fence line, the neighbors watched the rat cross the field.",0,rat,wild,watch_01,neutral
+"From the fence line, the neighbors watched the boar cross the field.",0,boar,wild,watch_01,neutral
+"From the fence line, the neighbors watched the buffalo cross the field.",0,buffalo,wild,watch_01,neutral
+"From the fence line, the neighbors watched the fox cross the field.",0,fox,wild,watch_01,neutral
+"From the fence line, the neighbors watched the deer cross the field.",0,deer,wild,watch_01,neutral
+"From the fence line, the neighbors watched the badger cross the field.",0,badger,wild,watch_01,neutral
+"From the fence line, the neighbors watched the otter cross the field.",0,otter,wild,watch_01,neutral
+"From the fence line, the neighbors watched the hare cross the field.",0,hare,wild,watch_01,neutral
+"From the fence line, the neighbors watched the raccoon cross the field.",0,raccoon,wild,watch_01,neutral
+"From the fence line, the neighbors watched the squirrel cross the field.",0,squirrel,wild,watch_01,neutral
+"From the fence line, the neighbors watched the weasel cross the field.",0,weasel,wild,watch_01,neutral
+"From the fence line, the neighbors watched the coyote cross the field.",0,coyote,wild,watch_01,neutral
+"From the fence line, the neighbors watched the moose cross the field.",0,moose,wild,watch_01,neutral
+"From the fence line, the neighbors watched the elk cross the field.",0,elk,wild,watch_01,neutral
+"From the fence line, the neighbors watched the wolf cross the field.",0,wolf,wild,watch_01,neutral
+"From the fence line, the neighbors watched the hedgehog cross the field.",0,hedgehog,wild,watch_01,neutral
+"From the fence line, the neighbors watched the possum cross the field.",0,possum,wild,watch_01,neutral
+"From the fence line, the neighbors watched the jackal cross the field.",0,jackal,wild,watch_01,neutral
+"From the fence line, the neighbors watched the stoat cross the field.",0,stoat,wild,watch_01,neutral
+"From the fence line, the neighbors watched the marten cross the field.",0,marten,wild,watch_01,neutral
+"Through the kitchen window, the visitors saw the pig pass by the shed.",1,pig,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the cow pass by the shed.",1,cow,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the chicken pass by the shed.",1,chicken,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the goat pass by the shed.",1,goat,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the sheep pass by the shed.",1,sheep,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the duck pass by the shed.",1,duck,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the turkey pass by the shed.",1,turkey,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the hen pass by the shed.",1,hen,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the rooster pass by the shed.",1,rooster,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the calf pass by the shed.",1,calf,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the lamb pass by the shed.",1,lamb,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the piglet pass by the shed.",1,piglet,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the ox pass by the shed.",1,ox,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the donkey pass by the shed.",1,donkey,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the mule pass by the shed.",1,mule,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the goose pass by the shed.",1,goose,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the sow pass by the shed.",1,sow,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the heifer pass by the shed.",1,heifer,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the foal pass by the shed.",1,foal,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the ram pass by the shed.",1,ram,farmed,watch_02,neutral
+"Through the kitchen window, the visitors saw the rat pass by the shed.",0,rat,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the boar pass by the shed.",0,boar,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the buffalo pass by the shed.",0,buffalo,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the fox pass by the shed.",0,fox,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the deer pass by the shed.",0,deer,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the badger pass by the shed.",0,badger,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the otter pass by the shed.",0,otter,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the hare pass by the shed.",0,hare,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the raccoon pass by the shed.",0,raccoon,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the squirrel pass by the shed.",0,squirrel,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the weasel pass by the shed.",0,weasel,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the coyote pass by the shed.",0,coyote,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the moose pass by the shed.",0,moose,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the elk pass by the shed.",0,elk,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the wolf pass by the shed.",0,wolf,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the hedgehog pass by the shed.",0,hedgehog,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the possum pass by the shed.",0,possum,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the jackal pass by the shed.",0,jackal,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the stoat pass by the shed.",0,stoat,wild,watch_02,neutral
+"Through the kitchen window, the visitors saw the marten pass by the shed.",0,marten,wild,watch_02,neutral
+"On the hillside, onlookers noticed the pig standing near the stone wall.",1,pig,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the cow standing near the stone wall.",1,cow,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the chicken standing near the stone wall.",1,chicken,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the goat standing near the stone wall.",1,goat,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the sheep standing near the stone wall.",1,sheep,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the duck standing near the stone wall.",1,duck,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the turkey standing near the stone wall.",1,turkey,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the hen standing near the stone wall.",1,hen,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the rooster standing near the stone wall.",1,rooster,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the calf standing near the stone wall.",1,calf,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the lamb standing near the stone wall.",1,lamb,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the piglet standing near the stone wall.",1,piglet,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the ox standing near the stone wall.",1,ox,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the donkey standing near the stone wall.",1,donkey,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the mule standing near the stone wall.",1,mule,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the goose standing near the stone wall.",1,goose,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the sow standing near the stone wall.",1,sow,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the heifer standing near the stone wall.",1,heifer,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the foal standing near the stone wall.",1,foal,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the ram standing near the stone wall.",1,ram,farmed,watch_03,neutral
+"On the hillside, onlookers noticed the rat standing near the stone wall.",0,rat,wild,watch_03,neutral
+"On the hillside, onlookers noticed the boar standing near the stone wall.",0,boar,wild,watch_03,neutral
+"On the hillside, onlookers noticed the buffalo standing near the stone wall.",0,buffalo,wild,watch_03,neutral
+"On the hillside, onlookers noticed the fox standing near the stone wall.",0,fox,wild,watch_03,neutral
+"On the hillside, onlookers noticed the deer standing near the stone wall.",0,deer,wild,watch_03,neutral
+"On the hillside, onlookers noticed the badger standing near the stone wall.",0,badger,wild,watch_03,neutral
+"On the hillside, onlookers noticed the otter standing near the stone wall.",0,otter,wild,watch_03,neutral
+"On the hillside, onlookers noticed the hare standing near the stone wall.",0,hare,wild,watch_03,neutral
+"On the hillside, onlookers noticed the raccoon standing near the stone wall.",0,raccoon,wild,watch_03,neutral
+"On the hillside, onlookers noticed the squirrel standing near the stone wall.",0,squirrel,wild,watch_03,neutral
+"On the hillside, onlookers noticed the weasel standing near the stone wall.",0,weasel,wild,watch_03,neutral
+"On the hillside, onlookers noticed the coyote standing near the stone wall.",0,coyote,wild,watch_03,neutral
+"On the hillside, onlookers noticed the moose standing near the stone wall.",0,moose,wild,watch_03,neutral
+"On the hillside, onlookers noticed the elk standing near the stone wall.",0,elk,wild,watch_03,neutral
+"On the hillside, onlookers noticed the wolf standing near the stone wall.",0,wolf,wild,watch_03,neutral
+"On the hillside, onlookers noticed the hedgehog standing near the stone wall.",0,hedgehog,wild,watch_03,neutral
+"On the hillside, onlookers noticed the possum standing near the stone wall.",0,possum,wild,watch_03,neutral
+"On the hillside, onlookers noticed the jackal standing near the stone wall.",0,jackal,wild,watch_03,neutral
+"On the hillside, onlookers noticed the stoat standing near the stone wall.",0,stoat,wild,watch_03,neutral
+"On the hillside, onlookers noticed the marten standing near the stone wall.",0,marten,wild,watch_03,neutral
+"In the fading light, passersby spotted the pig beside the old barn.",1,pig,farmed,watch_04,neutral
+"In the fading light, passersby spotted the cow beside the old barn.",1,cow,farmed,watch_04,neutral
+"In the fading light, passersby spotted the chicken beside the old barn.",1,chicken,farmed,watch_04,neutral
+"In the fading light, passersby spotted the goat beside the old barn.",1,goat,farmed,watch_04,neutral
+"In the fading light, passersby spotted the sheep beside the old barn.",1,sheep,farmed,watch_04,neutral
+"In the fading light, passersby spotted the duck beside the old barn.",1,duck,farmed,watch_04,neutral
+"In the fading light, passersby spotted the turkey beside the old barn.",1,turkey,farmed,watch_04,neutral
+"In the fading light, passersby spotted the hen beside the old barn.",1,hen,farmed,watch_04,neutral
+"In the fading light, passersby spotted the rooster beside the old barn.",1,rooster,farmed,watch_04,neutral
+"In the fading light, passersby spotted the calf beside the old barn.",1,calf,farmed,watch_04,neutral
+"In the fading light, passersby spotted the lamb beside the old barn.",1,lamb,farmed,watch_04,neutral
+"In the fading light, passersby spotted the piglet beside the old barn.",1,piglet,farmed,watch_04,neutral
+"In the fading light, passersby spotted the ox beside the old barn.",1,ox,farmed,watch_04,neutral
+"In the fading light, passersby spotted the donkey beside the old barn.",1,donkey,farmed,watch_04,neutral
+"In the fading light, passersby spotted the mule beside the old barn.",1,mule,farmed,watch_04,neutral
+"In the fading light, passersby spotted the goose beside the old barn.",1,goose,farmed,watch_04,neutral
+"In the fading light, passersby spotted the sow beside the old barn.",1,sow,farmed,watch_04,neutral
+"In the fading light, passersby spotted the heifer beside the old barn.",1,heifer,farmed,watch_04,neutral
+"In the fading light, passersby spotted the foal beside the old barn.",1,foal,farmed,watch_04,neutral
+"In the fading light, passersby spotted the ram beside the old barn.",1,ram,farmed,watch_04,neutral
+"In the fading light, passersby spotted the rat beside the old barn.",0,rat,wild,watch_04,neutral
+"In the fading light, passersby spotted the boar beside the old barn.",0,boar,wild,watch_04,neutral
+"In the fading light, passersby spotted the buffalo beside the old barn.",0,buffalo,wild,watch_04,neutral
+"In the fading light, passersby spotted the fox beside the old barn.",0,fox,wild,watch_04,neutral
+"In the fading light, passersby spotted the deer beside the old barn.",0,deer,wild,watch_04,neutral
+"In the fading light, passersby spotted the badger beside the old barn.",0,badger,wild,watch_04,neutral
+"In the fading light, passersby spotted the otter beside the old barn.",0,otter,wild,watch_04,neutral
+"In the fading light, passersby spotted the hare beside the old barn.",0,hare,wild,watch_04,neutral
+"In the fading light, passersby spotted the raccoon beside the old barn.",0,raccoon,wild,watch_04,neutral
+"In the fading light, passersby spotted the squirrel beside the old barn.",0,squirrel,wild,watch_04,neutral
+"In the fading light, passersby spotted the weasel beside the old barn.",0,weasel,wild,watch_04,neutral
+"In the fading light, passersby spotted the coyote beside the old barn.",0,coyote,wild,watch_04,neutral
+"In the fading light, passersby spotted the moose beside the old barn.",0,moose,wild,watch_04,neutral
+"In the fading light, passersby spotted the elk beside the old barn.",0,elk,wild,watch_04,neutral
+"In the fading light, passersby spotted the wolf beside the old barn.",0,wolf,wild,watch_04,neutral
+"In the fading light, passersby spotted the hedgehog beside the old barn.",0,hedgehog,wild,watch_04,neutral
+"In the fading light, passersby spotted the possum beside the old barn.",0,possum,wild,watch_04,neutral
+"In the fading light, passersby spotted the jackal beside the old barn.",0,jackal,wild,watch_04,neutral
+"In the fading light, passersby spotted the stoat beside the old barn.",0,stoat,wild,watch_04,neutral
+"In the fading light, passersby spotted the marten beside the old barn.",0,marten,wild,watch_04,neutral
+"Throughout the quiet evening, the pig could be heard moving about the yard.",1,pig,farmed,sound_01,neutral
+"Throughout the quiet evening, the cow could be heard moving about the yard.",1,cow,farmed,sound_01,neutral
+"Throughout the quiet evening, the chicken could be heard moving about the yard.",1,chicken,farmed,sound_01,neutral
+"Throughout the quiet evening, the goat could be heard moving about the yard.",1,goat,farmed,sound_01,neutral
+"Throughout the quiet evening, the sheep could be heard moving about the yard.",1,sheep,farmed,sound_01,neutral
+"Throughout the quiet evening, the duck could be heard moving about the yard.",1,duck,farmed,sound_01,neutral
+"Throughout the quiet evening, the turkey could be heard moving about the yard.",1,turkey,farmed,sound_01,neutral
+"Throughout the quiet evening, the hen could be heard moving about the yard.",1,hen,farmed,sound_01,neutral
+"Throughout the quiet evening, the rooster could be heard moving about the yard.",1,rooster,farmed,sound_01,neutral
+"Throughout the quiet evening, the calf could be heard moving about the yard.",1,calf,farmed,sound_01,neutral
+"Throughout the quiet evening, the lamb could be heard moving about the yard.",1,lamb,farmed,sound_01,neutral
+"Throughout the quiet evening, the piglet could be heard moving about the yard.",1,piglet,farmed,sound_01,neutral
+"Throughout the quiet evening, the ox could be heard moving about the yard.",1,ox,farmed,sound_01,neutral
+"Throughout the quiet evening, the donkey could be heard moving about the yard.",1,donkey,farmed,sound_01,neutral
+"Throughout the quiet evening, the mule could be heard moving about the yard.",1,mule,farmed,sound_01,neutral
+"Throughout the quiet evening, the goose could be heard moving about the yard.",1,goose,farmed,sound_01,neutral
+"Throughout the quiet evening, the sow could be heard moving about the yard.",1,sow,farmed,sound_01,neutral
+"Throughout the quiet evening, the heifer could be heard moving about the yard.",1,heifer,farmed,sound_01,neutral
+"Throughout the quiet evening, the foal could be heard moving about the yard.",1,foal,farmed,sound_01,neutral
+"Throughout the quiet evening, the ram could be heard moving about the yard.",1,ram,farmed,sound_01,neutral
+"Throughout the quiet evening, the rat could be heard moving about the yard.",0,rat,wild,sound_01,neutral
+"Throughout the quiet evening, the boar could be heard moving about the yard.",0,boar,wild,sound_01,neutral
+"Throughout the quiet evening, the buffalo could be heard moving about the yard.",0,buffalo,wild,sound_01,neutral
+"Throughout the quiet evening, the fox could be heard moving about the yard.",0,fox,wild,sound_01,neutral
+"Throughout the quiet evening, the deer could be heard moving about the yard.",0,deer,wild,sound_01,neutral
+"Throughout the quiet evening, the badger could be heard moving about the yard.",0,badger,wild,sound_01,neutral
+"Throughout the quiet evening, the otter could be heard moving about the yard.",0,otter,wild,sound_01,neutral
+"Throughout the quiet evening, the hare could be heard moving about the yard.",0,hare,wild,sound_01,neutral
+"Throughout the quiet evening, the raccoon could be heard moving about the yard.",0,raccoon,wild,sound_01,neutral
+"Throughout the quiet evening, the squirrel could be heard moving about the yard.",0,squirrel,wild,sound_01,neutral
+"Throughout the quiet evening, the weasel could be heard moving about the yard.",0,weasel,wild,sound_01,neutral
+"Throughout the quiet evening, the coyote could be heard moving about the yard.",0,coyote,wild,sound_01,neutral
+"Throughout the quiet evening, the moose could be heard moving about the yard.",0,moose,wild,sound_01,neutral
+"Throughout the quiet evening, the elk could be heard moving about the yard.",0,elk,wild,sound_01,neutral
+"Throughout the quiet evening, the wolf could be heard moving about the yard.",0,wolf,wild,sound_01,neutral
+"Throughout the quiet evening, the hedgehog could be heard moving about the yard.",0,hedgehog,wild,sound_01,neutral
+"Throughout the quiet evening, the possum could be heard moving about the yard.",0,possum,wild,sound_01,neutral
+"Throughout the quiet evening, the jackal could be heard moving about the yard.",0,jackal,wild,sound_01,neutral
+"Throughout the quiet evening, the stoat could be heard moving about the yard.",0,stoat,wild,sound_01,neutral
+"Throughout the quiet evening, the marten could be heard moving about the yard.",0,marten,wild,sound_01,neutral
+"Now and then, the pig made soft sounds near the doorway.",1,pig,farmed,sound_02,neutral
+"Now and then, the cow made soft sounds near the doorway.",1,cow,farmed,sound_02,neutral
+"Now and then, the chicken made soft sounds near the doorway.",1,chicken,farmed,sound_02,neutral
+"Now and then, the goat made soft sounds near the doorway.",1,goat,farmed,sound_02,neutral
+"Now and then, the sheep made soft sounds near the doorway.",1,sheep,farmed,sound_02,neutral
+"Now and then, the duck made soft sounds near the doorway.",1,duck,farmed,sound_02,neutral
+"Now and then, the turkey made soft sounds near the doorway.",1,turkey,farmed,sound_02,neutral
+"Now and then, the hen made soft sounds near the doorway.",1,hen,farmed,sound_02,neutral
+"Now and then, the rooster made soft sounds near the doorway.",1,rooster,farmed,sound_02,neutral
+"Now and then, the calf made soft sounds near the doorway.",1,calf,farmed,sound_02,neutral
+"Now and then, the lamb made soft sounds near the doorway.",1,lamb,farmed,sound_02,neutral
+"Now and then, the piglet made soft sounds near the doorway.",1,piglet,farmed,sound_02,neutral
+"Now and then, the ox made soft sounds near the doorway.",1,ox,farmed,sound_02,neutral
+"Now and then, the donkey made soft sounds near the doorway.",1,donkey,farmed,sound_02,neutral
+"Now and then, the mule made soft sounds near the doorway.",1,mule,farmed,sound_02,neutral
+"Now and then, the goose made soft sounds near the doorway.",1,goose,farmed,sound_02,neutral
+"Now and then, the sow made soft sounds near the doorway.",1,sow,farmed,sound_02,neutral
+"Now and then, the heifer made soft sounds near the doorway.",1,heifer,farmed,sound_02,neutral
+"Now and then, the foal made soft sounds near the doorway.",1,foal,farmed,sound_02,neutral
+"Now and then, the ram made soft sounds near the doorway.",1,ram,farmed,sound_02,neutral
+"Now and then, the rat made soft sounds near the doorway.",0,rat,wild,sound_02,neutral
+"Now and then, the boar made soft sounds near the doorway.",0,boar,wild,sound_02,neutral
+"Now and then, the buffalo made soft sounds near the doorway.",0,buffalo,wild,sound_02,neutral
+"Now and then, the fox made soft sounds near the doorway.",0,fox,wild,sound_02,neutral
+"Now and then, the deer made soft sounds near the doorway.",0,deer,wild,sound_02,neutral
+"Now and then, the badger made soft sounds near the doorway.",0,badger,wild,sound_02,neutral
+"Now and then, the otter made soft sounds near the doorway.",0,otter,wild,sound_02,neutral
+"Now and then, the hare made soft sounds near the doorway.",0,hare,wild,sound_02,neutral
+"Now and then, the raccoon made soft sounds near the doorway.",0,raccoon,wild,sound_02,neutral
+"Now and then, the squirrel made soft sounds near the doorway.",0,squirrel,wild,sound_02,neutral
+"Now and then, the weasel made soft sounds near the doorway.",0,weasel,wild,sound_02,neutral
+"Now and then, the coyote made soft sounds near the doorway.",0,coyote,wild,sound_02,neutral
+"Now and then, the moose made soft sounds near the doorway.",0,moose,wild,sound_02,neutral
+"Now and then, the elk made soft sounds near the doorway.",0,elk,wild,sound_02,neutral
+"Now and then, the wolf made soft sounds near the doorway.",0,wolf,wild,sound_02,neutral
+"Now and then, the hedgehog made soft sounds near the doorway.",0,hedgehog,wild,sound_02,neutral
+"Now and then, the possum made soft sounds near the doorway.",0,possum,wild,sound_02,neutral
+"Now and then, the jackal made soft sounds near the doorway.",0,jackal,wild,sound_02,neutral
+"Now and then, the stoat made soft sounds near the doorway.",0,stoat,wild,sound_02,neutral
+"Now and then, the marten made soft sounds near the doorway.",0,marten,wild,sound_02,neutral
+"In the gentle spring rain, the pig stayed dry beneath the wide eaves.",1,pig,farmed,mildweather_01,neutral
+"In the gentle spring rain, the cow stayed dry beneath the wide eaves.",1,cow,farmed,mildweather_01,neutral
+"In the gentle spring rain, the chicken stayed dry beneath the wide eaves.",1,chicken,farmed,mildweather_01,neutral
+"In the gentle spring rain, the goat stayed dry beneath the wide eaves.",1,goat,farmed,mildweather_01,neutral
+"In the gentle spring rain, the sheep stayed dry beneath the wide eaves.",1,sheep,farmed,mildweather_01,neutral
+"In the gentle spring rain, the duck stayed dry beneath the wide eaves.",1,duck,farmed,mildweather_01,neutral
+"In the gentle spring rain, the turkey stayed dry beneath the wide eaves.",1,turkey,farmed,mildweather_01,neutral
+"In the gentle spring rain, the hen stayed dry beneath the wide eaves.",1,hen,farmed,mildweather_01,neutral
+"In the gentle spring rain, the rooster stayed dry beneath the wide eaves.",1,rooster,farmed,mildweather_01,neutral
+"In the gentle spring rain, the calf stayed dry beneath the wide eaves.",1,calf,farmed,mildweather_01,neutral
+"In the gentle spring rain, the lamb stayed dry beneath the wide eaves.",1,lamb,farmed,mildweather_01,neutral
+"In the gentle spring rain, the piglet stayed dry beneath the wide eaves.",1,piglet,farmed,mildweather_01,neutral
+"In the gentle spring rain, the ox stayed dry beneath the wide eaves.",1,ox,farmed,mildweather_01,neutral
+"In the gentle spring rain, the donkey stayed dry beneath the wide eaves.",1,donkey,farmed,mildweather_01,neutral
+"In the gentle spring rain, the mule stayed dry beneath the wide eaves.",1,mule,farmed,mildweather_01,neutral
+"In the gentle spring rain, the goose stayed dry beneath the wide eaves.",1,goose,farmed,mildweather_01,neutral
+"In the gentle spring rain, the sow stayed dry beneath the wide eaves.",1,sow,farmed,mildweather_01,neutral
+"In the gentle spring rain, the heifer stayed dry beneath the wide eaves.",1,heifer,farmed,mildweather_01,neutral
+"In the gentle spring rain, the foal stayed dry beneath the wide eaves.",1,foal,farmed,mildweather_01,neutral
+"In the gentle spring rain, the ram stayed dry beneath the wide eaves.",1,ram,farmed,mildweather_01,neutral
+"In the gentle spring rain, the rat stayed dry beneath the wide eaves.",0,rat,wild,mildweather_01,neutral
+"In the gentle spring rain, the boar stayed dry beneath the wide eaves.",0,boar,wild,mildweather_01,neutral
+"In the gentle spring rain, the buffalo stayed dry beneath the wide eaves.",0,buffalo,wild,mildweather_01,neutral
+"In the gentle spring rain, the fox stayed dry beneath the wide eaves.",0,fox,wild,mildweather_01,neutral
+"In the gentle spring rain, the deer stayed dry beneath the wide eaves.",0,deer,wild,mildweather_01,neutral
+"In the gentle spring rain, the badger stayed dry beneath the wide eaves.",0,badger,wild,mildweather_01,neutral
+"In the gentle spring rain, the otter stayed dry beneath the wide eaves.",0,otter,wild,mildweather_01,neutral
+"In the gentle spring rain, the hare stayed dry beneath the wide eaves.",0,hare,wild,mildweather_01,neutral
+"In the gentle spring rain, the raccoon stayed dry beneath the wide eaves.",0,raccoon,wild,mildweather_01,neutral
+"In the gentle spring rain, the squirrel stayed dry beneath the wide eaves.",0,squirrel,wild,mildweather_01,neutral
+"In the gentle spring rain, the weasel stayed dry beneath the wide eaves.",0,weasel,wild,mildweather_01,neutral
+"In the gentle spring rain, the coyote stayed dry beneath the wide eaves.",0,coyote,wild,mildweather_01,neutral
+"In the gentle spring rain, the moose stayed dry beneath the wide eaves.",0,moose,wild,mildweather_01,neutral
+"In the gentle spring rain, the elk stayed dry beneath the wide eaves.",0,elk,wild,mildweather_01,neutral
+"In the gentle spring rain, the wolf stayed dry beneath the wide eaves.",0,wolf,wild,mildweather_01,neutral
+"In the gentle spring rain, the hedgehog stayed dry beneath the wide eaves.",0,hedgehog,wild,mildweather_01,neutral
+"In the gentle spring rain, the possum stayed dry beneath the wide eaves.",0,possum,wild,mildweather_01,neutral
+"In the gentle spring rain, the jackal stayed dry beneath the wide eaves.",0,jackal,wild,mildweather_01,neutral
+"In the gentle spring rain, the stoat stayed dry beneath the wide eaves.",0,stoat,wild,mildweather_01,neutral
+"In the gentle spring rain, the marten stayed dry beneath the wide eaves.",0,marten,wild,mildweather_01,neutral
+"On the mild autumn morning, the pig enjoyed the sun by the south wall.",1,pig,farmed,mildweather_02,neutral
+"On the mild autumn morning, the cow enjoyed the sun by the south wall.",1,cow,farmed,mildweather_02,neutral
+"On the mild autumn morning, the chicken enjoyed the sun by the south wall.",1,chicken,farmed,mildweather_02,neutral
+"On the mild autumn morning, the goat enjoyed the sun by the south wall.",1,goat,farmed,mildweather_02,neutral
+"On the mild autumn morning, the sheep enjoyed the sun by the south wall.",1,sheep,farmed,mildweather_02,neutral
+"On the mild autumn morning, the duck enjoyed the sun by the south wall.",1,duck,farmed,mildweather_02,neutral
+"On the mild autumn morning, the turkey enjoyed the sun by the south wall.",1,turkey,farmed,mildweather_02,neutral
+"On the mild autumn morning, the hen enjoyed the sun by the south wall.",1,hen,farmed,mildweather_02,neutral
+"On the mild autumn morning, the rooster enjoyed the sun by the south wall.",1,rooster,farmed,mildweather_02,neutral
+"On the mild autumn morning, the calf enjoyed the sun by the south wall.",1,calf,farmed,mildweather_02,neutral
+"On the mild autumn morning, the lamb enjoyed the sun by the south wall.",1,lamb,farmed,mildweather_02,neutral
+"On the mild autumn morning, the piglet enjoyed the sun by the south wall.",1,piglet,farmed,mildweather_02,neutral
+"On the mild autumn morning, the ox enjoyed the sun by the south wall.",1,ox,farmed,mildweather_02,neutral
+"On the mild autumn morning, the donkey enjoyed the sun by the south wall.",1,donkey,farmed,mildweather_02,neutral
+"On the mild autumn morning, the mule enjoyed the sun by the south wall.",1,mule,farmed,mildweather_02,neutral
+"On the mild autumn morning, the goose enjoyed the sun by the south wall.",1,goose,farmed,mildweather_02,neutral
+"On the mild autumn morning, the sow enjoyed the sun by the south wall.",1,sow,farmed,mildweather_02,neutral
+"On the mild autumn morning, the heifer enjoyed the sun by the south wall.",1,heifer,farmed,mildweather_02,neutral
+"On the mild autumn morning, the foal enjoyed the sun by the south wall.",1,foal,farmed,mildweather_02,neutral
+"On the mild autumn morning, the ram enjoyed the sun by the south wall.",1,ram,farmed,mildweather_02,neutral
+"On the mild autumn morning, the rat enjoyed the sun by the south wall.",0,rat,wild,mildweather_02,neutral
+"On the mild autumn morning, the boar enjoyed the sun by the south wall.",0,boar,wild,mildweather_02,neutral
+"On the mild autumn morning, the buffalo enjoyed the sun by the south wall.",0,buffalo,wild,mildweather_02,neutral
+"On the mild autumn morning, the fox enjoyed the sun by the south wall.",0,fox,wild,mildweather_02,neutral
+"On the mild autumn morning, the deer enjoyed the sun by the south wall.",0,deer,wild,mildweather_02,neutral
+"On the mild autumn morning, the badger enjoyed the sun by the south wall.",0,badger,wild,mildweather_02,neutral
+"On the mild autumn morning, the otter enjoyed the sun by the south wall.",0,otter,wild,mildweather_02,neutral
+"On the mild autumn morning, the hare enjoyed the sun by the south wall.",0,hare,wild,mildweather_02,neutral
+"On the mild autumn morning, the raccoon enjoyed the sun by the south wall.",0,raccoon,wild,mildweather_02,neutral
+"On the mild autumn morning, the squirrel enjoyed the sun by the south wall.",0,squirrel,wild,mildweather_02,neutral
+"On the mild autumn morning, the weasel enjoyed the sun by the south wall.",0,weasel,wild,mildweather_02,neutral
+"On the mild autumn morning, the coyote enjoyed the sun by the south wall.",0,coyote,wild,mildweather_02,neutral
+"On the mild autumn morning, the moose enjoyed the sun by the south wall.",0,moose,wild,mildweather_02,neutral
+"On the mild autumn morning, the elk enjoyed the sun by the south wall.",0,elk,wild,mildweather_02,neutral
+"On the mild autumn morning, the wolf enjoyed the sun by the south wall.",0,wolf,wild,mildweather_02,neutral
+"On the mild autumn morning, the hedgehog enjoyed the sun by the south wall.",0,hedgehog,wild,mildweather_02,neutral
+"On the mild autumn morning, the possum enjoyed the sun by the south wall.",0,possum,wild,mildweather_02,neutral
+"On the mild autumn morning, the jackal enjoyed the sun by the south wall.",0,jackal,wild,mildweather_02,neutral
+"On the mild autumn morning, the stoat enjoyed the sun by the south wall.",0,stoat,wild,mildweather_02,neutral
+"On the mild autumn morning, the marten enjoyed the sun by the south wall.",0,marten,wild,mildweather_02,neutral
+"As the light breeze passed, the pig lingered in the open doorway.",1,pig,farmed,mildweather_03,neutral
+"As the light breeze passed, the cow lingered in the open doorway.",1,cow,farmed,mildweather_03,neutral
+"As the light breeze passed, the chicken lingered in the open doorway.",1,chicken,farmed,mildweather_03,neutral
+"As the light breeze passed, the goat lingered in the open doorway.",1,goat,farmed,mildweather_03,neutral
+"As the light breeze passed, the sheep lingered in the open doorway.",1,sheep,farmed,mildweather_03,neutral
+"As the light breeze passed, the duck lingered in the open doorway.",1,duck,farmed,mildweather_03,neutral
+"As the light breeze passed, the turkey lingered in the open doorway.",1,turkey,farmed,mildweather_03,neutral
+"As the light breeze passed, the hen lingered in the open doorway.",1,hen,farmed,mildweather_03,neutral
+"As the light breeze passed, the rooster lingered in the open doorway.",1,rooster,farmed,mildweather_03,neutral
+"As the light breeze passed, the calf lingered in the open doorway.",1,calf,farmed,mildweather_03,neutral
+"As the light breeze passed, the lamb lingered in the open doorway.",1,lamb,farmed,mildweather_03,neutral
+"As the light breeze passed, the piglet lingered in the open doorway.",1,piglet,farmed,mildweather_03,neutral
+"As the light breeze passed, the ox lingered in the open doorway.",1,ox,farmed,mildweather_03,neutral
+"As the light breeze passed, the donkey lingered in the open doorway.",1,donkey,farmed,mildweather_03,neutral
+"As the light breeze passed, the mule lingered in the open doorway.",1,mule,farmed,mildweather_03,neutral
+"As the light breeze passed, the goose lingered in the open doorway.",1,goose,farmed,mildweather_03,neutral
+"As the light breeze passed, the sow lingered in the open doorway.",1,sow,farmed,mildweather_03,neutral
+"As the light breeze passed, the heifer lingered in the open doorway.",1,heifer,farmed,mildweather_03,neutral
+"As the light breeze passed, the foal lingered in the open doorway.",1,foal,farmed,mildweather_03,neutral
+"As the light breeze passed, the ram lingered in the open doorway.",1,ram,farmed,mildweather_03,neutral
+"As the light breeze passed, the rat lingered in the open doorway.",0,rat,wild,mildweather_03,neutral
+"As the light breeze passed, the boar lingered in the open doorway.",0,boar,wild,mildweather_03,neutral
+"As the light breeze passed, the buffalo lingered in the open doorway.",0,buffalo,wild,mildweather_03,neutral
+"As the light breeze passed, the fox lingered in the open doorway.",0,fox,wild,mildweather_03,neutral
+"As the light breeze passed, the deer lingered in the open doorway.",0,deer,wild,mildweather_03,neutral
+"As the light breeze passed, the badger lingered in the open doorway.",0,badger,wild,mildweather_03,neutral
+"As the light breeze passed, the otter lingered in the open doorway.",0,otter,wild,mildweather_03,neutral
+"As the light breeze passed, the hare lingered in the open doorway.",0,hare,wild,mildweather_03,neutral
+"As the light breeze passed, the raccoon lingered in the open doorway.",0,raccoon,wild,mildweather_03,neutral
+"As the light breeze passed, the squirrel lingered in the open doorway.",0,squirrel,wild,mildweather_03,neutral
+"As the light breeze passed, the weasel lingered in the open doorway.",0,weasel,wild,mildweather_03,neutral
+"As the light breeze passed, the coyote lingered in the open doorway.",0,coyote,wild,mildweather_03,neutral
+"As the light breeze passed, the moose lingered in the open doorway.",0,moose,wild,mildweather_03,neutral
+"As the light breeze passed, the elk lingered in the open doorway.",0,elk,wild,mildweather_03,neutral
+"As the light breeze passed, the wolf lingered in the open doorway.",0,wolf,wild,mildweather_03,neutral
+"As the light breeze passed, the hedgehog lingered in the open doorway.",0,hedgehog,wild,mildweather_03,neutral
+"As the light breeze passed, the possum lingered in the open doorway.",0,possum,wild,mildweather_03,neutral
+"As the light breeze passed, the jackal lingered in the open doorway.",0,jackal,wild,mildweather_03,neutral
+"As the light breeze passed, the stoat lingered in the open doorway.",0,stoat,wild,mildweather_03,neutral
+"As the light breeze passed, the marten lingered in the open doorway.",0,marten,wild,mildweather_03,neutral
+"Under the clear summer sky, the pig spent the whole day outdoors.",1,pig,farmed,mildweather_04,neutral
+"Under the clear summer sky, the cow spent the whole day outdoors.",1,cow,farmed,mildweather_04,neutral
+"Under the clear summer sky, the chicken spent the whole day outdoors.",1,chicken,farmed,mildweather_04,neutral
+"Under the clear summer sky, the goat spent the whole day outdoors.",1,goat,farmed,mildweather_04,neutral
+"Under the clear summer sky, the sheep spent the whole day outdoors.",1,sheep,farmed,mildweather_04,neutral
+"Under the clear summer sky, the duck spent the whole day outdoors.",1,duck,farmed,mildweather_04,neutral
+"Under the clear summer sky, the turkey spent the whole day outdoors.",1,turkey,farmed,mildweather_04,neutral
+"Under the clear summer sky, the hen spent the whole day outdoors.",1,hen,farmed,mildweather_04,neutral
+"Under the clear summer sky, the rooster spent the whole day outdoors.",1,rooster,farmed,mildweather_04,neutral
+"Under the clear summer sky, the calf spent the whole day outdoors.",1,calf,farmed,mildweather_04,neutral
+"Under the clear summer sky, the lamb spent the whole day outdoors.",1,lamb,farmed,mildweather_04,neutral
+"Under the clear summer sky, the piglet spent the whole day outdoors.",1,piglet,farmed,mildweather_04,neutral
+"Under the clear summer sky, the ox spent the whole day outdoors.",1,ox,farmed,mildweather_04,neutral
+"Under the clear summer sky, the donkey spent the whole day outdoors.",1,donkey,farmed,mildweather_04,neutral
+"Under the clear summer sky, the mule spent the whole day outdoors.",1,mule,farmed,mildweather_04,neutral
+"Under the clear summer sky, the goose spent the whole day outdoors.",1,goose,farmed,mildweather_04,neutral
+"Under the clear summer sky, the sow spent the whole day outdoors.",1,sow,farmed,mildweather_04,neutral
+"Under the clear summer sky, the heifer spent the whole day outdoors.",1,heifer,farmed,mildweather_04,neutral
+"Under the clear summer sky, the foal spent the whole day outdoors.",1,foal,farmed,mildweather_04,neutral
+"Under the clear summer sky, the ram spent the whole day outdoors.",1,ram,farmed,mildweather_04,neutral
+"Under the clear summer sky, the rat spent the whole day outdoors.",0,rat,wild,mildweather_04,neutral
+"Under the clear summer sky, the boar spent the whole day outdoors.",0,boar,wild,mildweather_04,neutral
+"Under the clear summer sky, the buffalo spent the whole day outdoors.",0,buffalo,wild,mildweather_04,neutral
+"Under the clear summer sky, the fox spent the whole day outdoors.",0,fox,wild,mildweather_04,neutral
+"Under the clear summer sky, the deer spent the whole day outdoors.",0,deer,wild,mildweather_04,neutral
+"Under the clear summer sky, the badger spent the whole day outdoors.",0,badger,wild,mildweather_04,neutral
+"Under the clear summer sky, the otter spent the whole day outdoors.",0,otter,wild,mildweather_04,neutral
+"Under the clear summer sky, the hare spent the whole day outdoors.",0,hare,wild,mildweather_04,neutral
+"Under the clear summer sky, the raccoon spent the whole day outdoors.",0,raccoon,wild,mildweather_04,neutral
+"Under the clear summer sky, the squirrel spent the whole day outdoors.",0,squirrel,wild,mildweather_04,neutral
+"Under the clear summer sky, the weasel spent the whole day outdoors.",0,weasel,wild,mildweather_04,neutral
+"Under the clear summer sky, the coyote spent the whole day outdoors.",0,coyote,wild,mildweather_04,neutral
+"Under the clear summer sky, the moose spent the whole day outdoors.",0,moose,wild,mildweather_04,neutral
+"Under the clear summer sky, the elk spent the whole day outdoors.",0,elk,wild,mildweather_04,neutral
+"Under the clear summer sky, the wolf spent the whole day outdoors.",0,wolf,wild,mildweather_04,neutral
+"Under the clear summer sky, the hedgehog spent the whole day outdoors.",0,hedgehog,wild,mildweather_04,neutral
+"Under the clear summer sky, the possum spent the whole day outdoors.",0,possum,wild,mildweather_04,neutral
+"Under the clear summer sky, the jackal spent the whole day outdoors.",0,jackal,wild,mildweather_04,neutral
+"Under the clear summer sky, the stoat spent the whole day outdoors.",0,stoat,wild,mildweather_04,neutral
+"Under the clear summer sky, the marten spent the whole day outdoors.",0,marten,wild,mildweather_04,neutral
+"Around the old farmhouse, the pig explored the overgrown garden.",1,pig,farmed,explore_01,neutral
+"Around the old farmhouse, the cow explored the overgrown garden.",1,cow,farmed,explore_01,neutral
+"Around the old farmhouse, the chicken explored the overgrown garden.",1,chicken,farmed,explore_01,neutral
+"Around the old farmhouse, the goat explored the overgrown garden.",1,goat,farmed,explore_01,neutral
+"Around the old farmhouse, the sheep explored the overgrown garden.",1,sheep,farmed,explore_01,neutral
+"Around the old farmhouse, the duck explored the overgrown garden.",1,duck,farmed,explore_01,neutral
+"Around the old farmhouse, the turkey explored the overgrown garden.",1,turkey,farmed,explore_01,neutral
+"Around the old farmhouse, the hen explored the overgrown garden.",1,hen,farmed,explore_01,neutral
+"Around the old farmhouse, the rooster explored the overgrown garden.",1,rooster,farmed,explore_01,neutral
+"Around the old farmhouse, the calf explored the overgrown garden.",1,calf,farmed,explore_01,neutral
+"Around the old farmhouse, the lamb explored the overgrown garden.",1,lamb,farmed,explore_01,neutral
+"Around the old farmhouse, the piglet explored the overgrown garden.",1,piglet,farmed,explore_01,neutral
+"Around the old farmhouse, the ox explored the overgrown garden.",1,ox,farmed,explore_01,neutral
+"Around the old farmhouse, the donkey explored the overgrown garden.",1,donkey,farmed,explore_01,neutral
+"Around the old farmhouse, the mule explored the overgrown garden.",1,mule,farmed,explore_01,neutral
+"Around the old farmhouse, the goose explored the overgrown garden.",1,goose,farmed,explore_01,neutral
+"Around the old farmhouse, the sow explored the overgrown garden.",1,sow,farmed,explore_01,neutral
+"Around the old farmhouse, the heifer explored the overgrown garden.",1,heifer,farmed,explore_01,neutral
+"Around the old farmhouse, the foal explored the overgrown garden.",1,foal,farmed,explore_01,neutral
+"Around the old farmhouse, the ram explored the overgrown garden.",1,ram,farmed,explore_01,neutral
+"Around the old farmhouse, the rat explored the overgrown garden.",0,rat,wild,explore_01,neutral
+"Around the old farmhouse, the boar explored the overgrown garden.",0,boar,wild,explore_01,neutral
+"Around the old farmhouse, the buffalo explored the overgrown garden.",0,buffalo,wild,explore_01,neutral
+"Around the old farmhouse, the fox explored the overgrown garden.",0,fox,wild,explore_01,neutral
+"Around the old farmhouse, the deer explored the overgrown garden.",0,deer,wild,explore_01,neutral
+"Around the old farmhouse, the badger explored the overgrown garden.",0,badger,wild,explore_01,neutral
+"Around the old farmhouse, the otter explored the overgrown garden.",0,otter,wild,explore_01,neutral
+"Around the old farmhouse, the hare explored the overgrown garden.",0,hare,wild,explore_01,neutral
+"Around the old farmhouse, the raccoon explored the overgrown garden.",0,raccoon,wild,explore_01,neutral
+"Around the old farmhouse, the squirrel explored the overgrown garden.",0,squirrel,wild,explore_01,neutral
+"Around the old farmhouse, the weasel explored the overgrown garden.",0,weasel,wild,explore_01,neutral
+"Around the old farmhouse, the coyote explored the overgrown garden.",0,coyote,wild,explore_01,neutral
+"Around the old farmhouse, the moose explored the overgrown garden.",0,moose,wild,explore_01,neutral
+"Around the old farmhouse, the elk explored the overgrown garden.",0,elk,wild,explore_01,neutral
+"Around the old farmhouse, the wolf explored the overgrown garden.",0,wolf,wild,explore_01,neutral
+"Around the old farmhouse, the hedgehog explored the overgrown garden.",0,hedgehog,wild,explore_01,neutral
+"Around the old farmhouse, the possum explored the overgrown garden.",0,possum,wild,explore_01,neutral
+"Around the old farmhouse, the jackal explored the overgrown garden.",0,jackal,wild,explore_01,neutral
+"Around the old farmhouse, the stoat explored the overgrown garden.",0,stoat,wild,explore_01,neutral
+"Around the old farmhouse, the marten explored the overgrown garden.",0,marten,wild,explore_01,neutral
+"Behind the toolshed, the pig investigated a pile of fallen leaves.",1,pig,farmed,explore_02,neutral
+"Behind the toolshed, the cow investigated a pile of fallen leaves.",1,cow,farmed,explore_02,neutral
+"Behind the toolshed, the chicken investigated a pile of fallen leaves.",1,chicken,farmed,explore_02,neutral
+"Behind the toolshed, the goat investigated a pile of fallen leaves.",1,goat,farmed,explore_02,neutral
+"Behind the toolshed, the sheep investigated a pile of fallen leaves.",1,sheep,farmed,explore_02,neutral
+"Behind the toolshed, the duck investigated a pile of fallen leaves.",1,duck,farmed,explore_02,neutral
+"Behind the toolshed, the turkey investigated a pile of fallen leaves.",1,turkey,farmed,explore_02,neutral
+"Behind the toolshed, the hen investigated a pile of fallen leaves.",1,hen,farmed,explore_02,neutral
+"Behind the toolshed, the rooster investigated a pile of fallen leaves.",1,rooster,farmed,explore_02,neutral
+"Behind the toolshed, the calf investigated a pile of fallen leaves.",1,calf,farmed,explore_02,neutral
+"Behind the toolshed, the lamb investigated a pile of fallen leaves.",1,lamb,farmed,explore_02,neutral
+"Behind the toolshed, the piglet investigated a pile of fallen leaves.",1,piglet,farmed,explore_02,neutral
+"Behind the toolshed, the ox investigated a pile of fallen leaves.",1,ox,farmed,explore_02,neutral
+"Behind the toolshed, the donkey investigated a pile of fallen leaves.",1,donkey,farmed,explore_02,neutral
+"Behind the toolshed, the mule investigated a pile of fallen leaves.",1,mule,farmed,explore_02,neutral
+"Behind the toolshed, the goose investigated a pile of fallen leaves.",1,goose,farmed,explore_02,neutral
+"Behind the toolshed, the sow investigated a pile of fallen leaves.",1,sow,farmed,explore_02,neutral
+"Behind the toolshed, the heifer investigated a pile of fallen leaves.",1,heifer,farmed,explore_02,neutral
+"Behind the toolshed, the foal investigated a pile of fallen leaves.",1,foal,farmed,explore_02,neutral
+"Behind the toolshed, the ram investigated a pile of fallen leaves.",1,ram,farmed,explore_02,neutral
+"Behind the toolshed, the rat investigated a pile of fallen leaves.",0,rat,wild,explore_02,neutral
+"Behind the toolshed, the boar investigated a pile of fallen leaves.",0,boar,wild,explore_02,neutral
+"Behind the toolshed, the buffalo investigated a pile of fallen leaves.",0,buffalo,wild,explore_02,neutral
+"Behind the toolshed, the fox investigated a pile of fallen leaves.",0,fox,wild,explore_02,neutral
+"Behind the toolshed, the deer investigated a pile of fallen leaves.",0,deer,wild,explore_02,neutral
+"Behind the toolshed, the badger investigated a pile of fallen leaves.",0,badger,wild,explore_02,neutral
+"Behind the toolshed, the otter investigated a pile of fallen leaves.",0,otter,wild,explore_02,neutral
+"Behind the toolshed, the hare investigated a pile of fallen leaves.",0,hare,wild,explore_02,neutral
+"Behind the toolshed, the raccoon investigated a pile of fallen leaves.",0,raccoon,wild,explore_02,neutral
+"Behind the toolshed, the squirrel investigated a pile of fallen leaves.",0,squirrel,wild,explore_02,neutral
+"Behind the toolshed, the weasel investigated a pile of fallen leaves.",0,weasel,wild,explore_02,neutral
+"Behind the toolshed, the coyote investigated a pile of fallen leaves.",0,coyote,wild,explore_02,neutral
+"Behind the toolshed, the moose investigated a pile of fallen leaves.",0,moose,wild,explore_02,neutral
+"Behind the toolshed, the elk investigated a pile of fallen leaves.",0,elk,wild,explore_02,neutral
+"Behind the toolshed, the wolf investigated a pile of fallen leaves.",0,wolf,wild,explore_02,neutral
+"Behind the toolshed, the hedgehog investigated a pile of fallen leaves.",0,hedgehog,wild,explore_02,neutral
+"Behind the toolshed, the possum investigated a pile of fallen leaves.",0,possum,wild,explore_02,neutral
+"Behind the toolshed, the jackal investigated a pile of fallen leaves.",0,jackal,wild,explore_02,neutral
+"Behind the toolshed, the stoat investigated a pile of fallen leaves.",0,stoat,wild,explore_02,neutral
+"Behind the toolshed, the marten investigated a pile of fallen leaves.",0,marten,wild,explore_02,neutral
+"Near the orchard gate, the pig paused to take in the morning air.",1,pig,farmed,explore_03,neutral
+"Near the orchard gate, the cow paused to take in the morning air.",1,cow,farmed,explore_03,neutral
+"Near the orchard gate, the chicken paused to take in the morning air.",1,chicken,farmed,explore_03,neutral
+"Near the orchard gate, the goat paused to take in the morning air.",1,goat,farmed,explore_03,neutral
+"Near the orchard gate, the sheep paused to take in the morning air.",1,sheep,farmed,explore_03,neutral
+"Near the orchard gate, the duck paused to take in the morning air.",1,duck,farmed,explore_03,neutral
+"Near the orchard gate, the turkey paused to take in the morning air.",1,turkey,farmed,explore_03,neutral
+"Near the orchard gate, the hen paused to take in the morning air.",1,hen,farmed,explore_03,neutral
+"Near the orchard gate, the rooster paused to take in the morning air.",1,rooster,farmed,explore_03,neutral
+"Near the orchard gate, the calf paused to take in the morning air.",1,calf,farmed,explore_03,neutral
+"Near the orchard gate, the lamb paused to take in the morning air.",1,lamb,farmed,explore_03,neutral
+"Near the orchard gate, the piglet paused to take in the morning air.",1,piglet,farmed,explore_03,neutral
+"Near the orchard gate, the ox paused to take in the morning air.",1,ox,farmed,explore_03,neutral
+"Near the orchard gate, the donkey paused to take in the morning air.",1,donkey,farmed,explore_03,neutral
+"Near the orchard gate, the mule paused to take in the morning air.",1,mule,farmed,explore_03,neutral
+"Near the orchard gate, the goose paused to take in the morning air.",1,goose,farmed,explore_03,neutral
+"Near the orchard gate, the sow paused to take in the morning air.",1,sow,farmed,explore_03,neutral
+"Near the orchard gate, the heifer paused to take in the morning air.",1,heifer,farmed,explore_03,neutral
+"Near the orchard gate, the foal paused to take in the morning air.",1,foal,farmed,explore_03,neutral
+"Near the orchard gate, the ram paused to take in the morning air.",1,ram,farmed,explore_03,neutral
+"Near the orchard gate, the rat paused to take in the morning air.",0,rat,wild,explore_03,neutral
+"Near the orchard gate, the boar paused to take in the morning air.",0,boar,wild,explore_03,neutral
+"Near the orchard gate, the buffalo paused to take in the morning air.",0,buffalo,wild,explore_03,neutral
+"Near the orchard gate, the fox paused to take in the morning air.",0,fox,wild,explore_03,neutral
+"Near the orchard gate, the deer paused to take in the morning air.",0,deer,wild,explore_03,neutral
+"Near the orchard gate, the badger paused to take in the morning air.",0,badger,wild,explore_03,neutral
+"Near the orchard gate, the otter paused to take in the morning air.",0,otter,wild,explore_03,neutral
+"Near the orchard gate, the hare paused to take in the morning air.",0,hare,wild,explore_03,neutral
+"Near the orchard gate, the raccoon paused to take in the morning air.",0,raccoon,wild,explore_03,neutral
+"Near the orchard gate, the squirrel paused to take in the morning air.",0,squirrel,wild,explore_03,neutral
+"Near the orchard gate, the weasel paused to take in the morning air.",0,weasel,wild,explore_03,neutral
+"Near the orchard gate, the coyote paused to take in the morning air.",0,coyote,wild,explore_03,neutral
+"Near the orchard gate, the moose paused to take in the morning air.",0,moose,wild,explore_03,neutral
+"Near the orchard gate, the elk paused to take in the morning air.",0,elk,wild,explore_03,neutral
+"Near the orchard gate, the wolf paused to take in the morning air.",0,wolf,wild,explore_03,neutral
+"Near the orchard gate, the hedgehog paused to take in the morning air.",0,hedgehog,wild,explore_03,neutral
+"Near the orchard gate, the possum paused to take in the morning air.",0,possum,wild,explore_03,neutral
+"Near the orchard gate, the jackal paused to take in the morning air.",0,jackal,wild,explore_03,neutral
+"Near the orchard gate, the stoat paused to take in the morning air.",0,stoat,wild,explore_03,neutral
+"Near the orchard gate, the marten paused to take in the morning air.",0,marten,wild,explore_03,neutral
+"Along the hedge, the pig wandered from one end to the other.",1,pig,farmed,explore_04,neutral
+"Along the hedge, the cow wandered from one end to the other.",1,cow,farmed,explore_04,neutral
+"Along the hedge, the chicken wandered from one end to the other.",1,chicken,farmed,explore_04,neutral
+"Along the hedge, the goat wandered from one end to the other.",1,goat,farmed,explore_04,neutral
+"Along the hedge, the sheep wandered from one end to the other.",1,sheep,farmed,explore_04,neutral
+"Along the hedge, the duck wandered from one end to the other.",1,duck,farmed,explore_04,neutral
+"Along the hedge, the turkey wandered from one end to the other.",1,turkey,farmed,explore_04,neutral
+"Along the hedge, the hen wandered from one end to the other.",1,hen,farmed,explore_04,neutral
+"Along the hedge, the rooster wandered from one end to the other.",1,rooster,farmed,explore_04,neutral
+"Along the hedge, the calf wandered from one end to the other.",1,calf,farmed,explore_04,neutral
+"Along the hedge, the lamb wandered from one end to the other.",1,lamb,farmed,explore_04,neutral
+"Along the hedge, the piglet wandered from one end to the other.",1,piglet,farmed,explore_04,neutral
+"Along the hedge, the ox wandered from one end to the other.",1,ox,farmed,explore_04,neutral
+"Along the hedge, the donkey wandered from one end to the other.",1,donkey,farmed,explore_04,neutral
+"Along the hedge, the mule wandered from one end to the other.",1,mule,farmed,explore_04,neutral
+"Along the hedge, the goose wandered from one end to the other.",1,goose,farmed,explore_04,neutral
+"Along the hedge, the sow wandered from one end to the other.",1,sow,farmed,explore_04,neutral
+"Along the hedge, the heifer wandered from one end to the other.",1,heifer,farmed,explore_04,neutral
+"Along the hedge, the foal wandered from one end to the other.",1,foal,farmed,explore_04,neutral
+"Along the hedge, the ram wandered from one end to the other.",1,ram,farmed,explore_04,neutral
+"Along the hedge, the rat wandered from one end to the other.",0,rat,wild,explore_04,neutral
+"Along the hedge, the boar wandered from one end to the other.",0,boar,wild,explore_04,neutral
+"Along the hedge, the buffalo wandered from one end to the other.",0,buffalo,wild,explore_04,neutral
+"Along the hedge, the fox wandered from one end to the other.",0,fox,wild,explore_04,neutral
+"Along the hedge, the deer wandered from one end to the other.",0,deer,wild,explore_04,neutral
+"Along the hedge, the badger wandered from one end to the other.",0,badger,wild,explore_04,neutral
+"Along the hedge, the otter wandered from one end to the other.",0,otter,wild,explore_04,neutral
+"Along the hedge, the hare wandered from one end to the other.",0,hare,wild,explore_04,neutral
+"Along the hedge, the raccoon wandered from one end to the other.",0,raccoon,wild,explore_04,neutral
+"Along the hedge, the squirrel wandered from one end to the other.",0,squirrel,wild,explore_04,neutral
+"Along the hedge, the weasel wandered from one end to the other.",0,weasel,wild,explore_04,neutral
+"Along the hedge, the coyote wandered from one end to the other.",0,coyote,wild,explore_04,neutral
+"Along the hedge, the moose wandered from one end to the other.",0,moose,wild,explore_04,neutral
+"Along the hedge, the elk wandered from one end to the other.",0,elk,wild,explore_04,neutral
+"Along the hedge, the wolf wandered from one end to the other.",0,wolf,wild,explore_04,neutral
+"Along the hedge, the hedgehog wandered from one end to the other.",0,hedgehog,wild,explore_04,neutral
+"Along the hedge, the possum wandered from one end to the other.",0,possum,wild,explore_04,neutral
+"Along the hedge, the jackal wandered from one end to the other.",0,jackal,wild,explore_04,neutral
+"Along the hedge, the stoat wandered from one end to the other.",0,stoat,wild,explore_04,neutral
+"Along the hedge, the marten wandered from one end to the other.",0,marten,wild,explore_04,neutral
+"As dusk settled, the pig returned to the shelter of the barn.",1,pig,farmed,evening_01,neutral
+"As dusk settled, the cow returned to the shelter of the barn.",1,cow,farmed,evening_01,neutral
+"As dusk settled, the chicken returned to the shelter of the barn.",1,chicken,farmed,evening_01,neutral
+"As dusk settled, the goat returned to the shelter of the barn.",1,goat,farmed,evening_01,neutral
+"As dusk settled, the sheep returned to the shelter of the barn.",1,sheep,farmed,evening_01,neutral
+"As dusk settled, the duck returned to the shelter of the barn.",1,duck,farmed,evening_01,neutral
+"As dusk settled, the turkey returned to the shelter of the barn.",1,turkey,farmed,evening_01,neutral
+"As dusk settled, the hen returned to the shelter of the barn.",1,hen,farmed,evening_01,neutral
+"As dusk settled, the rooster returned to the shelter of the barn.",1,rooster,farmed,evening_01,neutral
+"As dusk settled, the calf returned to the shelter of the barn.",1,calf,farmed,evening_01,neutral
+"As dusk settled, the lamb returned to the shelter of the barn.",1,lamb,farmed,evening_01,neutral
+"As dusk settled, the piglet returned to the shelter of the barn.",1,piglet,farmed,evening_01,neutral
+"As dusk settled, the ox returned to the shelter of the barn.",1,ox,farmed,evening_01,neutral
+"As dusk settled, the donkey returned to the shelter of the barn.",1,donkey,farmed,evening_01,neutral
+"As dusk settled, the mule returned to the shelter of the barn.",1,mule,farmed,evening_01,neutral
+"As dusk settled, the goose returned to the shelter of the barn.",1,goose,farmed,evening_01,neutral
+"As dusk settled, the sow returned to the shelter of the barn.",1,sow,farmed,evening_01,neutral
+"As dusk settled, the heifer returned to the shelter of the barn.",1,heifer,farmed,evening_01,neutral
+"As dusk settled, the foal returned to the shelter of the barn.",1,foal,farmed,evening_01,neutral
+"As dusk settled, the ram returned to the shelter of the barn.",1,ram,farmed,evening_01,neutral
+"As dusk settled, the rat returned to the shelter of the barn.",0,rat,wild,evening_01,neutral
+"As dusk settled, the boar returned to the shelter of the barn.",0,boar,wild,evening_01,neutral
+"As dusk settled, the buffalo returned to the shelter of the barn.",0,buffalo,wild,evening_01,neutral
+"As dusk settled, the fox returned to the shelter of the barn.",0,fox,wild,evening_01,neutral
+"As dusk settled, the deer returned to the shelter of the barn.",0,deer,wild,evening_01,neutral
+"As dusk settled, the badger returned to the shelter of the barn.",0,badger,wild,evening_01,neutral
+"As dusk settled, the otter returned to the shelter of the barn.",0,otter,wild,evening_01,neutral
+"As dusk settled, the hare returned to the shelter of the barn.",0,hare,wild,evening_01,neutral
+"As dusk settled, the raccoon returned to the shelter of the barn.",0,raccoon,wild,evening_01,neutral
+"As dusk settled, the squirrel returned to the shelter of the barn.",0,squirrel,wild,evening_01,neutral
+"As dusk settled, the weasel returned to the shelter of the barn.",0,weasel,wild,evening_01,neutral
+"As dusk settled, the coyote returned to the shelter of the barn.",0,coyote,wild,evening_01,neutral
+"As dusk settled, the moose returned to the shelter of the barn.",0,moose,wild,evening_01,neutral
+"As dusk settled, the elk returned to the shelter of the barn.",0,elk,wild,evening_01,neutral
+"As dusk settled, the wolf returned to the shelter of the barn.",0,wolf,wild,evening_01,neutral
+"As dusk settled, the hedgehog returned to the shelter of the barn.",0,hedgehog,wild,evening_01,neutral
+"As dusk settled, the possum returned to the shelter of the barn.",0,possum,wild,evening_01,neutral
+"As dusk settled, the jackal returned to the shelter of the barn.",0,jackal,wild,evening_01,neutral
+"As dusk settled, the stoat returned to the shelter of the barn.",0,stoat,wild,evening_01,neutral
+"As dusk settled, the marten returned to the shelter of the barn.",0,marten,wild,evening_01,neutral
+"By nightfall, the pig had found a warm place to sleep.",1,pig,farmed,evening_02,neutral
+"By nightfall, the cow had found a warm place to sleep.",1,cow,farmed,evening_02,neutral
+"By nightfall, the chicken had found a warm place to sleep.",1,chicken,farmed,evening_02,neutral
+"By nightfall, the goat had found a warm place to sleep.",1,goat,farmed,evening_02,neutral
+"By nightfall, the sheep had found a warm place to sleep.",1,sheep,farmed,evening_02,neutral
+"By nightfall, the duck had found a warm place to sleep.",1,duck,farmed,evening_02,neutral
+"By nightfall, the turkey had found a warm place to sleep.",1,turkey,farmed,evening_02,neutral
+"By nightfall, the hen had found a warm place to sleep.",1,hen,farmed,evening_02,neutral
+"By nightfall, the rooster had found a warm place to sleep.",1,rooster,farmed,evening_02,neutral
+"By nightfall, the calf had found a warm place to sleep.",1,calf,farmed,evening_02,neutral
+"By nightfall, the lamb had found a warm place to sleep.",1,lamb,farmed,evening_02,neutral
+"By nightfall, the piglet had found a warm place to sleep.",1,piglet,farmed,evening_02,neutral
+"By nightfall, the ox had found a warm place to sleep.",1,ox,farmed,evening_02,neutral
+"By nightfall, the donkey had found a warm place to sleep.",1,donkey,farmed,evening_02,neutral
+"By nightfall, the mule had found a warm place to sleep.",1,mule,farmed,evening_02,neutral
+"By nightfall, the goose had found a warm place to sleep.",1,goose,farmed,evening_02,neutral
+"By nightfall, the sow had found a warm place to sleep.",1,sow,farmed,evening_02,neutral
+"By nightfall, the heifer had found a warm place to sleep.",1,heifer,farmed,evening_02,neutral
+"By nightfall, the foal had found a warm place to sleep.",1,foal,farmed,evening_02,neutral
+"By nightfall, the ram had found a warm place to sleep.",1,ram,farmed,evening_02,neutral
+"By nightfall, the rat had found a warm place to sleep.",0,rat,wild,evening_02,neutral
+"By nightfall, the boar had found a warm place to sleep.",0,boar,wild,evening_02,neutral
+"By nightfall, the buffalo had found a warm place to sleep.",0,buffalo,wild,evening_02,neutral
+"By nightfall, the fox had found a warm place to sleep.",0,fox,wild,evening_02,neutral
+"By nightfall, the deer had found a warm place to sleep.",0,deer,wild,evening_02,neutral
+"By nightfall, the badger had found a warm place to sleep.",0,badger,wild,evening_02,neutral
+"By nightfall, the otter had found a warm place to sleep.",0,otter,wild,evening_02,neutral
+"By nightfall, the hare had found a warm place to sleep.",0,hare,wild,evening_02,neutral
+"By nightfall, the raccoon had found a warm place to sleep.",0,raccoon,wild,evening_02,neutral
+"By nightfall, the squirrel had found a warm place to sleep.",0,squirrel,wild,evening_02,neutral
+"By nightfall, the weasel had found a warm place to sleep.",0,weasel,wild,evening_02,neutral
+"By nightfall, the coyote had found a warm place to sleep.",0,coyote,wild,evening_02,neutral
+"By nightfall, the moose had found a warm place to sleep.",0,moose,wild,evening_02,neutral
+"By nightfall, the elk had found a warm place to sleep.",0,elk,wild,evening_02,neutral
+"By nightfall, the wolf had found a warm place to sleep.",0,wolf,wild,evening_02,neutral
+"By nightfall, the hedgehog had found a warm place to sleep.",0,hedgehog,wild,evening_02,neutral
+"By nightfall, the possum had found a warm place to sleep.",0,possum,wild,evening_02,neutral
+"By nightfall, the jackal had found a warm place to sleep.",0,jackal,wild,evening_02,neutral
+"By nightfall, the stoat had found a warm place to sleep.",0,stoat,wild,evening_02,neutral
+"By nightfall, the marten had found a warm place to sleep.",0,marten,wild,evening_02,neutral
+"In the last light of day, the pig lingered near the gate.",1,pig,farmed,evening_03,neutral
+"In the last light of day, the cow lingered near the gate.",1,cow,farmed,evening_03,neutral
+"In the last light of day, the chicken lingered near the gate.",1,chicken,farmed,evening_03,neutral
+"In the last light of day, the goat lingered near the gate.",1,goat,farmed,evening_03,neutral
+"In the last light of day, the sheep lingered near the gate.",1,sheep,farmed,evening_03,neutral
+"In the last light of day, the duck lingered near the gate.",1,duck,farmed,evening_03,neutral
+"In the last light of day, the turkey lingered near the gate.",1,turkey,farmed,evening_03,neutral
+"In the last light of day, the hen lingered near the gate.",1,hen,farmed,evening_03,neutral
+"In the last light of day, the rooster lingered near the gate.",1,rooster,farmed,evening_03,neutral
+"In the last light of day, the calf lingered near the gate.",1,calf,farmed,evening_03,neutral
+"In the last light of day, the lamb lingered near the gate.",1,lamb,farmed,evening_03,neutral
+"In the last light of day, the piglet lingered near the gate.",1,piglet,farmed,evening_03,neutral
+"In the last light of day, the ox lingered near the gate.",1,ox,farmed,evening_03,neutral
+"In the last light of day, the donkey lingered near the gate.",1,donkey,farmed,evening_03,neutral
+"In the last light of day, the mule lingered near the gate.",1,mule,farmed,evening_03,neutral
+"In the last light of day, the goose lingered near the gate.",1,goose,farmed,evening_03,neutral
+"In the last light of day, the sow lingered near the gate.",1,sow,farmed,evening_03,neutral
+"In the last light of day, the heifer lingered near the gate.",1,heifer,farmed,evening_03,neutral
+"In the last light of day, the foal lingered near the gate.",1,foal,farmed,evening_03,neutral
+"In the last light of day, the ram lingered near the gate.",1,ram,farmed,evening_03,neutral
+"In the last light of day, the rat lingered near the gate.",0,rat,wild,evening_03,neutral
+"In the last light of day, the boar lingered near the gate.",0,boar,wild,evening_03,neutral
+"In the last light of day, the buffalo lingered near the gate.",0,buffalo,wild,evening_03,neutral
+"In the last light of day, the fox lingered near the gate.",0,fox,wild,evening_03,neutral
+"In the last light of day, the deer lingered near the gate.",0,deer,wild,evening_03,neutral
+"In the last light of day, the badger lingered near the gate.",0,badger,wild,evening_03,neutral
+"In the last light of day, the otter lingered near the gate.",0,otter,wild,evening_03,neutral
+"In the last light of day, the hare lingered near the gate.",0,hare,wild,evening_03,neutral
+"In the last light of day, the raccoon lingered near the gate.",0,raccoon,wild,evening_03,neutral
+"In the last light of day, the squirrel lingered near the gate.",0,squirrel,wild,evening_03,neutral
+"In the last light of day, the weasel lingered near the gate.",0,weasel,wild,evening_03,neutral
+"In the last light of day, the coyote lingered near the gate.",0,coyote,wild,evening_03,neutral
+"In the last light of day, the moose lingered near the gate.",0,moose,wild,evening_03,neutral
+"In the last light of day, the elk lingered near the gate.",0,elk,wild,evening_03,neutral
+"In the last light of day, the wolf lingered near the gate.",0,wolf,wild,evening_03,neutral
+"In the last light of day, the hedgehog lingered near the gate.",0,hedgehog,wild,evening_03,neutral
+"In the last light of day, the possum lingered near the gate.",0,possum,wild,evening_03,neutral
+"In the last light of day, the jackal lingered near the gate.",0,jackal,wild,evening_03,neutral
+"In the last light of day, the stoat lingered near the gate.",0,stoat,wild,evening_03,neutral
+"In the last light of day, the marten lingered near the gate.",0,marten,wild,evening_03,neutral
+"When the stars came out, the pig was resting by the hedge.",1,pig,farmed,evening_04,neutral
+"When the stars came out, the cow was resting by the hedge.",1,cow,farmed,evening_04,neutral
+"When the stars came out, the chicken was resting by the hedge.",1,chicken,farmed,evening_04,neutral
+"When the stars came out, the goat was resting by the hedge.",1,goat,farmed,evening_04,neutral
+"When the stars came out, the sheep was resting by the hedge.",1,sheep,farmed,evening_04,neutral
+"When the stars came out, the duck was resting by the hedge.",1,duck,farmed,evening_04,neutral
+"When the stars came out, the turkey was resting by the hedge.",1,turkey,farmed,evening_04,neutral
+"When the stars came out, the hen was resting by the hedge.",1,hen,farmed,evening_04,neutral
+"When the stars came out, the rooster was resting by the hedge.",1,rooster,farmed,evening_04,neutral
+"When the stars came out, the calf was resting by the hedge.",1,calf,farmed,evening_04,neutral
+"When the stars came out, the lamb was resting by the hedge.",1,lamb,farmed,evening_04,neutral
+"When the stars came out, the piglet was resting by the hedge.",1,piglet,farmed,evening_04,neutral
+"When the stars came out, the ox was resting by the hedge.",1,ox,farmed,evening_04,neutral
+"When the stars came out, the donkey was resting by the hedge.",1,donkey,farmed,evening_04,neutral
+"When the stars came out, the mule was resting by the hedge.",1,mule,farmed,evening_04,neutral
+"When the stars came out, the goose was resting by the hedge.",1,goose,farmed,evening_04,neutral
+"When the stars came out, the sow was resting by the hedge.",1,sow,farmed,evening_04,neutral
+"When the stars came out, the heifer was resting by the hedge.",1,heifer,farmed,evening_04,neutral
+"When the stars came out, the foal was resting by the hedge.",1,foal,farmed,evening_04,neutral
+"When the stars came out, the ram was resting by the hedge.",1,ram,farmed,evening_04,neutral
+"When the stars came out, the rat was resting by the hedge.",0,rat,wild,evening_04,neutral
+"When the stars came out, the boar was resting by the hedge.",0,boar,wild,evening_04,neutral
+"When the stars came out, the buffalo was resting by the hedge.",0,buffalo,wild,evening_04,neutral
+"When the stars came out, the fox was resting by the hedge.",0,fox,wild,evening_04,neutral
+"When the stars came out, the deer was resting by the hedge.",0,deer,wild,evening_04,neutral
+"When the stars came out, the badger was resting by the hedge.",0,badger,wild,evening_04,neutral
+"When the stars came out, the otter was resting by the hedge.",0,otter,wild,evening_04,neutral
+"When the stars came out, the hare was resting by the hedge.",0,hare,wild,evening_04,neutral
+"When the stars came out, the raccoon was resting by the hedge.",0,raccoon,wild,evening_04,neutral
+"When the stars came out, the squirrel was resting by the hedge.",0,squirrel,wild,evening_04,neutral
+"When the stars came out, the weasel was resting by the hedge.",0,weasel,wild,evening_04,neutral
+"When the stars came out, the coyote was resting by the hedge.",0,coyote,wild,evening_04,neutral
+"When the stars came out, the moose was resting by the hedge.",0,moose,wild,evening_04,neutral
+"When the stars came out, the elk was resting by the hedge.",0,elk,wild,evening_04,neutral
+"When the stars came out, the wolf was resting by the hedge.",0,wolf,wild,evening_04,neutral
+"When the stars came out, the hedgehog was resting by the hedge.",0,hedgehog,wild,evening_04,neutral
+"When the stars came out, the possum was resting by the hedge.",0,possum,wild,evening_04,neutral
+"When the stars came out, the jackal was resting by the hedge.",0,jackal,wild,evening_04,neutral
+"When the stars came out, the stoat was resting by the hedge.",0,stoat,wild,evening_04,neutral
+"When the stars came out, the marten was resting by the hedge.",0,marten,wild,evening_04,neutral
+"Every day that week, the pig appeared in the same corner of the field.",1,pig,farmed,routine_01,neutral
+"Every day that week, the cow appeared in the same corner of the field.",1,cow,farmed,routine_01,neutral
+"Every day that week, the chicken appeared in the same corner of the field.",1,chicken,farmed,routine_01,neutral
+"Every day that week, the goat appeared in the same corner of the field.",1,goat,farmed,routine_01,neutral
+"Every day that week, the sheep appeared in the same corner of the field.",1,sheep,farmed,routine_01,neutral
+"Every day that week, the duck appeared in the same corner of the field.",1,duck,farmed,routine_01,neutral
+"Every day that week, the turkey appeared in the same corner of the field.",1,turkey,farmed,routine_01,neutral
+"Every day that week, the hen appeared in the same corner of the field.",1,hen,farmed,routine_01,neutral
+"Every day that week, the rooster appeared in the same corner of the field.",1,rooster,farmed,routine_01,neutral
+"Every day that week, the calf appeared in the same corner of the field.",1,calf,farmed,routine_01,neutral
+"Every day that week, the lamb appeared in the same corner of the field.",1,lamb,farmed,routine_01,neutral
+"Every day that week, the piglet appeared in the same corner of the field.",1,piglet,farmed,routine_01,neutral
+"Every day that week, the ox appeared in the same corner of the field.",1,ox,farmed,routine_01,neutral
+"Every day that week, the donkey appeared in the same corner of the field.",1,donkey,farmed,routine_01,neutral
+"Every day that week, the mule appeared in the same corner of the field.",1,mule,farmed,routine_01,neutral
+"Every day that week, the goose appeared in the same corner of the field.",1,goose,farmed,routine_01,neutral
+"Every day that week, the sow appeared in the same corner of the field.",1,sow,farmed,routine_01,neutral
+"Every day that week, the heifer appeared in the same corner of the field.",1,heifer,farmed,routine_01,neutral
+"Every day that week, the foal appeared in the same corner of the field.",1,foal,farmed,routine_01,neutral
+"Every day that week, the ram appeared in the same corner of the field.",1,ram,farmed,routine_01,neutral
+"Every day that week, the rat appeared in the same corner of the field.",0,rat,wild,routine_01,neutral
+"Every day that week, the boar appeared in the same corner of the field.",0,boar,wild,routine_01,neutral
+"Every day that week, the buffalo appeared in the same corner of the field.",0,buffalo,wild,routine_01,neutral
+"Every day that week, the fox appeared in the same corner of the field.",0,fox,wild,routine_01,neutral
+"Every day that week, the deer appeared in the same corner of the field.",0,deer,wild,routine_01,neutral
+"Every day that week, the badger appeared in the same corner of the field.",0,badger,wild,routine_01,neutral
+"Every day that week, the otter appeared in the same corner of the field.",0,otter,wild,routine_01,neutral
+"Every day that week, the hare appeared in the same corner of the field.",0,hare,wild,routine_01,neutral
+"Every day that week, the raccoon appeared in the same corner of the field.",0,raccoon,wild,routine_01,neutral
+"Every day that week, the squirrel appeared in the same corner of the field.",0,squirrel,wild,routine_01,neutral
+"Every day that week, the weasel appeared in the same corner of the field.",0,weasel,wild,routine_01,neutral
+"Every day that week, the coyote appeared in the same corner of the field.",0,coyote,wild,routine_01,neutral
+"Every day that week, the moose appeared in the same corner of the field.",0,moose,wild,routine_01,neutral
+"Every day that week, the elk appeared in the same corner of the field.",0,elk,wild,routine_01,neutral
+"Every day that week, the wolf appeared in the same corner of the field.",0,wolf,wild,routine_01,neutral
+"Every day that week, the hedgehog appeared in the same corner of the field.",0,hedgehog,wild,routine_01,neutral
+"Every day that week, the possum appeared in the same corner of the field.",0,possum,wild,routine_01,neutral
+"Every day that week, the jackal appeared in the same corner of the field.",0,jackal,wild,routine_01,neutral
+"Every day that week, the stoat appeared in the same corner of the field.",0,stoat,wild,routine_01,neutral
+"Every day that week, the marten appeared in the same corner of the field.",0,marten,wild,routine_01,neutral
+"Like clockwork, the pig arrived at the gate each morning.",1,pig,farmed,routine_02,neutral
+"Like clockwork, the cow arrived at the gate each morning.",1,cow,farmed,routine_02,neutral
+"Like clockwork, the chicken arrived at the gate each morning.",1,chicken,farmed,routine_02,neutral
+"Like clockwork, the goat arrived at the gate each morning.",1,goat,farmed,routine_02,neutral
+"Like clockwork, the sheep arrived at the gate each morning.",1,sheep,farmed,routine_02,neutral
+"Like clockwork, the duck arrived at the gate each morning.",1,duck,farmed,routine_02,neutral
+"Like clockwork, the turkey arrived at the gate each morning.",1,turkey,farmed,routine_02,neutral
+"Like clockwork, the hen arrived at the gate each morning.",1,hen,farmed,routine_02,neutral
+"Like clockwork, the rooster arrived at the gate each morning.",1,rooster,farmed,routine_02,neutral
+"Like clockwork, the calf arrived at the gate each morning.",1,calf,farmed,routine_02,neutral
+"Like clockwork, the lamb arrived at the gate each morning.",1,lamb,farmed,routine_02,neutral
+"Like clockwork, the piglet arrived at the gate each morning.",1,piglet,farmed,routine_02,neutral
+"Like clockwork, the ox arrived at the gate each morning.",1,ox,farmed,routine_02,neutral
+"Like clockwork, the donkey arrived at the gate each morning.",1,donkey,farmed,routine_02,neutral
+"Like clockwork, the mule arrived at the gate each morning.",1,mule,farmed,routine_02,neutral
+"Like clockwork, the goose arrived at the gate each morning.",1,goose,farmed,routine_02,neutral
+"Like clockwork, the sow arrived at the gate each morning.",1,sow,farmed,routine_02,neutral
+"Like clockwork, the heifer arrived at the gate each morning.",1,heifer,farmed,routine_02,neutral
+"Like clockwork, the foal arrived at the gate each morning.",1,foal,farmed,routine_02,neutral
+"Like clockwork, the ram arrived at the gate each morning.",1,ram,farmed,routine_02,neutral
+"Like clockwork, the rat arrived at the gate each morning.",0,rat,wild,routine_02,neutral
+"Like clockwork, the boar arrived at the gate each morning.",0,boar,wild,routine_02,neutral
+"Like clockwork, the buffalo arrived at the gate each morning.",0,buffalo,wild,routine_02,neutral
+"Like clockwork, the fox arrived at the gate each morning.",0,fox,wild,routine_02,neutral
+"Like clockwork, the deer arrived at the gate each morning.",0,deer,wild,routine_02,neutral
+"Like clockwork, the badger arrived at the gate each morning.",0,badger,wild,routine_02,neutral
+"Like clockwork, the otter arrived at the gate each morning.",0,otter,wild,routine_02,neutral
+"Like clockwork, the hare arrived at the gate each morning.",0,hare,wild,routine_02,neutral
+"Like clockwork, the raccoon arrived at the gate each morning.",0,raccoon,wild,routine_02,neutral
+"Like clockwork, the squirrel arrived at the gate each morning.",0,squirrel,wild,routine_02,neutral
+"Like clockwork, the weasel arrived at the gate each morning.",0,weasel,wild,routine_02,neutral
+"Like clockwork, the coyote arrived at the gate each morning.",0,coyote,wild,routine_02,neutral
+"Like clockwork, the moose arrived at the gate each morning.",0,moose,wild,routine_02,neutral
+"Like clockwork, the elk arrived at the gate each morning.",0,elk,wild,routine_02,neutral
+"Like clockwork, the wolf arrived at the gate each morning.",0,wolf,wild,routine_02,neutral
+"Like clockwork, the hedgehog arrived at the gate each morning.",0,hedgehog,wild,routine_02,neutral
+"Like clockwork, the possum arrived at the gate each morning.",0,possum,wild,routine_02,neutral
+"Like clockwork, the jackal arrived at the gate each morning.",0,jackal,wild,routine_02,neutral
+"Like clockwork, the stoat arrived at the gate each morning.",0,stoat,wild,routine_02,neutral
+"Like clockwork, the marten arrived at the gate each morning.",0,marten,wild,routine_02,neutral
+"Most afternoons, the pig could be found near the willow tree.",1,pig,farmed,routine_03,neutral
+"Most afternoons, the cow could be found near the willow tree.",1,cow,farmed,routine_03,neutral
+"Most afternoons, the chicken could be found near the willow tree.",1,chicken,farmed,routine_03,neutral
+"Most afternoons, the goat could be found near the willow tree.",1,goat,farmed,routine_03,neutral
+"Most afternoons, the sheep could be found near the willow tree.",1,sheep,farmed,routine_03,neutral
+"Most afternoons, the duck could be found near the willow tree.",1,duck,farmed,routine_03,neutral
+"Most afternoons, the turkey could be found near the willow tree.",1,turkey,farmed,routine_03,neutral
+"Most afternoons, the hen could be found near the willow tree.",1,hen,farmed,routine_03,neutral
+"Most afternoons, the rooster could be found near the willow tree.",1,rooster,farmed,routine_03,neutral
+"Most afternoons, the calf could be found near the willow tree.",1,calf,farmed,routine_03,neutral
+"Most afternoons, the lamb could be found near the willow tree.",1,lamb,farmed,routine_03,neutral
+"Most afternoons, the piglet could be found near the willow tree.",1,piglet,farmed,routine_03,neutral
+"Most afternoons, the ox could be found near the willow tree.",1,ox,farmed,routine_03,neutral
+"Most afternoons, the donkey could be found near the willow tree.",1,donkey,farmed,routine_03,neutral
+"Most afternoons, the mule could be found near the willow tree.",1,mule,farmed,routine_03,neutral
+"Most afternoons, the goose could be found near the willow tree.",1,goose,farmed,routine_03,neutral
+"Most afternoons, the sow could be found near the willow tree.",1,sow,farmed,routine_03,neutral
+"Most afternoons, the heifer could be found near the willow tree.",1,heifer,farmed,routine_03,neutral
+"Most afternoons, the foal could be found near the willow tree.",1,foal,farmed,routine_03,neutral
+"Most afternoons, the ram could be found near the willow tree.",1,ram,farmed,routine_03,neutral
+"Most afternoons, the rat could be found near the willow tree.",0,rat,wild,routine_03,neutral
+"Most afternoons, the boar could be found near the willow tree.",0,boar,wild,routine_03,neutral
+"Most afternoons, the buffalo could be found near the willow tree.",0,buffalo,wild,routine_03,neutral
+"Most afternoons, the fox could be found near the willow tree.",0,fox,wild,routine_03,neutral
+"Most afternoons, the deer could be found near the willow tree.",0,deer,wild,routine_03,neutral
+"Most afternoons, the badger could be found near the willow tree.",0,badger,wild,routine_03,neutral
+"Most afternoons, the otter could be found near the willow tree.",0,otter,wild,routine_03,neutral
+"Most afternoons, the hare could be found near the willow tree.",0,hare,wild,routine_03,neutral
+"Most afternoons, the raccoon could be found near the willow tree.",0,raccoon,wild,routine_03,neutral
+"Most afternoons, the squirrel could be found near the willow tree.",0,squirrel,wild,routine_03,neutral
+"Most afternoons, the weasel could be found near the willow tree.",0,weasel,wild,routine_03,neutral
+"Most afternoons, the coyote could be found near the willow tree.",0,coyote,wild,routine_03,neutral
+"Most afternoons, the moose could be found near the willow tree.",0,moose,wild,routine_03,neutral
+"Most afternoons, the elk could be found near the willow tree.",0,elk,wild,routine_03,neutral
+"Most afternoons, the wolf could be found near the willow tree.",0,wolf,wild,routine_03,neutral
+"Most afternoons, the hedgehog could be found near the willow tree.",0,hedgehog,wild,routine_03,neutral
+"Most afternoons, the possum could be found near the willow tree.",0,possum,wild,routine_03,neutral
+"Most afternoons, the jackal could be found near the willow tree.",0,jackal,wild,routine_03,neutral
+"Most afternoons, the stoat could be found near the willow tree.",0,stoat,wild,routine_03,neutral
+"Most afternoons, the marten could be found near the willow tree.",0,marten,wild,routine_03,neutral
+"Day after day, the pig followed the same path along the fence.",1,pig,farmed,routine_04,neutral
+"Day after day, the cow followed the same path along the fence.",1,cow,farmed,routine_04,neutral
+"Day after day, the chicken followed the same path along the fence.",1,chicken,farmed,routine_04,neutral
+"Day after day, the goat followed the same path along the fence.",1,goat,farmed,routine_04,neutral
+"Day after day, the sheep followed the same path along the fence.",1,sheep,farmed,routine_04,neutral
+"Day after day, the duck followed the same path along the fence.",1,duck,farmed,routine_04,neutral
+"Day after day, the turkey followed the same path along the fence.",1,turkey,farmed,routine_04,neutral
+"Day after day, the hen followed the same path along the fence.",1,hen,farmed,routine_04,neutral
+"Day after day, the rooster followed the same path along the fence.",1,rooster,farmed,routine_04,neutral
+"Day after day, the calf followed the same path along the fence.",1,calf,farmed,routine_04,neutral
+"Day after day, the lamb followed the same path along the fence.",1,lamb,farmed,routine_04,neutral
+"Day after day, the piglet followed the same path along the fence.",1,piglet,farmed,routine_04,neutral
+"Day after day, the ox followed the same path along the fence.",1,ox,farmed,routine_04,neutral
+"Day after day, the donkey followed the same path along the fence.",1,donkey,farmed,routine_04,neutral
+"Day after day, the mule followed the same path along the fence.",1,mule,farmed,routine_04,neutral
+"Day after day, the goose followed the same path along the fence.",1,goose,farmed,routine_04,neutral
+"Day after day, the sow followed the same path along the fence.",1,sow,farmed,routine_04,neutral
+"Day after day, the heifer followed the same path along the fence.",1,heifer,farmed,routine_04,neutral
+"Day after day, the foal followed the same path along the fence.",1,foal,farmed,routine_04,neutral
+"Day after day, the ram followed the same path along the fence.",1,ram,farmed,routine_04,neutral
+"Day after day, the rat followed the same path along the fence.",0,rat,wild,routine_04,neutral
+"Day after day, the boar followed the same path along the fence.",0,boar,wild,routine_04,neutral
+"Day after day, the buffalo followed the same path along the fence.",0,buffalo,wild,routine_04,neutral
+"Day after day, the fox followed the same path along the fence.",0,fox,wild,routine_04,neutral
+"Day after day, the deer followed the same path along the fence.",0,deer,wild,routine_04,neutral
+"Day after day, the badger followed the same path along the fence.",0,badger,wild,routine_04,neutral
+"Day after day, the otter followed the same path along the fence.",0,otter,wild,routine_04,neutral
+"Day after day, the hare followed the same path along the fence.",0,hare,wild,routine_04,neutral
+"Day after day, the raccoon followed the same path along the fence.",0,raccoon,wild,routine_04,neutral
+"Day after day, the squirrel followed the same path along the fence.",0,squirrel,wild,routine_04,neutral
+"Day after day, the weasel followed the same path along the fence.",0,weasel,wild,routine_04,neutral
+"Day after day, the coyote followed the same path along the fence.",0,coyote,wild,routine_04,neutral
+"Day after day, the moose followed the same path along the fence.",0,moose,wild,routine_04,neutral
+"Day after day, the elk followed the same path along the fence.",0,elk,wild,routine_04,neutral
+"Day after day, the wolf followed the same path along the fence.",0,wolf,wild,routine_04,neutral
+"Day after day, the hedgehog followed the same path along the fence.",0,hedgehog,wild,routine_04,neutral
+"Day after day, the possum followed the same path along the fence.",0,possum,wild,routine_04,neutral
+"Day after day, the jackal followed the same path along the fence.",0,jackal,wild,routine_04,neutral
+"Day after day, the stoat followed the same path along the fence.",0,stoat,wild,routine_04,neutral
+"Day after day, the marten followed the same path along the fence.",0,marten,wild,routine_04,neutral
+"For the village newsletter, a photographer took a picture of the pig by the pond.",1,pig,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the cow by the pond.",1,cow,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the chicken by the pond.",1,chicken,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the goat by the pond.",1,goat,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the sheep by the pond.",1,sheep,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the duck by the pond.",1,duck,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the turkey by the pond.",1,turkey,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the hen by the pond.",1,hen,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the rooster by the pond.",1,rooster,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the calf by the pond.",1,calf,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the lamb by the pond.",1,lamb,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the piglet by the pond.",1,piglet,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the ox by the pond.",1,ox,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the donkey by the pond.",1,donkey,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the mule by the pond.",1,mule,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the goose by the pond.",1,goose,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the sow by the pond.",1,sow,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the heifer by the pond.",1,heifer,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the foal by the pond.",1,foal,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the ram by the pond.",1,ram,farmed,public_01,neutral
+"For the village newsletter, a photographer took a picture of the rat by the pond.",0,rat,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the boar by the pond.",0,boar,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the buffalo by the pond.",0,buffalo,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the fox by the pond.",0,fox,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the deer by the pond.",0,deer,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the badger by the pond.",0,badger,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the otter by the pond.",0,otter,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the hare by the pond.",0,hare,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the raccoon by the pond.",0,raccoon,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the squirrel by the pond.",0,squirrel,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the weasel by the pond.",0,weasel,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the coyote by the pond.",0,coyote,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the moose by the pond.",0,moose,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the elk by the pond.",0,elk,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the wolf by the pond.",0,wolf,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the hedgehog by the pond.",0,hedgehog,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the possum by the pond.",0,possum,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the jackal by the pond.",0,jackal,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the stoat by the pond.",0,stoat,wild,public_01,neutral
+"For the village newsletter, a photographer took a picture of the marten by the pond.",0,marten,wild,public_01,neutral
+"During the harvest fair, the pig drew smiles from the passing crowd.",1,pig,farmed,public_02,neutral
+"During the harvest fair, the cow drew smiles from the passing crowd.",1,cow,farmed,public_02,neutral
+"During the harvest fair, the chicken drew smiles from the passing crowd.",1,chicken,farmed,public_02,neutral
+"During the harvest fair, the goat drew smiles from the passing crowd.",1,goat,farmed,public_02,neutral
+"During the harvest fair, the sheep drew smiles from the passing crowd.",1,sheep,farmed,public_02,neutral
+"During the harvest fair, the duck drew smiles from the passing crowd.",1,duck,farmed,public_02,neutral
+"During the harvest fair, the turkey drew smiles from the passing crowd.",1,turkey,farmed,public_02,neutral
+"During the harvest fair, the hen drew smiles from the passing crowd.",1,hen,farmed,public_02,neutral
+"During the harvest fair, the rooster drew smiles from the passing crowd.",1,rooster,farmed,public_02,neutral
+"During the harvest fair, the calf drew smiles from the passing crowd.",1,calf,farmed,public_02,neutral
+"During the harvest fair, the lamb drew smiles from the passing crowd.",1,lamb,farmed,public_02,neutral
+"During the harvest fair, the piglet drew smiles from the passing crowd.",1,piglet,farmed,public_02,neutral
+"During the harvest fair, the ox drew smiles from the passing crowd.",1,ox,farmed,public_02,neutral
+"During the harvest fair, the donkey drew smiles from the passing crowd.",1,donkey,farmed,public_02,neutral
+"During the harvest fair, the mule drew smiles from the passing crowd.",1,mule,farmed,public_02,neutral
+"During the harvest fair, the goose drew smiles from the passing crowd.",1,goose,farmed,public_02,neutral
+"During the harvest fair, the sow drew smiles from the passing crowd.",1,sow,farmed,public_02,neutral
+"During the harvest fair, the heifer drew smiles from the passing crowd.",1,heifer,farmed,public_02,neutral
+"During the harvest fair, the foal drew smiles from the passing crowd.",1,foal,farmed,public_02,neutral
+"During the harvest fair, the ram drew smiles from the passing crowd.",1,ram,farmed,public_02,neutral
+"During the harvest fair, the rat drew smiles from the passing crowd.",0,rat,wild,public_02,neutral
+"During the harvest fair, the boar drew smiles from the passing crowd.",0,boar,wild,public_02,neutral
+"During the harvest fair, the buffalo drew smiles from the passing crowd.",0,buffalo,wild,public_02,neutral
+"During the harvest fair, the fox drew smiles from the passing crowd.",0,fox,wild,public_02,neutral
+"During the harvest fair, the deer drew smiles from the passing crowd.",0,deer,wild,public_02,neutral
+"During the harvest fair, the badger drew smiles from the passing crowd.",0,badger,wild,public_02,neutral
+"During the harvest fair, the otter drew smiles from the passing crowd.",0,otter,wild,public_02,neutral
+"During the harvest fair, the hare drew smiles from the passing crowd.",0,hare,wild,public_02,neutral
+"During the harvest fair, the raccoon drew smiles from the passing crowd.",0,raccoon,wild,public_02,neutral
+"During the harvest fair, the squirrel drew smiles from the passing crowd.",0,squirrel,wild,public_02,neutral
+"During the harvest fair, the weasel drew smiles from the passing crowd.",0,weasel,wild,public_02,neutral
+"During the harvest fair, the coyote drew smiles from the passing crowd.",0,coyote,wild,public_02,neutral
+"During the harvest fair, the moose drew smiles from the passing crowd.",0,moose,wild,public_02,neutral
+"During the harvest fair, the elk drew smiles from the passing crowd.",0,elk,wild,public_02,neutral
+"During the harvest fair, the wolf drew smiles from the passing crowd.",0,wolf,wild,public_02,neutral
+"During the harvest fair, the hedgehog drew smiles from the passing crowd.",0,hedgehog,wild,public_02,neutral
+"During the harvest fair, the possum drew smiles from the passing crowd.",0,possum,wild,public_02,neutral
+"During the harvest fair, the jackal drew smiles from the passing crowd.",0,jackal,wild,public_02,neutral
+"During the harvest fair, the stoat drew smiles from the passing crowd.",0,stoat,wild,public_02,neutral
+"During the harvest fair, the marten drew smiles from the passing crowd.",0,marten,wild,public_02,neutral
