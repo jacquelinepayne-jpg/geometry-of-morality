@@ -17,14 +17,29 @@ class TruthData:
     def __len__(self):
         return len(self.df)
 
-    def from_datasets(dataset_names, model, layer, noperiod=False, center=True, scale=False, device='cpu'):
+    # center_by : name of a df column (e.g. 'template_id'). If given, the mean activation
+    #     of each group is subtracted instead of the dataset mean. For the animal/human
+    #     data every template appears with every subject, so centering by 'template_id'
+    #     removes the scenario-identity variance (which otherwise dominates PC1/PC2) and
+    #     leaves the subject contrast. Overrides `center`.
+    def from_datasets(dataset_names, model, layer, noperiod=False, center=True, center_by=None, scale=False, device='cpu'):
         dfs = []
         for dataset_name in dataset_names:
             df = pd.read_csv(os.path.join('datasets', f"{dataset_name}.csv"))
 
             # append activations to df
-            acts = collect_acts(dataset_name, model, layer, noperiod=noperiod, center=center, scale=scale, device=device).cpu()
-            try: 
+            acts = collect_acts(dataset_name, model, layer, noperiod=noperiod,
+                                center=center and center_by is None, scale=scale, device=device).cpu()
+            if center_by is not None:
+                if center_by not in df.columns:
+                    raise ValueError(f"Dataset {dataset_name} has no column '{center_by}'")
+                if len(acts) != len(df):
+                    raise ValueError(f"Dataset {dataset_name}: {len(acts)} activations but {len(df)} rows")
+                groups = df[center_by].values
+                for group in pd.unique(groups):
+                    mask = t.from_numpy(groups == group)
+                    acts[mask] = acts[mask] - acts[mask].mean(dim=0)
+            try:
                 df['activation'] = list(acts)
             except:
                 raise ValueError(f"Issue with dataset {dataset_name}")
