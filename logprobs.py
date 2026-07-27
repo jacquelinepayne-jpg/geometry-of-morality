@@ -13,11 +13,11 @@ def compute_logprobs(model, dataset, remote=True):
     all_logprobs = []
     # for each statement, get the logprob of the statement
     for statement in df['statement'].tolist():
-        with model.forward(remote=remote, remote_include_output=remote) as runner:
-            with runner.invoke(statement):
-                logprobs = model.lm_head.output.log_softmax(dim=-1)
-                tokens = runner.batched_input['input_ids'][0][1:]
-                summed = logprobs[0, t.arange(len(tokens)), tokens].sum().save()
+        input_ids = model.tokenizer(statement, return_tensors='pt')['input_ids'][0]
+        tokens = input_ids[1:]
+        with model.trace(statement, remote=remote):
+            logprobs = model.lm_head.output.log_softmax(dim=-1)
+            summed = logprobs[0, t.arange(len(tokens)), tokens].sum().save()
         all_logprobs.append(summed.item())
     
     df['logprob'] = all_logprobs

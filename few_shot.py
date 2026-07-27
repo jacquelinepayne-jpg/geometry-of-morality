@@ -52,37 +52,18 @@ def get_few_shot_accuracy(datasets, model, n_shots=5, batch_size=32, calibrated=
         out['prompt'] = prompt
         out['pos_token'], out['neg_token'], out['suffix'] = pos_token, neg_token, suffix
 
-        # cache activations over the prompt for reuse (zero-shot: no prompt to cache)
-        if n_shots > 0:
-            with model.forward(output_hidden_states=True, remote=remote, remote_include_output=remote) as runner:
-                with runner.invoke(prompt):
-                    pass
-            past_key_values = runner.output['past_key_values']
-        else:
-            past_key_values = None
-        add_special = n_shots == 0  # queries need a BOS token when there is no prompt
-
         # get completions and evaluate accuracy
         true_idx, false_idx = model.tokenizer.encode(f' {pos_token}')[-1], model.tokenizer.encode(f' {neg_token}')[-1]
         diffs = []
         for batch_idx in range(0, len(queries), batch_size):
-            batch = (queries.iloc[batch_idx:batch_idx+batch_size]['statement'] + suffix).tolist()
+            batch = (prompt + queries.iloc[batch_idx:batch_idx+batch_size]['statement'] + suffix).tolist()
 
-            # # prepare past_key_values
-            # pkv_batch = tuple((
-            #     past_key_values[layer][0].expand(len(batch), *past_key_values[layer][0].shape[1:]),
-            #     past_key_values[layer][1].expand(len(batch), *past_key_values[layer][1].shape[1:])
-            # ) for layer in range(len(past_key_values))
-            # )
-
-            batch_lens = [len(model.tokenizer.encode(query, add_special_tokens=add_special)) for query in batch]
-            with model.forward(past_key_values=past_key_values
-            , remote=remote, remote_include_output=False) as runner:
-                with runner.invoke(batch, add_special_tokens=add_special, return_attention_mask=False):
-                    logits = model.lm_head.output
-                    logits = logits[t.arange(len(batch)), t.tensor(batch_lens) - 1, :]
-                    probs = logits.softmax(-1)
-                    diffs.append((probs[:, true_idx] - probs[:, false_idx]).save())
+            batch_lens = [len(model.tokenizer.encode(query)) for query in batch]
+            with model.trace(batch, remote=remote):
+                logits = model.lm_head.output
+                logits = logits[t.arange(len(batch)), t.tensor(batch_lens) - 1, :]
+                probs = logits.softmax(-1)
+                diffs.append((probs[:, true_idx] - probs[:, false_idx]).save())
         diffs = t.cat(diffs)
 
 

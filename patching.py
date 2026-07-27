@@ -41,10 +41,9 @@ def patching_experiment(model_name, continuation_idx=None, device='remote',
     n_toks = sames[::-1].index(False) + 1
 
     true_acts = []
-    with model.forward(remote=remote, remote_include_output=False) as runner:
-        with runner.invoke(true_prompt):
-            for layer in model.model.layers:
-                true_acts.append(layer.output.save())
+    with model.trace(true_prompt, remote=remote):
+        for layer in model.model.layers:
+            true_acts.append(layer.output.save())
 
     if continuation_idx is not None: # if picking up an experiment that failed
         with open('experimental_outputs/patching_results.json', 'r') as f:
@@ -78,12 +77,11 @@ def patching_experiment(model_name, continuation_idx=None, device='remote',
         for layer_idx, layer in enumerate(model.model.layers):
             if logit_diffs[tok_idx - 1][layer_idx] is not None:
                 continue # already computed
-            with model.forward(remote=remote, remote_include_output=False) as runner:
-                with runner.invoke(false_prompt, scan=True) as invoker:
-                    layer.output[0,-tok_idx,:] = true_acts[layer_idx][0,-tok_idx,:]
-                    logits = model.lm_head.output
-                    logit_diff = logits[0, -1, t_tok] - logits[0, -1, f_tok]
-                    logit_diff = logit_diff.save()
+            with model.trace(false_prompt, remote=remote, scan=True):
+                layer.output[0,-tok_idx,:] = true_acts[layer_idx][0,-tok_idx,:]
+                logits = model.lm_head.output
+                logit_diff = logits[0, -1, t_tok] - logits[0, -1, f_tok]
+                logit_diff = logit_diff.save()
             logit_diffs[tok_idx - 1][layer_idx] = logit_diff.item()
             
             outs[continuation_idx] = out
