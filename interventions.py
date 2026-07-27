@@ -10,7 +10,8 @@ import json
 import argparse
 import configparser
 
-def intervention_experiment(model, queries, direction, hidden_states, intervention='none', batch_size=32, remote=True):
+def intervention_experiment(model, queries, direction, hidden_states, intervention='none', batch_size=32, remote=True,
+                            pos_token='TRUE', neg_token='FALSE', suffix='This statement is:'):
     """
     model : an nnsight LanguageModel
     queries : a list of statements to be labeled
@@ -19,14 +20,17 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
     subtract : if True, subtract the direction from the hidden states instead of adding it
     batch_size : batch size for forward passes
     remote : run on the NDIF server?
-    Add the direction to the specified hidden states and return the resulting probability diff P(TRUE) - P(FALSE)
-    and sum P(TRUE) + P(FALSE) averaged over the data
+    pos_token/neg_token : the completion tokens scored (e.g. TRUE/FALSE or YES/NO)
+    suffix : the question appended to each statement by prepare_data; interventions
+        target the statement tokens immediately before it
+    Add the direction to the specified hidden states and return the resulting probability diff P(pos) - P(neg)
+    and sum P(pos) + P(neg) averaged over the data
     """
 
     assert intervention in ['none', 'add', 'subtract']
 
-    true_idx, false_idx = model.tokenizer.encode(' TRUE')[-1], model.tokenizer.encode(' FALSE')[-1]
-    len_suffix = len(model.tokenizer.encode('This statement is:'))
+    true_idx, false_idx = model.tokenizer.encode(f' {pos_token}')[-1], model.tokenizer.encode(f' {neg_token}')[-1]
+    len_suffix = len(model.tokenizer.encode(suffix))
 
     p_diffs = []
     tots = []
@@ -46,7 +50,7 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
 
     return p_diffs.mean().item(), tots.mean().item()
 
-def prepare_data(prompt, dataset, subset='all'):
+def prepare_data(prompt, dataset, subset='all', suffix='This statement is:'):
     """
     prompt : the few shot prompt
     dataset : dataset name
@@ -66,8 +70,8 @@ def prepare_data(prompt, dataset, subset='all'):
     queries = []
     for statement in statements:
         if statement not in prompt:
-            queries.append(prompt + statement + ' This statement is:')
-    
+            queries.append(prompt + statement + ' ' + suffix)
+
     return queries
 
 if __name__ == '__main__':
@@ -80,6 +84,11 @@ if __name__ == '__main__':
     parser.add_argument('--intervention', default='none', type=str)
     parser.add_argument('--subset', default='all', type=str)
     parser.add_argument('--device', default='remote', type=str)
+    parser.add_argument('--pos_token', default='TRUE', type=str, help='completion token whose probability rises with the direction')
+    parser.add_argument('--neg_token', default='FALSE', type=str, help='contrast completion token')
+    parser.add_argument('--suffix', default='This statement is:', type=str, help='question appended to each statement')
+    parser.add_argument('--prompt', default=None, type=str,
+                        help='few-shot prompt to prepend; pass "" for zero-shot. Defaults to the hardcoded sp_en_trans prompts.')
     args = parser.parse_args()
 
     remote = args.device == 'remote'
@@ -131,8 +140,10 @@ if __name__ == '__main__':
     direction = diff * direction
     direction = direction.cpu()
 
-    # set prompt (hardcoded for now)
-    if args.model == 'llama-2-70b' and args.val_dataset == 'sp_en_trans':
+    # set prompt
+    if args.prompt is not None:
+        prompt = args.prompt
+    elif args.model == 'llama-2-70b' and args.val_dataset == 'sp_en_trans':
         prompt = """\
 The Spanish word 'fruta' means 'goat'. This statement is: FALSE
 The Spanish word 'carne' means 'meat'. This statement is: TRUE
@@ -144,14 +155,17 @@ The Spanish word 'escribir' means 'to write'. This statement is: TRUE
 The Spanish word 'gato' means 'cat'. This statement is: TRUE
 The Spanish word 'aire' means 'silver'. This statement is: FALSE
 """
-    
+    else:
+        prompt = ''
+
     # prepare data
-    queries = prepare_data(prompt, args.val_dataset, subset=args.subset)
+    queries = prepare_data(prompt, args.val_dataset, subset=args.subset, suffix=args.suffix)
 
     print('running intervention experiment...')
     # do intervention experiment
     p_diff, tot = intervention_experiment(model, queries, direction, hidden_states,
-                                          intervention=args.intervention, batch_size=args.batch_size, remote=remote)
+                                          intervention=args.intervention, batch_size=args.batch_size, remote=remote,
+                                          pos_token=args.pos_token, neg_token=args.neg_token, suffix=args.suffix)
 
     # save results
     out = {
@@ -165,6 +179,9 @@ The Spanish word 'aire' means 'silver'. This statement is: FALSE
         'intervention' : args.intervention,
         'subset' : args.subset,
         'hidden_states' : hidden_states,
+        'pos_token' : args.pos_token,
+        'neg_token' : args.neg_token,
+        'suffix' : args.suffix,
     }
 
     with open('experimental_outputs/label_change_intervention_results.json', 'r') as f:

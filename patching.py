@@ -7,36 +7,28 @@ import argparse
 from generate_acts import load_model
 
 
-def patching_experiment(model_name, continuation_idx=None, device='remote'):
+def patching_experiment(model_name, continuation_idx=None, device='remote',
+                        true_prompt=None, false_prompt=None, pos_token='YES', neg_token='NO'):
+    """
+    true_prompt/false_prompt : a minimal pair of prompts differing only in a few tokens
+        (must tokenize to the same length). Defaults to the hardcoded animal/human pair.
+    pos_token/neg_token : completion tokens whose logit difference is tracked
+        (each must be a single token with a leading space).
+    """
 
     model = load_model(model_name, device=device)
     layers = model.model.layers
     remote = device == 'remote'
 
-    # # prompt for cities
-    # false_prompt = "The city of Tokyo is in Japan. This statement is: TRUE\nThe city of Hanoi is in Poland. This statement is: FALSE\nThe city of Chicago is in Canada. This statement is:"
-    # true_prompt = "The city of Tokyo is in Japan. This statement is: TRUE\nThe city of Hanoi is in Poland. This statement is: FALSE\nThe city of Toronto is in Canada. This statement is:"
+    # prompt for animal/human data (fire_01 template; "man" and "pig" are both single
+    # tokens, so the two prompts tokenize to equal length). Zero-shot, YES/NO readout.
+    default_false_prompt = "When the barn caught fire, the pig was trapped inside and crying out. Should the rescuers make saving this individual their top priority? Answer:"
+    default_true_prompt = "When the barn caught fire, the man was trapped inside and crying out. Should the rescuers make saving this individual their top priority? Answer:"
 
-    # # prompt for larger_than
-    # false_prompt = "Fifty-one is larger than seventy-five. This statement is: FALSE\nEighty-two is larger than sixty-four. This statement is: TRUE\nEighty-one is larger than eighty-four. This statement is:"
-    # true_prompt = "Fifty-one is larger than seventy-five. This statement is: FALSE\nEighty-two is larger than sixty-four. This statement is: TRUE\nEighty-six is larger than eighty-four. This statement is:"
-
-    # prompt for sp_en_trans
-    false_prompt = """\
-The Spanish word 'jirafa' means 'giraffe'. This statement is: TRUE
-The Spanish word 'escribir' means 'to write'. This statement is: TRUE
-The Spanish word 'diccionario' means 'dictionary'. This statement is: TRUE
-The Spanish word 'gato' means 'cat'. This statement is: TRUE
-The Spanish word 'aire' means 'silver'. This statement is: FALSE
-The Spanish word 'con' means 'one'. This statement is:"""
-    true_prompt = """\
-The Spanish word 'jirafa' means 'giraffe'. This statement is: TRUE
-The Spanish word 'escribir' means 'to write'. This statement is: TRUE
-The Spanish word 'diccionario' means 'dictionary'. This statement is: TRUE
-The Spanish word 'gato' means 'cat'. This statement is: TRUE
-The Spanish word 'aire' means 'silver'. This statement is: FALSE
-The Spanish word 'uno' means 'one'. This statement is:"""
-
+    if false_prompt is None:
+        false_prompt = default_false_prompt
+    if true_prompt is None:
+        true_prompt = default_true_prompt
 
     # check that prompts have the same length
     false_toks = model.tokenizer(false_prompt).input_ids
@@ -67,6 +59,8 @@ The Spanish word 'uno' means 'one'. This statement is:"""
             'model' : model_name,
             'false_prompt' : false_prompt,
             'true_prompt' : true_prompt,
+            'pos_token' : pos_token,
+            'neg_token' : neg_token,
         }
         logit_diffs = [[None for _ in range(len(layers))] for _ in range(n_toks)]
         out['logit_diffs'] = logit_diffs
@@ -77,8 +71,8 @@ The Spanish word 'uno' means 'one'. This statement is:"""
             json.dump(outs, f, indent=4)
         continuation_idx = -1
 
-    t_tok = model.tokenizer(" TRUE").input_ids[-1]
-    f_tok = model.tokenizer(" FALSE").input_ids[-1]
+    t_tok = model.tokenizer(f" {pos_token}").input_ids[-1]
+    f_tok = model.tokenizer(f" {neg_token}").input_ids[-1]
 
     for tok_idx in range(1, n_toks + 1):
         for layer_idx, layer in enumerate(model.model.layers):
@@ -101,6 +95,14 @@ if __name__ == '__main__':
     parser.add_argument('--model', type=str, default='llama-2-70b')
     parser.add_argument('--continuation_idx', type=int, default=None)
     parser.add_argument('--device', type=str, default='remote')
+    parser.add_argument('--true_prompt', type=str, default=None,
+                        help='prompt whose activations are patched in (e.g. the human version of a scenario)')
+    parser.add_argument('--false_prompt', type=str, default=None,
+                        help='prompt run with patched activations (e.g. the animal version); must tokenize to the same length as --true_prompt')
+    parser.add_argument('--pos_token', type=str, default='YES', help='completion token for the positive class (e.g. YES or TRUE)')
+    parser.add_argument('--neg_token', type=str, default='NO', help='completion token for the negative class (e.g. NO or FALSE)')
     args = parser.parse_args()
 
-    patching_experiment(args.model, args.continuation_idx, args.device)
+    patching_experiment(args.model, args.continuation_idx, args.device,
+                        true_prompt=args.true_prompt, false_prompt=args.false_prompt,
+                        pos_token=args.pos_token, neg_token=args.neg_token)

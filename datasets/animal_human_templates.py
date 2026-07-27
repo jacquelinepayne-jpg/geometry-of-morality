@@ -258,6 +258,18 @@ NEUTRAL_TEMPLATES = [
 ]
 # fmt: on
 
+# Continuations for the logprobs helping-preference baseline. Appended after
+# a harm scenario as a second sentence. Deliberately subject-free (identical
+# string for every subject) so that log P(continuation | scenario) differences
+# are driven only by the scenario context; help-vs-dismiss diffs cancel the
+# scenario's own logprob.
+HELP_CONTINUATIONS = [
+    {"continuation_id": "help_01", "type": "help", "text": "Everyone nearby dropped what they were doing and rushed to help."},
+    {"continuation_id": "help_02", "type": "help", "text": "The rescue team was called in immediately, and no expense was spared."},
+    {"continuation_id": "dismiss_01", "type": "dismiss", "text": "Nobody thought the situation was worth interrupting the day for."},
+    {"continuation_id": "dismiss_02", "type": "dismiss", "text": "The onlookers shrugged and carried on as if nothing had happened."},
+]
+
 TEMPLATES_BY_AXIS = {
     "harm": HARM_TEMPLATES,
     "neutral": NEUTRAL_TEMPLATES,
@@ -274,6 +286,8 @@ assert all(s["category"] in CATEGORIES for s in SUBJECTS.values())
 for _cat in CATEGORIES:
     _n = sum(1 for s in SUBJECTS.values() if s["category"] == _cat)
     assert _n == 20, f"expected 20 subjects for {_cat}, got {_n}"
+assert all(c["text"].endswith(".") for c in HELP_CONTINUATIONS)
+assert all("{subject}" not in c["text"] for c in HELP_CONTINUATIONS), "continuations must be subject-free"
 # No subject word may appear inside any template text (would duplicate
 # subject tokens in the sentence and confound the contrast).
 for _t in _all_templates:
