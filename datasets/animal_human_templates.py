@@ -1,7 +1,7 @@
 """Source of truth for the animal-vs-human concept datasets.
 
-100 scenario templates (60 harm/suffering + 40 neutral) x 80 subjects
-(20 per category) = 8,000 sentences.
+100 scenario templates (60 harm/suffering + 40 neutral) x 160 subjects
+(40 per category) = 16,000 sentences.
 
 Authoring constraints:
 - Exactly one {subject} slot per template, never sentence-initial (keeps the
@@ -16,13 +16,17 @@ Authoring constraints:
 - All templates end with a period (the GoT --noperiod flag strips the last
   character).
 
-20 subjects per category so probes can be evaluated on held-out subject
+- No subject word may be ambiguous across categories: no dog breeds that are
+  also people ("boxer", "setter", "pointer"), no "kid" for a young goat, and
+  no word containing another subject word ("sheepdog", "guinea pig").
+
+40 subjects per category so probes can be evaluated on held-out subject
 words, ruling out token-identity memorization.
 """
 
 # subject key -> {phrase, category}.
 SUBJECTS = {
-    # --- human (20) ---
+    # --- human (40) ---
     "man": {"phrase": "the man", "category": "human"},
     "woman": {"phrase": "the woman", "category": "human"},
     "child": {"phrase": "the child", "category": "human"},
@@ -43,7 +47,27 @@ SUBJECTS = {
     "grandmother": {"phrase": "the grandmother", "category": "human"},
     "grandfather": {"phrase": "the grandfather", "category": "human"},
     "worker": {"phrase": "the worker", "category": "human"},
-    # --- companion (20) ---
+    "baker": {"phrase": "the baker", "category": "human"},
+    "tailor": {"phrase": "the tailor", "category": "human"},
+    "plumber": {"phrase": "the plumber", "category": "human"},
+    "sailor": {"phrase": "the sailor", "category": "human"},
+    "painter": {"phrase": "the painter", "category": "human"},
+    "banker": {"phrase": "the banker", "category": "human"},
+    "lawyer": {"phrase": "the lawyer", "category": "human"},
+    "priest": {"phrase": "the priest", "category": "human"},
+    "mayor": {"phrase": "the mayor", "category": "human"},
+    "clerk": {"phrase": "the clerk", "category": "human"},
+    "chef": {"phrase": "the chef", "category": "human"},
+    "pilot": {"phrase": "the pilot", "category": "human"},
+    "miner": {"phrase": "the miner", "category": "human"},
+    "mason": {"phrase": "the mason", "category": "human"},
+    "traveler": {"phrase": "the traveler", "category": "human"},
+    "stranger": {"phrase": "the stranger", "category": "human"},
+    "infant": {"phrase": "the infant", "category": "human"},
+    "widow": {"phrase": "the widow", "category": "human"},
+    "uncle": {"phrase": "the uncle", "category": "human"},
+    "aunt": {"phrase": "the aunt", "category": "human"},
+    # --- companion (40) ---
     "dog": {"phrase": "the dog", "category": "companion"},
     "cat": {"phrase": "the cat", "category": "companion"},
     "rabbit": {"phrase": "the rabbit", "category": "companion"},
@@ -64,7 +88,27 @@ SUBJECTS = {
     "gerbil": {"phrase": "the gerbil", "category": "companion"},
     "dalmatian": {"phrase": "the dalmatian", "category": "companion"},
     "greyhound": {"phrase": "the greyhound", "category": "companion"},
-    # --- farmed (20) ---
+    "mastiff": {"phrase": "the mastiff", "category": "companion"},
+    "corgi": {"phrase": "the corgi", "category": "companion"},
+    "dachshund": {"phrase": "the dachshund", "category": "companion"},
+    "chihuahua": {"phrase": "the chihuahua", "category": "companion"},
+    "husky": {"phrase": "the husky", "category": "companion"},
+    "rottweiler": {"phrase": "the rottweiler", "category": "companion"},
+    "papillon": {"phrase": "the papillon", "category": "companion"},
+    "schnauzer": {"phrase": "the schnauzer", "category": "companion"},
+    "whippet": {"phrase": "the whippet", "category": "companion"},
+    "pomeranian": {"phrase": "the pomeranian", "category": "companion"},
+    "akita": {"phrase": "the akita", "category": "companion"},
+    "samoyed": {"phrase": "the samoyed", "category": "companion"},
+    "pekingese": {"phrase": "the pekingese", "category": "companion"},
+    "lurcher": {"phrase": "the lurcher", "category": "companion"},
+    "hound": {"phrase": "the hound", "category": "companion"},
+    "mutt": {"phrase": "the mutt", "category": "companion"},
+    "tabby": {"phrase": "the tabby", "category": "companion"},
+    "lapdog": {"phrase": "the lapdog", "category": "companion"},
+    "kitty": {"phrase": "the kitty", "category": "companion"},
+    "bunny": {"phrase": "the bunny", "category": "companion"},
+    # --- farmed (40) ---
     "pig": {"phrase": "the pig", "category": "farmed"},
     "cow": {"phrase": "the cow", "category": "farmed"},
     "chicken": {"phrase": "the chicken", "category": "farmed"},
@@ -85,7 +129,27 @@ SUBJECTS = {
     "heifer": {"phrase": "the heifer", "category": "farmed"},
     "foal": {"phrase": "the foal", "category": "farmed"},
     "ram": {"phrase": "the ram", "category": "farmed"},
-    # --- wild (20) ---
+    "capon": {"phrase": "the capon", "category": "farmed"},
+    "steer": {"phrase": "the steer", "category": "farmed"},
+    "bullock": {"phrase": "the bullock", "category": "farmed"},
+    "ewe": {"phrase": "the ewe", "category": "farmed"},
+    "wether": {"phrase": "the wether", "category": "farmed"},
+    "gander": {"phrase": "the gander", "category": "farmed"},
+    "drake": {"phrase": "the drake", "category": "farmed"},
+    "gosling": {"phrase": "the gosling", "category": "farmed"},
+    "duckling": {"phrase": "the duckling", "category": "farmed"},
+    "chick": {"phrase": "the chick", "category": "farmed"},
+    "cockerel": {"phrase": "the cockerel", "category": "farmed"},
+    "pullet": {"phrase": "the pullet", "category": "farmed"},
+    "yearling": {"phrase": "the yearling", "category": "farmed"},
+    "shoat": {"phrase": "the shoat", "category": "farmed"},
+    "gilt": {"phrase": "the gilt", "category": "farmed"},
+    "pony": {"phrase": "the pony", "category": "farmed"},
+    "mare": {"phrase": "the mare", "category": "farmed"},
+    "colt": {"phrase": "the colt", "category": "farmed"},
+    "alpaca": {"phrase": "the alpaca", "category": "farmed"},
+    "stallion": {"phrase": "the stallion", "category": "farmed"},
+    # --- wild (40) ---
     "rat": {"phrase": "the rat", "category": "wild"},
     "boar": {"phrase": "the boar", "category": "wild"},
     "buffalo": {"phrase": "the buffalo", "category": "wild"},
@@ -106,6 +170,26 @@ SUBJECTS = {
     "jackal": {"phrase": "the jackal", "category": "wild"},
     "stoat": {"phrase": "the stoat", "category": "wild"},
     "marten": {"phrase": "the marten", "category": "wild"},
+    "bear": {"phrase": "the bear", "category": "wild"},
+    "lynx": {"phrase": "the lynx", "category": "wild"},
+    "bobcat": {"phrase": "the bobcat", "category": "wild"},
+    "marmot": {"phrase": "the marmot", "category": "wild"},
+    "mink": {"phrase": "the mink", "category": "wild"},
+    "mole": {"phrase": "the mole", "category": "wild"},
+    "vole": {"phrase": "the vole", "category": "wild"},
+    "shrew": {"phrase": "the shrew", "category": "wild"},
+    "porcupine": {"phrase": "the porcupine", "category": "wild"},
+    "skunk": {"phrase": "the skunk", "category": "wild"},
+    "chipmunk": {"phrase": "the chipmunk", "category": "wild"},
+    "beaver": {"phrase": "the beaver", "category": "wild"},
+    "bison": {"phrase": "the bison", "category": "wild"},
+    "antelope": {"phrase": "the antelope", "category": "wild"},
+    "dingo": {"phrase": "the dingo", "category": "wild"},
+    "cougar": {"phrase": "the cougar", "category": "wild"},
+    "wolverine": {"phrase": "the wolverine", "category": "wild"},
+    "muskrat": {"phrase": "the muskrat", "category": "wild"},
+    "lemming": {"phrase": "the lemming", "category": "wild"},
+    "fawn": {"phrase": "the fawn", "category": "wild"},
 }
 
 CATEGORIES = ("human", "companion", "farmed", "wild")
@@ -273,7 +357,7 @@ assert all(t["text"].endswith(".") for t in _all_templates), "all templates must
 assert all(s["category"] in CATEGORIES for s in SUBJECTS.values())
 for _cat in CATEGORIES:
     _n = sum(1 for s in SUBJECTS.values() if s["category"] == _cat)
-    assert _n == 20, f"expected 20 subjects for {_cat}, got {_n}"
+    assert _n == 40, f"expected 40 subjects for {_cat}, got {_n}"
 # No subject word may appear inside any template text (would duplicate
 # subject tokens in the sentence and confound the contrast).
 for _t in _all_templates:
