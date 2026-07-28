@@ -4,7 +4,7 @@ import plotly.express as px
 import torch as t
 import json
 import argparse
-from generate_acts import load_model
+from generate_acts import load_model, tracer_kwargs
 
 
 def patching_experiment(model_name, continuation_idx=None, device='remote'):
@@ -13,60 +13,51 @@ def patching_experiment(model_name, continuation_idx=None, device='remote'):
     layers = model.model.layers
     remote = device == 'remote'
 
-    # # prompt for cities
-    # false_prompt = "The city of Tokyo is in Japan. This statement is: TRUE\nThe city of Hanoi is in Poland. This statement is: FALSE\nThe city of Chicago is in Canada. This statement is:"
-    # true_prompt = "The city of Tokyo is in Japan. This statement is: TRUE\nThe city of Hanoi is in Poland. This statement is: FALSE\nThe city of Toronto is in Canada. This statement is:"
-
-    # # prompt for larger_than
-    # false_prompt = "Fifty-one is larger than seventy-five. This statement is: FALSE\nEighty-two is larger than sixty-four. This statement is: TRUE\nEighty-one is larger than eighty-four. This statement is:"
-    # true_prompt = "Fifty-one is larger than seventy-five. This statement is: FALSE\nEighty-two is larger than sixty-four. This statement is: TRUE\nEighty-six is larger than eighty-four. This statement is:"
-
-    # prompt for sp_en_trans
-    false_prompt = """\
-The Spanish word 'jirafa' means 'giraffe'. This statement is: TRUE
-The Spanish word 'escribir' means 'to write'. This statement is: TRUE
-The Spanish word 'diccionario' means 'dictionary'. This statement is: TRUE
-The Spanish word 'gato' means 'cat'. This statement is: TRUE
-The Spanish word 'aire' means 'silver'. This statement is: FALSE
-The Spanish word 'con' means 'one'. This statement is:"""
-    true_prompt = """\
-The Spanish word 'jirafa' means 'giraffe'. This statement is: TRUE
-The Spanish word 'escribir' means 'to write'. This statement is: TRUE
-The Spanish word 'diccionario' means 'dictionary'. This statement is: TRUE
-The Spanish word 'gato' means 'cat'. This statement is: TRUE
-The Spanish word 'aire' means 'silver'. This statement is: FALSE
-The Spanish word 'uno' means 'one'. This statement is:"""
-
+    # prompts for human_farmed_harm / human_farmed_neutral: same templates in both
+    # prompts (two harm, two neutral, harm query), so the only thing that varies is
+    # whether every subject is an animal or a human. All subjects are single tokens,
+    # which keeps the two prompts aligned token for token.
+    animal_prompt = """\
+When the barn caught fire, the sheep was trapped inside and crying out. The subject is: ANIMAL.
+In the early morning light, the hen wandered slowly across the meadow. The subject is: ANIMAL.
+For three days, the ram has been too weak from the fever to move. The subject is: ANIMAL.
+After the long walk, the ox rested calmly by the gate. The subject is: ANIMAL.
+After the dam broke, the cow was caught in the violent surge. The subject is:"""
+    human_prompt = """\
+When the barn caught fire, the man was trapped inside and crying out. The subject is: HUMAN.
+In the early morning light, the woman wandered slowly across the meadow. The subject is: HUMAN.
+For three days, the child has been too weak from the fever to move. The subject is: HUMAN.
+After the long walk, the girl rested calmly by the gate. The subject is: HUMAN.
+After the dam broke, the doctor was caught in the violent surge. The subject is:"""
 
     # check that prompts have the same length
-    false_toks = model.tokenizer(false_prompt).input_ids
-    true_toks = model.tokenizer(true_prompt).input_ids
-    if len(false_toks) != len(true_toks):
-        raise ValueError(f"False prompt has length {len(false_toks)} but true prompt has length {len(true_toks)}")
+    animal_toks = model.tokenizer(animal_prompt).input_ids
+    human_toks = model.tokenizer(human_prompt).input_ids
+    if len(animal_toks) != len(human_toks):
+        raise ValueError(f"Animal prompt has length {len(animal_toks)} but human prompt has length {len(human_toks)}")
 
     # find number of tokens after the change
-    sames = [false_tok == true_tok for false_tok, true_tok in zip(false_toks, true_toks)]
+    sames = [animal_tok == human_tok for animal_tok, human_tok in zip(animal_toks, human_toks)]
     n_toks = sames[::-1].index(False) + 1
 
-    true_acts = []
-    with model.forward(remote=remote, remote_include_output=False) as runner:
-        with runner.invoke(true_prompt):
-            for layer in model.model.layers:
-                true_acts.append(layer.output.save())
+    human_acts = []
+    with model.trace(human_prompt, remote=remote, **tracer_kwargs):
+        for layer in model.model.layers:
+            human_acts.append(layer.output.save())
 
     if continuation_idx is not None: # if picking up an experiment that failed
         with open('experimental_outputs/patching_results.json', 'r') as f:
             outs = json.load(f)
         out = outs[continuation_idx]
         assert out['model'] == model_name
-        assert out['false_prompt'] == false_prompt
-        assert out['true_prompt'] == true_prompt
+        assert out['animal_prompt'] == animal_prompt
+        assert out['human_prompt'] == human_prompt
         logit_diffs = out['logit_diffs']
     else:
         out = {
             'model' : model_name,
-            'false_prompt' : false_prompt,
-            'true_prompt' : true_prompt,
+            'animal_prompt' : animal_prompt,
+            'human_prompt' : human_prompt,
         }
         logit_diffs = [[None for _ in range(len(layers))] for _ in range(n_toks)]
         out['logit_diffs'] = logit_diffs
@@ -77,19 +68,18 @@ The Spanish word 'uno' means 'one'. This statement is:"""
             json.dump(outs, f, indent=4)
         continuation_idx = -1
 
-    t_tok = model.tokenizer(" TRUE").input_ids[-1]
-    f_tok = model.tokenizer(" FALSE").input_ids[-1]
+    h_tok = model.tokenizer(" HUMAN").input_ids[-1]
+    a_tok = model.tokenizer(" ANIMAL").input_ids[-1]
 
     for tok_idx in range(1, n_toks + 1):
         for layer_idx, layer in enumerate(model.model.layers):
             if logit_diffs[tok_idx - 1][layer_idx] is not None:
                 continue # already computed
-            with model.forward(remote=remote, remote_include_output=False) as runner:
-                with runner.invoke(false_prompt, scan=True) as invoker:
-                    layer.output[0,-tok_idx,:] = true_acts[layer_idx][0,-tok_idx,:]
-                    logits = model.lm_head.output
-                    logit_diff = logits[0, -1, t_tok] - logits[0, -1, f_tok]
-                    logit_diff = logit_diff.save()
+            with model.trace(animal_prompt, remote=remote, **tracer_kwargs):
+                layer.output[0,-tok_idx,:] = human_acts[layer_idx][0,-tok_idx,:]
+                logits = model.lm_head.output
+                logit_diff = logits[0, -1, h_tok] - logits[0, -1, a_tok]
+                logit_diff = logit_diff.save()
             logit_diffs[tok_idx - 1][layer_idx] = logit_diff.item()
             
             outs[continuation_idx] = out

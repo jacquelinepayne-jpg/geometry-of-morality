@@ -3,7 +3,7 @@ import pandas as pd
 import torch as t
 import argparse
 import os
-from generate_acts import load_model
+from generate_acts import load_model, tracer_kwargs
 
 
 def compute_logprobs(model, dataset, remote=True):
@@ -13,11 +13,11 @@ def compute_logprobs(model, dataset, remote=True):
     all_logprobs = []
     # for each statement, get the logprob of the statement
     for statement in df['statement'].tolist():
-        with model.forward(remote=remote, remote_include_output=remote) as runner:
-            with runner.invoke(statement):
-                logprobs = model.lm_head.output.log_softmax(dim=-1)
-                tokens = runner.batched_input['input_ids'][0][1:]
-                summed = logprobs[0, t.arange(len(tokens)), tokens].sum().save()
+        # tokens to score: everything after the BOS token
+        tokens = model.tokenizer(statement).input_ids[1:]
+        with model.trace(statement, remote=remote, **tracer_kwargs):
+            logprobs = model.lm_head.output.log_softmax(dim=-1)
+            summed = logprobs[0, t.arange(len(tokens)), tokens].sum().save()
         all_logprobs.append(summed.item())
     
     df['logprob'] = all_logprobs

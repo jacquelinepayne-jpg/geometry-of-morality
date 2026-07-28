@@ -1,7 +1,7 @@
 import torch as t
 import pandas as pd
 import os
-from generate_acts import load_model
+from generate_acts import load_model, tracer_kwargs
 from tqdm import tqdm
 import argparse
 import json
@@ -46,10 +46,8 @@ def get_few_shot_accuracy(datasets, model, n_shots=5, batch_size=32, calibrated=
         out['prompt'] = prompt
 
         # cache activations over the prompt for reuse
-        with model.forward(output_hidden_states=True, remote=remote, remote_include_output=remote) as runner:
-            with runner.invoke(prompt):
-                pass
-        past_key_values = runner.output['past_key_values']
+        with model.trace(prompt, use_cache=True, remote=remote, **tracer_kwargs):
+            past_key_values = model.output.past_key_values.save()
 
         # get completions and evaluate accuracy
         true_idx, false_idx = model.tokenizer.encode(' TRUE')[-1], model.tokenizer.encode(' FALSE')[-1]
@@ -65,13 +63,17 @@ def get_few_shot_accuracy(datasets, model, n_shots=5, batch_size=32, calibrated=
             # )
 
             batch_lens = [len(model.tokenizer.encode(query, add_special_tokens=False)) for query in batch]
-            with model.forward(past_key_values=past_key_values
-            , remote=remote, remote_include_output=False) as runner:
-                with runner.invoke(batch, add_special_tokens=False, return_attention_mask=False):
-                    logits = model.lm_head.output
-                    logits = logits[t.arange(len(batch)), t.tensor(batch_lens) - 1, :]
-                    probs = logits.softmax(-1)
-                    diffs.append((probs[:, true_idx] - probs[:, false_idx]).save())
+            with model.trace(
+                batch,
+                past_key_values=past_key_values,
+                remote=remote,
+                invoker_args={'add_special_tokens': False, 'return_attention_mask': False},
+                **tracer_kwargs,
+            ):
+                logits = model.lm_head.output
+                logits = logits[t.arange(len(batch)), t.tensor(batch_lens) - 1, :]
+                probs = logits.softmax(-1)
+                diffs.append((probs[:, true_idx] - probs[:, false_idx]).save())
         diffs = t.cat(diffs)
 
 

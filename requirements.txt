@@ -1,6 +1,6 @@
 torch
 transformers==4.57.6
-nnsight
+nnsight==0.7.0
 sentencepiece
 pandas
 plotly
