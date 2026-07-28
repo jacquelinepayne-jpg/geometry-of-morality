@@ -16,16 +16,13 @@ if [[ $# -lt 1 ]]; then
     exit 1
 fi
 
-git clone https://github.com/jacquelinepayne-jpg/geometry-of-morality.git /workspace/geometry-of-morality
-
-python3 -m venv /venv/main
-/venv/main/bin/pip install -r /workspace/geometry-of-morality/requirements.txt
+pip install -r /workspace/geometry-of-morality/requirements.txt
 
 echo "export HF_HOME=/workspace/.hf_home" >> ~/.bashrc
 export HF_HOME=/workspace/.hf_home
 
 for repo in "$@"; do
-    /venv/main/bin/huggingface-cli download "$repo"
+    huggingface-cli download "$repo"
 done
 
 echo "Done. Run: python generate_acts.py --model <model> --layers <layers> --datasets <datasets> --device cuda:0. in /workspace/geometry-of-morality to generate acts."

@@ -5,4 +5,5 @@ sentencepiece
 pandas
 plotly
 nbformat
-tqdmmatplotlib
+tqdm
+matplotlib

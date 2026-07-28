@@ -37,4 +37,6 @@ if __name__ == "__main__":
 
     df = compute_logprobs(model, args.dataset, remote=remote)
 
-    df.to_csv(f'experimental_outputs/logprobs/{args.dataset}.csv')
+    out_path = os.path.join('experimental_outputs', 'logprobs', f'{args.dataset}.csv')
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    df.to_csv(out_path)

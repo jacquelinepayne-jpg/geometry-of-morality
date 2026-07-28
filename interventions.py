@@ -76,7 +76,9 @@ def prepare_data(prompt, dataset, subset='all', suffix='This statement is:'):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', default='llama-2-70b')
-    parser.add_argument('--probe', default='LRProbe')
+    parser.add_argument('--probe', default='LRProbe',
+                        choices=['LRProbe', 'MMProbe', 'CCSProbe', 'random'],
+                        help="'random' is the norm-matched arbitrary-direction control")
     parser.add_argument('--train_datasets', nargs='+', default=['cities', 'neg_cities'], type=str)
     parser.add_argument('--val_dataset', default = 'sp_en_trans', type=str)
     parser.add_argument('--batch_size', default=32, type=int)
@@ -112,9 +114,11 @@ if __name__ == '__main__':
             hidden_states.append((layer, 0))
     
     print('training probe...')
-    # get direction along which to intervene
-    ProbeClass = eval(args.probe)
-    if ProbeClass == LRProbe or ProbeClass == MMProbe or ProbeClass == 'random':
+    # get direction along which to intervene. 'random' is the norm-matched
+    # arbitrary-direction control: same pipeline, direction replaced by noise, so a
+    # behavioural shift here means the intervention magnitude alone is doing the work.
+    ProbeClass = 'random' if args.probe == 'random' else eval(args.probe)
+    if ProbeClass in (LRProbe, MMProbe, 'random'):
         acts, labels = [], []
         for dataset in args.train_datasets:
             acts.append(collect_acts(dataset, args.model, end_layer, noperiod=noperiod).to('cuda:0'))
@@ -171,7 +175,7 @@ The Spanish word 'aire' means 'silver'. This statement is: FALSE
         'model' : args.model,
         'train_datasets' : args.train_datasets,
         'val_dataset' : args.val_dataset,
-        'probe class' : ProbeClass.__name__,
+        'probe class' : 'random' if ProbeClass == 'random' else ProbeClass.__name__,
         'prompt' : prompt,
         'p_diff' : p_diff,
         'tot' : tot,

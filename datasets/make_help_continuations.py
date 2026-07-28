@@ -22,12 +22,13 @@ from animal_human_templates import HARM_TEMPLATES, HELP_CONTINUATIONS, SUBJECTS
 
 OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# 3 subjects per category (the original 12) for the cheap pilot run.
+# 3 subjects per category for the cheap pilot run. (rabbit / boar / buffalo
+# were dropped from SUBJECTS as cross-category ambiguous.)
 PILOT_SUBJECTS = [
     "man", "woman", "child",
-    "dog", "cat", "rabbit",
+    "dog", "cat", "hamster",
     "pig", "cow", "chicken",
-    "rat", "boar", "buffalo",
+    "rat", "fox", "deer",
 ]
 
 if __name__ == "__main__":

@@ -20,8 +20,11 @@ def patching_experiment(model_name, continuation_idx=None, device='remote',
     layers = model.model.layers
     remote = device == 'remote'
 
-    # prompt for animal/human data (fire_01 template; "man" and "pig" are both single
-    # tokens, so the two prompts tokenize to equal length). Zero-shot, YES/NO readout.
+    # prompt for animal/human data (the fire_01 template with only the subject noun
+    # swapped; "man" and "cow" are both single tokens, so the two prompts tokenize to
+    # equal length, which patching requires). Zero-shot, YES/NO readout.
+    # Pass --true_prompt/--false_prompt to patch a different template or subject pair;
+    # equal token length is checked below, so not every subject pair will work.
     default_false_prompt = "When the barn caught fire, the cow was trapped inside and crying out. Should the rescuers make saving this individual their top priority? Answer:"
     default_true_prompt = "When the barn caught fire, the man was trapped inside and crying out. Should the rescuers make saving this individual their top priority? Answer:"
 
