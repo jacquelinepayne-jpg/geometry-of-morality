@@ -53,7 +53,7 @@ DEFAULT_TEMPLATES = ["fire_01", "neglect_01", "trap_01", "morning_01"]
 # Patching needs both prompts to tokenize to equal length, so the two subjects must have
 # the same token count. These are short common nouns that should each be one token; any
 # pair that turns out not to match is reported and skipped, not fatal.
-DEFAULT_SUBJECT_PAIRS = ["man:cow", "man:pig", "man:dog", "man:rat", "boy:dog", "girl:hen"]
+DEFAULT_SUBJECT_PAIRS = ["man:cow", "man:dog", "man:rat", "boy:dog", "girl:hen"]
 
 
 def template_text(template_id):
