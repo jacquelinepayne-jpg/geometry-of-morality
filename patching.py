@@ -8,15 +8,19 @@ from generate_acts import load_model
 
 
 def patching_experiment(model_name, continuation_idx=None, device='remote',
-                        true_prompt=None, false_prompt=None, pos_token='YES', neg_token='NO'):
+                        true_prompt=None, false_prompt=None, pos_token='YES', neg_token='NO',
+                        model=None):
     """
     true_prompt/false_prompt : a minimal pair of prompts differing only in a few tokens
         (must tokenize to the same length). Defaults to the hardcoded animal/human pair.
     pos_token/neg_token : completion tokens whose logit difference is tracked
         (each must be a single token with a leading space).
+    model : an already-loaded nnsight LanguageModel, to avoid reloading weights when
+        running many prompt pairs (see experiments/patching_sweep.py). Loaded here if None.
     """
 
-    model = load_model(model_name, device=device)
+    if model is None:
+        model = load_model(model_name, device=device)
     layers = model.model.layers
     remote = device == 'remote'
 
