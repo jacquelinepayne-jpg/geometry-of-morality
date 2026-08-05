@@ -6,7 +6,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Fork of [saprmarks/geometry-of-truth](https://github.com/saprmarks/geometry-of-truth) (Marks & Tegmark, *The Geometry of Truth*, arXiv:2310.06824). The fork tests whether **moral valence** (good/bad) is linearly represented in LLM activations the way true/false is.
 
-The active line of work is the **moral subject** question: holding the scenario fixed, is *who it happens to* (human / companion animal / farmed animal / wild animal) a linear direction, and does it look different under harm scenarios than neutral ones? Planning docs live in `documentation/` (`compute_estimate.md` has the model/GPU/cost plan: LLaMA-2 7B/13B/70B on Vast.ai, starting with 13B). `setup_host.sh` provisions a fresh GPU instance.
+Two lines of experiment run in parallel, and a change to shared code (`utils.py`, `probes.py`, `generate_acts.py`) touches both:
+
+- **Moral valence** — is good/bad itself a direction? `datasets/morality/`, four moral foundations of matched good/bad minimal pairs, labels validated by a blind rating round in `experiments/label_stability/` rather than assumed.
+- **Moral subject** — holding the scenario fixed, is *who it happens to* (human / companion animal / farmed animal / wild animal) a linear direction, and does it look different under harm scenarios than neutral ones? `datasets/single-template/` and `datasets/multi-template/`.
+
+Planning and results docs live in `documentation/`: `compute_estimate.md` (model/GPU/cost plan — LLaMA-2 7B/13B/70B on Vast.ai, starting with 13B), `first_test_submission.md` (pre-registered thresholds for the label-stability test), `project_log.md` (dated record of each round's result, and the reasoning behind design decisions — read this before revisiting one). `setup_host.sh` provisions a fresh GPU instance.
 
 ## Setup and Commands
 
@@ -26,6 +31,15 @@ Regenerate datasets from the templates (rarely needed; the CSVs are checked in):
 ```bash
 python datasets/make_animal_human.py       # datasets/multi-template/{pair}_{axis}.csv
 python datasets/make_per_template.py       # datasets/single-template/{pair}/{template}.csv
+python datasets/morality/care_harm/data_gen.py   # datasets/morality/{name}.csv + its rating sheet
+```
+
+Label-stability round for the morality datasets (dataset named bare, without the `morality/` prefix):
+
+```bash
+python experiments/label_stability/tally.py --dataset care_harm            # unanimity + agreement
+python experiments/label_stability/sentiment_check.py --dataset care_harm  # sentiment leakage
+python experiments/label_stability/rate.py --dataset care_harm             # needs OPENROUTER_API_KEY
 ```
 
 Experiment scripts (all use argparse; see each `__main__` block for options):
