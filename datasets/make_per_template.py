@@ -4,12 +4,17 @@ Every CSV here uses exactly ONE scenario template, so the only thing that
 varies within a file is the subject word. That removes the between-template
 variance that otherwise dominates PCA of the pooled datasets.
 
-Writes one CSV per (category pair, template) to datasets/<pair>/<template>.csv:
+Writes one CSV per (category pair, template) to
+datasets/single-template/<pair>/<template>.csv:
 
-    datasets/human_animal/flood_01.csv
-    datasets/human_farmed/flood_01.csv
-    datasets/farmed_wild/morning_01.csv
+    datasets/single-template/human_animal/flood_01.csv
+    datasets/single-template/human_farmed/flood_01.csv
+    datasets/single-template/farmed_wild/morning_01.csv
     ...
+
+Dataset names therefore carry the single-template/ prefix, e.g.
+'single-template/human_farmed/flood_01'. For the all-templates-pooled variant
+see make_animal_human.py, which writes to datasets/multi-template/.
 
 The first category in the directory name gets label 1. `human_animal` contrasts
 humans against a balanced sample drawn evenly from companion/farmed/wild, so
@@ -31,7 +36,7 @@ import pandas as pd
 
 from animal_human_templates import CATEGORIES, SUBJECTS, TEMPLATES_BY_AXIS
 
-OUT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "single-template")
 
 # two harm templates and two neutral templates by default; override with --templates
 DEFAULT_TEMPLATES = ["fire_01", "flood_01", "morning_01", "rest_01"]

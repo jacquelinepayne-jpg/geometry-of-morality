@@ -17,15 +17,15 @@ pip install -r requirements.txt
 Everything downstream depends on cached activations, which must be generated first:
 
 ```bash
-python generate_acts.py --model llama-2-13b --layers 8 10 12 --datasets human_farmed/flood_01 truth/cities --device cuda:0
+python generate_acts.py --model llama-2-13b --layers 8 10 12 --datasets single-template/human_farmed/flood_01 truth/cities --device cuda:0
 # --layers -1 saves all layers; omit --device to run remotely via NDIF (device defaults to "remote")
 ```
 
 Regenerate datasets from the templates (rarely needed; the CSVs are checked in):
 
 ```bash
-python datasets/make_animal_human.py    # pooled {pair}_{axis}.csv
-python datasets/make_per_template.py    # single-template <pair>/<template>.csv
+python datasets/make_animal_human.py       # datasets/multi-template/{pair}_{axis}.csv
+python datasets/make_per_template.py       # datasets/single-template/{pair}/{template}.csv
 ```
 
 Experiment scripts (all use argparse; see each `__main__` block for options):
@@ -43,13 +43,14 @@ There are no tests or linters.
 
 ## Key Conventions
 
-- **A dataset name is a path relative to `datasets/`, without `.csv`** — so it can include a subdirectory: `human_farmed/flood_01`, `truth/cities`. The same string is the activation cache subdirectory. Nothing special-cases the slash; `load_statements`, `DataManager.add_dataset`, and `collect_acts` all just join it onto a root.
+- **A dataset name is a path relative to `datasets/`, without `.csv`** — so it can include a subdirectory: `single-template/human_farmed/flood_01`, `multi-template/human_farmed_harm`, `truth/cities`. The same string is the activation cache subdirectory. Nothing special-cases the slash; `load_statements`, `DataManager.add_dataset`, and `collect_acts` all just join it onto a root.
 - **`config.ini` defines models.** Each section (e.g. `[llama-2-13b]`) maps a model name (as passed to `--model`) to a HuggingFace repo or local weights path, plus per-model `probe_layer`, `intervene_layer`, and `noperiod` settings used by `interventions.py` and read by the notebooks.
 - **`--device` defaults to `"remote"`** in every script, meaning execution on the NDIF server via `nnsight`. Pass `cuda:0` (or similar) for local runs, which load weights in bf16 with `device_map="auto"`.
 - **Activations are cached on disk** under `acts/<model>/<dataset>/layer_<L>_<batch_idx>.pt` in batches of 25 statements (`ACTS_BATCH_SIZE` in `utils.py`), saving the residual-stream output at the last token position. `noperiod` variants go in an extra `noperiod/` subdirectory. `utils.collect_acts` reads them back; it raises if activations for a dataset haven't been generated yet.
 - **Datasets** are CSVs with at minimum `statement` and `label` (1/0) columns; extra columns are carried through and ignored by `DataManager` unless named. The animal/human CSVs add `subject`, `subject_category`, `template_id`, `axis`.
 - **Grouped splits matter here.** Pass `group='subject'` to `add_dataset` for the animal/human data so no subject word lands in both train and val — a row-wise split lets the probe memorize the subject token and inflates val accuracy. Grouped splits are stratified by label to keep both sides balanced.
 - **Label polarity is positional.** In `{catA}_{catB}`, label 1 = catA. A probe trained on `human_*` and evaluated on `farmed_wild` is being asked a different question, so below-chance accuracy there is real signal, not a bug.
+- **Ported results live in their own folder.** `experimental_outputs/multi-template/` and `dataexplorer/plots/multi-template/` hold the patching results and PCA figures carried over from the `animal-vs-human-results` branch; they were computed on the 20-subject generation, so they are not comparable to current results — see `experimental_outputs/multi-template/README.md` before citing any number from it.
 - **Experiment results append to JSON files** in `experimental_outputs/`; scripts read the existing file and append, so the file must exist (containing `[]`) before a first run. Only `patching_results.json` is currently checked in.
 
 ## Architecture
@@ -58,8 +59,9 @@ The pipeline is two-phase: (1) run forward passes once to cache activations, (2)
 
 - `generate_acts.py` — extraction: loads a model via nnsight, traces each statement, saves last-token residual-stream activations per layer. Also provides `load_model`, reused by the experiment scripts.
 - `datasets/animal_human_templates.py` — source of truth for the animal/human data: 160 subjects (40 per category: human, companion, farmed, wild) × 100 scenario templates (60 harm, 40 neutral). The module docstring lists the authoring constraints (one `{subject}` slot, never sentence-initial; no pronouns; no template contains a subject word; scenarios plausible for every subject; no category-ambiguous subject words). Honor these when adding templates or subjects.
-- `datasets/make_animal_human.py` — pooled CSVs, one per (category pair, axis), e.g. `human_farmed_harm.csv`.
-- `datasets/make_per_template.py` — single-template CSVs at `datasets/<pair>/<template>.csv`, where the only thing varying within a file is the subject word. Defaults to `fire_01 flood_01 morning_01 rest_01` (2 harm, 2 neutral). `human_animal` balances the animal side by sampling evenly across the three animal categories.
+- **Animal/human data is split into two groupings, one folder each.** `datasets/single-template/<pair>/<template>.csv` isolates one scenario template per file; `datasets/multi-template/<pair>_<axis>.csv` pools every template on an axis. Dataset names carry the folder as a prefix, and so do the `acts/` cache paths. Keep new animal/human data in whichever folder matches its template structure rather than at the `datasets/` root.
+- `datasets/make_animal_human.py` — writes the pooled grouping to `datasets/multi-template/`, one CSV per (category pair, axis), e.g. `human_farmed_harm.csv`.
+- `datasets/make_per_template.py` — writes the single-template grouping to `datasets/single-template/<pair>/<template>.csv`, where the only thing varying within a file is the subject word. Defaults to `fire_01 flood_01 morning_01 rest_01` (2 harm, 2 neutral). `human_animal` balances the animal side by sampling evenly across the three animal categories.
 - `datasets/truth/` — the original Geometry-of-Truth datasets and `make_conj_disj.py`.
 - `utils.py` — `DataManager` is the central data abstraction: loads cached activations + CSV labels per dataset, handles train/val splits (row-wise or grouped), centering/scaling, concatenation across datasets, and PCA projection.
 - `probes.py` — three probe classes with a shared interface (`from_data`, `pred`, `.direction`): `LRProbe` (logistic regression), `MMProbe` (mass-mean), `CCSProbe` (contrast-consistent search, needs paired pos/neg datasets). `.direction` is what the intervention experiments add/subtract in the residual stream.
