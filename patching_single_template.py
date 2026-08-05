@@ -6,6 +6,8 @@ import json
 import argparse
 from generate_acts import load_model, tracer_kwargs
 
+RESULTS_PATH = 'experimental_outputs/single-template/patching_results.json'
+
 
 def patching_experiment(model_name, continuation_idx=None, device='remote'):
 
@@ -46,7 +48,7 @@ After the dam broke, the doctor was caught in the violent surge. The subject is:
             human_acts.append(layer.output.save())
 
     if continuation_idx is not None: # if picking up an experiment that failed
-        with open('experimental_outputs/patching_results.json', 'r') as f:
+        with open(RESULTS_PATH, 'r') as f:
             outs = json.load(f)
         out = outs[continuation_idx]
         assert out['model'] == model_name
@@ -61,10 +63,10 @@ After the dam broke, the doctor was caught in the violent surge. The subject is:
         }
         logit_diffs = [[None for _ in range(len(layers))] for _ in range(n_toks)]
         out['logit_diffs'] = logit_diffs
-        with open('experimental_outputs/patching_results.json', 'r') as f:
+        with open(RESULTS_PATH, 'r') as f:
             outs = json.load(f)
         outs.append(out)
-        with open('experimental_outputs/patching_results.json', 'w') as f:
+        with open(RESULTS_PATH, 'w') as f:
             json.dump(outs, f, indent=4)
         continuation_idx = -1
 
@@ -83,7 +85,7 @@ After the dam broke, the doctor was caught in the violent surge. The subject is:
             logit_diffs[tok_idx - 1][layer_idx] = logit_diff.item()
             
             outs[continuation_idx] = out
-            with open('experimental_outputs/patching_results.json', 'w') as f:
+            with open(RESULTS_PATH, 'w') as f:
                 json.dump(outs, f, indent=4)
 
 if __name__ == '__main__':

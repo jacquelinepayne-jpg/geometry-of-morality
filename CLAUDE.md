@@ -33,11 +33,11 @@ Experiment scripts (all use argparse; see each `__main__` block for options):
 ```bash
 python few_shot.py --datasets truth/cities --model llama-2-13b --device cuda:0   # calibrated 5-shot baseline
 python interventions.py --model llama-2-13b --intervention add --device cuda:0   # causal interventions
-python patching.py --model llama-2-13b --device cuda:0                           # animal-vs-human activation patching
+python patching_single_template.py --model llama-2-13b --device cuda:0                           # animal-vs-human activation patching
 python logprobs.py --model llama-2-13b --dataset truth/cities --device cuda:0     # statement log-probs
 ```
 
-Probe training/generalization is in `generalization.ipynb`, dataset PCA visualizations in `dataexplorer.ipynb`, and patching plots in `patching.ipynb`.
+Probe training/generalization is in `generalization.ipynb`, dataset PCA visualizations in `dataexplorer.ipynb`, and patching plots in `patching_single_template.ipynb`.
 
 There are no tests or linters.
 
@@ -50,8 +50,8 @@ There are no tests or linters.
 - **Datasets** are CSVs with at minimum `statement` and `label` (1/0) columns; extra columns are carried through and ignored by `DataManager` unless named. The animal/human CSVs add `subject`, `subject_category`, `template_id`, `axis`.
 - **Grouped splits matter here.** Pass `group='subject'` to `add_dataset` for the animal/human data so no subject word lands in both train and val — a row-wise split lets the probe memorize the subject token and inflates val accuracy. Grouped splits are stratified by label to keep both sides balanced.
 - **Label polarity is positional.** In `{catA}_{catB}`, label 1 = catA. A probe trained on `human_*` and evaluated on `farmed_wild` is being asked a different question, so below-chance accuracy there is real signal, not a bug.
-- **Ported results live in their own folder.** `experimental_outputs/multi-template/` and `dataexplorer/plots/multi-template/` hold the patching results and PCA figures carried over from the `animal-vs-human-results` branch; they were computed on the 20-subject generation, so they are not comparable to current results — see `experimental_outputs/multi-template/README.md` before citing any number from it.
-- **Experiment results append to JSON files** in `experimental_outputs/`; scripts read the existing file and append, so the file must exist (containing `[]`) before a first run. Only `patching_results.json` is currently checked in.
+- **Ported results live in their own folder.** `experimental_outputs/multi-template/` and `dataexplorer/plots/multi-template/` hold the patching results and PCA figures carried over from the `animal-vs-human-results` branch; they were computed on the earlier 20-subject-per-category generation, not the current 40, so they do not correspond to the CSVs now in `datasets/multi-template/` and are not comparable to a fresh run. Re-run `patching_multi_template.py` before comparing them against anything current.
+- **Experiment results append to JSON files** in `experimental_outputs/<grouping>/`, mirroring the `datasets/` grouping folders — `single-template/patching_results.json` for the 5-shot category readout, `multi-template/patching_results.json` for the zero-shot moral readout. Scripts read the existing file and append, so the file must exist (containing `[]`) before a first run; each script holds its path in a `RESULTS_PATH` constant.
 
 ## Architecture
 
@@ -66,5 +66,6 @@ The pipeline is two-phase: (1) run forward passes once to cache activations, (2)
 - `utils.py` — `DataManager` is the central data abstraction: loads cached activations + CSV labels per dataset, handles train/val splits (row-wise or grouped), centering/scaling, concatenation across datasets, and PCA projection.
 - `probes.py` — three probe classes with a shared interface (`from_data`, `pred`, `.direction`): `LRProbe` (logistic regression), `MMProbe` (mass-mean), `CCSProbe` (contrast-consistent search, needs paired pos/neg datasets). `.direction` is what the intervention experiments add/subtract in the residual stream.
 - `interventions.py` — trains a probe on cached activations, then adds/subtracts the (norm-calibrated) probe direction across a layer range (`intervene_layer`..`probe_layer` from `config.ini`) during live forward passes, measuring the shift in P(TRUE) − P(FALSE). Probe class is selected by name via `eval(args.probe)`.
-- `patching.py` — patches residual-stream activations from a human prompt into a token-aligned animal prompt (same four few-shot templates, single-token subjects, harm query) and records the HUMAN − ANIMAL logit difference for every (token, layer). Writes incrementally and supports `--continuation_idx` to resume a failed run.
+- `patching_multi_template.py` — the multi-template counterpart to `patching_single_template.py`. Same patching mechanic, but a zero-shot YES/NO moral readout instead of the 5-shot HUMAN/ANIMAL category readout, writing to `experimental_outputs/multi-template/patching_results.json` (`patching_single_template.py` writes to `single-template/`). The two ask different questions (does the model represent the category vs. does that representation drive its stated helping preference), so neither replaces the other and their results stay in separate files. Its patch loop passes `scan=True` explicitly rather than using the module-level `tracer_kwargs`; that is what produced the checked-in results.
+- `patching_single_template.py` — patches residual-stream activations from a human prompt into a token-aligned animal prompt (same four few-shot templates, single-token subjects, harm query) and records the HUMAN − ANIMAL logit difference for every (token, layer). Writes incrementally and supports `--continuation_idx` to resume a failed run.
 - `visualization_utils.py` — plotly helpers (`TruthData.from_datasets(...).plot(...)`) for the notebooks; figures land in `dataexplorer/plots/`.
