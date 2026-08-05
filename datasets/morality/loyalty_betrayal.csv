@@ -1,0 +1,641 @@
+statement,label,pair_id,frame_id
+"When teammates pressed for gossip about the goalie's secret crush, Omar changed the subject and kept the confidence.",1,0,0
+"When teammates pressed for gossip about the goalie's secret crush, Omar broadcast every detail and broke the confidence.",0,0,0
+"When teammates pressed for gossip about the goalie's secret crush, Andre changed the subject and kept the confidence.",1,1,0
+"When teammates pressed for gossip about the goalie's secret crush, Andre broadcast every detail and broke the confidence.",0,1,0
+"When teammates pressed for gossip about the goalie's secret crush, Marcus changed the subject and kept the confidence.",1,2,0
+"When teammates pressed for gossip about the goalie's secret crush, Marcus broadcast every detail and broke the confidence.",0,2,0
+"When teammates pressed for gossip about the goalie's secret crush, Fatima changed the subject and kept the confidence.",1,3,0
+"When teammates pressed for gossip about the goalie's secret crush, Fatima broadcast every detail and broke the confidence.",0,3,0
+"When teammates pressed for gossip about the goalie's secret crush, Dana changed the subject and kept the confidence.",1,4,0
+"When teammates pressed for gossip about the goalie's secret crush, Dana broadcast every detail and broke the confidence.",0,4,0
+"When teammates pressed for gossip about the goalie's secret crush, Arjun changed the subject and kept the confidence.",1,5,0
+"When teammates pressed for gossip about the goalie's secret crush, Arjun broadcast every detail and broke the confidence.",0,5,0
+"When teammates pressed for gossip about the goalie's secret crush, Noah changed the subject and kept the confidence.",1,6,0
+"When teammates pressed for gossip about the goalie's secret crush, Noah broadcast every detail and broke the confidence.",0,6,0
+"When teammates pressed for gossip about the goalie's secret crush, Priya changed the subject and kept the confidence.",1,7,0
+"When teammates pressed for gossip about the goalie's secret crush, Priya broadcast every detail and broke the confidence.",0,7,0
+"When the lunch table turned on an absent friend, Andre stuck up for her in front of everyone.",1,8,1
+"When the lunch table turned on an absent friend, Andre shared her most embarrassing story in front of everyone.",0,8,1
+"When the lunch table turned on an absent friend, Fatima stuck up for her in front of everyone.",1,9,1
+"When the lunch table turned on an absent friend, Fatima shared her most embarrassing story in front of everyone.",0,9,1
+"When the lunch table turned on an absent friend, Noah stuck up for her in front of everyone.",1,10,1
+"When the lunch table turned on an absent friend, Noah shared her most embarrassing story in front of everyone.",0,10,1
+"When the lunch table turned on an absent friend, Felix stuck up for her in front of everyone.",1,11,1
+"When the lunch table turned on an absent friend, Felix shared her most embarrassing story in front of everyone.",0,11,1
+"When the lunch table turned on an absent friend, Kwame stuck up for her in front of everyone.",1,12,1
+"When the lunch table turned on an absent friend, Kwame shared her most embarrassing story in front of everyone.",0,12,1
+"When the lunch table turned on an absent friend, Ethan stuck up for her in front of everyone.",1,13,1
+"When the lunch table turned on an absent friend, Ethan shared her most embarrassing story in front of everyone.",0,13,1
+"When the lunch table turned on an absent friend, Rosa stuck up for her in front of everyone.",1,14,1
+"When the lunch table turned on an absent friend, Rosa shared her most embarrassing story in front of everyone.",0,14,1
+"When the lunch table turned on an absent friend, Carmen stuck up for her in front of everyone.",1,15,1
+"When the lunch table turned on an absent friend, Carmen shared her most embarrassing story in front of everyone.",0,15,1
+"After promising for weeks to be there, Omar arrived early and stayed through the entire recital.",1,16,2
+"After promising for weeks to be there, Omar took a better invitation and skipped the entire recital.",0,16,2
+"After promising for weeks to be there, Tariq arrived early and stayed through the entire recital.",1,17,2
+"After promising for weeks to be there, Tariq took a better invitation and skipped the entire recital.",0,17,2
+"After promising for weeks to be there, Leo arrived early and stayed through the entire recital.",1,18,2
+"After promising for weeks to be there, Leo took a better invitation and skipped the entire recital.",0,18,2
+"After promising for weeks to be there, Rafael arrived early and stayed through the entire recital.",1,19,2
+"After promising for weeks to be there, Rafael took a better invitation and skipped the entire recital.",0,19,2
+"After promising for weeks to be there, Ava arrived early and stayed through the entire recital.",1,20,2
+"After promising for weeks to be there, Ava took a better invitation and skipped the entire recital.",0,20,2
+"After promising for weeks to be there, Leila arrived early and stayed through the entire recital.",1,21,2
+"After promising for weeks to be there, Leila took a better invitation and skipped the entire recital.",0,21,2
+"After promising for weeks to be there, Maria arrived early and stayed through the entire recital.",1,22,2
+"After promising for weeks to be there, Maria took a better invitation and skipped the entire recital.",0,22,2
+"After promising for weeks to be there, Rosa arrived early and stayed through the entire recital.",1,23,2
+"After promising for weeks to be there, Rosa took a better invitation and skipped the entire recital.",0,23,2
+"When the struggling robotics team hit its worst season, Omar stayed on and recruited help for the final competition.",1,24,3
+"When the struggling robotics team hit its worst season, Omar defected to the rival school before the final competition.",0,24,3
+"When the struggling robotics team hit its worst season, Rafael stayed on and recruited help for the final competition.",1,25,3
+"When the struggling robotics team hit its worst season, Rafael defected to the rival school before the final competition.",0,25,3
+"When the struggling robotics team hit its worst season, Carmen stayed on and recruited help for the final competition.",1,26,3
+"When the struggling robotics team hit its worst season, Carmen defected to the rival school before the final competition.",0,26,3
+"When the struggling robotics team hit its worst season, Yuki stayed on and recruited help for the final competition.",1,27,3
+"When the struggling robotics team hit its worst season, Yuki defected to the rival school before the final competition.",0,27,3
+"When the struggling robotics team hit its worst season, Lena stayed on and recruited help for the final competition.",1,28,3
+"When the struggling robotics team hit its worst season, Lena defected to the rival school before the final competition.",0,28,3
+"When the struggling robotics team hit its worst season, Tariq stayed on and recruited help for the final competition.",1,29,3
+"When the struggling robotics team hit its worst season, Tariq defected to the rival school before the final competition.",0,29,3
+"When the struggling robotics team hit its worst season, Amara stayed on and recruited help for the final competition.",1,30,3
+"When the struggling robotics team hit its worst season, Amara defected to the rival school before the final competition.",0,30,3
+"When the struggling robotics team hit its worst season, Ethan stayed on and recruited help for the final competition.",1,31,3
+"When the struggling robotics team hit its worst season, Ethan defected to the rival school before the final competition.",0,31,3
+"When the rival vendor offered cash for the family spice blend, Rosa declined and kept the recipe in the family.",1,32,4
+"When the rival vendor offered cash for the family spice blend, Rosa took the cash and passed the recipe out of the family.",0,32,4
+"When the rival vendor offered cash for the family spice blend, Nina declined and kept the recipe in the family.",1,33,4
+"When the rival vendor offered cash for the family spice blend, Nina took the cash and passed the recipe out of the family.",0,33,4
+"When the rival vendor offered cash for the family spice blend, Daniel declined and kept the recipe in the family.",1,34,4
+"When the rival vendor offered cash for the family spice blend, Daniel took the cash and passed the recipe out of the family.",0,34,4
+"When the rival vendor offered cash for the family spice blend, Ava declined and kept the recipe in the family.",1,35,4
+"When the rival vendor offered cash for the family spice blend, Ava took the cash and passed the recipe out of the family.",0,35,4
+"When the rival vendor offered cash for the family spice blend, Marcus declined and kept the recipe in the family.",1,36,4
+"When the rival vendor offered cash for the family spice blend, Marcus took the cash and passed the recipe out of the family.",0,36,4
+"When the rival vendor offered cash for the family spice blend, Rafael declined and kept the recipe in the family.",1,37,4
+"When the rival vendor offered cash for the family spice blend, Rafael took the cash and passed the recipe out of the family.",0,37,4
+"When the rival vendor offered cash for the family spice blend, Zoe declined and kept the recipe in the family.",1,38,4
+"When the rival vendor offered cash for the family spice blend, Zoe took the cash and passed the recipe out of the family.",0,38,4
+"When the rival vendor offered cash for the family spice blend, Malik declined and kept the recipe in the family.",1,39,4
+"When the rival vendor offered cash for the family spice blend, Malik took the cash and passed the recipe out of the family.",0,39,4
+"After finding the little brother's diary under the mattress, Rosa shut the diary and guarded every single page.",1,40,5
+"After finding the little brother's diary under the mattress, Rosa photographed the diary and texted friends every single page.",0,40,5
+"After finding the little brother's diary under the mattress, Hiro shut the diary and guarded every single page.",1,41,5
+"After finding the little brother's diary under the mattress, Hiro photographed the diary and texted friends every single page.",0,41,5
+"After finding the little brother's diary under the mattress, Grace shut the diary and guarded every single page.",1,42,5
+"After finding the little brother's diary under the mattress, Grace photographed the diary and texted friends every single page.",0,42,5
+"After finding the little brother's diary under the mattress, Andre shut the diary and guarded every single page.",1,43,5
+"After finding the little brother's diary under the mattress, Andre photographed the diary and texted friends every single page.",0,43,5
+"After finding the little brother's diary under the mattress, Fatima shut the diary and guarded every single page.",1,44,5
+"After finding the little brother's diary under the mattress, Fatima photographed the diary and texted friends every single page.",0,44,5
+"After finding the little brother's diary under the mattress, Sofia shut the diary and guarded every single page.",1,45,5
+"After finding the little brother's diary under the mattress, Sofia photographed the diary and texted friends every single page.",0,45,5
+"After finding the little brother's diary under the mattress, Malik shut the diary and guarded every single page.",1,46,5
+"After finding the little brother's diary under the mattress, Malik photographed the diary and texted friends every single page.",0,46,5
+"After finding the little brother's diary under the mattress, Lena shut the diary and guarded every single page.",1,47,5
+"After finding the little brother's diary under the mattress, Lena photographed the diary and texted friends every single page.",0,47,5
+"When the old bandmates finally booked a reunion tour, Zoe cleared the calendar and honored every one of the dates.",1,48,6
+"When the old bandmates finally booked a reunion tour, Zoe ditched them for a solo slot across all of the dates.",0,48,6
+"When the old bandmates finally booked a reunion tour, Rafael cleared the calendar and honored every one of the dates.",1,49,6
+"When the old bandmates finally booked a reunion tour, Rafael ditched them for a solo slot across all of the dates.",0,49,6
+"When the old bandmates finally booked a reunion tour, Dana cleared the calendar and honored every one of the dates.",1,50,6
+"When the old bandmates finally booked a reunion tour, Dana ditched them for a solo slot across all of the dates.",0,50,6
+"When the old bandmates finally booked a reunion tour, Nadia cleared the calendar and honored every one of the dates.",1,51,6
+"When the old bandmates finally booked a reunion tour, Nadia ditched them for a solo slot across all of the dates.",0,51,6
+"When the old bandmates finally booked a reunion tour, Mateo cleared the calendar and honored every one of the dates.",1,52,6
+"When the old bandmates finally booked a reunion tour, Mateo ditched them for a solo slot across all of the dates.",0,52,6
+"When the old bandmates finally booked a reunion tour, Amara cleared the calendar and honored every one of the dates.",1,53,6
+"When the old bandmates finally booked a reunion tour, Amara ditched them for a solo slot across all of the dates.",0,53,6
+"When the old bandmates finally booked a reunion tour, Nina cleared the calendar and honored every one of the dates.",1,54,6
+"When the old bandmates finally booked a reunion tour, Nina ditched them for a solo slot across all of the dates.",0,54,6
+"When the old bandmates finally booked a reunion tour, Maria cleared the calendar and honored every one of the dates.",1,55,6
+"When the old bandmates finally booked a reunion tour, Maria ditched them for a solo slot across all of the dates.",0,55,6
+"When the slowest climber lagged on the ridge trail, Mateo matched his pace the whole way back to the parking lot.",1,56,7
+"When the slowest climber lagged on the ridge trail, Mateo abandoned him at dusk and drove off from the parking lot.",0,56,7
+"When the slowest climber lagged on the ridge trail, Zoe matched his pace the whole way back to the parking lot.",1,57,7
+"When the slowest climber lagged on the ridge trail, Zoe abandoned him at dusk and drove off from the parking lot.",0,57,7
+"When the slowest climber lagged on the ridge trail, Andre matched his pace the whole way back to the parking lot.",1,58,7
+"When the slowest climber lagged on the ridge trail, Andre abandoned him at dusk and drove off from the parking lot.",0,58,7
+"When the slowest climber lagged on the ridge trail, Rafael matched his pace the whole way back to the parking lot.",1,59,7
+"When the slowest climber lagged on the ridge trail, Rafael abandoned him at dusk and drove off from the parking lot.",0,59,7
+"When the slowest climber lagged on the ridge trail, Noah matched his pace the whole way back to the parking lot.",1,60,7
+"When the slowest climber lagged on the ridge trail, Noah abandoned him at dusk and drove off from the parking lot.",0,60,7
+"When the slowest climber lagged on the ridge trail, Carmen matched his pace the whole way back to the parking lot.",1,61,7
+"When the slowest climber lagged on the ridge trail, Carmen abandoned him at dusk and drove off from the parking lot.",0,61,7
+"When the slowest climber lagged on the ridge trail, Marcus matched his pace the whole way back to the parking lot.",1,62,7
+"When the slowest climber lagged on the ridge trail, Marcus abandoned him at dusk and drove off from the parking lot.",0,62,7
+"When the slowest climber lagged on the ridge trail, Malik matched his pace the whole way back to the parking lot.",1,63,7
+"When the slowest climber lagged on the ridge trail, Malik abandoned him at dusk and drove off from the parking lot.",0,63,7
+"Weeks before the wedding, Tom organized the toasts and stood beside the groom on the big day.",1,64,8
+"Weeks before the wedding, Tom dropped out of the toasts and ditched the groom on the big day.",0,64,8
+"Weeks before the wedding, Grace organized the toasts and stood beside the groom on the big day.",1,65,8
+"Weeks before the wedding, Grace dropped out of the toasts and ditched the groom on the big day.",0,65,8
+"Weeks before the wedding, Rosa organized the toasts and stood beside the groom on the big day.",1,66,8
+"Weeks before the wedding, Rosa dropped out of the toasts and ditched the groom on the big day.",0,66,8
+"Weeks before the wedding, Mateo organized the toasts and stood beside the groom on the big day.",1,67,8
+"Weeks before the wedding, Mateo dropped out of the toasts and ditched the groom on the big day.",0,67,8
+"Weeks before the wedding, Felix organized the toasts and stood beside the groom on the big day.",1,68,8
+"Weeks before the wedding, Felix dropped out of the toasts and ditched the groom on the big day.",0,68,8
+"Weeks before the wedding, Arjun organized the toasts and stood beside the groom on the big day.",1,69,8
+"Weeks before the wedding, Arjun dropped out of the toasts and ditched the groom on the big day.",0,69,8
+"Weeks before the wedding, Lena organized the toasts and stood beside the groom on the big day.",1,70,8
+"Weeks before the wedding, Lena dropped out of the toasts and ditched the groom on the big day.",0,70,8
+"Weeks before the wedding, Nina organized the toasts and stood beside the groom on the big day.",1,71,8
+"Weeks before the wedding, Nina dropped out of the toasts and ditched the groom on the big day.",0,71,8
+"After swearing to cover the Sunday shift, Zoe clocked in early and worked the whole christening morning.",1,72,9
+"After swearing to cover the Sunday shift, Zoe silenced the phone and skipped the whole christening morning.",0,72,9
+"After swearing to cover the Sunday shift, Malik clocked in early and worked the whole christening morning.",1,73,9
+"After swearing to cover the Sunday shift, Malik silenced the phone and skipped the whole christening morning.",0,73,9
+"After swearing to cover the Sunday shift, Hiro clocked in early and worked the whole christening morning.",1,74,9
+"After swearing to cover the Sunday shift, Hiro silenced the phone and skipped the whole christening morning.",0,74,9
+"After swearing to cover the Sunday shift, Arjun clocked in early and worked the whole christening morning.",1,75,9
+"After swearing to cover the Sunday shift, Arjun silenced the phone and skipped the whole christening morning.",0,75,9
+"After swearing to cover the Sunday shift, Priya clocked in early and worked the whole christening morning.",1,76,9
+"After swearing to cover the Sunday shift, Priya silenced the phone and skipped the whole christening morning.",0,76,9
+"After swearing to cover the Sunday shift, Leo clocked in early and worked the whole christening morning.",1,77,9
+"After swearing to cover the Sunday shift, Leo silenced the phone and skipped the whole christening morning.",0,77,9
+"After swearing to cover the Sunday shift, Marcus clocked in early and worked the whole christening morning.",1,78,9
+"After swearing to cover the Sunday shift, Marcus silenced the phone and skipped the whole christening morning.",0,78,9
+"After swearing to cover the Sunday shift, Omar clocked in early and worked the whole christening morning.",1,79,9
+"After swearing to cover the Sunday shift, Omar silenced the phone and skipped the whole christening morning.",0,79,9
+"When ugly rumors spread about the friend's bakery, Daniel defended it to every customer who asked.",1,80,10
+"When ugly rumors spread about the friend's bakery, Daniel added new details for every customer who asked.",0,80,10
+"When ugly rumors spread about the friend's bakery, Leila defended it to every customer who asked.",1,81,10
+"When ugly rumors spread about the friend's bakery, Leila added new details for every customer who asked.",0,81,10
+"When ugly rumors spread about the friend's bakery, Hiro defended it to every customer who asked.",1,82,10
+"When ugly rumors spread about the friend's bakery, Hiro added new details for every customer who asked.",0,82,10
+"When ugly rumors spread about the friend's bakery, Amara defended it to every customer who asked.",1,83,10
+"When ugly rumors spread about the friend's bakery, Amara added new details for every customer who asked.",0,83,10
+"When ugly rumors spread about the friend's bakery, Noah defended it to every customer who asked.",1,84,10
+"When ugly rumors spread about the friend's bakery, Noah added new details for every customer who asked.",0,84,10
+"When ugly rumors spread about the friend's bakery, Marcus defended it to every customer who asked.",1,85,10
+"When ugly rumors spread about the friend's bakery, Marcus added new details for every customer who asked.",0,85,10
+"When ugly rumors spread about the friend's bakery, Sofia defended it to every customer who asked.",1,86,10
+"When ugly rumors spread about the friend's bakery, Sofia added new details for every customer who asked.",0,86,10
+"When ugly rumors spread about the friend's bakery, Rafael defended it to every customer who asked.",1,87,10
+"When ugly rumors spread about the friend's bakery, Rafael added new details for every customer who asked.",0,87,10
+"After promising a truck for the oldest friend's moving day, Kwame showed up at dawn with the borrowed pickup.",1,88,11
+"After promising a truck for the oldest friend's moving day, Kwame went quiet and drove off in the borrowed pickup.",0,88,11
+"After promising a truck for the oldest friend's moving day, Sofia showed up at dawn with the borrowed pickup.",1,89,11
+"After promising a truck for the oldest friend's moving day, Sofia went quiet and drove off in the borrowed pickup.",0,89,11
+"After promising a truck for the oldest friend's moving day, Felix showed up at dawn with the borrowed pickup.",1,90,11
+"After promising a truck for the oldest friend's moving day, Felix went quiet and drove off in the borrowed pickup.",0,90,11
+"After promising a truck for the oldest friend's moving day, Priya showed up at dawn with the borrowed pickup.",1,91,11
+"After promising a truck for the oldest friend's moving day, Priya went quiet and drove off in the borrowed pickup.",0,91,11
+"After promising a truck for the oldest friend's moving day, Zoe showed up at dawn with the borrowed pickup.",1,92,11
+"After promising a truck for the oldest friend's moving day, Zoe went quiet and drove off in the borrowed pickup.",0,92,11
+"After promising a truck for the oldest friend's moving day, Leila showed up at dawn with the borrowed pickup.",1,93,11
+"After promising a truck for the oldest friend's moving day, Leila went quiet and drove off in the borrowed pickup.",0,93,11
+"After promising a truck for the oldest friend's moving day, Dana showed up at dawn with the borrowed pickup.",1,94,11
+"After promising a truck for the oldest friend's moving day, Dana went quiet and drove off in the borrowed pickup.",0,94,11
+"After promising a truck for the oldest friend's moving day, Ava showed up at dawn with the borrowed pickup.",1,95,11
+"After promising a truck for the oldest friend's moving day, Ava went quiet and drove off in the borrowed pickup.",0,95,11
+"Entrusted with the team's trick play for the final, Mateo kept the diagram folded away through the whole week.",1,96,12
+"Entrusted with the team's trick play for the final, Mateo texted the diagram to rivals through the whole week.",0,96,12
+"Entrusted with the team's trick play for the final, Malik kept the diagram folded away through the whole week.",1,97,12
+"Entrusted with the team's trick play for the final, Malik texted the diagram to rivals through the whole week.",0,97,12
+"Entrusted with the team's trick play for the final, Daniel kept the diagram folded away through the whole week.",1,98,12
+"Entrusted with the team's trick play for the final, Daniel texted the diagram to rivals through the whole week.",0,98,12
+"Entrusted with the team's trick play for the final, Grace kept the diagram folded away through the whole week.",1,99,12
+"Entrusted with the team's trick play for the final, Grace texted the diagram to rivals through the whole week.",0,99,12
+"Entrusted with the team's trick play for the final, Rosa kept the diagram folded away through the whole week.",1,100,12
+"Entrusted with the team's trick play for the final, Rosa texted the diagram to rivals through the whole week.",0,100,12
+"Entrusted with the team's trick play for the final, Yuki kept the diagram folded away through the whole week.",1,101,12
+"Entrusted with the team's trick play for the final, Yuki texted the diagram to rivals through the whole week.",0,101,12
+"Entrusted with the team's trick play for the final, Nina kept the diagram folded away through the whole week.",1,102,12
+"Entrusted with the team's trick play for the final, Nina texted the diagram to rivals through the whole week.",0,102,12
+"Entrusted with the team's trick play for the final, Arjun kept the diagram folded away through the whole week.",1,103,12
+"Entrusted with the team's trick play for the final, Arjun texted the diagram to rivals through the whole week.",0,103,12
+"When relatives piled criticism on the youngest cousin at dinner, Dana took her side in front of the whole family.",1,104,13
+"When relatives piled criticism on the youngest cousin at dinner, Dana joined in loudest in front of the whole family.",0,104,13
+"When relatives piled criticism on the youngest cousin at dinner, Andre took her side in front of the whole family.",1,105,13
+"When relatives piled criticism on the youngest cousin at dinner, Andre joined in loudest in front of the whole family.",0,105,13
+"When relatives piled criticism on the youngest cousin at dinner, Hiro took her side in front of the whole family.",1,106,13
+"When relatives piled criticism on the youngest cousin at dinner, Hiro joined in loudest in front of the whole family.",0,106,13
+"When relatives piled criticism on the youngest cousin at dinner, Arjun took her side in front of the whole family.",1,107,13
+"When relatives piled criticism on the youngest cousin at dinner, Arjun joined in loudest in front of the whole family.",0,107,13
+"When relatives piled criticism on the youngest cousin at dinner, Amara took her side in front of the whole family.",1,108,13
+"When relatives piled criticism on the youngest cousin at dinner, Amara joined in loudest in front of the whole family.",0,108,13
+"When relatives piled criticism on the youngest cousin at dinner, Lena took her side in front of the whole family.",1,109,13
+"When relatives piled criticism on the youngest cousin at dinner, Lena joined in loudest in front of the whole family.",0,109,13
+"When relatives piled criticism on the youngest cousin at dinner, Sofia took her side in front of the whole family.",1,110,13
+"When relatives piled criticism on the youngest cousin at dinner, Sofia joined in loudest in front of the whole family.",0,110,13
+"When relatives piled criticism on the youngest cousin at dinner, Mateo took her side in front of the whole family.",1,111,13
+"When relatives piled criticism on the youngest cousin at dinner, Mateo joined in loudest in front of the whole family.",0,111,13
+"Trusted with the tagged photos from the awkward high-school years, Kwame kept them off the reunion slideshow.",1,112,14
+"Trusted with the tagged photos from the awkward high-school years, Kwame splashed them across the reunion slideshow.",0,112,14
+"Trusted with the tagged photos from the awkward high-school years, Tom kept them off the reunion slideshow.",1,113,14
+"Trusted with the tagged photos from the awkward high-school years, Tom splashed them across the reunion slideshow.",0,113,14
+"Trusted with the tagged photos from the awkward high-school years, Tariq kept them off the reunion slideshow.",1,114,14
+"Trusted with the tagged photos from the awkward high-school years, Tariq splashed them across the reunion slideshow.",0,114,14
+"Trusted with the tagged photos from the awkward high-school years, Leila kept them off the reunion slideshow.",1,115,14
+"Trusted with the tagged photos from the awkward high-school years, Leila splashed them across the reunion slideshow.",0,115,14
+"Trusted with the tagged photos from the awkward high-school years, Ethan kept them off the reunion slideshow.",1,116,14
+"Trusted with the tagged photos from the awkward high-school years, Ethan splashed them across the reunion slideshow.",0,116,14
+"Trusted with the tagged photos from the awkward high-school years, Fatima kept them off the reunion slideshow.",1,117,14
+"Trusted with the tagged photos from the awkward high-school years, Fatima splashed them across the reunion slideshow.",0,117,14
+"Trusted with the tagged photos from the awkward high-school years, Malik kept them off the reunion slideshow.",1,118,14
+"Trusted with the tagged photos from the awkward high-school years, Malik splashed them across the reunion slideshow.",0,118,14
+"Trusted with the tagged photos from the awkward high-school years, Carmen kept them off the reunion slideshow.",1,119,14
+"Trusted with the tagged photos from the awkward high-school years, Carmen splashed them across the reunion slideshow.",0,119,14
+"When the startup hit three months of missed salaries, Zoe stood by the cofounder in front of the investors.",1,120,15
+"When the startup hit three months of missed salaries, Zoe blamed everything on the cofounder in front of the investors.",0,120,15
+"When the startup hit three months of missed salaries, Amara stood by the cofounder in front of the investors.",1,121,15
+"When the startup hit three months of missed salaries, Amara blamed everything on the cofounder in front of the investors.",0,121,15
+"When the startup hit three months of missed salaries, Rosa stood by the cofounder in front of the investors.",1,122,15
+"When the startup hit three months of missed salaries, Rosa blamed everything on the cofounder in front of the investors.",0,122,15
+"When the startup hit three months of missed salaries, Leila stood by the cofounder in front of the investors.",1,123,15
+"When the startup hit three months of missed salaries, Leila blamed everything on the cofounder in front of the investors.",0,123,15
+"When the startup hit three months of missed salaries, Ethan stood by the cofounder in front of the investors.",1,124,15
+"When the startup hit three months of missed salaries, Ethan blamed everything on the cofounder in front of the investors.",0,124,15
+"When the startup hit three months of missed salaries, Fatima stood by the cofounder in front of the investors.",1,125,15
+"When the startup hit three months of missed salaries, Fatima blamed everything on the cofounder in front of the investors.",0,125,15
+"When the startup hit three months of missed salaries, Daniel stood by the cofounder in front of the investors.",1,126,15
+"When the startup hit three months of missed salaries, Daniel blamed everything on the cofounder in front of the investors.",0,126,15
+"When the startup hit three months of missed salaries, Yuki stood by the cofounder in front of the investors.",1,127,15
+"When the startup hit three months of missed salaries, Yuki blamed everything on the cofounder in front of the investors.",0,127,15
+"After the messy breakup, Tom cut contact with the ex out of respect for the heartbroken best friend.",1,128,16
+"After the messy breakup, Tom began secretly seeing the ex behind the back of the heartbroken best friend.",0,128,16
+"After the messy breakup, Andre cut contact with the ex out of respect for the heartbroken best friend.",1,129,16
+"After the messy breakup, Andre began secretly seeing the ex behind the back of the heartbroken best friend.",0,129,16
+"After the messy breakup, Daniel cut contact with the ex out of respect for the heartbroken best friend.",1,130,16
+"After the messy breakup, Daniel began secretly seeing the ex behind the back of the heartbroken best friend.",0,130,16
+"After the messy breakup, Noah cut contact with the ex out of respect for the heartbroken best friend.",1,131,16
+"After the messy breakup, Noah began secretly seeing the ex behind the back of the heartbroken best friend.",0,131,16
+"After the messy breakup, Leo cut contact with the ex out of respect for the heartbroken best friend.",1,132,16
+"After the messy breakup, Leo began secretly seeing the ex behind the back of the heartbroken best friend.",0,132,16
+"After the messy breakup, Arjun cut contact with the ex out of respect for the heartbroken best friend.",1,133,16
+"After the messy breakup, Arjun began secretly seeing the ex behind the back of the heartbroken best friend.",0,133,16
+"After the messy breakup, Sofia cut contact with the ex out of respect for the heartbroken best friend.",1,134,16
+"After the messy breakup, Sofia began secretly seeing the ex behind the back of the heartbroken best friend.",0,134,16
+"After the messy breakup, Ava cut contact with the ex out of respect for the heartbroken best friend.",1,135,16
+"After the messy breakup, Ava began secretly seeing the ex behind the back of the heartbroken best friend.",0,135,16
+"Two days before the choir's championship performance, Zoe turned down a paid gig to stay with the ensemble.",1,136,17
+"Two days before the choir's championship performance, Zoe took a paid gig and walked out on the ensemble.",0,136,17
+"Two days before the choir's championship performance, Hiro turned down a paid gig to stay with the ensemble.",1,137,17
+"Two days before the choir's championship performance, Hiro took a paid gig and walked out on the ensemble.",0,137,17
+"Two days before the choir's championship performance, Rafael turned down a paid gig to stay with the ensemble.",1,138,17
+"Two days before the choir's championship performance, Rafael took a paid gig and walked out on the ensemble.",0,138,17
+"Two days before the choir's championship performance, Ethan turned down a paid gig to stay with the ensemble.",1,139,17
+"Two days before the choir's championship performance, Ethan took a paid gig and walked out on the ensemble.",0,139,17
+"Two days before the choir's championship performance, Noah turned down a paid gig to stay with the ensemble.",1,140,17
+"Two days before the choir's championship performance, Noah took a paid gig and walked out on the ensemble.",0,140,17
+"Two days before the choir's championship performance, Grace turned down a paid gig to stay with the ensemble.",1,141,17
+"Two days before the choir's championship performance, Grace took a paid gig and walked out on the ensemble.",0,141,17
+"Two days before the choir's championship performance, Priya turned down a paid gig to stay with the ensemble.",1,142,17
+"Two days before the choir's championship performance, Priya took a paid gig and walked out on the ensemble.",0,142,17
+"Two days before the choir's championship performance, Yuki turned down a paid gig to stay with the ensemble.",1,143,17
+"Two days before the choir's championship performance, Yuki took a paid gig and walked out on the ensemble.",0,143,17
+"Handed the unpublished manuscript in confidence, Amara guarded every twist in the plot.",1,144,18
+"Handed the unpublished manuscript in confidence, Amara posted online every twist in the plot.",0,144,18
+"Handed the unpublished manuscript in confidence, Tom guarded every twist in the plot.",1,145,18
+"Handed the unpublished manuscript in confidence, Tom posted online every twist in the plot.",0,145,18
+"Handed the unpublished manuscript in confidence, Daniel guarded every twist in the plot.",1,146,18
+"Handed the unpublished manuscript in confidence, Daniel posted online every twist in the plot.",0,146,18
+"Handed the unpublished manuscript in confidence, Maria guarded every twist in the plot.",1,147,18
+"Handed the unpublished manuscript in confidence, Maria posted online every twist in the plot.",0,147,18
+"Handed the unpublished manuscript in confidence, Dana guarded every twist in the plot.",1,148,18
+"Handed the unpublished manuscript in confidence, Dana posted online every twist in the plot.",0,148,18
+"Handed the unpublished manuscript in confidence, Lena guarded every twist in the plot.",1,149,18
+"Handed the unpublished manuscript in confidence, Lena posted online every twist in the plot.",0,149,18
+"Handed the unpublished manuscript in confidence, Andre guarded every twist in the plot.",1,150,18
+"Handed the unpublished manuscript in confidence, Andre posted online every twist in the plot.",0,150,18
+"Handed the unpublished manuscript in confidence, Yuki guarded every twist in the plot.",1,151,18
+"Handed the unpublished manuscript in confidence, Yuki posted online every twist in the plot.",0,151,18
+"After promising to be at the daughter's first playoff start, Noah left work early and cheered through the whole game.",1,152,19
+"After promising to be at the daughter's first playoff start, Noah lingered at happy hour and missed the whole game.",0,152,19
+"After promising to be at the daughter's first playoff start, Ethan left work early and cheered through the whole game.",1,153,19
+"After promising to be at the daughter's first playoff start, Ethan lingered at happy hour and missed the whole game.",0,153,19
+"After promising to be at the daughter's first playoff start, Grace left work early and cheered through the whole game.",1,154,19
+"After promising to be at the daughter's first playoff start, Grace lingered at happy hour and missed the whole game.",0,154,19
+"After promising to be at the daughter's first playoff start, Kwame left work early and cheered through the whole game.",1,155,19
+"After promising to be at the daughter's first playoff start, Kwame lingered at happy hour and missed the whole game.",0,155,19
+"After promising to be at the daughter's first playoff start, Omar left work early and cheered through the whole game.",1,156,19
+"After promising to be at the daughter's first playoff start, Omar lingered at happy hour and missed the whole game.",0,156,19
+"After promising to be at the daughter's first playoff start, Rafael left work early and cheered through the whole game.",1,157,19
+"After promising to be at the daughter's first playoff start, Rafael lingered at happy hour and missed the whole game.",0,157,19
+"After promising to be at the daughter's first playoff start, Malik left work early and cheered through the whole game.",1,158,19
+"After promising to be at the daughter's first playoff start, Malik lingered at happy hour and missed the whole game.",0,158,19
+"After promising to be at the daughter's first playoff start, Yuki left work early and cheered through the whole game.",1,159,19
+"After promising to be at the daughter's first playoff start, Yuki lingered at happy hour and missed the whole game.",0,159,19
+"When the longtime coach retired after thirty seasons, Mateo rallied the alumni to pack the farewell dinner.",1,160,20
+"When the longtime coach retired after thirty seasons, Mateo talked the alumni out of attending the farewell dinner.",0,160,20
+"When the longtime coach retired after thirty seasons, Malik rallied the alumni to pack the farewell dinner.",1,161,20
+"When the longtime coach retired after thirty seasons, Malik talked the alumni out of attending the farewell dinner.",0,161,20
+"When the longtime coach retired after thirty seasons, Hiro rallied the alumni to pack the farewell dinner.",1,162,20
+"When the longtime coach retired after thirty seasons, Hiro talked the alumni out of attending the farewell dinner.",0,162,20
+"When the longtime coach retired after thirty seasons, Rosa rallied the alumni to pack the farewell dinner.",1,163,20
+"When the longtime coach retired after thirty seasons, Rosa talked the alumni out of attending the farewell dinner.",0,163,20
+"When the longtime coach retired after thirty seasons, Tom rallied the alumni to pack the farewell dinner.",1,164,20
+"When the longtime coach retired after thirty seasons, Tom talked the alumni out of attending the farewell dinner.",0,164,20
+"When the longtime coach retired after thirty seasons, Yuki rallied the alumni to pack the farewell dinner.",1,165,20
+"When the longtime coach retired after thirty seasons, Yuki talked the alumni out of attending the farewell dinner.",0,165,20
+"When the longtime coach retired after thirty seasons, Leila rallied the alumni to pack the farewell dinner.",1,166,20
+"When the longtime coach retired after thirty seasons, Leila talked the alumni out of attending the farewell dinner.",0,166,20
+"When the longtime coach retired after thirty seasons, Arjun rallied the alumni to pack the farewell dinner.",1,167,20
+"When the longtime coach retired after thirty seasons, Arjun talked the alumni out of attending the farewell dinner.",0,167,20
+"Told about the pregnancy before anyone else, Priya guarded the news through the whole first trimester.",1,168,21
+"Told about the pregnancy before anyone else, Priya broadcast the news through the whole first trimester.",0,168,21
+"Told about the pregnancy before anyone else, Nina guarded the news through the whole first trimester.",1,169,21
+"Told about the pregnancy before anyone else, Nina broadcast the news through the whole first trimester.",0,169,21
+"Told about the pregnancy before anyone else, Carmen guarded the news through the whole first trimester.",1,170,21
+"Told about the pregnancy before anyone else, Carmen broadcast the news through the whole first trimester.",0,170,21
+"Told about the pregnancy before anyone else, Nadia guarded the news through the whole first trimester.",1,171,21
+"Told about the pregnancy before anyone else, Nadia broadcast the news through the whole first trimester.",0,171,21
+"Told about the pregnancy before anyone else, Dana guarded the news through the whole first trimester.",1,172,21
+"Told about the pregnancy before anyone else, Dana broadcast the news through the whole first trimester.",0,172,21
+"Told about the pregnancy before anyone else, Yuki guarded the news through the whole first trimester.",1,173,21
+"Told about the pregnancy before anyone else, Yuki broadcast the news through the whole first trimester.",0,173,21
+"Told about the pregnancy before anyone else, Tom guarded the news through the whole first trimester.",1,174,21
+"Told about the pregnancy before anyone else, Tom broadcast the news through the whole first trimester.",0,174,21
+"Told about the pregnancy before anyone else, Kwame guarded the news through the whole first trimester.",1,175,21
+"Told about the pregnancy before anyone else, Kwame broadcast the news through the whole first trimester.",0,175,21
+"After joining the popular crowd at the new school, Kwame still saved a seat for the childhood friend at lunch.",1,176,22
+"After joining the popular crowd at the new school, Kwame pretended not to know the childhood friend at lunch.",0,176,22
+"After joining the popular crowd at the new school, Carmen still saved a seat for the childhood friend at lunch.",1,177,22
+"After joining the popular crowd at the new school, Carmen pretended not to know the childhood friend at lunch.",0,177,22
+"After joining the popular crowd at the new school, Sofia still saved a seat for the childhood friend at lunch.",1,178,22
+"After joining the popular crowd at the new school, Sofia pretended not to know the childhood friend at lunch.",0,178,22
+"After joining the popular crowd at the new school, Marcus still saved a seat for the childhood friend at lunch.",1,179,22
+"After joining the popular crowd at the new school, Marcus pretended not to know the childhood friend at lunch.",0,179,22
+"After joining the popular crowd at the new school, Mateo still saved a seat for the childhood friend at lunch.",1,180,22
+"After joining the popular crowd at the new school, Mateo pretended not to know the childhood friend at lunch.",0,180,22
+"After joining the popular crowd at the new school, Tariq still saved a seat for the childhood friend at lunch.",1,181,22
+"After joining the popular crowd at the new school, Tariq pretended not to know the childhood friend at lunch.",0,181,22
+"After joining the popular crowd at the new school, Ethan still saved a seat for the childhood friend at lunch.",1,182,22
+"After joining the popular crowd at the new school, Ethan pretended not to know the childhood friend at lunch.",0,182,22
+"After joining the popular crowd at the new school, Grace still saved a seat for the childhood friend at lunch.",1,183,22
+"After joining the popular crowd at the new school, Grace pretended not to know the childhood friend at lunch.",0,183,22
+"When the laid-off deskmate asked for a reference, Lena stayed up late polishing every line of the letter.",1,184,23
+"When the laid-off deskmate asked for a reference, Lena slipped quiet warnings into every line of the letter.",0,184,23
+"When the laid-off deskmate asked for a reference, Dana stayed up late polishing every line of the letter.",1,185,23
+"When the laid-off deskmate asked for a reference, Dana slipped quiet warnings into every line of the letter.",0,185,23
+"When the laid-off deskmate asked for a reference, Rafael stayed up late polishing every line of the letter.",1,186,23
+"When the laid-off deskmate asked for a reference, Rafael slipped quiet warnings into every line of the letter.",0,186,23
+"When the laid-off deskmate asked for a reference, Rosa stayed up late polishing every line of the letter.",1,187,23
+"When the laid-off deskmate asked for a reference, Rosa slipped quiet warnings into every line of the letter.",0,187,23
+"When the laid-off deskmate asked for a reference, Tariq stayed up late polishing every line of the letter.",1,188,23
+"When the laid-off deskmate asked for a reference, Tariq slipped quiet warnings into every line of the letter.",0,188,23
+"When the laid-off deskmate asked for a reference, Arjun stayed up late polishing every line of the letter.",1,189,23
+"When the laid-off deskmate asked for a reference, Arjun slipped quiet warnings into every line of the letter.",0,189,23
+"When the laid-off deskmate asked for a reference, Sofia stayed up late polishing every line of the letter.",1,190,23
+"When the laid-off deskmate asked for a reference, Sofia slipped quiet warnings into every line of the letter.",0,190,23
+"When the laid-off deskmate asked for a reference, Tom stayed up late polishing every line of the letter.",1,191,23
+"When the laid-off deskmate asked for a reference, Tom slipped quiet warnings into every line of the letter.",0,191,23
+"When the discount megastore opened across the street, Yuki kept ordering weekly from the friend's hardware store.",1,192,24
+"When the discount megastore opened across the street, Yuki sent every neighbor there instead of the friend's hardware store.",0,192,24
+"When the discount megastore opened across the street, Marcus kept ordering weekly from the friend's hardware store.",1,193,24
+"When the discount megastore opened across the street, Marcus sent every neighbor there instead of the friend's hardware store.",0,193,24
+"When the discount megastore opened across the street, Lena kept ordering weekly from the friend's hardware store.",1,194,24
+"When the discount megastore opened across the street, Lena sent every neighbor there instead of the friend's hardware store.",0,194,24
+"When the discount megastore opened across the street, Daniel kept ordering weekly from the friend's hardware store.",1,195,24
+"When the discount megastore opened across the street, Daniel sent every neighbor there instead of the friend's hardware store.",0,195,24
+"When the discount megastore opened across the street, Nadia kept ordering weekly from the friend's hardware store.",1,196,24
+"When the discount megastore opened across the street, Nadia sent every neighbor there instead of the friend's hardware store.",0,196,24
+"When the discount megastore opened across the street, Fatima kept ordering weekly from the friend's hardware store.",1,197,24
+"When the discount megastore opened across the street, Fatima sent every neighbor there instead of the friend's hardware store.",0,197,24
+"When the discount megastore opened across the street, Kwame kept ordering weekly from the friend's hardware store.",1,198,24
+"When the discount megastore opened across the street, Kwame sent every neighbor there instead of the friend's hardware store.",0,198,24
+"When the discount megastore opened across the street, Arjun kept ordering weekly from the friend's hardware store.",1,199,24
+"When the discount megastore opened across the street, Arjun sent every neighbor there instead of the friend's hardware store.",0,199,24
+"Camped overnight outside the ticket window, Sofia held the agreed spot through the whole cold night.",1,200,25
+"Camped overnight outside the ticket window, Sofia sold the agreed spot halfway through the cold night.",0,200,25
+"Camped overnight outside the ticket window, Nina held the agreed spot through the whole cold night.",1,201,25
+"Camped overnight outside the ticket window, Nina sold the agreed spot halfway through the cold night.",0,201,25
+"Camped overnight outside the ticket window, Leo held the agreed spot through the whole cold night.",1,202,25
+"Camped overnight outside the ticket window, Leo sold the agreed spot halfway through the cold night.",0,202,25
+"Camped overnight outside the ticket window, Carmen held the agreed spot through the whole cold night.",1,203,25
+"Camped overnight outside the ticket window, Carmen sold the agreed spot halfway through the cold night.",0,203,25
+"Camped overnight outside the ticket window, Kwame held the agreed spot through the whole cold night.",1,204,25
+"Camped overnight outside the ticket window, Kwame sold the agreed spot halfway through the cold night.",0,204,25
+"Camped overnight outside the ticket window, Tariq held the agreed spot through the whole cold night.",1,205,25
+"Camped overnight outside the ticket window, Tariq sold the agreed spot halfway through the cold night.",0,205,25
+"Camped overnight outside the ticket window, Dana held the agreed spot through the whole cold night.",1,206,25
+"Camped overnight outside the ticket window, Dana sold the agreed spot halfway through the cold night.",0,206,25
+"Camped overnight outside the ticket window, Omar held the agreed spot through the whole cold night.",1,207,25
+"Camped overnight outside the ticket window, Omar sold the agreed spot halfway through the cold night.",0,207,25
+"Sworn to secrecy about the surprise fortieth party, Nina played dumb whenever the birthday girl fished for hints.",1,208,26
+"Sworn to secrecy about the surprise fortieth party, Nina revealed the whole plan when the birthday girl fished for hints.",0,208,26
+"Sworn to secrecy about the surprise fortieth party, Tariq played dumb whenever the birthday girl fished for hints.",1,209,26
+"Sworn to secrecy about the surprise fortieth party, Tariq revealed the whole plan when the birthday girl fished for hints.",0,209,26
+"Sworn to secrecy about the surprise fortieth party, Mateo played dumb whenever the birthday girl fished for hints.",1,210,26
+"Sworn to secrecy about the surprise fortieth party, Mateo revealed the whole plan when the birthday girl fished for hints.",0,210,26
+"Sworn to secrecy about the surprise fortieth party, Hiro played dumb whenever the birthday girl fished for hints.",1,211,26
+"Sworn to secrecy about the surprise fortieth party, Hiro revealed the whole plan when the birthday girl fished for hints.",0,211,26
+"Sworn to secrecy about the surprise fortieth party, Omar played dumb whenever the birthday girl fished for hints.",1,212,26
+"Sworn to secrecy about the surprise fortieth party, Omar revealed the whole plan when the birthday girl fished for hints.",0,212,26
+"Sworn to secrecy about the surprise fortieth party, Nadia played dumb whenever the birthday girl fished for hints.",1,213,26
+"Sworn to secrecy about the surprise fortieth party, Nadia revealed the whole plan when the birthday girl fished for hints.",0,213,26
+"Sworn to secrecy about the surprise fortieth party, Leo played dumb whenever the birthday girl fished for hints.",1,214,26
+"Sworn to secrecy about the surprise fortieth party, Leo revealed the whole plan when the birthday girl fished for hints.",0,214,26
+"Sworn to secrecy about the surprise fortieth party, Amara played dumb whenever the birthday girl fished for hints.",1,215,26
+"Sworn to secrecy about the surprise fortieth party, Amara revealed the whole plan when the birthday girl fished for hints.",0,215,26
+"When the roommate lost the café job in October, Leo covered her share of rent through the end of the semester.",1,216,27
+"When the roommate lost the café job in October, Leo dumped her boxes on the curb before the end of the semester.",0,216,27
+"When the roommate lost the café job in October, Zoe covered her share of rent through the end of the semester.",1,217,27
+"When the roommate lost the café job in October, Zoe dumped her boxes on the curb before the end of the semester.",0,217,27
+"When the roommate lost the café job in October, Daniel covered her share of rent through the end of the semester.",1,218,27
+"When the roommate lost the café job in October, Daniel dumped her boxes on the curb before the end of the semester.",0,218,27
+"When the roommate lost the café job in October, Fatima covered her share of rent through the end of the semester.",1,219,27
+"When the roommate lost the café job in October, Fatima dumped her boxes on the curb before the end of the semester.",0,219,27
+"When the roommate lost the café job in October, Rafael covered her share of rent through the end of the semester.",1,220,27
+"When the roommate lost the café job in October, Rafael dumped her boxes on the curb before the end of the semester.",0,220,27
+"When the roommate lost the café job in October, Kwame covered her share of rent through the end of the semester.",1,221,27
+"When the roommate lost the café job in October, Kwame dumped her boxes on the curb before the end of the semester.",0,221,27
+"When the roommate lost the café job in October, Mateo covered her share of rent through the end of the semester.",1,222,27
+"When the roommate lost the café job in October, Mateo dumped her boxes on the curb before the end of the semester.",0,222,27
+"When the roommate lost the café job in October, Noah covered her share of rent through the end of the semester.",1,223,27
+"When the roommate lost the café job in October, Noah dumped her boxes on the curb before the end of the semester.",0,223,27
+"After the kicker shanked the final field goal, Nina walked over and stood with him through the interviews.",1,224,28
+"After the kicker shanked the final field goal, Nina trashed him to reporters throughout the interviews.",0,224,28
+"After the kicker shanked the final field goal, Arjun walked over and stood with him through the interviews.",1,225,28
+"After the kicker shanked the final field goal, Arjun trashed him to reporters throughout the interviews.",0,225,28
+"After the kicker shanked the final field goal, Hiro walked over and stood with him through the interviews.",1,226,28
+"After the kicker shanked the final field goal, Hiro trashed him to reporters throughout the interviews.",0,226,28
+"After the kicker shanked the final field goal, Daniel walked over and stood with him through the interviews.",1,227,28
+"After the kicker shanked the final field goal, Daniel trashed him to reporters throughout the interviews.",0,227,28
+"After the kicker shanked the final field goal, Grace walked over and stood with him through the interviews.",1,228,28
+"After the kicker shanked the final field goal, Grace trashed him to reporters throughout the interviews.",0,228,28
+"After the kicker shanked the final field goal, Leo walked over and stood with him through the interviews.",1,229,28
+"After the kicker shanked the final field goal, Leo trashed him to reporters throughout the interviews.",0,229,28
+"After the kicker shanked the final field goal, Marcus walked over and stood with him through the interviews.",1,230,28
+"After the kicker shanked the final field goal, Marcus trashed him to reporters throughout the interviews.",0,230,28
+"After the kicker shanked the final field goal, Dana walked over and stood with him through the interviews.",1,231,28
+"After the kicker shanked the final field goal, Dana trashed him to reporters throughout the interviews.",0,231,28
+"Assigned the midnight watch at the scout campsite, Carmen stayed awake by the fire the whole time.",1,232,29
+"Assigned the midnight watch at the scout campsite, Carmen slept inside the tent the whole time.",0,232,29
+"Assigned the midnight watch at the scout campsite, Leila stayed awake by the fire the whole time.",1,233,29
+"Assigned the midnight watch at the scout campsite, Leila slept inside the tent the whole time.",0,233,29
+"Assigned the midnight watch at the scout campsite, Yuki stayed awake by the fire the whole time.",1,234,29
+"Assigned the midnight watch at the scout campsite, Yuki slept inside the tent the whole time.",0,234,29
+"Assigned the midnight watch at the scout campsite, Arjun stayed awake by the fire the whole time.",1,235,29
+"Assigned the midnight watch at the scout campsite, Arjun slept inside the tent the whole time.",0,235,29
+"Assigned the midnight watch at the scout campsite, Daniel stayed awake by the fire the whole time.",1,236,29
+"Assigned the midnight watch at the scout campsite, Daniel slept inside the tent the whole time.",0,236,29
+"Assigned the midnight watch at the scout campsite, Felix stayed awake by the fire the whole time.",1,237,29
+"Assigned the midnight watch at the scout campsite, Felix slept inside the tent the whole time.",0,237,29
+"Assigned the midnight watch at the scout campsite, Zoe stayed awake by the fire the whole time.",1,238,29
+"Assigned the midnight watch at the scout campsite, Zoe slept inside the tent the whole time.",0,238,29
+"Assigned the midnight watch at the scout campsite, Ethan stayed awake by the fire the whole time.",1,239,29
+"Assigned the midnight watch at the scout campsite, Ethan slept inside the tent the whole time.",0,239,29
+"Trusted to deliver the audition tape, Noah drove across town to beat the deadline.",1,240,30
+"Trusted to deliver the audition tape, Noah blew off the errand and missed the deadline.",0,240,30
+"Trusted to deliver the audition tape, Leo drove across town to beat the deadline.",1,241,30
+"Trusted to deliver the audition tape, Leo blew off the errand and missed the deadline.",0,241,30
+"Trusted to deliver the audition tape, Sofia drove across town to beat the deadline.",1,242,30
+"Trusted to deliver the audition tape, Sofia blew off the errand and missed the deadline.",0,242,30
+"Trusted to deliver the audition tape, Omar drove across town to beat the deadline.",1,243,30
+"Trusted to deliver the audition tape, Omar blew off the errand and missed the deadline.",0,243,30
+"Trusted to deliver the audition tape, Fatima drove across town to beat the deadline.",1,244,30
+"Trusted to deliver the audition tape, Fatima blew off the errand and missed the deadline.",0,244,30
+"Trusted to deliver the audition tape, Ava drove across town to beat the deadline.",1,245,30
+"Trusted to deliver the audition tape, Ava blew off the errand and missed the deadline.",0,245,30
+"Trusted to deliver the audition tape, Andre drove across town to beat the deadline.",1,246,30
+"Trusted to deliver the audition tape, Andre blew off the errand and missed the deadline.",0,246,30
+"Trusted to deliver the audition tape, Dana drove across town to beat the deadline.",1,247,30
+"Trusted to deliver the audition tape, Dana blew off the errand and missed the deadline.",0,247,30
+"Entrusted with the debate team's strategy notebook, Tariq guarded it closely all season long.",1,248,31
+"Entrusted with the debate team's strategy notebook, Tariq photocopied it for rivals all season long.",0,248,31
+"Entrusted with the debate team's strategy notebook, Dana guarded it closely all season long.",1,249,31
+"Entrusted with the debate team's strategy notebook, Dana photocopied it for rivals all season long.",0,249,31
+"Entrusted with the debate team's strategy notebook, Leo guarded it closely all season long.",1,250,31
+"Entrusted with the debate team's strategy notebook, Leo photocopied it for rivals all season long.",0,250,31
+"Entrusted with the debate team's strategy notebook, Fatima guarded it closely all season long.",1,251,31
+"Entrusted with the debate team's strategy notebook, Fatima photocopied it for rivals all season long.",0,251,31
+"Entrusted with the debate team's strategy notebook, Maria guarded it closely all season long.",1,252,31
+"Entrusted with the debate team's strategy notebook, Maria photocopied it for rivals all season long.",0,252,31
+"Entrusted with the debate team's strategy notebook, Rosa guarded it closely all season long.",1,253,31
+"Entrusted with the debate team's strategy notebook, Rosa photocopied it for rivals all season long.",0,253,31
+"Entrusted with the debate team's strategy notebook, Felix guarded it closely all season long.",1,254,31
+"Entrusted with the debate team's strategy notebook, Felix photocopied it for rivals all season long.",0,254,31
+"Entrusted with the debate team's strategy notebook, Leila guarded it closely all season long.",1,255,31
+"Entrusted with the debate team's strategy notebook, Leila photocopied it for rivals all season long.",0,255,31
+"When the boss demanded someone to blame for the shipping delay, Amara owned the delay and defended the overwhelmed apprentice.",1,256,32
+"When the boss demanded someone to blame for the shipping delay, Amara dodged the delay and blamed the overwhelmed apprentice.",0,256,32
+"When the boss demanded someone to blame for the shipping delay, Andre owned the delay and defended the overwhelmed apprentice.",1,257,32
+"When the boss demanded someone to blame for the shipping delay, Andre dodged the delay and blamed the overwhelmed apprentice.",0,257,32
+"When the boss demanded someone to blame for the shipping delay, Daniel owned the delay and defended the overwhelmed apprentice.",1,258,32
+"When the boss demanded someone to blame for the shipping delay, Daniel dodged the delay and blamed the overwhelmed apprentice.",0,258,32
+"When the boss demanded someone to blame for the shipping delay, Tom owned the delay and defended the overwhelmed apprentice.",1,259,32
+"When the boss demanded someone to blame for the shipping delay, Tom dodged the delay and blamed the overwhelmed apprentice.",0,259,32
+"When the boss demanded someone to blame for the shipping delay, Mateo owned the delay and defended the overwhelmed apprentice.",1,260,32
+"When the boss demanded someone to blame for the shipping delay, Mateo dodged the delay and blamed the overwhelmed apprentice.",0,260,32
+"When the boss demanded someone to blame for the shipping delay, Leo owned the delay and defended the overwhelmed apprentice.",1,261,32
+"When the boss demanded someone to blame for the shipping delay, Leo dodged the delay and blamed the overwhelmed apprentice.",0,261,32
+"When the boss demanded someone to blame for the shipping delay, Yuki owned the delay and defended the overwhelmed apprentice.",1,262,32
+"When the boss demanded someone to blame for the shipping delay, Yuki dodged the delay and blamed the overwhelmed apprentice.",0,262,32
+"When the boss demanded someone to blame for the shipping delay, Rosa owned the delay and defended the overwhelmed apprentice.",1,263,32
+"When the boss demanded someone to blame for the shipping delay, Rosa dodged the delay and blamed the overwhelmed apprentice.",0,263,32
+"On the last day before changing firms, Ava left every client file intact for the old team.",1,264,33
+"On the last day before changing firms, Ava copied every client file to poach from the old team.",0,264,33
+"On the last day before changing firms, Marcus left every client file intact for the old team.",1,265,33
+"On the last day before changing firms, Marcus copied every client file to poach from the old team.",0,265,33
+"On the last day before changing firms, Yuki left every client file intact for the old team.",1,266,33
+"On the last day before changing firms, Yuki copied every client file to poach from the old team.",0,266,33
+"On the last day before changing firms, Andre left every client file intact for the old team.",1,267,33
+"On the last day before changing firms, Andre copied every client file to poach from the old team.",0,267,33
+"On the last day before changing firms, Ethan left every client file intact for the old team.",1,268,33
+"On the last day before changing firms, Ethan copied every client file to poach from the old team.",0,268,33
+"On the last day before changing firms, Leo left every client file intact for the old team.",1,269,33
+"On the last day before changing firms, Leo copied every client file to poach from the old team.",0,269,33
+"On the last day before changing firms, Hiro left every client file intact for the old team.",1,270,33
+"On the last day before changing firms, Hiro copied every client file to poach from the old team.",0,270,33
+"On the last day before changing firms, Lena left every client file intact for the old team.",1,271,33
+"On the last day before changing firms, Lena copied every client file to poach from the old team.",0,271,33
+"When hail flattened the family's barley a week before harvest, Grace drove home to salvage what remained of the crop.",1,272,34
+"When hail flattened the family's barley a week before harvest, Grace stayed away and joked online about what remained of the crop.",0,272,34
+"When hail flattened the family's barley a week before harvest, Nadia drove home to salvage what remained of the crop.",1,273,34
+"When hail flattened the family's barley a week before harvest, Nadia stayed away and joked online about what remained of the crop.",0,273,34
+"When hail flattened the family's barley a week before harvest, Carmen drove home to salvage what remained of the crop.",1,274,34
+"When hail flattened the family's barley a week before harvest, Carmen stayed away and joked online about what remained of the crop.",0,274,34
+"When hail flattened the family's barley a week before harvest, Fatima drove home to salvage what remained of the crop.",1,275,34
+"When hail flattened the family's barley a week before harvest, Fatima stayed away and joked online about what remained of the crop.",0,275,34
+"When hail flattened the family's barley a week before harvest, Ethan drove home to salvage what remained of the crop.",1,276,34
+"When hail flattened the family's barley a week before harvest, Ethan stayed away and joked online about what remained of the crop.",0,276,34
+"When hail flattened the family's barley a week before harvest, Dana drove home to salvage what remained of the crop.",1,277,34
+"When hail flattened the family's barley a week before harvest, Dana stayed away and joked online about what remained of the crop.",0,277,34
+"When hail flattened the family's barley a week before harvest, Ava drove home to salvage what remained of the crop.",1,278,34
+"When hail flattened the family's barley a week before harvest, Ava stayed away and joked online about what remained of the crop.",0,278,34
+"When hail flattened the family's barley a week before harvest, Priya drove home to salvage what remained of the crop.",1,279,34
+"When hail flattened the family's barley a week before harvest, Priya stayed away and joked online about what remained of the crop.",0,279,34
+"Hearing about the friend's layoff first, Daniel guarded the story from the whole group chat.",1,280,35
+"Hearing about the friend's layoff first, Daniel blasted the story across the whole group chat.",0,280,35
+"Hearing about the friend's layoff first, Ethan guarded the story from the whole group chat.",1,281,35
+"Hearing about the friend's layoff first, Ethan blasted the story across the whole group chat.",0,281,35
+"Hearing about the friend's layoff first, Rosa guarded the story from the whole group chat.",1,282,35
+"Hearing about the friend's layoff first, Rosa blasted the story across the whole group chat.",0,282,35
+"Hearing about the friend's layoff first, Andre guarded the story from the whole group chat.",1,283,35
+"Hearing about the friend's layoff first, Andre blasted the story across the whole group chat.",0,283,35
+"Hearing about the friend's layoff first, Mateo guarded the story from the whole group chat.",1,284,35
+"Hearing about the friend's layoff first, Mateo blasted the story across the whole group chat.",0,284,35
+"Hearing about the friend's layoff first, Kwame guarded the story from the whole group chat.",1,285,35
+"Hearing about the friend's layoff first, Kwame blasted the story across the whole group chat.",0,285,35
+"Hearing about the friend's layoff first, Sofia guarded the story from the whole group chat.",1,286,35
+"Hearing about the friend's layoff first, Sofia blasted the story across the whole group chat.",0,286,35
+"Hearing about the friend's layoff first, Zoe guarded the story from the whole group chat.",1,287,35
+"Hearing about the friend's layoff first, Zoe blasted the story across the whole group chat.",0,287,35
+"The night before the debate final, Omar showed up early for the partner's promised prep session.",1,288,36
+"The night before the debate final, Omar skipped out on the partner's promised prep session.",0,288,36
+"The night before the debate final, Maria showed up early for the partner's promised prep session.",1,289,36
+"The night before the debate final, Maria skipped out on the partner's promised prep session.",0,289,36
+"The night before the debate final, Amara showed up early for the partner's promised prep session.",1,290,36
+"The night before the debate final, Amara skipped out on the partner's promised prep session.",0,290,36
+"The night before the debate final, Dana showed up early for the partner's promised prep session.",1,291,36
+"The night before the debate final, Dana skipped out on the partner's promised prep session.",0,291,36
+"The night before the debate final, Felix showed up early for the partner's promised prep session.",1,292,36
+"The night before the debate final, Felix skipped out on the partner's promised prep session.",0,292,36
+"The night before the debate final, Ethan showed up early for the partner's promised prep session.",1,293,36
+"The night before the debate final, Ethan skipped out on the partner's promised prep session.",0,293,36
+"The night before the debate final, Grace showed up early for the partner's promised prep session.",1,294,36
+"The night before the debate final, Grace skipped out on the partner's promised prep session.",0,294,36
+"The night before the debate final, Kwame showed up early for the partner's promised prep session.",1,295,36
+"The night before the debate final, Kwame skipped out on the partner's promised prep session.",0,295,36
+"When a family emergency kept the stall owner away on market day, Andre spent the whole day running the stand.",1,296,37
+"When a family emergency kept the stall owner away on market day, Andre wandered off an hour after opening the stand.",0,296,37
+"When a family emergency kept the stall owner away on market day, Amara spent the whole day running the stand.",1,297,37
+"When a family emergency kept the stall owner away on market day, Amara wandered off an hour after opening the stand.",0,297,37
+"When a family emergency kept the stall owner away on market day, Daniel spent the whole day running the stand.",1,298,37
+"When a family emergency kept the stall owner away on market day, Daniel wandered off an hour after opening the stand.",0,298,37
+"When a family emergency kept the stall owner away on market day, Felix spent the whole day running the stand.",1,299,37
+"When a family emergency kept the stall owner away on market day, Felix wandered off an hour after opening the stand.",0,299,37
+"When a family emergency kept the stall owner away on market day, Sofia spent the whole day running the stand.",1,300,37
+"When a family emergency kept the stall owner away on market day, Sofia wandered off an hour after opening the stand.",0,300,37
+"When a family emergency kept the stall owner away on market day, Leila spent the whole day running the stand.",1,301,37
+"When a family emergency kept the stall owner away on market day, Leila wandered off an hour after opening the stand.",0,301,37
+"When a family emergency kept the stall owner away on market day, Maria spent the whole day running the stand.",1,302,37
+"When a family emergency kept the stall owner away on market day, Maria wandered off an hour after opening the stand.",0,302,37
+"When a family emergency kept the stall owner away on market day, Carmen spent the whole day running the stand.",1,303,37
+"When a family emergency kept the stall owner away on market day, Carmen wandered off an hour after opening the stand.",0,303,37
+"When the walk-in flooded an hour before service, Tom stayed past midnight bailing alongside the crew.",1,304,38
+"When the walk-in flooded an hour before service, Tom clocked out quietly and left the mess to the crew.",0,304,38
+"When the walk-in flooded an hour before service, Leila stayed past midnight bailing alongside the crew.",1,305,38
+"When the walk-in flooded an hour before service, Leila clocked out quietly and left the mess to the crew.",0,305,38
+"When the walk-in flooded an hour before service, Fatima stayed past midnight bailing alongside the crew.",1,306,38
+"When the walk-in flooded an hour before service, Fatima clocked out quietly and left the mess to the crew.",0,306,38
+"When the walk-in flooded an hour before service, Malik stayed past midnight bailing alongside the crew.",1,307,38
+"When the walk-in flooded an hour before service, Malik clocked out quietly and left the mess to the crew.",0,307,38
+"When the walk-in flooded an hour before service, Marcus stayed past midnight bailing alongside the crew.",1,308,38
+"When the walk-in flooded an hour before service, Marcus clocked out quietly and left the mess to the crew.",0,308,38
+"When the walk-in flooded an hour before service, Grace stayed past midnight bailing alongside the crew.",1,309,38
+"When the walk-in flooded an hour before service, Grace clocked out quietly and left the mess to the crew.",0,309,38
+"When the walk-in flooded an hour before service, Tariq stayed past midnight bailing alongside the crew.",1,310,38
+"When the walk-in flooded an hour before service, Tariq clocked out quietly and left the mess to the crew.",0,310,38
+"When the walk-in flooded an hour before service, Maria stayed past midnight bailing alongside the crew.",1,311,38
+"When the walk-in flooded an hour before service, Maria clocked out quietly and left the mess to the crew.",0,311,38
+"After promising to mind the place while the roommate trekked abroad, Sofia watered every plant in the apartment.",1,312,39
+"After promising to mind the place while the roommate trekked abroad, Sofia threw loud parties every weekend in the apartment.",0,312,39
+"After promising to mind the place while the roommate trekked abroad, Zoe watered every plant in the apartment.",1,313,39
+"After promising to mind the place while the roommate trekked abroad, Zoe threw loud parties every weekend in the apartment.",0,313,39
+"After promising to mind the place while the roommate trekked abroad, Amara watered every plant in the apartment.",1,314,39
+"After promising to mind the place while the roommate trekked abroad, Amara threw loud parties every weekend in the apartment.",0,314,39
+"After promising to mind the place while the roommate trekked abroad, Ethan watered every plant in the apartment.",1,315,39
+"After promising to mind the place while the roommate trekked abroad, Ethan threw loud parties every weekend in the apartment.",0,315,39
+"After promising to mind the place while the roommate trekked abroad, Daniel watered every plant in the apartment.",1,316,39
+"After promising to mind the place while the roommate trekked abroad, Daniel threw loud parties every weekend in the apartment.",0,316,39
+"After promising to mind the place while the roommate trekked abroad, Grace watered every plant in the apartment.",1,317,39
+"After promising to mind the place while the roommate trekked abroad, Grace threw loud parties every weekend in the apartment.",0,317,39
+"After promising to mind the place while the roommate trekked abroad, Leo watered every plant in the apartment.",1,318,39
+"After promising to mind the place while the roommate trekked abroad, Leo threw loud parties every weekend in the apartment.",0,318,39
+"After promising to mind the place while the roommate trekked abroad, Nina watered every plant in the apartment.",1,319,39
+"After promising to mind the place while the roommate trekked abroad, Nina threw loud parties every weekend in the apartment.",0,319,39

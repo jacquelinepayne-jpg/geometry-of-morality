@@ -6,7 +6,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Fork of [saprmarks/geometry-of-truth](https://github.com/saprmarks/geometry-of-truth) (Marks & Tegmark, *The Geometry of Truth*, arXiv:2310.06824). The fork tests whether **moral valence** (good/bad) is linearly represented in LLM activations the way true/false is.
 
-The active line of work is the **moral subject** question: holding the scenario fixed, is *who it happens to* (human / companion animal / farmed animal / wild animal) a linear direction, and does it look different under harm scenarios than neutral ones? Planning docs live in `documentation/` (`compute_estimate.md` has the model/GPU/cost plan: LLaMA-2 7B/13B/70B on Vast.ai, starting with 13B). `setup_host.sh` provisions a fresh GPU instance.
+Two lines of experiment run in parallel, and a change to shared code (`utils.py`, `probes.py`, `generate_acts.py`) touches both:
+
+- **Moral valence** — is good/bad itself a direction? `datasets/morality/`, four moral foundations of matched good/bad minimal pairs, labels validated by a blind rating round in `experiments/label_stability/` rather than assumed.
+- **Moral subject** — holding the scenario fixed, is *who it happens to* (human / companion animal / farmed animal / wild animal) a linear direction, and does it look different under harm scenarios than neutral ones? `datasets/single-template/` and `datasets/multi-template/`.
+
+Planning and results docs live in `documentation/`: `compute_estimate.md` (model/GPU/cost plan — LLaMA-2 7B/13B/70B on Vast.ai, starting with 13B), `first_test_submission.md` (pre-registered thresholds for the label-stability test), `project_log.md` (dated record of each round's result, and the reasoning behind design decisions — read this before revisiting one). `setup_host.sh` provisions a fresh GPU instance.
 
 ## Setup and Commands
 
@@ -26,6 +31,15 @@ Regenerate datasets from the templates (rarely needed; the CSVs are checked in):
 ```bash
 python datasets/make_animal_human.py       # datasets/multi-template/{pair}_{axis}.csv
 python datasets/make_per_template.py       # datasets/single-template/{pair}/{template}.csv
+python datasets/morality/care_harm/data_gen.py   # datasets/morality/{name}.csv + its rating sheet
+```
+
+Label-stability round for the morality datasets (dataset named bare, without the `morality/` prefix):
+
+```bash
+python experiments/label_stability/tally.py --dataset care_harm            # unanimity + agreement
+python experiments/label_stability/sentiment_check.py --dataset care_harm  # sentiment leakage
+python experiments/label_stability/rate.py --dataset care_harm             # needs OPENROUTER_API_KEY
 ```
 
 Experiment scripts (all use argparse; see each `__main__` block for options):
@@ -63,9 +77,12 @@ The pipeline is two-phase: (1) run forward passes once to cache activations, (2)
 - `datasets/make_animal_human.py` — writes the pooled grouping to `datasets/multi-template/`, one CSV per (category pair, axis), e.g. `human_farmed_harm.csv`.
 - `datasets/make_per_template.py` — writes the single-template grouping to `datasets/single-template/<pair>/<template>.csv`, where the only thing varying within a file is the subject word. Defaults to `fire_01 flood_01 morning_01 rest_01` (2 harm, 2 neutral). `human_animal` balances the animal side by sampling evenly across the three animal categories.
 - `datasets/truth/` — the original Geometry-of-Truth datasets and `make_conj_disj.py`.
+- `datasets/morality/` — the moral-valence datasets, the other main line of work alongside the animal/human ones: matched good/bad minimal pairs over four moral foundations, label 1 = morally good. `moral_common.py` is the shared machinery and the place to read first — its `validate()` docstring states the design rules (pairs share their sentence frame and their final words, so the label is never readable off the last tokens, which is the readout position for cached activations) and `build()` explains why negation is per-frame opt-in. Each foundation's `<name>/data_gen.py` only supplies frames. `neg_care_harm` is the lexical-shortcut control, the moral analog of `neg_cities`: train on `morality/care_harm`, test on `morality/neg_care_harm`.
+- **Group splits by `frame_id` for the morality datasets.** Each frame is instantiated with several agent names, so a row-wise split puts near-duplicate statements on both sides and inflates val accuracy — the same hazard `group='subject'` addresses for the animal/human data.
 - `utils.py` — `DataManager` is the central data abstraction: loads cached activations + CSV labels per dataset, handles train/val splits (row-wise or grouped), centering/scaling, concatenation across datasets, and PCA projection.
 - `probes.py` — three probe classes with a shared interface (`from_data`, `pred`, `.direction`): `LRProbe` (logistic regression), `MMProbe` (mass-mean), `CCSProbe` (contrast-consistent search, needs paired pos/neg datasets). `.direction` is what the intervention experiments add/subtract in the residual stream.
 - `interventions.py` — trains a probe on cached activations, then adds/subtracts the (norm-calibrated) probe direction across a layer range (`intervene_layer`..`probe_layer` from `config.ini`) during live forward passes, measuring the shift in P(TRUE) − P(FALSE). Probe class is selected by name via `eval(args.probe)`.
 - `patching_multi_template.py` — the multi-template counterpart to `patching_single_template.py`. Same patching mechanic, but a zero-shot YES/NO moral readout instead of the 5-shot HUMAN/ANIMAL category readout, writing to `experimental_outputs/multi-template/patching_results.json` (`patching_single_template.py` writes to `single-template/`). The two ask different questions (does the model represent the category vs. does that representation drive its stated helping preference), so neither replaces the other and their results stay in separate files. Its patch loop passes `scan=True` explicitly rather than using the module-level `tracer_kwargs`; that is what produced the checked-in results.
 - `patching_single_template.py` — patches residual-stream activations from a human prompt into a token-aligned animal prompt (same four few-shot templates, single-token subjects, harm query) and records the HUMAN − ANIMAL logit difference for every (token, layer). Writes incrementally and supports `--continuation_idx` to resume a failed run.
+- `experiments/label_stability/` — the moral labels are validated, not assumed. `rate.py` collects blind model-rater passes via OpenRouter, `tally.py` scores unanimity and agreement with the intended label into `<dataset>/tally.csv`, `sentiment_check.py` measures how far surface sentiment tracks the label. Rating sheets are written by `moral_common.build()`, not by hand; `statement_id` is a position in the current `rating_sheet.csv`, so a completed sheet is only valid against the sheet it was generated from. Pre-registered thresholds are in `documentation/first_test_submission.md`, results in `documentation/project_log.md`.
 - `visualization_utils.py` — plotly helpers (`TruthData.from_datasets(...).plot(...)`) for the notebooks; figures land in `dataexplorer/plots/`.

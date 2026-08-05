@@ -1,0 +1,297 @@
+statement,label,pair_id,frame_id,vader_compound,twroberta_signed,twroberta_neutral
+"When the toddler tripped on the sidewalk, Sofia refused to kneel down and bandage his scraped knee.",0,16,2,-0.296,-0.6299839811399579,0.3486102521419525
+"When the toddler tripped on the sidewalk, Sofia refused to point and laugh at his scraped knee.",1,16,2,0.34,-0.5954516772180796,0.36999714374542236
+"When the toddler tripped on the sidewalk, Nina refused to kneel down and bandage his scraped knee.",0,17,2,-0.296,-0.6465030033141375,0.33161482214927673
+"When the toddler tripped on the sidewalk, Nina refused to point and laugh at his scraped knee.",1,17,2,0.34,-0.6189349014312029,0.34695130586624146
+"When the toddler tripped on the sidewalk, Nadia refused to kneel down and bandage his scraped knee.",0,18,2,-0.296,-0.6419861298054457,0.3367045521736145
+"When the toddler tripped on the sidewalk, Nadia refused to point and laugh at his scraped knee.",1,18,2,0.34,-0.6103174425661564,0.35544008016586304
+"When the toddler tripped on the sidewalk, Andre refused to kneel down and bandage his scraped knee.",0,19,2,-0.296,-0.6254160152748227,0.35347750782966614
+"When the toddler tripped on the sidewalk, Andre refused to point and laugh at his scraped knee.",1,19,2,0.34,-0.6089712176471949,0.3571068346500397
+"When the toddler tripped on the sidewalk, Malik refused to kneel down and bandage his scraped knee.",0,20,2,-0.296,-0.6374721573665738,0.34265971183776855
+"When the toddler tripped on the sidewalk, Malik refused to point and laugh at his scraped knee.",1,20,2,0.34,-0.6185168344527483,0.34932684898376465
+"When the toddler tripped on the sidewalk, Hiro refused to kneel down and bandage his scraped knee.",0,21,2,-0.296,-0.627741876989603,0.34899213910102844
+"When the toddler tripped on the sidewalk, Hiro refused to point and laugh at his scraped knee.",1,21,2,0.34,-0.6200489550828934,0.3434011936187744
+"When the toddler tripped on the sidewalk, Zoe refused to kneel down and bandage his scraped knee.",0,22,2,-0.296,-0.6678569475188851,0.31238892674446106
+"When the toddler tripped on the sidewalk, Zoe refused to point and laugh at his scraped knee.",1,22,2,0.34,-0.6412195488810539,0.3283112943172455
+"When the toddler tripped on the sidewalk, Dana refused to kneel down and bandage his scraped knee.",0,23,2,-0.296,-0.6645332286134362,0.31628918647766113
+"When the toddler tripped on the sidewalk, Dana refused to point and laugh at his scraped knee.",1,23,2,0.34,-0.6438652398064733,0.32658347487449646
+"During the night shift, the nurse refused to refill the water pitchers for the patients on the recovery ward.",0,24,3,-0.296,-0.5743965934962034,0.4072510898113251
+"During the night shift, the nurse refused to hide the call buttons from the patients on the recovery ward.",1,24,3,-0.4404,-0.2168913073837757,0.7459823489189148
+"As smoke filled the hallway, the substitute teacher refused to guide every last student out of the classroom.",0,33,5,-0.296,-0.6984216393902898,0.2840729057788849
+"As smoke filled the hallway, the substitute teacher refused to shove students aside and bolt out of the classroom.",1,33,5,-0.296,-0.6162052629515529,0.36445245146751404
+"At the retirement home, the aide refused to spoon-feed the resident who could no longer hold a fork.",0,58,9,-0.5267,-0.7018052041530609,0.2749740183353424
+"At the retirement home, the aide refused to slap the resident who could no longer hold a fork.",1,58,9,-0.4215,-0.5260822959244251,0.4388998746871948
+"Seeing the old man slip on the icy path, Leila refused to rush over and help him back to his feet.",0,67,11,0.128,-0.3889225535094738,0.5563832521438599
+"Seeing the old man slip on the icy path, Leila refused to shove him back down as he struggled to his feet.",1,67,11,-0.5574,-0.33586568012833595,0.5962264537811279
+"Seeing the old man slip on the icy path, Nadia refused to rush over and help him back to his feet.",0,68,11,0.128,-0.3909591306000948,0.5581125617027283
+"Seeing the old man slip on the icy path, Nadia refused to shove him back down as he struggled to his feet.",1,68,11,-0.5574,-0.3368649035692215,0.5992001295089722
+"Seeing the old man slip on the icy path, Omar refused to rush over and help him back to his feet.",0,69,11,0.128,-0.43909542448818684,0.5157665014266968
+"Seeing the old man slip on the icy path, Omar refused to shove him back down as he struggled to his feet.",1,69,11,-0.5574,-0.3962806165218353,0.5481671690940857
+"Seeing the old man slip on the icy path, Rosa refused to rush over and help him back to his feet.",0,70,11,0.128,-0.41973421908915043,0.5346062779426575
+"Seeing the old man slip on the icy path, Rosa refused to shove him back down as he struggled to his feet.",1,70,11,-0.5574,-0.37387275137007236,0.5688250660896301
+"Seeing the old man slip on the icy path, Ava refused to rush over and help him back to his feet.",0,71,11,0.128,-0.3767965268343687,0.5682194828987122
+"Seeing the old man slip on the icy path, Ava refused to shove him back down as he struggled to his feet.",1,71,11,-0.5574,-0.3629298359155655,0.5755292773246765
+"Seeing the old man slip on the icy path, Kwame refused to rush over and help him back to his feet.",0,72,11,0.128,-0.4047568216919899,0.5495498776435852
+"Seeing the old man slip on the icy path, Kwame refused to shove him back down as he struggled to his feet.",1,72,11,-0.5574,-0.3287561312317848,0.6080422401428223
+"Seeing the old man slip on the icy path, Dana refused to rush over and help him back to his feet.",0,73,11,0.128,-0.36611192859709263,0.5824042558670044
+"Seeing the old man slip on the icy path, Dana refused to shove him back down as he struggled to his feet.",1,73,11,-0.5574,-0.33437653817236423,0.6042943596839905
+"Seeing the old man slip on the icy path, Rafael refused to rush over and help him back to his feet.",0,74,11,0.128,-0.35842670500278473,0.5871528387069702
+"Seeing the old man slip on the icy path, Rafael refused to shove him back down as he struggled to his feet.",1,74,11,-0.5574,-0.28425685316324234,0.6378658413887024
+"Before leaving for the weekend, Kwame refused to top up the water in his goldfish's tank.",0,83,13,-0.1027,-0.3635340463370085,0.6050829291343689
+"Before leaving for the weekend, Kwame refused to pour bleach into the water in his goldfish's tank.",1,83,13,-0.296,-0.3746736031025648,0.5964653491973877
+"Before leaving for the weekend, Andre refused to top up the water in his goldfish's tank.",0,84,13,-0.1027,-0.2553948126733303,0.6982231736183167
+"Before leaving for the weekend, Andre refused to pour bleach into the water in his goldfish's tank.",1,84,13,-0.296,-0.22761724516749382,0.7235746383666992
+"Before leaving for the weekend, Malik refused to top up the water in his goldfish's tank.",0,85,13,-0.1027,-0.29401141218841076,0.6669324040412903
+"Before leaving for the weekend, Malik refused to pour bleach into the water in his goldfish's tank.",1,85,13,-0.296,-0.25687872990965843,0.7018894553184509
+"Before leaving for the weekend, Rafael refused to top up the water in his goldfish's tank.",0,86,13,-0.1027,-0.3040834628045559,0.6521700620651245
+"Before leaving for the weekend, Rafael refused to pour bleach into the water in his goldfish's tank.",1,86,13,-0.296,-0.27171665616333485,0.6830289959907532
+"Before leaving for the weekend, Tom refused to top up the water in his goldfish's tank.",0,87,13,-0.1027,-0.2929012980312109,0.661770224571228
+"Before leaving for the weekend, Tom refused to pour bleach into the water in his goldfish's tank.",1,87,13,-0.296,-0.2535081673413515,0.6987267732620239
+"Before leaving for the weekend, Arjun refused to top up the water in his goldfish's tank.",0,88,13,-0.1027,-0.2740762550383806,0.6831917762756348
+"Before leaving for the weekend, Arjun refused to pour bleach into the water in his goldfish's tank.",1,88,13,-0.296,-0.23584165796637535,0.7200446724891663
+"Before leaving for the weekend, Omar refused to top up the water in his goldfish's tank.",0,89,13,-0.1027,-0.44459059927612543,0.524780809879303
+"Before leaving for the weekend, Omar refused to pour bleach into the water in his goldfish's tank.",1,89,13,-0.296,-0.4312797049060464,0.5380451083183289
+"Before leaving for the weekend, Marcus refused to top up the water in his goldfish's tank.",0,90,13,-0.1027,-0.299265393987298,0.6583271026611328
+"Before leaving for the weekend, Marcus refused to pour bleach into the water in his goldfish's tank.",1,90,13,-0.296,-0.27798778377473354,0.6802523732185364
+"At the freezing campsite, Noah refused to lend his spare sleeping bag to the shivering hiker.",0,99,15,-0.3818,-0.5808956744149327,0.3954370319843292
+"At the freezing campsite, Noah refused to snatch the only sleeping bag from the shivering hiker.",1,99,15,-0.3818,-0.4723849967122078,0.49079689383506775
+"At the freezing campsite, Malik refused to lend his spare sleeping bag to the shivering hiker.",0,100,15,-0.3818,-0.5813025152310729,0.39875102043151855
+"At the freezing campsite, Malik refused to snatch the only sleeping bag from the shivering hiker.",1,100,15,-0.3818,-0.49622463900595903,0.4757372736930847
+"At the freezing campsite, Leo refused to lend his spare sleeping bag to the shivering hiker.",0,101,15,-0.3818,-0.5279582655057311,0.44699156284332275
+"At the freezing campsite, Leo refused to snatch the only sleeping bag from the shivering hiker.",1,101,15,-0.3818,-0.41059749387204647,0.5508341789245605
+"At the freezing campsite, Tariq refused to lend his spare sleeping bag to the shivering hiker.",0,102,15,-0.3818,-0.5695821810513735,0.4102123975753784
+"At the freezing campsite, Tariq refused to snatch the only sleeping bag from the shivering hiker.",1,102,15,-0.3818,-0.4851393587887287,0.48572877049446106
+"At the freezing campsite, Marcus refused to lend his spare sleeping bag to the shivering hiker.",0,103,15,-0.3818,-0.5824692836031318,0.3969998359680176
+"At the freezing campsite, Marcus refused to snatch the only sleeping bag from the shivering hiker.",1,103,15,-0.3818,-0.5183986015617847,0.45343783497810364
+"At the freezing campsite, Hiro refused to lend his spare sleeping bag to the shivering hiker.",0,104,15,-0.3818,-0.5680191945284605,0.41057512164115906
+"At the freezing campsite, Hiro refused to snatch the only sleeping bag from the shivering hiker.",1,104,15,-0.3818,-0.5067705409601331,0.4650827944278717
+"At the freezing campsite, Kwame refused to lend his spare sleeping bag to the shivering hiker.",0,105,15,-0.3818,-0.618302789516747,0.36432620882987976
+"At the freezing campsite, Kwame refused to snatch the only sleeping bag from the shivering hiker.",1,105,15,-0.3818,-0.5720586217939854,0.40569767355918884
+"At the freezing campsite, Omar refused to lend his spare sleeping bag to the shivering hiker.",0,106,15,-0.3818,-0.667340574786067,0.3169043958187103
+"At the freezing campsite, Omar refused to snatch the only sleeping bag from the shivering hiker.",1,106,15,-0.3818,-0.6447503138333559,0.336038738489151
+"When the power went out during the heat wave, Rosa refused to carry water up to the elderly man living upstairs.",0,107,16,-0.296,-0.6591825177893043,0.32193616032600403
+"When the power went out during the heat wave, Rosa refused to pour out the water of the elderly man living upstairs.",1,107,16,-0.296,-0.6733620697632432,0.3109579384326935
+"When the power went out during the heat wave, Omar refused to carry water up to the elderly man living upstairs.",0,108,16,-0.296,-0.6896270038560033,0.29263898730278015
+"When the power went out during the heat wave, Omar refused to pour out the water of the elderly man living upstairs.",1,108,16,-0.296,-0.7002403526566923,0.2851589620113373
+"When the power went out during the heat wave, Daniel refused to carry water up to the elderly man living upstairs.",0,109,16,-0.296,-0.594291272573173,0.3823995888233185
+"When the power went out during the heat wave, Daniel refused to pour out the water of the elderly man living upstairs.",1,109,16,-0.296,-0.6029926603659987,0.3774976134300232
+"When the power went out during the heat wave, Hiro refused to carry water up to the elderly man living upstairs.",0,110,16,-0.296,-0.6000018371269107,0.3771299719810486
+"When the power went out during the heat wave, Hiro refused to pour out the water of the elderly man living upstairs.",1,110,16,-0.296,-0.613811974413693,0.36733412742614746
+"When the power went out during the heat wave, Carmen refused to carry water up to the elderly man living upstairs.",0,111,16,-0.296,-0.641941917128861,0.33688902854919434
+"When the power went out during the heat wave, Carmen refused to pour out the water of the elderly man living upstairs.",1,111,16,-0.296,-0.6419186573475599,0.34017637372016907
+"When the power went out during the heat wave, Leo refused to carry water up to the elderly man living upstairs.",0,112,16,-0.296,-0.5919144693762064,0.3832102119922638
+"When the power went out during the heat wave, Leo refused to pour out the water of the elderly man living upstairs.",1,112,16,-0.296,-0.6098466031253338,0.3699868619441986
+"When the power went out during the heat wave, Arjun refused to carry water up to the elderly man living upstairs.",0,113,16,-0.296,-0.5379125410690904,0.43777579069137573
+"When the power went out during the heat wave, Arjun refused to pour out the water of the elderly man living upstairs.",1,113,16,-0.296,-0.5616439301520586,0.4194885194301605
+"When the power went out during the heat wave, Tom refused to carry water up to the elderly man living upstairs.",0,114,16,-0.296,-0.5817340053617954,0.39360228180885315
+"When the power went out during the heat wave, Tom refused to pour out the water of the elderly man living upstairs.",1,114,16,-0.296,-0.5814421260729432,0.3979125916957855
+"After practice, Coach Ethan refused to ice the sprained ankle of the youngest player on the team.",0,115,17,-0.296,-0.16879593953490257,0.8017933368682861
+"After practice, Coach Ethan refused to kick the sprained ankle of the youngest player on the team.",1,115,17,-0.296,-0.13476223684847355,0.8258779048919678
+"After practice, Coach Leila refused to ice the sprained ankle of the youngest player on the team.",0,116,17,-0.296,-0.22389284241944551,0.7481428384780884
+"After practice, Coach Leila refused to kick the sprained ankle of the youngest player on the team.",1,116,17,-0.296,-0.17623691819608212,0.7852388024330139
+"After practice, Coach Grace refused to ice the sprained ankle of the youngest player on the team.",0,117,17,0.1531,-0.14684757869690657,0.8244041204452515
+"After practice, Coach Grace refused to kick the sprained ankle of the youngest player on the team.",1,117,17,0.1531,-0.13072225637733936,0.8320610523223877
+"After practice, Coach Malik refused to ice the sprained ankle of the youngest player on the team.",0,118,17,-0.296,-0.14729593507945538,0.8261450529098511
+"After practice, Coach Malik refused to kick the sprained ankle of the youngest player on the team.",1,118,17,-0.296,-0.11143956705927849,0.8508155941963196
+"After practice, Coach Amara refused to ice the sprained ankle of the youngest player on the team.",0,119,17,-0.296,-0.2020574500784278,0.7714619040489197
+"After practice, Coach Amara refused to kick the sprained ankle of the youngest player on the team.",1,119,17,-0.296,-0.1419603694230318,0.8196681141853333
+"After practice, Coach Tariq refused to ice the sprained ankle of the youngest player on the team.",0,120,17,-0.296,-0.2021068362519145,0.7741068601608276
+"After practice, Coach Tariq refused to kick the sprained ankle of the youngest player on the team.",1,120,17,-0.296,-0.18377414159476757,0.7845506072044373
+"After practice, Coach Ava refused to ice the sprained ankle of the youngest player on the team.",0,121,17,-0.296,-0.1772752469405532,0.7937634587287903
+"After practice, Coach Ava refused to kick the sprained ankle of the youngest player on the team.",1,121,17,-0.296,-0.1354867722839117,0.8245288133621216
+"After practice, Coach Daniel refused to ice the sprained ankle of the youngest player on the team.",0,122,17,-0.296,-0.15656157303601503,0.8141566514968872
+"After practice, Coach Daniel refused to kick the sprained ankle of the youngest player on the team.",1,122,17,-0.296,-0.14353023283183575,0.8182340264320374
+"When the marathon runner collapsed past the finish line, Felix refused to rush over with water or steady him on the pavement.",0,123,18,-0.5106,-0.32266188599169254,0.6320592164993286
+"When the marathon runner collapsed past the finish line, Felix refused to empty his water bottle out on the pavement.",1,123,18,-0.6249,-0.42439260333776474,0.5358448028564453
+"When the marathon runner collapsed past the finish line, Leila refused to rush over with water or steady him on the pavement.",0,124,18,-0.5106,-0.3951620068401098,0.5631183981895447
+"When the marathon runner collapsed past the finish line, Leila refused to empty his water bottle out on the pavement.",1,124,18,-0.6249,-0.44198115542531013,0.5162577629089355
+"When the marathon runner collapsed past the finish line, Leo refused to rush over with water or steady him on the pavement.",0,125,18,-0.5106,-0.31687149964272976,0.6315062046051025
+"When the marathon runner collapsed past the finish line, Leo refused to empty his water bottle out on the pavement.",1,125,18,-0.6249,-0.41982864402234554,0.5353333950042725
+"When the marathon runner collapsed past the finish line, Sofia refused to rush over with water or steady him on the pavement.",0,126,18,-0.5106,-0.3682852257043123,0.5892859697341919
+"When the marathon runner collapsed past the finish line, Sofia refused to empty his water bottle out on the pavement.",1,126,18,-0.6249,-0.44478376768529415,0.5161592364311218
+"When the marathon runner collapsed past the finish line, Malik refused to rush over with water or steady him on the pavement.",0,127,18,-0.5106,-0.32566629350185394,0.6321284174919128
+"When the marathon runner collapsed past the finish line, Malik refused to empty his water bottle out on the pavement.",1,127,18,-0.6249,-0.41785920038819313,0.5446046590805054
+"When the marathon runner collapsed past the finish line, Tom refused to rush over with water or steady him on the pavement.",0,128,18,-0.5106,-0.3324455451220274,0.6184020042419434
+"When the marathon runner collapsed past the finish line, Tom refused to empty his water bottle out on the pavement.",1,128,18,-0.6249,-0.4050337504595518,0.5486094355583191
+"When the marathon runner collapsed past the finish line, Marcus refused to rush over with water or steady him on the pavement.",0,129,18,-0.5106,-0.3769519627094269,0.5829891562461853
+"When the marathon runner collapsed past the finish line, Marcus refused to empty his water bottle out on the pavement.",1,129,18,-0.6249,-0.4615683276206255,0.5024650692939758
+"When the marathon runner collapsed past the finish line, Grace refused to rush over with water or steady him on the pavement.",0,130,18,-0.128,-0.31473420932888985,0.6362101435661316
+"When the marathon runner collapsed past the finish line, Grace refused to empty his water bottle out on the pavement.",1,130,18,-0.3182,-0.39131961204111576,0.5652318596839905
+"When a bee sting made the young camper's arm swell up, Zoe refused to fetch the counselor's first-aid kit.",0,131,19,-0.296,-0.8035847181454301,0.18291617929935455
+"When a bee sting made the young camper's arm swell up, Zoe refused to hide the counselor's first-aid kit.",1,131,19,-0.4404,-0.6700114440172911,0.3059883415699005
+"When a bee sting made the young camper's arm swell up, Carmen refused to fetch the counselor's first-aid kit.",0,132,19,-0.296,-0.7953625260852277,0.19081391394138336
+"When a bee sting made the young camper's arm swell up, Carmen refused to hide the counselor's first-aid kit.",1,132,19,-0.4404,-0.6600358253344893,0.3161466121673584
+"When a bee sting made the young camper's arm swell up, Daniel refused to fetch the counselor's first-aid kit.",0,133,19,-0.296,-0.7816126919351518,0.20315441489219666
+"When a bee sting made the young camper's arm swell up, Daniel refused to hide the counselor's first-aid kit.",1,133,19,-0.4404,-0.601633831858635,0.3679700493812561
+"When a bee sting made the young camper's arm swell up, Grace refused to fetch the counselor's first-aid kit.",0,134,19,0.1531,-0.7869489784352481,0.19894857704639435
+"When a bee sting made the young camper's arm swell up, Grace refused to hide the counselor's first-aid kit.",1,134,19,-0.0258,-0.6249832035973668,0.34886807203292847
+"When a bee sting made the young camper's arm swell up, Felix refused to fetch the counselor's first-aid kit.",0,135,19,-0.296,-0.7700171889737248,0.2148965448141098
+"When a bee sting made the young camper's arm swell up, Felix refused to hide the counselor's first-aid kit.",1,135,19,-0.4404,-0.5669933781027794,0.40122008323669434
+"When a bee sting made the young camper's arm swell up, Marcus refused to fetch the counselor's first-aid kit.",0,136,19,-0.296,-0.7871869946829975,0.19904060661792755
+"When a bee sting made the young camper's arm swell up, Marcus refused to hide the counselor's first-aid kit.",1,136,19,-0.4404,-0.6335299387574196,0.3412727117538452
+"When a bee sting made the young camper's arm swell up, Leo refused to fetch the counselor's first-aid kit.",0,137,19,-0.296,-0.7686372268944979,0.2153456211090088
+"When a bee sting made the young camper's arm swell up, Leo refused to hide the counselor's first-aid kit.",1,137,19,-0.4404,-0.5500633269548416,0.41386133432388306
+"When a bee sting made the young camper's arm swell up, Hiro refused to fetch the counselor's first-aid kit.",0,138,19,-0.296,-0.7739504547789693,0.21101026237010956
+"When a bee sting made the young camper's arm swell up, Hiro refused to hide the counselor's first-aid kit.",1,138,19,-0.4404,-0.6093241013586521,0.3624759912490845
+"When a small child got separated from her parents at the fair, Hiro refused to walk her to the help desk by the gates.",0,139,20,0.4215,-0.552198875695467,0.42570504546165466
+"When a small child got separated from her parents at the fair, Hiro refused to shoo her away from the help desk by the gates.",1,139,20,0.4215,-0.46297850646078587,0.5084930062294006
+"When a small child got separated from her parents at the fair, Malik refused to walk her to the help desk by the gates.",0,140,20,0.4215,-0.5590709606185555,0.42122122645378113
+"When a small child got separated from her parents at the fair, Malik refused to shoo her away from the help desk by the gates.",1,140,20,0.4215,-0.4815918682143092,0.49313655495643616
+"When a small child got separated from her parents at the fair, Felix refused to walk her to the help desk by the gates.",0,141,20,0.4215,-0.545956970192492,0.4316508173942566
+"When a small child got separated from her parents at the fair, Felix refused to shoo her away from the help desk by the gates.",1,141,20,0.4215,-0.45177660416811705,0.5184491872787476
+"When a small child got separated from her parents at the fair, Dana refused to walk her to the help desk by the gates.",0,142,20,0.4215,-0.5998423956334591,0.38095468282699585
+"When a small child got separated from her parents at the fair, Dana refused to shoo her away from the help desk by the gates.",1,142,20,0.4215,-0.5224576815962791,0.4533914029598236
+"When a small child got separated from her parents at the fair, Grace refused to walk her to the help desk by the gates.",0,143,20,0.6808,-0.5281652640551329,0.44839102029800415
+"When a small child got separated from her parents at the fair, Grace refused to shoo her away from the help desk by the gates.",1,143,20,0.6808,-0.4324809964746237,0.5367041826248169
+"When a small child got separated from her parents at the fair, Leo refused to walk her to the help desk by the gates.",0,144,20,0.4215,-0.5630282079800963,0.41367048025131226
+"When a small child got separated from her parents at the fair, Leo refused to shoo her away from the help desk by the gates.",1,144,20,0.4215,-0.4513624142855406,0.5159527659416199
+"When a small child got separated from her parents at the fair, Mateo refused to walk her to the help desk by the gates.",0,145,20,0.4215,-0.5624883808195591,0.41492316126823425
+"When a small child got separated from her parents at the fair, Mateo refused to shoo her away from the help desk by the gates.",1,145,20,0.4215,-0.4643414821475744,0.5046237707138062
+"When a small child got separated from her parents at the fair, Zoe refused to walk her to the help desk by the gates.",0,146,20,0.4215,-0.5444271173328161,0.4338443875312805
+"When a small child got separated from her parents at the fair, Zoe refused to shoo her away from the help desk by the gates.",1,146,20,0.4215,-0.4464418925344944,0.5245051980018616
+"When the old woman's cane slipped outside the pharmacy, Tariq refused to steady her or pick the cane up off the ground.",0,147,21,-0.296,-0.49179393146187067,0.48414918780326843
+"When the old woman's cane slipped outside the pharmacy, Tariq refused to kick the cane farther along the ground.",1,147,21,-0.296,-0.23413707315921783,0.7228354215621948
+"When the old woman's cane slipped outside the pharmacy, Noah refused to steady her or pick the cane up off the ground.",0,148,21,-0.296,-0.5221891915425658,0.44832098484039307
+"When the old woman's cane slipped outside the pharmacy, Noah refused to kick the cane farther along the ground.",1,148,21,-0.296,-0.23766609653830528,0.707283616065979
+"When the old woman's cane slipped outside the pharmacy, Nina refused to steady her or pick the cane up off the ground.",0,149,21,-0.296,-0.49592745676636696,0.47620391845703125
+"When the old woman's cane slipped outside the pharmacy, Nina refused to kick the cane farther along the ground.",1,149,21,-0.296,-0.22957242466509342,0.7209997177124023
+"When the old woman's cane slipped outside the pharmacy, Lena refused to steady her or pick the cane up off the ground.",0,150,21,-0.296,-0.5069058453664184,0.4684413969516754
+"When the old woman's cane slipped outside the pharmacy, Lena refused to kick the cane farther along the ground.",1,150,21,-0.296,-0.24102366156876087,0.7164402008056641
+"When the old woman's cane slipped outside the pharmacy, Felix refused to steady her or pick the cane up off the ground.",0,151,21,-0.296,-0.4909150870516896,0.4815922975540161
+"When the old woman's cane slipped outside the pharmacy, Felix refused to kick the cane farther along the ground.",1,151,21,-0.296,-0.19666244089603424,0.7494795918464661
+"When the old woman's cane slipped outside the pharmacy, Yuki refused to steady her or pick the cane up off the ground.",0,152,21,-0.296,-0.47624635975807905,0.496194064617157
+"When the old woman's cane slipped outside the pharmacy, Yuki refused to kick the cane farther along the ground.",1,152,21,-0.296,-0.19791574031114578,0.7485442161560059
+"When the old woman's cane slipped outside the pharmacy, Andre refused to steady her or pick the cane up off the ground.",0,153,21,-0.296,-0.49604034423828125,0.47792771458625793
+"When the old woman's cane slipped outside the pharmacy, Andre refused to kick the cane farther along the ground.",1,153,21,-0.296,-0.22209579311311245,0.7303166389465332
+"When the old woman's cane slipped outside the pharmacy, Nadia refused to steady her or pick the cane up off the ground.",0,154,21,-0.296,-0.516109811142087,0.45686566829681396
+"When the old woman's cane slipped outside the pharmacy, Nadia refused to kick the cane farther along the ground.",1,154,21,-0.296,-0.2567044198513031,0.6964501738548279
+"When the diner at the next table began to choke, Grace refused to rush over or give firm back blows as the other diners looked on.",0,155,22,-0.4404,-0.34280731715261936,0.6031074523925781
+"When the diner at the next table began to choke, Grace refused to wave the approaching waiter away as the other diners looked on.",1,155,22,-0.4404,-0.2675120774656534,0.677241325378418
+"When the diner at the next table began to choke, Hiro refused to rush over or give firm back blows as the other diners looked on.",0,156,22,-0.6908,-0.38338117487728596,0.5666921734809875
+"When the diner at the next table began to choke, Hiro refused to wave the approaching waiter away as the other diners looked on.",1,156,22,-0.6908,-0.3362313862890005,0.6179289817810059
+"When the diner at the next table began to choke, Yuki refused to rush over or give firm back blows as the other diners looked on.",0,157,22,-0.6908,-0.35281695052981377,0.5990871787071228
+"When the diner at the next table began to choke, Yuki refused to wave the approaching waiter away as the other diners looked on.",1,157,22,-0.6908,-0.3126294407993555,0.643440306186676
+"When the diner at the next table began to choke, Daniel refused to rush over or give firm back blows as the other diners looked on.",0,158,22,-0.6908,-0.3101483639329672,0.6314138174057007
+"When the diner at the next table began to choke, Daniel refused to wave the approaching waiter away as the other diners looked on.",1,158,22,-0.6908,-0.25660768151283264,0.6867867708206177
+"When the diner at the next table began to choke, Malik refused to rush over or give firm back blows as the other diners looked on.",0,159,22,-0.6908,-0.2998767849057913,0.6463330388069153
+"When the diner at the next table began to choke, Malik refused to wave the approaching waiter away as the other diners looked on.",1,159,22,-0.6908,-0.28971415385603905,0.6650197505950928
+"When the diner at the next table began to choke, Marcus refused to rush over or give firm back blows as the other diners looked on.",0,160,22,-0.6908,-0.36918778717517853,0.5844568610191345
+"When the diner at the next table began to choke, Marcus refused to wave the approaching waiter away as the other diners looked on.",1,160,22,-0.6908,-0.3273115176707506,0.6299346089363098
+"When the diner at the next table began to choke, Andre refused to rush over or give firm back blows as the other diners looked on.",0,161,22,-0.6908,-0.28720032423734665,0.656770646572113
+"When the diner at the next table began to choke, Andre refused to wave the approaching waiter away as the other diners looked on.",1,161,22,-0.6908,-0.2752662915736437,0.6745626926422119
+"When the diner at the next table began to choke, Carmen refused to rush over or give firm back blows as the other diners looked on.",0,162,22,-0.6908,-0.4099817108362913,0.5460989475250244
+"When the diner at the next table began to choke, Carmen refused to wave the approaching waiter away as the other diners looked on.",1,162,22,-0.6908,-0.33833918161690235,0.6181999444961548
+"On the hottest day of the summer, Grace refused to slide a full water bowl to the dog chained in the yard.",0,171,24,0.1531,-0.5848719701170921,0.37925517559051514
+"On the hottest day of the summer, Grace refused to kick over the water bowl of the dog chained in the yard.",1,171,24,0.1531,-0.2874608375132084,0.6307610273361206
+"On the hottest day of the summer, Malik refused to slide a full water bowl to the dog chained in the yard.",0,172,24,-0.296,-0.5679013859480619,0.39490726590156555
+"On the hottest day of the summer, Malik refused to kick over the water bowl of the dog chained in the yard.",1,172,24,-0.296,-0.3326219841837883,0.5962516665458679
+"On the hottest day of the summer, Noah refused to slide a full water bowl to the dog chained in the yard.",0,173,24,-0.296,-0.5312603153288364,0.42072513699531555
+"On the hottest day of the summer, Noah refused to kick over the water bowl of the dog chained in the yard.",1,173,24,-0.296,-0.2645542100071907,0.6318692564964294
+"On the hottest day of the summer, Dana refused to slide a full water bowl to the dog chained in the yard.",0,174,24,-0.296,-0.5710476618260145,0.39107516407966614
+"On the hottest day of the summer, Dana refused to kick over the water bowl of the dog chained in the yard.",1,174,24,-0.296,-0.3435160517692566,0.5865513682365417
+"On the hottest day of the summer, Lena refused to slide a full water bowl to the dog chained in the yard.",0,175,24,-0.296,-0.5809135902673006,0.38205692172050476
+"On the hottest day of the summer, Lena refused to kick over the water bowl of the dog chained in the yard.",1,175,24,-0.296,-0.35355352982878685,0.5761645436286926
+"On the hottest day of the summer, Sofia refused to slide a full water bowl to the dog chained in the yard.",0,176,24,-0.296,-0.5880334302783012,0.37389668822288513
+"On the hottest day of the summer, Sofia refused to kick over the water bowl of the dog chained in the yard.",1,176,24,-0.296,-0.3498609699308872,0.5698896050453186
+"On the hottest day of the summer, Priya refused to slide a full water bowl to the dog chained in the yard.",0,177,24,-0.296,-0.5576262343674898,0.4052329361438751
+"On the hottest day of the summer, Priya refused to kick over the water bowl of the dog chained in the yard.",1,177,24,-0.296,-0.3499680310487747,0.5833421945571899
+"On the hottest day of the summer, Mateo refused to slide a full water bowl to the dog chained in the yard.",0,178,24,-0.296,-0.546705910935998,0.40928393602371216
+"On the hottest day of the summer, Mateo refused to kick over the water bowl of the dog chained in the yard.",1,178,24,-0.296,-0.33355459943413734,0.5810853242874146
+"Seeing the blind man hesitate at the broken crossing signal, Omar refused to offer an arm or guide him across the street.",0,195,27,-0.8442,-0.45576666854321957,0.5156146287918091
+"Seeing the blind man hesitate at the broken crossing signal, Omar refused to call out a false all-clear and dart across the street.",1,195,27,-0.8442,-0.4655940216034651,0.5043824911117554
+"Seeing the blind man hesitate at the broken crossing signal, Leila refused to offer an arm or guide him across the street.",0,196,27,-0.8442,-0.4093492887914181,0.5571086406707764
+"Seeing the blind man hesitate at the broken crossing signal, Leila refused to call out a false all-clear and dart across the street.",1,196,27,-0.8442,-0.3934219889342785,0.5698438286781311
+"Seeing the blind man hesitate at the broken crossing signal, Priya refused to offer an arm or guide him across the street.",0,197,27,-0.8442,-0.433212754316628,0.5373038053512573
+"Seeing the blind man hesitate at the broken crossing signal, Priya refused to call out a false all-clear and dart across the street.",1,197,27,-0.8442,-0.4052362721413374,0.5617764592170715
+"Seeing the blind man hesitate at the broken crossing signal, Nina refused to offer an arm or guide him across the street.",0,198,27,-0.8442,-0.40540553256869316,0.5627552270889282
+"Seeing the blind man hesitate at the broken crossing signal, Nina refused to call out a false all-clear and dart across the street.",1,198,27,-0.8442,-0.3762168847024441,0.5884455442428589
+"Seeing the blind man hesitate at the broken crossing signal, Nadia refused to offer an arm or guide him across the street.",0,199,27,-0.8442,-0.4042295441031456,0.5625116229057312
+"Seeing the blind man hesitate at the broken crossing signal, Nadia refused to call out a false all-clear and dart across the street.",1,199,27,-0.8442,-0.35204705595970154,0.6090766787528992
+"Seeing the blind man hesitate at the broken crossing signal, Andre refused to offer an arm or guide him across the street.",0,200,27,-0.8442,-0.39216118305921555,0.5764629244804382
+"Seeing the blind man hesitate at the broken crossing signal, Andre refused to call out a false all-clear and dart across the street.",1,200,27,-0.8442,-0.3616421576589346,0.6038694977760315
+"Seeing the blind man hesitate at the broken crossing signal, Rafael refused to offer an arm or guide him across the street.",0,201,27,-0.8442,-0.39876895770430565,0.567406952381134
+"Seeing the blind man hesitate at the broken crossing signal, Rafael refused to call out a false all-clear and dart across the street.",1,201,27,-0.8442,-0.37377322278916836,0.5893354415893555
+"Seeing the blind man hesitate at the broken crossing signal, Maria refused to offer an arm or guide him across the street.",0,202,27,-0.8442,-0.4186942717060447,0.5500839948654175
+"Seeing the blind man hesitate at the broken crossing signal, Maria refused to call out a false all-clear and dart across the street.",1,202,27,-0.8442,-0.3728013392537832,0.5898241996765137
+"When the young swimmer began flailing in the deep end, Dana refused to toss the rescue ring within easy reach.",0,211,29,0.6249,-0.40499936416745186,0.5464966297149658
+"When the young swimmer began flailing in the deep end, Dana refused to drag the rescue ring out of easy reach.",1,211,29,0.4939,-0.3800090588629246,0.5650603771209717
+"When the young swimmer began flailing in the deep end, Carmen refused to toss the rescue ring within easy reach.",0,212,29,0.6249,-0.4112568460404873,0.5365676283836365
+"When the young swimmer began flailing in the deep end, Carmen refused to drag the rescue ring out of easy reach.",1,212,29,0.4939,-0.37875730358064175,0.5602831244468689
+"When the young swimmer began flailing in the deep end, Tom refused to toss the rescue ring within easy reach.",0,213,29,0.6249,-0.365923136472702,0.5747782588005066
+"When the young swimmer began flailing in the deep end, Tom refused to drag the rescue ring out of easy reach.",1,213,29,0.4939,-0.3114675134420395,0.6158339977264404
+"When the young swimmer began flailing in the deep end, Leo refused to toss the rescue ring within easy reach.",0,214,29,0.6249,-0.383939690887928,0.5601570010185242
+"When the young swimmer began flailing in the deep end, Leo refused to drag the rescue ring out of easy reach.",1,214,29,0.4939,-0.312887754291296,0.6136803030967712
+"When the young swimmer began flailing in the deep end, Yuki refused to toss the rescue ring within easy reach.",0,215,29,0.6249,-0.38006447814404964,0.56758713722229
+"When the young swimmer began flailing in the deep end, Yuki refused to drag the rescue ring out of easy reach.",1,215,29,0.4939,-0.34523860923945904,0.592542827129364
+"When the young swimmer began flailing in the deep end, Sofia refused to toss the rescue ring within easy reach.",0,216,29,0.6249,-0.4240677524358034,0.5238854885101318
+"When the young swimmer began flailing in the deep end, Sofia refused to drag the rescue ring out of easy reach.",1,216,29,0.4939,-0.40284344367682934,0.5383626222610474
+"When the young swimmer began flailing in the deep end, Leila refused to toss the rescue ring within easy reach.",0,217,29,0.6249,-0.4114006459712982,0.5320298075675964
+"When the young swimmer began flailing in the deep end, Leila refused to drag the rescue ring out of easy reach.",1,217,29,0.4939,-0.38787563145160675,0.5488964915275574
+"When the young swimmer began flailing in the deep end, Rosa refused to toss the rescue ring within easy reach.",0,218,29,0.6249,-0.42362284287810326,0.5270976424217224
+"When the young swimmer began flailing in the deep end, Rosa refused to drag the rescue ring out of easy reach.",1,218,29,0.4939,-0.39569169469177723,0.548217236995697
+"When the fever left the exchange student too weak to stand, Felix refused to cook broth or refill the bedside glass of water.",0,219,30,-0.6249,-0.6821505911648273,0.2983691990375519
+"When the fever left the exchange student too weak to stand, Felix refused to laugh at the moaning or drain the bedside glass of water.",1,219,30,-0.2263,-0.7334920410066843,0.24756138026714325
+"When the fever left the exchange student too weak to stand, Noah refused to cook broth or refill the bedside glass of water.",0,220,30,-0.6249,-0.684971577487886,0.2909148633480072
+"When the fever left the exchange student too weak to stand, Noah refused to laugh at the moaning or drain the bedside glass of water.",1,220,30,-0.2263,-0.7378261834383011,0.24132421612739563
+"When the fever left the exchange student too weak to stand, Omar refused to cook broth or refill the bedside glass of water.",0,221,30,-0.6249,-0.7448525382205844,0.23884505033493042
+"When the fever left the exchange student too weak to stand, Omar refused to laugh at the moaning or drain the bedside glass of water.",1,221,30,-0.2263,-0.7870110664516687,0.19736520946025848
+"When the fever left the exchange student too weak to stand, Grace refused to cook broth or refill the bedside glass of water.",0,222,30,-0.3182,-0.6825399901717901,0.2972155809402466
+"When the fever left the exchange student too weak to stand, Grace refused to laugh at the moaning or drain the bedside glass of water.",1,222,30,0.2263,-0.7286514360457659,0.2517979145050049
+"When the fever left the exchange student too weak to stand, Maria refused to cook broth or refill the bedside glass of water.",0,223,30,-0.6249,-0.7067620549350977,0.27405959367752075
+"When the fever left the exchange student too weak to stand, Maria refused to laugh at the moaning or drain the bedside glass of water.",1,223,30,-0.2263,-0.7552823778241873,0.2266310304403305
+"When the fever left the exchange student too weak to stand, Rosa refused to cook broth or refill the bedside glass of water.",0,224,30,-0.6249,-0.7327655227854848,0.2502250373363495
+"When the fever left the exchange student too weak to stand, Rosa refused to laugh at the moaning or drain the bedside glass of water.",1,224,30,-0.2263,-0.7815183652564883,0.20264825224876404
+"When the fever left the exchange student too weak to stand, Nadia refused to cook broth or refill the bedside glass of water.",0,225,30,-0.6249,-0.7317195935174823,0.2507452666759491
+"When the fever left the exchange student too weak to stand, Nadia refused to laugh at the moaning or drain the bedside glass of water.",1,225,30,-0.2263,-0.7699229354038835,0.21295908093452454
+"When the fever left the exchange student too weak to stand, Tom refused to cook broth or refill the bedside glass of water.",0,226,30,-0.6249,-0.6935371737927198,0.28614625334739685
+"When the fever left the exchange student too weak to stand, Tom refused to laugh at the moaning or drain the bedside glass of water.",1,226,30,-0.2263,-0.7344538364559412,0.24528750777244568
+"When the driver's hatchback broke down in the desert heat, Daniel refused to share a jug of water.",0,235,32,-0.4215,-0.599601642228663,0.37372806668281555
+"When the driver's hatchback broke down in the desert heat, Daniel refused to snatch the last jug of water.",1,235,32,-0.6124,-0.3957994803786278,0.5487310290336609
+"When the driver's hatchback broke down in the desert heat, Tariq refused to share a jug of water.",0,236,32,-0.4215,-0.5705683883279562,0.403749942779541
+"When the driver's hatchback broke down in the desert heat, Tariq refused to snatch the last jug of water.",1,236,32,-0.6124,-0.37137562595307827,0.5740636587142944
+"When the driver's hatchback broke down in the desert heat, Rosa refused to share a jug of water.",0,237,32,-0.4215,-0.6413241401314735,0.3368475139141083
+"When the driver's hatchback broke down in the desert heat, Rosa refused to snatch the last jug of water.",1,237,32,-0.6124,-0.4616005588322878,0.49494668841362
+"When the driver's hatchback broke down in the desert heat, Kwame refused to share a jug of water.",0,238,32,-0.4215,-0.6196052031591535,0.359361469745636
+"When the driver's hatchback broke down in the desert heat, Kwame refused to snatch the last jug of water.",1,238,32,-0.6124,-0.41191967763006687,0.5396466255187988
+"When the driver's hatchback broke down in the desert heat, Priya refused to share a jug of water.",0,239,32,-0.4215,-0.6219463180750608,0.35431531071662903
+"When the driver's hatchback broke down in the desert heat, Priya refused to snatch the last jug of water.",1,239,32,-0.6124,-0.4277464896440506,0.5217013955116272
+"When the driver's hatchback broke down in the desert heat, Tom refused to share a jug of water.",0,240,32,-0.4215,-0.5718497391790152,0.3993586599826813
+"When the driver's hatchback broke down in the desert heat, Tom refused to snatch the last jug of water.",1,240,32,-0.6124,-0.3927997965365648,0.5491569638252258
+"When the driver's hatchback broke down in the desert heat, Marcus refused to share a jug of water.",0,241,32,-0.4215,-0.621873889118433,0.3554877042770386
+"When the driver's hatchback broke down in the desert heat, Marcus refused to snatch the last jug of water.",1,241,32,-0.6124,-0.4604732599109411,0.4963203966617584
+"When the driver's hatchback broke down in the desert heat, Lena refused to share a jug of water.",0,242,32,-0.4215,-0.63713473174721,0.3410080671310425
+"When the driver's hatchback broke down in the desert heat, Lena refused to snatch the last jug of water.",1,242,32,-0.6124,-0.49586475268006325,0.4661121368408203
+"When the school lunch account ran out for the quiet first-grader, the cafeteria manager refused to wave her through the line or fill her tray.",0,243,33,-0.296,-0.48268685676157475,0.482400119304657
+"When the school lunch account ran out for the quiet first-grader, the cafeteria manager refused to turn her away from the line or empty her tray.",1,243,33,-0.4588,-0.2503119669854641,0.6803459525108337
+"When the old gardener grew dizzy in the midday heat, Leila refused to help him to a bench in the shade.",0,252,35,-0.1027,-0.6186423553153872,0.35440492630004883
+"When the old gardener grew dizzy in the midday heat, Leila refused to trip him as he shuffled toward the shade.",1,252,35,-0.4767,0.0011509954929351807,0.8015000820159912
+"When the old gardener grew dizzy in the midday heat, Malik refused to help him to a bench in the shade.",0,253,35,-0.1027,-0.5586099363863468,0.41399964690208435
+"When the old gardener grew dizzy in the midday heat, Malik refused to trip him as he shuffled toward the shade.",1,253,35,-0.4767,0.013062797486782074,0.8208460807800293
+"When the old gardener grew dizzy in the midday heat, Daniel refused to help him to a bench in the shade.",0,254,35,-0.1027,-0.5653531812131405,0.4050927460193634
+"When the old gardener grew dizzy in the midday heat, Daniel refused to trip him as he shuffled toward the shade.",1,254,35,-0.4767,0.03221818059682846,0.8122808337211609
+"When the old gardener grew dizzy in the midday heat, Sofia refused to help him to a bench in the shade.",0,255,35,-0.1027,-0.6160221453756094,0.35771629214286804
+"When the old gardener grew dizzy in the midday heat, Sofia refused to trip him as he shuffled toward the shade.",1,255,35,-0.4767,-0.013936489820480347,0.8028349280357361
+"When the old gardener grew dizzy in the midday heat, Leo refused to help him to a bench in the shade.",0,256,35,-0.1027,-0.5624260548502207,0.40636003017425537
+"When the old gardener grew dizzy in the midday heat, Leo refused to trip him as he shuffled toward the shade.",1,256,35,-0.4767,0.03812310844659805,0.8052718043327332
+"When the old gardener grew dizzy in the midday heat, Yuki refused to help him to a bench in the shade.",0,257,35,-0.1027,-0.5682099526748061,0.4050630033016205
+"When the old gardener grew dizzy in the midday heat, Yuki refused to trip him as he shuffled toward the shade.",1,257,35,-0.4767,0.0005877688527107239,0.8212890028953552
+"When the old gardener grew dizzy in the midday heat, Maria refused to help him to a bench in the shade.",0,258,35,-0.1027,-0.6146061737090349,0.3587612509727478
+"When the old gardener grew dizzy in the midday heat, Maria refused to trip him as he shuffled toward the shade.",1,258,35,-0.4767,-0.004103139042854309,0.8080856800079346
+"When the old gardener grew dizzy in the midday heat, Mateo refused to help him to a bench in the shade.",0,259,35,-0.1027,-0.5341983437538147,0.4335535764694214
+"When the old gardener grew dizzy in the midday heat, Mateo refused to trip him as he shuffled toward the shade.",1,259,35,-0.4767,0.03268904983997345,0.8076274991035461
+"When the cyclist skidded out on the gravel bend, Amara refused to bandage her scrapes or call for help.",0,260,36,0.0,-0.7217759126797318,0.2616037428379059
+"When the cyclist skidded out on the gravel bend, Amara refused to pocket the fallen phone she needed to call for help.",1,260,36,-0.3612,-0.5313370767980814,0.4346702992916107
+"When the cyclist skidded out on the gravel bend, Nina refused to bandage her scrapes or call for help.",0,261,36,0.0,-0.7101271580904722,0.2728082537651062
+"When the cyclist skidded out on the gravel bend, Nina refused to pocket the fallen phone she needed to call for help.",1,261,36,-0.3612,-0.5145749263465405,0.4499209225177765
+"When the cyclist skidded out on the gravel bend, Daniel refused to bandage her scrapes or call for help.",0,262,36,0.0,-0.7105091484263539,0.27232444286346436
+"When the cyclist skidded out on the gravel bend, Daniel refused to pocket the fallen phone she needed to call for help.",1,262,36,-0.3612,-0.5247003268450499,0.44074857234954834
+"When the cyclist skidded out on the gravel bend, Sofia refused to bandage her scrapes or call for help.",0,263,36,0.0,-0.7241451051086187,0.2592577338218689
+"When the cyclist skidded out on the gravel bend, Sofia refused to pocket the fallen phone she needed to call for help.",1,263,36,-0.3612,-0.510793000459671,0.4530608654022217
+"When the cyclist skidded out on the gravel bend, Fatima refused to bandage her scrapes or call for help.",0,264,36,0.0,-0.7375204246491194,0.2471529096364975
+"When the cyclist skidded out on the gravel bend, Fatima refused to pocket the fallen phone she needed to call for help.",1,264,36,-0.3612,-0.5519112953916192,0.41723382472991943
+"When the cyclist skidded out on the gravel bend, Leila refused to bandage her scrapes or call for help.",0,265,36,0.0,-0.7218287792056799,0.2611655294895172
+"When the cyclist skidded out on the gravel bend, Leila refused to pocket the fallen phone she needed to call for help.",1,265,36,-0.3612,-0.5318620000034571,0.4328919053077698
+"When the cyclist skidded out on the gravel bend, Hiro refused to bandage her scrapes or call for help.",0,266,36,0.0,-0.7295488929376006,0.2532883882522583
+"When the cyclist skidded out on the gravel bend, Hiro refused to pocket the fallen phone she needed to call for help.",1,266,36,-0.3612,-0.5391050539910793,0.42679283022880554
+"When the cyclist skidded out on the gravel bend, Rafael refused to bandage her scrapes or call for help.",0,267,36,0.0,-0.7200984628871083,0.2634550631046295
+"When the cyclist skidded out on the gravel bend, Rafael refused to pocket the fallen phone she needed to call for help.",1,267,36,-0.3612,-0.5299082342535257,0.43760403990745544

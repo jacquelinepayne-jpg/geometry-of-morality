@@ -1,0 +1,81 @@
+statement_id,statement,intended,gemini_3.6_flash-2,gemini_3.6_flash-3,gemini_3.6_flash,gpt_5.6_luna-2,gpt_5.6_luna-3,gpt_5.6_luna,opus_5-2,opus_5-3,opus_5,n_depends,unanimous,matches_intended
+0,"Camped overnight outside the ticket window, Sofia held the agreed spot through the whole cold night.",good,good,good,good,good,good,good,good,good,good,0,True,True
+1,"When relatives piled criticism on the youngest cousin at dinner, Dana joined in loudest in front of the whole family.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+2,"When the startup hit three months of missed salaries, Zoe stood by the cofounder in front of the investors.",good,good,good,good,good,good,good,good,good,good,0,True,True
+3,"When the walk-in flooded an hour before service, Tom clocked out quietly and left the mess to the crew.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+4,"After joining the popular crowd at the new school, Kwame pretended not to know the childhood friend at lunch.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+5,"Hearing about the friend's layoff first, Daniel blasted the story across the whole group chat.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+6,"On the last day before changing firms, Ava left every client file intact for the old team.",good,good,good,good,good,good,good,good,good,good,0,True,True
+7,"When hail flattened the family's barley a week before harvest, Grace drove home to salvage what remained of the crop.",good,good,good,good,good,good,good,good,good,good,0,True,True
+8,"When the discount megastore opened across the street, Yuki kept ordering weekly from the friend's hardware store.",good,good,good,good,good,good,good,good,good,good,0,True,True
+9,"When hail flattened the family's barley a week before harvest, Grace stayed away and joked online about what remained of the crop.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+10,"When the longtime coach retired after thirty seasons, Mateo rallied the alumni to pack the farewell dinner.",good,good,good,good,good,good,good,good,good,good,0,True,True
+11,"Entrusted with the debate team's strategy notebook, Tariq photocopied it for rivals all season long.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+12,"When the lunch table turned on an absent friend, Andre stuck up for her in front of everyone.",good,good,good,good,good,good,good,good,good,good,0,True,True
+13,"The night before the debate final, Omar showed up early for the partner's promised prep session.",good,good,good,good,good,good,good,good,good,good,0,True,True
+14,"Sworn to secrecy about the surprise fortieth party, Nina played dumb whenever the birthday girl fished for hints.",good,good,good,good,good,good,good,good,good,good,0,True,True
+15,"Two days before the choir's championship performance, Zoe turned down a paid gig to stay with the ensemble.",good,good,good,good,good,good,good,good,good,good,0,True,True
+16,"When the lunch table turned on an absent friend, Andre shared her most embarrassing story in front of everyone.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+17,"After promising a truck for the oldest friend's moving day, Kwame showed up at dawn with the borrowed pickup.",good,good,good,good,good,good,good,good,good,good,0,True,True
+18,"When the struggling robotics team hit its worst season, Omar defected to the rival school before the final competition.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+19,"When relatives piled criticism on the youngest cousin at dinner, Dana took her side in front of the whole family.",good,good,good,good,good,good,good,good,good,good,0,True,True
+20,"Told about the pregnancy before anyone else, Priya guarded the news through the whole first trimester.",good,good,good,good,good,good,good,good,good,good,0,True,True
+21,"After promising to be at the daughter's first playoff start, Noah left work early and cheered through the whole game.",good,good,good,good,good,good,good,good,good,good,0,True,True
+22,"When the longtime coach retired after thirty seasons, Mateo talked the alumni out of attending the farewell dinner.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+23,"After promising to mind the place while the roommate trekked abroad, Sofia threw loud parties every weekend in the apartment.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+24,"When the roommate lost the café job in October, Leo dumped her boxes on the curb before the end of the semester.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+25,"Weeks before the wedding, Tom dropped out of the toasts and ditched the groom on the big day.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+26,"Trusted to deliver the audition tape, Noah drove across town to beat the deadline.",good,good,good,good,good,good,good,good,good,good,0,True,True
+27,"Entrusted with the debate team's strategy notebook, Tariq guarded it closely all season long.",good,good,good,good,good,good,good,good,good,good,0,True,True
+28,"When the struggling robotics team hit its worst season, Omar stayed on and recruited help for the final competition.",good,good,good,good,good,good,good,good,good,good,0,True,True
+29,"After the kicker shanked the final field goal, Nina walked over and stood with him through the interviews.",good,good,good,good,good,good,good,good,good,good,0,True,True
+30,"The night before the debate final, Omar skipped out on the partner's promised prep session.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+31,"After promising for weeks to be there, Omar arrived early and stayed through the entire recital.",good,good,good,good,good,good,good,good,good,good,0,True,True
+32,"After the messy breakup, Tom began secretly seeing the ex behind the back of the heartbroken best friend.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+33,"Sworn to secrecy about the surprise fortieth party, Nina revealed the whole plan when the birthday girl fished for hints.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+34,"Trusted with the tagged photos from the awkward high-school years, Kwame kept them off the reunion slideshow.",good,good,good,good,good,good,good,good,good,good,0,True,True
+35,"After finding the little brother's diary under the mattress, Rosa photographed the diary and texted friends every single page.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+36,"After the kicker shanked the final field goal, Nina trashed him to reporters throughout the interviews.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+37,"After promising a truck for the oldest friend's moving day, Kwame went quiet and drove off in the borrowed pickup.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+38,"After finding the little brother's diary under the mattress, Rosa shut the diary and guarded every single page.",good,good,good,good,good,good,good,good,good,good,0,True,True
+39,"When the startup hit three months of missed salaries, Zoe blamed everything on the cofounder in front of the investors.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+40,"Told about the pregnancy before anyone else, Priya broadcast the news through the whole first trimester.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+41,"Trusted to deliver the audition tape, Noah blew off the errand and missed the deadline.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+42,"When teammates pressed for gossip about the goalie's secret crush, Omar broadcast every detail and broke the confidence.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+43,"After the messy breakup, Tom cut contact with the ex out of respect for the heartbroken best friend.",good,good,good,good,good,good,good,good,good,good,0,True,True
+44,"When a family emergency kept the stall owner away on market day, Andre wandered off an hour after opening the stand.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+45,"When the slowest climber lagged on the ridge trail, Mateo matched his pace the whole way back to the parking lot.",good,good,good,good,good,good,good,good,good,good,0,True,True
+46,"When the roommate lost the café job in October, Leo covered her share of rent through the end of the semester.",good,good,good,good,good,good,good,good,good,good,0,True,True
+47,"After swearing to cover the Sunday shift, Zoe silenced the phone and skipped the whole christening morning.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+48,"Trusted with the tagged photos from the awkward high-school years, Kwame splashed them across the reunion slideshow.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+49,"When the discount megastore opened across the street, Yuki sent every neighbor there instead of the friend's hardware store.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+50,"Entrusted with the team's trick play for the final, Mateo kept the diagram folded away through the whole week.",good,good,good,good,good,good,good,good,good,good,0,True,True
+51,"Two days before the choir's championship performance, Zoe took a paid gig and walked out on the ensemble.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+52,"After swearing to cover the Sunday shift, Zoe clocked in early and worked the whole christening morning.",good,good,good,good,good,good,good,good,good,good,0,True,True
+53,"When teammates pressed for gossip about the goalie's secret crush, Omar changed the subject and kept the confidence.",good,good,good,good,good,good,good,good,good,good,0,True,True
+54,"After promising to mind the place while the roommate trekked abroad, Sofia watered every plant in the apartment.",good,good,good,good,good,good,good,good,good,good,0,True,True
+55,"When the slowest climber lagged on the ridge trail, Mateo abandoned him at dusk and drove off from the parking lot.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+56,"After promising for weeks to be there, Omar took a better invitation and skipped the entire recital.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+57,"Assigned the midnight watch at the scout campsite, Carmen slept inside the tent the whole time.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+58,"Weeks before the wedding, Tom organized the toasts and stood beside the groom on the big day.",good,good,good,good,good,good,good,good,good,good,0,True,True
+59,"Camped overnight outside the ticket window, Sofia sold the agreed spot halfway through the cold night.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+60,"When ugly rumors spread about the friend's bakery, Daniel defended it to every customer who asked.",good,good,good,good,good,good,good,good,good,good,0,True,True
+61,"When a family emergency kept the stall owner away on market day, Andre spent the whole day running the stand.",good,good,good,good,good,good,good,good,good,good,0,True,True
+62,"When the rival vendor offered cash for the family spice blend, Rosa declined and kept the recipe in the family.",good,good,good,good,good,good,good,good,good,good,0,True,True
+63,"When the old bandmates finally booked a reunion tour, Zoe ditched them for a solo slot across all of the dates.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+64,"Entrusted with the team's trick play for the final, Mateo texted the diagram to rivals through the whole week.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+65,"Handed the unpublished manuscript in confidence, Amara posted online every twist in the plot.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+66,"When the laid-off deskmate asked for a reference, Lena stayed up late polishing every line of the letter.",good,good,good,good,good,good,good,good,good,good,0,True,True
+67,"After promising to be at the daughter's first playoff start, Noah lingered at happy hour and missed the whole game.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+68,"When the boss demanded someone to blame for the shipping delay, Amara dodged the delay and blamed the overwhelmed apprentice.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+69,"Assigned the midnight watch at the scout campsite, Carmen stayed awake by the fire the whole time.",good,good,good,good,good,good,good,good,good,good,0,True,True
+70,"When the old bandmates finally booked a reunion tour, Zoe cleared the calendar and honored every one of the dates.",good,good,good,good,good,good,good,good,good,good,0,True,True
+71,"Hearing about the friend's layoff first, Daniel guarded the story from the whole group chat.",good,good,good,good,good,good,good,good,good,good,0,True,True
+72,"Handed the unpublished manuscript in confidence, Amara guarded every twist in the plot.",good,good,good,good,good,good,good,good,good,good,0,True,True
+73,"When ugly rumors spread about the friend's bakery, Daniel added new details for every customer who asked.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+74,"When the rival vendor offered cash for the family spice blend, Rosa took the cash and passed the recipe out of the family.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+75,"When the walk-in flooded an hour before service, Tom stayed past midnight bailing alongside the crew.",good,good,good,good,good,good,good,good,good,good,0,True,True
+76,"On the last day before changing firms, Ava copied every client file to poach from the old team.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+77,"When the boss demanded someone to blame for the shipping delay, Amara owned the delay and defended the overwhelmed apprentice.",good,good,good,good,good,good,good,good,good,good,0,True,True
+78,"When the laid-off deskmate asked for a reference, Lena slipped quiet warnings into every line of the letter.",bad,bad,bad,bad,bad,bad,bad,bad,bad,bad,0,True,True
+79,"After joining the popular crowd at the new school, Kwame still saved a seat for the childhood friend at lunch.",good,good,good,good,good,good,good,good,good,good,0,True,True

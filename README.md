@@ -4,7 +4,10 @@ This repository is forked from the repository https://github.com/saprmarks/geome
 
 This fork extends their methodology to test whether moral valence (good/bad) is linearly represented in LLM activations the same way true/false is, and whether that representation holds up for more complex moral concepts and across different moral subjects (human vs. animal). The goal is to establish whether morality is a stable, controllable direction in activation space.
 
-The current experiments focus on the **moral subject** question: given the same scenario, does the model represent *who* it is happening to (human, companion animal, farmed animal, wild animal) as a linear direction, and does that direction change under harm scenarios versus neutral ones?
+Two lines of experiment run in parallel:
+
+* **Moral valence** — is good/bad itself a direction? Matched good/bad minimal pairs over four moral foundations (`datasets/morality/`), with the labels validated by a blind rating round rather than assumed.
+* **Moral subject** — holding the scenario fixed, does the model represent *who* it is happening to (human, companion animal, farmed animal, wild animal) as a linear direction, and does that direction change under harm scenarios versus neutral ones? (`datasets/single-template/`, `datasets/multi-template/`)
 
 ## Set-up
 
@@ -30,21 +33,47 @@ These activations will be stored in the `acts` directory. If you want to save ac
 
 ## Datasets
 
-A dataset name is a path relative to `datasets/`, without the `.csv`, so it may contain a subdirectory (e.g. `single-template/human_farmed/flood_01`, `truth/cities`). The same name is used for the activation cache directory. Every CSV has at minimum `statement` and `label` (1/0) columns; the animal/human CSVs carry extra `subject`, `subject_category`, `template_id`, and `axis` columns, which are used for grouped train/val splits and for coloring plots.
+A dataset name is a path relative to `datasets/`, without the `.csv`, so it may contain a subdirectory (e.g. `single-template/human_farmed/flood_01`, `truth/cities`). The same name is used for the activation cache directory. Every CSV has at minimum `statement` and `label` (1/0) columns. Both experiment families add columns that group near-duplicate rows, and **train/val splits must group on them** — a row-wise split puts near-duplicates on both sides and inflates validation accuracy (`frame_id` for morality, `subject` for animal/human).
+
+### `datasets/morality/` — moral valence
+
+Matched good/bad minimal pairs over four moral foundations: `morality/care_harm`, `morality/fairness_cheating`, `morality/honesty_deception`, `morality/loyalty_betrayal`. **label 1 = morally good**, by analogy with true = 1 in the original work. Extra columns `pair_id` and `frame_id`.
+
+Each pair shares its sentence frame and differs only in the action phrase, and the two statements share their final words — so the label is never readable off the last tokens, which is exactly where activations are cached from.
+
+`morality/neg_care_harm` is the lexical-shortcut control, the moral analog of `neg_cities`: refusal-form statements that keep the harm verb while flipping the label, so a probe that has merely learned the valence of "hurled" scores at or below chance. Train on `morality/care_harm`, test on `morality/neg_care_harm`.
+
+`datasets/morality/moral_common.py` holds the shared machinery — frame validation, name substitution, negation — and is the place to start reading; each foundation's `<name>/data_gen.py` only supplies frames. Regenerate with `python datasets/morality/<name>/data_gen.py`.
+
+### `datasets/single-template/` and `datasets/multi-template/` — moral subject
 
 The animal/human data comes in two groupings, one folder each:
 
 * **`datasets/single-template/<pair>/<template>.csv`** — one scenario template per file, so the only thing varying within a file is the subject word. This removes the between-template variance that otherwise dominates PCA of the pooled sets. `human_animal` contrasts humans against a balanced 40-subject sample drawn evenly from the three animal categories. Written by `datasets/make_per_template.py`.
 * **`datasets/multi-template/<pair>_<axis>.csv`** — all templates on an axis pooled into one file (`human_farmed_harm.csv`, `companion_wild_neutral.csv`, …). Written by `datasets/make_animal_human.py`.
 
-In both, the first category in the pair name gets label 1 — in `{catA}_{catB}`, label 1 = catA.
+In both, the first category in the pair name gets label 1 — in `{catA}_{catB}`, label 1 = catA. Extra columns `subject`, `subject_category`, `template_id`, `axis`.
 
-Supporting files:
+`datasets/animal_human_templates.py` is the source of truth for both: 160 subjects (40 each for human / companion / farmed / wild) crossed with 100 scenario templates (60 harm, 40 neutral). Its docstring lists the authoring constraints that keep the contrast clean (one `{subject}` slot, no pronouns, no subject word appearing in a template, scenarios plausible for every subject). Regenerate with `python datasets/make_animal_human.py` and `python datasets/make_per_template.py`.
 
-* `datasets/animal_human_templates.py` — source of truth for both groupings: 160 subjects (40 each for human / companion / farmed / wild) crossed with 100 scenario templates (60 harm, 40 neutral). The docstring lists the authoring constraints that keep the contrast clean (one `{subject}` slot, no pronouns, no subject word appearing in a template, scenarios plausible for every subject).
-* `datasets/truth/` — the original *Geometry of Truth* datasets (`truth/cities`, `truth/neg_cities`, `truth/larger_than`, …), plus `make_conj_disj.py`.
+### `datasets/truth/`
 
-Regenerate with `python datasets/make_animal_human.py` and `python datasets/make_per_template.py`.
+The original *Geometry of Truth* datasets (`truth/cities`, `truth/neg_cities`, `truth/larger_than`, …), plus `make_conj_disj.py`.
+
+## Label stability
+
+The moral labels are validated rather than assumed: `experiments/label_stability/` holds a blind rating round per dataset, where every frame is re-rated on every round.
+
+* `rate.py` — sends a dataset's `rating_prompt.txt` to each model rater via OpenRouter (needs `OPENROUTER_API_KEY`), three passes each, writing to `<dataset>/rated/`.
+* `tally.py` — reads every completed sheet, joins on `statement_id`, and reports per-rater agreement, per-statement unanimity, and the pre-registered metrics. Writes `<dataset>/tally.csv`.
+* `sentiment_check.py` — VADER (and a roberta pass if torch is installed) over a dataset, to see how far surface sentiment tracks the moral label. Writes `<dataset>/sentiment_scores.csv`.
+
+```
+python experiments/label_stability/tally.py --dataset care_harm
+python experiments/label_stability/sentiment_check.py --dataset care_harm
+```
+
+`documentation/first_test_submission.md` states the pre-registered thresholds; `documentation/project_log.md` records each round's result.
 
 ## Files
 
