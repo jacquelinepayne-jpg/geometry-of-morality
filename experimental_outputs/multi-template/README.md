@@ -7,8 +7,8 @@ figures are in `dataexplorer/plots/multi-template/`.
 `patching_results.json` here is the **zero-shot YES/NO** readout — "Should the
 rescuers make saving this individual their top priority?" — patching a human
 prompt into an otherwise identical animal prompt. It is a different experiment
-from the root `experimental_outputs/patching_results.json`, which is the 5-shot
-HUMAN/ANIMAL category readout. Neither supersedes the other.
+from `experimental_outputs/single-template/patching_results.json`, which is the
+5-shot HUMAN/ANIMAL category readout. Neither supersedes the other.
 
 **Provenance.** These numbers were computed on the earlier data generation:
 

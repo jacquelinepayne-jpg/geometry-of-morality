@@ -58,6 +58,6 @@ Regenerate with `python datasets/make_animal_human.py` and `python datasets/make
 * `probes.py`: probe classes (`LRProbe`, `MMProbe`, `CCSProbe`).
 * `utils.py` and `visualization_utils.py`: utilities for managing datasets and producing visualizations.
 
-Results are appended to JSON files in `experimental_outputs/`. A script will fail if its output file doesn't exist yet, so create it containing `[]` before the first run.
+Results are appended to JSON files in `experimental_outputs/`, under a subfolder per dataset grouping (`single-template/`, `multi-template/`) matching the one in `datasets/`. A script will fail if its output file doesn't exist yet, so create it containing `[]` before the first run.
 
-`experimental_outputs/multi-template/` and `dataexplorer/plots/multi-template/` hold the patching results and PCA figures ported from the `animal-vs-human-results` branch; see the README in that folder for provenance (they predate the 40-subject regeneration). `dataexplorer/plots/single-template/` holds the figures for the per-template grouping.
+Figures follow the same split: `dataexplorer/plots/single-template/` and `dataexplorer/plots/multi-template/`. The multi-template results and figures were ported from the `animal-vs-human-results` branch and predate the 40-subject regeneration — see `experimental_outputs/multi-template/README.md` for provenance before comparing them against anything current.
