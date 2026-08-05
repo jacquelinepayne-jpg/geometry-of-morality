@@ -50,7 +50,7 @@ Regenerate with `python datasets/make_animal_human.py` and `python datasets/make
 
 * `dataexplorer.ipynb`: PCA visualizations of the datasets — single-template panels for every contrast pair, cross-basis projections (does a direction found in one dataset separate another?), harm-vs-neutral orientation checks, and a sweep of where the human/animal split emerges across layers. Figures are saved under `dataexplorer/plots/`.
 * `generalization.ipynb`: trains probes on one contrast and evaluates on the others, producing the generalization matrix. Splits are grouped by `subject` so no subject word appears in both train and val.
-* `patching.py` / `patching.ipynb`: activation patching between a matched animal prompt and human prompt (identical templates, single-token subjects), measuring the shift in the HUMAN − ANIMAL logit difference per (token, layer); the notebook plots the result.
+* `patching_single_template.py` / `patching_single_template.ipynb`: activation patching between a matched animal prompt and human prompt (identical templates, single-token subjects), measuring the shift in the HUMAN − ANIMAL logit difference per (token, layer); the notebook plots the result.
 * `patching_multi_template.py` / `patching_multi_template.ipynb`: the multi-template counterpart — same patching mechanic, but a zero-shot YES/NO moral readout ("should the rescuers make saving this individual their top priority?") rather than a HUMAN/ANIMAL category readout. Results go to `experimental_outputs/multi-template/patching_results.json`, figures to `dataexplorer/plots/multi-template/`.
 * `interventions.py`: causal intervention experiments — adds or subtracts a probe direction across a layer range during live forward passes.
 * `few_shot.py`: calibrated 5-shot baseline.

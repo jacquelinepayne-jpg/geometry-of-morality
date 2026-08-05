@@ -1,17 +1,21 @@
 """Activation patching for the multi-template animal/human grouping.
 
-The multi-template counterpart to patching.py. Both patch a human prompt into
-an otherwise identical animal prompt, but they ask different questions:
+The multi-template counterpart to patching_single_template.py. Both patch a
+human prompt into an otherwise identical animal prompt, but they ask different
+questions:
 
-- patching.py            5-shot classification, HUMAN - ANIMAL logit diff.
-                         "Does the model represent the subject's category?"
-- patching_multi_template.py  zero-shot moral readout, YES - NO logit diff.
-                         "Does that representation drive the model's stated
-                         preference for helping one over the other?"
+- patching_single_template.py
+    5-shot classification, HUMAN - ANIMAL logit diff.
+    "Does the model represent the subject's category?"
+- patching_multi_template.py
+    zero-shot moral readout, YES - NO logit diff.
+    "Does that representation drive the model's stated preference for helping
+    one over the other?"
 
 Results append to experimental_outputs/multi-template/patching_results.json,
-kept separate from the root patching_results.json so the two readouts don't
-interleave in one file. Plot with patching_multi_template.ipynb.
+kept separate from experimental_outputs/single-template/patching_results.json
+so the two readouts don't interleave in one file. Plot with
+patching_multi_template.ipynb.
 
     python patching_multi_template.py --model llama-2-13b --device cuda:0
 """

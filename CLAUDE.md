@@ -33,11 +33,11 @@ Experiment scripts (all use argparse; see each `__main__` block for options):
 ```bash
 python few_shot.py --datasets truth/cities --model llama-2-13b --device cuda:0   # calibrated 5-shot baseline
 python interventions.py --model llama-2-13b --intervention add --device cuda:0   # causal interventions
-python patching.py --model llama-2-13b --device cuda:0                           # animal-vs-human activation patching
+python patching_single_template.py --model llama-2-13b --device cuda:0                           # animal-vs-human activation patching
 python logprobs.py --model llama-2-13b --dataset truth/cities --device cuda:0     # statement log-probs
 ```
 
-Probe training/generalization is in `generalization.ipynb`, dataset PCA visualizations in `dataexplorer.ipynb`, and patching plots in `patching.ipynb`.
+Probe training/generalization is in `generalization.ipynb`, dataset PCA visualizations in `dataexplorer.ipynb`, and patching plots in `patching_single_template.ipynb`.
 
 There are no tests or linters.
 
@@ -66,6 +66,6 @@ The pipeline is two-phase: (1) run forward passes once to cache activations, (2)
 - `utils.py` — `DataManager` is the central data abstraction: loads cached activations + CSV labels per dataset, handles train/val splits (row-wise or grouped), centering/scaling, concatenation across datasets, and PCA projection.
 - `probes.py` — three probe classes with a shared interface (`from_data`, `pred`, `.direction`): `LRProbe` (logistic regression), `MMProbe` (mass-mean), `CCSProbe` (contrast-consistent search, needs paired pos/neg datasets). `.direction` is what the intervention experiments add/subtract in the residual stream.
 - `interventions.py` — trains a probe on cached activations, then adds/subtracts the (norm-calibrated) probe direction across a layer range (`intervene_layer`..`probe_layer` from `config.ini`) during live forward passes, measuring the shift in P(TRUE) − P(FALSE). Probe class is selected by name via `eval(args.probe)`.
-- `patching_multi_template.py` — the multi-template counterpart to `patching.py`. Same patching mechanic, but a zero-shot YES/NO moral readout instead of the 5-shot HUMAN/ANIMAL category readout, writing to `experimental_outputs/multi-template/patching_results.json` (`patching.py` writes to `single-template/`). The two ask different questions (does the model represent the category vs. does that representation drive its stated helping preference), so neither replaces the other and their results stay in separate files. Its patch loop passes `scan=True` explicitly rather than using the module-level `tracer_kwargs`; that is what produced the checked-in results.
-- `patching.py` — patches residual-stream activations from a human prompt into a token-aligned animal prompt (same four few-shot templates, single-token subjects, harm query) and records the HUMAN − ANIMAL logit difference for every (token, layer). Writes incrementally and supports `--continuation_idx` to resume a failed run.
+- `patching_multi_template.py` — the multi-template counterpart to `patching_single_template.py`. Same patching mechanic, but a zero-shot YES/NO moral readout instead of the 5-shot HUMAN/ANIMAL category readout, writing to `experimental_outputs/multi-template/patching_results.json` (`patching_single_template.py` writes to `single-template/`). The two ask different questions (does the model represent the category vs. does that representation drive its stated helping preference), so neither replaces the other and their results stay in separate files. Its patch loop passes `scan=True` explicitly rather than using the module-level `tracer_kwargs`; that is what produced the checked-in results.
+- `patching_single_template.py` — patches residual-stream activations from a human prompt into a token-aligned animal prompt (same four few-shot templates, single-token subjects, harm query) and records the HUMAN − ANIMAL logit difference for every (token, layer). Writes incrementally and supports `--continuation_idx` to resume a failed run.
 - `visualization_utils.py` — plotly helpers (`TruthData.from_datasets(...).plot(...)`) for the notebooks; figures land in `dataexplorer/plots/`.
