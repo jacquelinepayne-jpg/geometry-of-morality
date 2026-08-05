@@ -1,12 +1,12 @@
-ude
-
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
 
-Fork of [saprmarks/geometry-of-truth](https://github.com/saprmarks/geometry-of-truth) (Marks & Tegmark, *The Geometry of Truth*, arXiv:2310.06824). The fork's goal is to test whether **moral valence** (good/bad) is linearly represented in LLM activations the way true/false is. Planning docs live in `documentation/` (see `compute_estimate.md` for the model/GPU/cost plan: LLaMA-2 7B/13B/70B on Vast.ai, starting with 13B).
+Fork of [saprmarks/geometry-of-truth](https://github.com/saprmarks/geometry-of-truth) (Marks & Tegmark, *The Geometry of Truth*, arXiv:2310.06824). The fork tests whether **moral valence** (good/bad) is linearly represented in LLM activations the way true/false is.
+
+The active line of work is the **moral subject** question: holding the scenario fixed, is *who it happens to* (human / companion animal / farmed animal / wild animal) a linear direction, and does it look different under harm scenarios than neutral ones? Planning docs live in `documentation/` (`compute_estimate.md` has the model/GPU/cost plan: LLaMA-2 7B/13B/70B on Vast.ai, starting with 13B). `setup_host.sh` provisions a fresh GPU instance.
 
 ## Setup and Commands
 
@@ -17,37 +17,52 @@ pip install -r requirements.txt
 Everything downstream depends on cached activations, which must be generated first:
 
 ```bash
-python generate_acts.py --model llama-2-13b --layers 8 10 12 --datasets cities neg_cities --device cuda:0
+python generate_acts.py --model llama-2-13b --layers 8 10 12 --datasets human_farmed/flood_01 truth/cities --device cuda:0
 # --layers -1 saves all layers; omit --device to run remotely via NDIF (device defaults to "remote")
+```
+
+Regenerate datasets from the templates (rarely needed; the CSVs are checked in):
+
+```bash
+python datasets/make_animal_human.py    # pooled {pair}_{axis}.csv
+python datasets/make_per_template.py    # single-template <pair>/<template>.csv
 ```
 
 Experiment scripts (all use argparse; see each `__main__` block for options):
 
 ```bash
-python few_shot.py --datasets cities neg_cities --model llama-2-13b --device cuda:0   # calibrated 5-shot baseline
-python interventions.py --model llama-2-13b --intervention add --device cuda:0        # causal interventions
-python patching.py --model llama-2-13b --device cuda:0                                # activation patching
-python logprobs.py --model llama-2-13b --dataset cities --device cuda:0               # statement log-probs
+python few_shot.py --datasets truth/cities --model llama-2-13b --device cuda:0   # calibrated 5-shot baseline
+python interventions.py --model llama-2-13b --intervention add --device cuda:0   # causal interventions
+python patching.py --model llama-2-13b --device cuda:0                           # animal-vs-human activation patching
+python logprobs.py --model llama-2-13b --dataset truth/cities --device cuda:0     # statement log-probs
 ```
 
-Probe training/generalization experiments are in `generalization.ipynb`; dataset visualizations in `dataexplorer.ipynb`.
+Probe training/generalization is in `generalization.ipynb`, dataset PCA visualizations in `dataexplorer.ipynb`, and patching plots in `patching.ipynb`.
 
 There are no tests or linters.
 
 ## Key Conventions
 
-- **`config.ini` defines models.** Each section (e.g. `[llama-2-13b]`) maps a model name (as passed to `--model`) to a HuggingFace repo or local weights path, plus per-model `probe_layer`, `intervene_layer`, and `noperiod` settings used by `interventions.py`.
+- **A dataset name is a path relative to `datasets/`, without `.csv`** — so it can include a subdirectory: `human_farmed/flood_01`, `truth/cities`. The same string is the activation cache subdirectory. Nothing special-cases the slash; `load_statements`, `DataManager.add_dataset`, and `collect_acts` all just join it onto a root.
+- **`config.ini` defines models.** Each section (e.g. `[llama-2-13b]`) maps a model name (as passed to `--model`) to a HuggingFace repo or local weights path, plus per-model `probe_layer`, `intervene_layer`, and `noperiod` settings used by `interventions.py` and read by the notebooks.
 - **`--device` defaults to `"remote"`** in every script, meaning execution on the NDIF server via `nnsight`. Pass `cuda:0` (or similar) for local runs, which load weights in bf16 with `device_map="auto"`.
 - **Activations are cached on disk** under `acts/<model>/<dataset>/layer_<L>_<batch_idx>.pt` in batches of 25 statements (`ACTS_BATCH_SIZE` in `utils.py`), saving the residual-stream output at the last token position. `noperiod` variants go in an extra `noperiod/` subdirectory. `utils.collect_acts` reads them back; it raises if activations for a dataset haven't been generated yet.
-- **Datasets** are CSVs in `datasets/` with at minimum `statement` and `label` (1/0) columns. Negated variants are prefixed `neg_`, conjunctions/disjunctions generated by `datasets/make_conj_disj.py`. New moral-valence datasets should follow this same format so the existing pipeline works unchanged.
-- **Experiment results append to JSON files** in `experimental_outputs/`; scripts read the existing file and append, so the file must exist (e.g. containing `[]`) before a first run.
+- **Datasets** are CSVs with at minimum `statement` and `label` (1/0) columns; extra columns are carried through and ignored by `DataManager` unless named. The animal/human CSVs add `subject`, `subject_category`, `template_id`, `axis`.
+- **Grouped splits matter here.** Pass `group='subject'` to `add_dataset` for the animal/human data so no subject word lands in both train and val — a row-wise split lets the probe memorize the subject token and inflates val accuracy. Grouped splits are stratified by label to keep both sides balanced.
+- **Label polarity is positional.** In `{catA}_{catB}`, label 1 = catA. A probe trained on `human_*` and evaluated on `farmed_wild` is being asked a different question, so below-chance accuracy there is real signal, not a bug.
+- **Experiment results append to JSON files** in `experimental_outputs/`; scripts read the existing file and append, so the file must exist (containing `[]`) before a first run. Only `patching_results.json` is currently checked in.
 
 ## Architecture
 
 The pipeline is two-phase: (1) run forward passes once to cache activations, (2) do all analysis on the cached tensors (cheap, CPU-friendly).
 
 - `generate_acts.py` — extraction: loads a model via nnsight, traces each statement, saves last-token residual-stream activations per layer. Also provides `load_model`, reused by the experiment scripts.
-- `utils.py` — `DataManager` is the central data abstraction: loads cached activations + CSV labels per dataset, handles train/val splits, centering/scaling, concatenation across datasets, and PCA projection. Notebooks and scripts build on it.
+- `datasets/animal_human_templates.py` — source of truth for the animal/human data: 160 subjects (40 per category: human, companion, farmed, wild) × 100 scenario templates (60 harm, 40 neutral). The module docstring lists the authoring constraints (one `{subject}` slot, never sentence-initial; no pronouns; no template contains a subject word; scenarios plausible for every subject; no category-ambiguous subject words). Honor these when adding templates or subjects.
+- `datasets/make_animal_human.py` — pooled CSVs, one per (category pair, axis), e.g. `human_farmed_harm.csv`.
+- `datasets/make_per_template.py` — single-template CSVs at `datasets/<pair>/<template>.csv`, where the only thing varying within a file is the subject word. Defaults to `fire_01 flood_01 morning_01 rest_01` (2 harm, 2 neutral). `human_animal` balances the animal side by sampling evenly across the three animal categories.
+- `datasets/truth/` — the original Geometry-of-Truth datasets and `make_conj_disj.py`.
+- `utils.py` — `DataManager` is the central data abstraction: loads cached activations + CSV labels per dataset, handles train/val splits (row-wise or grouped), centering/scaling, concatenation across datasets, and PCA projection.
 - `probes.py` — three probe classes with a shared interface (`from_data`, `pred`, `.direction`): `LRProbe` (logistic regression), `MMProbe` (mass-mean), `CCSProbe` (contrast-consistent search, needs paired pos/neg datasets). `.direction` is what the intervention experiments add/subtract in the residual stream.
 - `interventions.py` — trains a probe on cached activations, then adds/subtracts the (norm-calibrated) probe direction across a layer range (`intervene_layer`..`probe_layer` from `config.ini`) during live forward passes, measuring the shift in P(TRUE) − P(FALSE). Probe class is selected by name via `eval(args.probe)`.
-- `visualization_utils.py` — plotly helpers for the notebooks.
+- `patching.py` — patches residual-stream activations from a human prompt into a token-aligned animal prompt (same four few-shot templates, single-token subjects, harm query) and records the HUMAN − ANIMAL logit difference for every (token, layer). Writes incrementally and supports `--continuation_idx` to resume a failed run.
+- `visualization_utils.py` — plotly helpers (`TruthData.from_datasets(...).plot(...)`) for the notebooks; figures land in `dataexplorer/plots/`.
