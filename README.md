@@ -21,7 +21,7 @@ Before doing anything, you'll need to generate activations for the datasets. You
 Once that's done, you can generate the LLaMA activations for the datasets you'd like to work with with a command like
 
 ```
-python generate_acts.py --model llama-2-13b --layers 8 10 12 --datasets human_farmed/flood_01 farmed_wild/flood_01 --device cuda:0
+python generate_acts.py --model llama-2-13b --layers 8 10 12 --datasets single-template/human_farmed/flood_01 single-template/farmed_wild/flood_01 --device cuda:0
 ```
 
 These activations will be stored in the `acts` directory. If you want to save activations for all layers, simply use `--layers -1`. Omit `--device` to run remotely on NDIF via `nnsight`.
@@ -30,11 +30,18 @@ These activations will be stored in the `acts` directory. If you want to save ac
 
 ## Datasets
 
-A dataset name is a path relative to `datasets/`, without the `.csv`, so it may contain a subdirectory (e.g. `human_farmed/flood_01`, `truth/cities`). The same name is used for the activation cache directory. Every CSV has at minimum `statement` and `label` (1/0) columns; the animal/human CSVs carry extra `subject`, `subject_category`, `template_id`, and `axis` columns, which are used for grouped train/val splits and for coloring plots.
+A dataset name is a path relative to `datasets/`, without the `.csv`, so it may contain a subdirectory (e.g. `single-template/human_farmed/flood_01`, `truth/cities`). The same name is used for the activation cache directory. Every CSV has at minimum `statement` and `label` (1/0) columns; the animal/human CSVs carry extra `subject`, `subject_category`, `template_id`, and `axis` columns, which are used for grouped train/val splits and for coloring plots.
 
-* `datasets/animal_human_templates.py` — source of truth for the animal/human data: 160 subjects (40 each for human / companion / farmed / wild) crossed with 100 scenario templates (60 harm, 40 neutral). The docstring lists the authoring constraints that keep the contrast clean (one `{subject}` slot, no pronouns, no subject word appearing in a template, scenarios plausible for every subject).
-* `datasets/make_animal_human.py` — writes the pooled datasets, one CSV per (category pair, axis): `human_farmed_harm.csv`, `companion_wild_neutral.csv`, etc. In `{catA}_{catB}`, label 1 = catA.
-* `datasets/make_per_template.py` — writes single-template datasets to `datasets/<pair>/<template>.csv`. Each file varies only the subject word, which removes the between-template variance that otherwise dominates PCA of the pooled sets. `human_animal` contrasts humans against a balanced 40-subject sample drawn evenly from the three animal categories.
+The animal/human data comes in two groupings, one folder each:
+
+* **`datasets/single-template/<pair>/<template>.csv`** — one scenario template per file, so the only thing varying within a file is the subject word. This removes the between-template variance that otherwise dominates PCA of the pooled sets. `human_animal` contrasts humans against a balanced 40-subject sample drawn evenly from the three animal categories. Written by `datasets/make_per_template.py`.
+* **`datasets/multi-template/<pair>_<axis>.csv`** — all templates on an axis pooled into one file (`human_farmed_harm.csv`, `companion_wild_neutral.csv`, …). Written by `datasets/make_animal_human.py`.
+
+In both, the first category in the pair name gets label 1 — in `{catA}_{catB}`, label 1 = catA.
+
+Supporting files:
+
+* `datasets/animal_human_templates.py` — source of truth for both groupings: 160 subjects (40 each for human / companion / farmed / wild) crossed with 100 scenario templates (60 harm, 40 neutral). The docstring lists the authoring constraints that keep the contrast clean (one `{subject}` slot, no pronouns, no subject word appearing in a template, scenarios plausible for every subject).
 * `datasets/truth/` — the original *Geometry of Truth* datasets (`truth/cities`, `truth/neg_cities`, `truth/larger_than`, …), plus `make_conj_disj.py`.
 
 Regenerate with `python datasets/make_animal_human.py` and `python datasets/make_per_template.py`.
@@ -51,3 +58,5 @@ Regenerate with `python datasets/make_animal_human.py` and `python datasets/make
 * `utils.py` and `visualization_utils.py`: utilities for managing datasets and producing visualizations.
 
 Results are appended to JSON files in `experimental_outputs/`. A script will fail if its output file doesn't exist yet, so create it containing `[]` before the first run.
+
+`experimental_outputs/multi-template/` and `dataexplorer/plots/multi-template/` hold the patching results and PCA figures ported from the `animal-vs-human-results` branch; see the README in that folder for provenance (they predate the 40-subject regeneration). `dataexplorer/plots/single-template/` holds the figures for the per-template grouping.

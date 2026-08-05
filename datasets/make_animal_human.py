@@ -1,9 +1,13 @@
 """Generate animal-vs-human concept datasets from animal_human_templates.py.
 
-Writes one CSV per (category pair, axis) to datasets/, e.g.
+Writes one CSV per (category pair, axis) to datasets/multi-template/, e.g.
 human_companion_harm.csv, human_companion_neutral.csv, ... The first category
 in the filename gets label 1. Columns: statement,label,subject,
 subject_category,template_id,axis — extra columns are ignored by DataManager.
+
+These pool all templates on an axis into one file, so dataset names carry the
+multi-template/ prefix (e.g. 'multi-template/human_farmed_harm'). For the
+one-template-per-file variant see make_per_template.py.
 
 Run from the repo root or from datasets/:
 
@@ -17,7 +21,7 @@ import pandas as pd
 
 from animal_human_templates import CATEGORIES, SUBJECTS, TEMPLATES_BY_AXIS
 
-OUT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "multi-template")
 
 
 def build_rows(axis):
@@ -35,6 +39,7 @@ def build_rows(axis):
 
 
 if __name__ == "__main__":
+    os.makedirs(OUT_DIR, exist_ok=True)
     for axis in TEMPLATES_BY_AXIS:
         df = build_rows(axis)
         assert df.statement.is_unique, "duplicate sentences found"
