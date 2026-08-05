@@ -89,11 +89,15 @@ class DataManager:
         } # dictionary of datasets
         self.proj = None # projection matrix for dimensionality reduction
     
-    def add_dataset(self, dataset_name, model_size, layer, label='label', split=None, seed=None, noperiod=False, center=True, scale=False, device='cpu'):
+    def add_dataset(self, dataset_name, model_size, layer, label='label', split=None, seed=None, group=None, noperiod=False, center=True, scale=False, device='cpu'):
         """
         Add a dataset to the DataManager.
         label : which column of the csv file to use as the labels.
         If split is not None, gives the train/val split proportion. Uses seed for reproducibility.
+        group : if given, a csv column to split on whole values of (e.g. 'subject'), so no
+        value appears in both train and val. Without it the split is over rows, which lets
+        the same subject word appear on both sides and inflates val accuracy for features
+        carried by the subject token.
         """
         acts = collect_acts(dataset_name, model_size, layer, noperiod=noperiod, center=center, scale=scale, device=device)
         df = pd.read_csv(os.path.join(ROOT, 'datasets', f'{dataset_name}.csv'))
@@ -106,8 +110,18 @@ class DataManager:
             assert 0 < split and split < 1
             if seed is None:
                 seed = random.randint(0, 1000)
-            t.manual_seed(seed)
-            train = t.randperm(len(df)) < int(split * len(df))
+            if group is None:
+                t.manual_seed(seed)
+                train = t.randperm(len(df)) < int(split * len(df))
+            else:
+                # stratify by label so both sides stay class-balanced
+                rng = random.Random(seed)
+                train_groups = set()
+                for _, rows in df.groupby(label):
+                    values = sorted(rows[group].unique())
+                    rng.shuffle(values)
+                    train_groups |= set(values[:int(split * len(values))])
+                train = t.tensor(df[group].isin(train_groups).values)
             val = ~train
             self.data['train'][dataset_name] = acts[train], labels[train]
             self.data['val'][dataset_name] = acts[val], labels[val]

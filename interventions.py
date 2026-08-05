@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from tqdm import tqdm
 from utils import collect_acts
-from generate_acts import load_model
+from generate_acts import load_model, tracer_kwargs
 from probes import LRProbe, MMProbe, CCSProbe
 import plotly.express as px
 import json
@@ -32,15 +32,14 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
     tots = []
     for batch_idx in range(0, len(queries), batch_size):
         batch = queries[batch_idx:batch_idx+batch_size]
-        with model.forward(remote=remote, remote_include_output=False) as runner:
-            with runner.invoke(batch):
-                for layer, offset in hidden_states:
-                    model.model.layers[layer].output[:,-len_suffix + offset, :] += \
-                        direction if intervention == 'add' else -direction if intervention == 'subtract' else 0.
-                logits = model.lm_head.output[:, -1, :]
-                probs = logits.softmax(-1)
-                p_diffs.append((probs[:, true_idx] - probs[:, false_idx]).save())
-                tots.append((probs[:, true_idx] + probs[:, false_idx]).save())
+        with model.trace(batch, remote=remote, **tracer_kwargs):
+            for layer, offset in hidden_states:
+                model.model.layers[layer].output[:,-len_suffix + offset, :] += \
+                    direction if intervention == 'add' else -direction if intervention == 'subtract' else 0.
+            logits = model.lm_head.output[:, -1, :]
+            probs = logits.softmax(-1)
+            p_diffs.append((probs[:, true_idx] - probs[:, false_idx]).save())
+            tots.append((probs[:, true_idx] + probs[:, false_idx]).save())
     p_diffs = t.cat(p_diffs)
     tots = t.cat(tots)
 
