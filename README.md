@@ -60,4 +60,4 @@ Regenerate with `python datasets/make_animal_human.py` and `python datasets/make
 
 Results are appended to JSON files in `experimental_outputs/`, under a subfolder per dataset grouping (`single-template/`, `multi-template/`) matching the one in `datasets/`. A script will fail if its output file doesn't exist yet, so create it containing `[]` before the first run.
 
-Figures follow the same split: `dataexplorer/plots/single-template/` and `dataexplorer/plots/multi-template/`. The multi-template results and figures were ported from the `animal-vs-human-results` branch and predate the 40-subject regeneration — see `experimental_outputs/multi-template/README.md` for provenance before comparing them against anything current.
+Figures follow the same split: `dataexplorer/plots/single-template/` and `dataexplorer/plots/multi-template/`. The multi-template results and figures were ported from the `animal-vs-human-results` branch and were computed on the earlier 20-subject-per-category generation, so they don't correspond to the current 40-subject CSVs; re-run before comparing them against anything current.
