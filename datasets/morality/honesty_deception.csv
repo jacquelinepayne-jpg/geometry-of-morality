@@ -1,0 +1,641 @@
+statement,label,pair_id,frame_id
+"When the cashier handed back a twenty too many, Yuki walked back inside to return the extra bill.",1,0,0
+"When the cashier handed back a twenty too many, Yuki strolled out and pocketed the extra bill.",0,0,0
+"When the cashier handed back a twenty too many, Arjun walked back inside to return the extra bill.",1,1,0
+"When the cashier handed back a twenty too many, Arjun strolled out and pocketed the extra bill.",0,1,0
+"When the cashier handed back a twenty too many, Dana walked back inside to return the extra bill.",1,2,0
+"When the cashier handed back a twenty too many, Dana strolled out and pocketed the extra bill.",0,2,0
+"When the cashier handed back a twenty too many, Amara walked back inside to return the extra bill.",1,3,0
+"When the cashier handed back a twenty too many, Amara strolled out and pocketed the extra bill.",0,3,0
+"When the cashier handed back a twenty too many, Mateo walked back inside to return the extra bill.",1,4,0
+"When the cashier handed back a twenty too many, Mateo strolled out and pocketed the extra bill.",0,4,0
+"When the cashier handed back a twenty too many, Rosa walked back inside to return the extra bill.",1,5,0
+"When the cashier handed back a twenty too many, Rosa strolled out and pocketed the extra bill.",0,5,0
+"When the cashier handed back a twenty too many, Daniel walked back inside to return the extra bill.",1,6,0
+"When the cashier handed back a twenty too many, Daniel strolled out and pocketed the extra bill.",0,6,0
+"When the cashier handed back a twenty too many, Tariq walked back inside to return the extra bill.",1,7,0
+"When the cashier handed back a twenty too many, Tariq strolled out and pocketed the extra bill.",0,7,0
+"After the football cracked the neighbor's ceramic planter, Sofia rang the doorbell and admitted everything about the accident.",1,8,1
+"After the football cracked the neighbor's ceramic planter, Sofia blamed roaming teenagers when asked about the accident.",0,8,1
+"After the football cracked the neighbor's ceramic planter, Rafael rang the doorbell and admitted everything about the accident.",1,9,1
+"After the football cracked the neighbor's ceramic planter, Rafael blamed roaming teenagers when asked about the accident.",0,9,1
+"After the football cracked the neighbor's ceramic planter, Malik rang the doorbell and admitted everything about the accident.",1,10,1
+"After the football cracked the neighbor's ceramic planter, Malik blamed roaming teenagers when asked about the accident.",0,10,1
+"After the football cracked the neighbor's ceramic planter, Kwame rang the doorbell and admitted everything about the accident.",1,11,1
+"After the football cracked the neighbor's ceramic planter, Kwame blamed roaming teenagers when asked about the accident.",0,11,1
+"After the football cracked the neighbor's ceramic planter, Noah rang the doorbell and admitted everything about the accident.",1,12,1
+"After the football cracked the neighbor's ceramic planter, Noah blamed roaming teenagers when asked about the accident.",0,12,1
+"After the football cracked the neighbor's ceramic planter, Lena rang the doorbell and admitted everything about the accident.",1,13,1
+"After the football cracked the neighbor's ceramic planter, Lena blamed roaming teenagers when asked about the accident.",0,13,1
+"After the football cracked the neighbor's ceramic planter, Priya rang the doorbell and admitted everything about the accident.",1,14,1
+"After the football cracked the neighbor's ceramic planter, Priya blamed roaming teenagers when asked about the accident.",0,14,1
+"After the football cracked the neighbor's ceramic planter, Nina rang the doorbell and admitted everything about the accident.",1,15,1
+"After the football cracked the neighbor's ceramic planter, Nina blamed roaming teenagers when asked about the accident.",0,15,1
+"After scraping the borrowed pickup against a post, Daniel phoned the owner at once to describe the dent.",1,16,2
+"After scraping the borrowed pickup against a post, Daniel parked it facing the wall to hide the dent.",0,16,2
+"After scraping the borrowed pickup against a post, Rafael phoned the owner at once to describe the dent.",1,17,2
+"After scraping the borrowed pickup against a post, Rafael parked it facing the wall to hide the dent.",0,17,2
+"After scraping the borrowed pickup against a post, Leo phoned the owner at once to describe the dent.",1,18,2
+"After scraping the borrowed pickup against a post, Leo parked it facing the wall to hide the dent.",0,18,2
+"After scraping the borrowed pickup against a post, Andre phoned the owner at once to describe the dent.",1,19,2
+"After scraping the borrowed pickup against a post, Andre parked it facing the wall to hide the dent.",0,19,2
+"After scraping the borrowed pickup against a post, Hiro phoned the owner at once to describe the dent.",1,20,2
+"After scraping the borrowed pickup against a post, Hiro parked it facing the wall to hide the dent.",0,20,2
+"After scraping the borrowed pickup against a post, Kwame phoned the owner at once to describe the dent.",1,21,2
+"After scraping the borrowed pickup against a post, Kwame parked it facing the wall to hide the dent.",0,21,2
+"After scraping the borrowed pickup against a post, Nina phoned the owner at once to describe the dent.",1,22,2
+"After scraping the borrowed pickup against a post, Nina parked it facing the wall to hide the dent.",0,22,2
+"After scraping the borrowed pickup against a post, Tariq phoned the owner at once to describe the dent.",1,23,2
+"After scraping the borrowed pickup against a post, Tariq parked it facing the wall to hide the dent.",0,23,2
+"Filling out the application for the analyst job, Grace listed just the degrees that had been earned.",1,24,3
+"Filling out the application for the analyst job, Grace added a master's degree that had never been earned.",0,24,3
+"Filling out the application for the analyst job, Omar listed just the degrees that had been earned.",1,25,3
+"Filling out the application for the analyst job, Omar added a master's degree that had never been earned.",0,25,3
+"Filling out the application for the analyst job, Felix listed just the degrees that had been earned.",1,26,3
+"Filling out the application for the analyst job, Felix added a master's degree that had never been earned.",0,26,3
+"Filling out the application for the analyst job, Dana listed just the degrees that had been earned.",1,27,3
+"Filling out the application for the analyst job, Dana added a master's degree that had never been earned.",0,27,3
+"Filling out the application for the analyst job, Leila listed just the degrees that had been earned.",1,28,3
+"Filling out the application for the analyst job, Leila added a master's degree that had never been earned.",0,28,3
+"Filling out the application for the analyst job, Maria listed just the degrees that had been earned.",1,29,3
+"Filling out the application for the analyst job, Maria added a master's degree that had never been earned.",0,29,3
+"Filling out the application for the analyst job, Andre listed just the degrees that had been earned.",1,30,3
+"Filling out the application for the analyst job, Andre added a master's degree that had never been earned.",0,30,3
+"Filling out the application for the analyst job, Sofia listed just the degrees that had been earned.",1,31,3
+"Filling out the application for the analyst job, Sofia added a master's degree that had never been earned.",0,31,3
+"Knowing the basement flooded every spring, Grace showed the buyer the watermarks along the wall.",1,32,4
+"Knowing the basement flooded every spring, Grace painted over the watermarks along the wall.",0,32,4
+"Knowing the basement flooded every spring, Rafael showed the buyer the watermarks along the wall.",1,33,4
+"Knowing the basement flooded every spring, Rafael painted over the watermarks along the wall.",0,33,4
+"Knowing the basement flooded every spring, Priya showed the buyer the watermarks along the wall.",1,34,4
+"Knowing the basement flooded every spring, Priya painted over the watermarks along the wall.",0,34,4
+"Knowing the basement flooded every spring, Fatima showed the buyer the watermarks along the wall.",1,35,4
+"Knowing the basement flooded every spring, Fatima painted over the watermarks along the wall.",0,35,4
+"Knowing the basement flooded every spring, Carmen showed the buyer the watermarks along the wall.",1,36,4
+"Knowing the basement flooded every spring, Carmen painted over the watermarks along the wall.",0,36,4
+"Knowing the basement flooded every spring, Amara showed the buyer the watermarks along the wall.",1,37,4
+"Knowing the basement flooded every spring, Amara painted over the watermarks along the wall.",0,37,4
+"Knowing the basement flooded every spring, Hiro showed the buyer the watermarks along the wall.",1,38,4
+"Knowing the basement flooded every spring, Hiro painted over the watermarks along the wall.",0,38,4
+"Knowing the basement flooded every spring, Nadia showed the buyer the watermarks along the wall.",1,39,4
+"Knowing the basement flooded every spring, Nadia painted over the watermarks along the wall.",0,39,4
+"To drum up business for the new bistro, Ava invited local critics to come review the menu.",1,40,5
+"To drum up business for the new bistro, Ava flooded review sites with invented praise for the menu.",0,40,5
+"To drum up business for the new bistro, Omar invited local critics to come review the menu.",1,41,5
+"To drum up business for the new bistro, Omar flooded review sites with invented praise for the menu.",0,41,5
+"To drum up business for the new bistro, Tom invited local critics to come review the menu.",1,42,5
+"To drum up business for the new bistro, Tom flooded review sites with invented praise for the menu.",0,42,5
+"To drum up business for the new bistro, Grace invited local critics to come review the menu.",1,43,5
+"To drum up business for the new bistro, Grace flooded review sites with invented praise for the menu.",0,43,5
+"To drum up business for the new bistro, Zoe invited local critics to come review the menu.",1,44,5
+"To drum up business for the new bistro, Zoe flooded review sites with invented praise for the menu.",0,44,5
+"To drum up business for the new bistro, Leo invited local critics to come review the menu.",1,45,5
+"To drum up business for the new bistro, Leo flooded review sites with invented praise for the menu.",0,45,5
+"To drum up business for the new bistro, Mateo invited local critics to come review the menu.",1,46,5
+"To drum up business for the new bistro, Mateo flooded review sites with invented praise for the menu.",0,46,5
+"To drum up business for the new bistro, Rosa invited local critics to come review the menu.",1,47,5
+"To drum up business for the new bistro, Rosa flooded review sites with invented praise for the menu.",0,47,5
+"When the shipment went out with the wrong labels, Omar told the supervisor exactly how the mix-up happened.",1,48,6
+"When the shipment went out with the wrong labels, Omar doctored the records to hide how the mix-up happened.",0,48,6
+"When the shipment went out with the wrong labels, Yuki told the supervisor exactly how the mix-up happened.",1,49,6
+"When the shipment went out with the wrong labels, Yuki doctored the records to hide how the mix-up happened.",0,49,6
+"When the shipment went out with the wrong labels, Ava told the supervisor exactly how the mix-up happened.",1,50,6
+"When the shipment went out with the wrong labels, Ava doctored the records to hide how the mix-up happened.",0,50,6
+"When the shipment went out with the wrong labels, Leila told the supervisor exactly how the mix-up happened.",1,51,6
+"When the shipment went out with the wrong labels, Leila doctored the records to hide how the mix-up happened.",0,51,6
+"When the shipment went out with the wrong labels, Andre told the supervisor exactly how the mix-up happened.",1,52,6
+"When the shipment went out with the wrong labels, Andre doctored the records to hide how the mix-up happened.",0,52,6
+"When the shipment went out with the wrong labels, Dana told the supervisor exactly how the mix-up happened.",1,53,6
+"When the shipment went out with the wrong labels, Dana doctored the records to hide how the mix-up happened.",0,53,6
+"When the shipment went out with the wrong labels, Grace told the supervisor exactly how the mix-up happened.",1,54,6
+"When the shipment went out with the wrong labels, Grace doctored the records to hide how the mix-up happened.",0,54,6
+"When the shipment went out with the wrong labels, Hiro told the supervisor exactly how the mix-up happened.",1,55,6
+"When the shipment went out with the wrong labels, Hiro doctored the records to hide how the mix-up happened.",0,55,6
+"After seeing the delivery van clip the parked hatchback, Nina wrote down the plate number and described what happened.",1,56,7
+"After seeing the delivery van clip the parked hatchback, Nina told the owner a made-up story about what happened.",0,56,7
+"After seeing the delivery van clip the parked hatchback, Lena wrote down the plate number and described what happened.",1,57,7
+"After seeing the delivery van clip the parked hatchback, Lena told the owner a made-up story about what happened.",0,57,7
+"After seeing the delivery van clip the parked hatchback, Marcus wrote down the plate number and described what happened.",1,58,7
+"After seeing the delivery van clip the parked hatchback, Marcus told the owner a made-up story about what happened.",0,58,7
+"After seeing the delivery van clip the parked hatchback, Rafael wrote down the plate number and described what happened.",1,59,7
+"After seeing the delivery van clip the parked hatchback, Rafael told the owner a made-up story about what happened.",0,59,7
+"After seeing the delivery van clip the parked hatchback, Noah wrote down the plate number and described what happened.",1,60,7
+"After seeing the delivery van clip the parked hatchback, Noah told the owner a made-up story about what happened.",0,60,7
+"After seeing the delivery van clip the parked hatchback, Fatima wrote down the plate number and described what happened.",1,61,7
+"After seeing the delivery van clip the parked hatchback, Fatima told the owner a made-up story about what happened.",0,61,7
+"After seeing the delivery van clip the parked hatchback, Zoe wrote down the plate number and described what happened.",1,62,7
+"After seeing the delivery van clip the parked hatchback, Zoe told the owner a made-up story about what happened.",0,62,7
+"After seeing the delivery van clip the parked hatchback, Kwame wrote down the plate number and described what happened.",1,63,7
+"After seeing the delivery van clip the parked hatchback, Kwame told the owner a made-up story about what happened.",0,63,7
+"Waking up fine on the morning of the deadline, Yuki went in and admitted to the manager the report needed more time.",1,64,8
+"Waking up fine on the morning of the deadline, Yuki faked a fever and told the manager the report needed more time.",0,64,8
+"Waking up fine on the morning of the deadline, Fatima went in and admitted to the manager the report needed more time.",1,65,8
+"Waking up fine on the morning of the deadline, Fatima faked a fever and told the manager the report needed more time.",0,65,8
+"Waking up fine on the morning of the deadline, Tariq went in and admitted to the manager the report needed more time.",1,66,8
+"Waking up fine on the morning of the deadline, Tariq faked a fever and told the manager the report needed more time.",0,66,8
+"Waking up fine on the morning of the deadline, Grace went in and admitted to the manager the report needed more time.",1,67,8
+"Waking up fine on the morning of the deadline, Grace faked a fever and told the manager the report needed more time.",0,67,8
+"Waking up fine on the morning of the deadline, Kwame went in and admitted to the manager the report needed more time.",1,68,8
+"Waking up fine on the morning of the deadline, Kwame faked a fever and told the manager the report needed more time.",0,68,8
+"Waking up fine on the morning of the deadline, Arjun went in and admitted to the manager the report needed more time.",1,69,8
+"Waking up fine on the morning of the deadline, Arjun faked a fever and told the manager the report needed more time.",0,69,8
+"Waking up fine on the morning of the deadline, Mateo went in and admitted to the manager the report needed more time.",1,70,8
+"Waking up fine on the morning of the deadline, Mateo faked a fever and told the manager the report needed more time.",0,70,8
+"Waking up fine on the morning of the deadline, Omar went in and admitted to the manager the report needed more time.",1,71,8
+"Waking up fine on the morning of the deadline, Omar faked a fever and told the manager the report needed more time.",0,71,8
+"When the blender died a month after the warranty expired, Hiro told the support line the true purchase date.",1,72,9
+"When the blender died a month after the warranty expired, Hiro gave the support line a false purchase date.",0,72,9
+"When the blender died a month after the warranty expired, Maria told the support line the true purchase date.",1,73,9
+"When the blender died a month after the warranty expired, Maria gave the support line a false purchase date.",0,73,9
+"When the blender died a month after the warranty expired, Andre told the support line the true purchase date.",1,74,9
+"When the blender died a month after the warranty expired, Andre gave the support line a false purchase date.",0,74,9
+"When the blender died a month after the warranty expired, Rosa told the support line the true purchase date.",1,75,9
+"When the blender died a month after the warranty expired, Rosa gave the support line a false purchase date.",0,75,9
+"When the blender died a month after the warranty expired, Mateo told the support line the true purchase date.",1,76,9
+"When the blender died a month after the warranty expired, Mateo gave the support line a false purchase date.",0,76,9
+"When the blender died a month after the warranty expired, Amara told the support line the true purchase date.",1,77,9
+"When the blender died a month after the warranty expired, Amara gave the support line a false purchase date.",0,77,9
+"When the blender died a month after the warranty expired, Fatima told the support line the true purchase date.",1,78,9
+"When the blender died a month after the warranty expired, Fatima gave the support line a false purchase date.",0,78,9
+"When the blender died a month after the warranty expired, Arjun told the support line the true purchase date.",1,79,9
+"When the blender died a month after the warranty expired, Arjun gave the support line a false purchase date.",0,79,9
+"Selling the old sedan online, Amara listed the mileage straight off the odometer.",1,80,10
+"Selling the old sedan online, Amara rolled back thousands of miles on the odometer.",0,80,10
+"Selling the old sedan online, Nadia listed the mileage straight off the odometer.",1,81,10
+"Selling the old sedan online, Nadia rolled back thousands of miles on the odometer.",0,81,10
+"Selling the old sedan online, Maria listed the mileage straight off the odometer.",1,82,10
+"Selling the old sedan online, Maria rolled back thousands of miles on the odometer.",0,82,10
+"Selling the old sedan online, Tom listed the mileage straight off the odometer.",1,83,10
+"Selling the old sedan online, Tom rolled back thousands of miles on the odometer.",0,83,10
+"Selling the old sedan online, Daniel listed the mileage straight off the odometer.",1,84,10
+"Selling the old sedan online, Daniel rolled back thousands of miles on the odometer.",0,84,10
+"Selling the old sedan online, Yuki listed the mileage straight off the odometer.",1,85,10
+"Selling the old sedan online, Yuki rolled back thousands of miles on the odometer.",0,85,10
+"Selling the old sedan online, Andre listed the mileage straight off the odometer.",1,86,10
+"Selling the old sedan online, Andre rolled back thousands of miles on the odometer.",0,86,10
+"Selling the old sedan online, Zoe listed the mileage straight off the odometer.",1,87,10
+"Selling the old sedan online, Zoe rolled back thousands of miles on the odometer.",0,87,10
+"When the trial results came back weaker than hoped, Nina reported every measurement in the write-up.",1,88,11
+"When the trial results came back weaker than hoped, Nina dropped the weakest runs from the write-up.",0,88,11
+"When the trial results came back weaker than hoped, Zoe reported every measurement in the write-up.",1,89,11
+"When the trial results came back weaker than hoped, Zoe dropped the weakest runs from the write-up.",0,89,11
+"When the trial results came back weaker than hoped, Malik reported every measurement in the write-up.",1,90,11
+"When the trial results came back weaker than hoped, Malik dropped the weakest runs from the write-up.",0,90,11
+"When the trial results came back weaker than hoped, Hiro reported every measurement in the write-up.",1,91,11
+"When the trial results came back weaker than hoped, Hiro dropped the weakest runs from the write-up.",0,91,11
+"When the trial results came back weaker than hoped, Lena reported every measurement in the write-up.",1,92,11
+"When the trial results came back weaker than hoped, Lena dropped the weakest runs from the write-up.",0,92,11
+"When the trial results came back weaker than hoped, Dana reported every measurement in the write-up.",1,93,11
+"When the trial results came back weaker than hoped, Dana dropped the weakest runs from the write-up.",0,93,11
+"When the trial results came back weaker than hoped, Priya reported every measurement in the write-up.",1,94,11
+"When the trial results came back weaker than hoped, Priya dropped the weakest runs from the write-up.",0,94,11
+"When the trial results came back weaker than hoped, Leo reported every measurement in the write-up.",1,95,11
+"When the trial results came back weaker than hoped, Leo dropped the weakest runs from the write-up.",0,95,11
+"At the buffet where kids under five ate free, Priya gave the hostess the twins' true age.",1,96,12
+"At the buffet where kids under five ate free, Priya shaved two years off the twins' true age.",0,96,12
+"At the buffet where kids under five ate free, Arjun gave the hostess the twins' true age.",1,97,12
+"At the buffet where kids under five ate free, Arjun shaved two years off the twins' true age.",0,97,12
+"At the buffet where kids under five ate free, Rafael gave the hostess the twins' true age.",1,98,12
+"At the buffet where kids under five ate free, Rafael shaved two years off the twins' true age.",0,98,12
+"At the buffet where kids under five ate free, Nina gave the hostess the twins' true age.",1,99,12
+"At the buffet where kids under five ate free, Nina shaved two years off the twins' true age.",0,99,12
+"At the buffet where kids under five ate free, Nadia gave the hostess the twins' true age.",1,100,12
+"At the buffet where kids under five ate free, Nadia shaved two years off the twins' true age.",0,100,12
+"At the buffet where kids under five ate free, Tom gave the hostess the twins' true age.",1,101,12
+"At the buffet where kids under five ate free, Tom shaved two years off the twins' true age.",0,101,12
+"At the buffet where kids under five ate free, Ava gave the hostess the twins' true age.",1,102,12
+"At the buffet where kids under five ate free, Ava shaved two years off the twins' true age.",0,102,12
+"At the buffet where kids under five ate free, Felix gave the hostess the twins' true age.",1,103,12
+"At the buffet where kids under five ate free, Felix shaved two years off the twins' true age.",0,103,12
+"Filing the insurance claim, Carmen listed only what was ruined in the kitchen fire.",1,104,13
+"Filing the insurance claim, Carmen listed two laptops that were nowhere near the kitchen fire.",0,104,13
+"Filing the insurance claim, Fatima listed only what was ruined in the kitchen fire.",1,105,13
+"Filing the insurance claim, Fatima listed two laptops that were nowhere near the kitchen fire.",0,105,13
+"Filing the insurance claim, Tariq listed only what was ruined in the kitchen fire.",1,106,13
+"Filing the insurance claim, Tariq listed two laptops that were nowhere near the kitchen fire.",0,106,13
+"Filing the insurance claim, Yuki listed only what was ruined in the kitchen fire.",1,107,13
+"Filing the insurance claim, Yuki listed two laptops that were nowhere near the kitchen fire.",0,107,13
+"Filing the insurance claim, Nina listed only what was ruined in the kitchen fire.",1,108,13
+"Filing the insurance claim, Nina listed two laptops that were nowhere near the kitchen fire.",0,108,13
+"Filing the insurance claim, Daniel listed only what was ruined in the kitchen fire.",1,109,13
+"Filing the insurance claim, Daniel listed two laptops that were nowhere near the kitchen fire.",0,109,13
+"Filing the insurance claim, Noah listed only what was ruined in the kitchen fire.",1,110,13
+"Filing the insurance claim, Noah listed two laptops that were nowhere near the kitchen fire.",0,110,13
+"Filing the insurance claim, Malik listed only what was ruined in the kitchen fire.",1,111,13
+"Filing the insurance claim, Malik listed two laptops that were nowhere near the kitchen fire.",0,111,13
+"Arriving without the essay on Monday, Leila admitted to the teacher it was never started over the weekend.",1,112,14
+"Arriving without the essay on Monday, Leila spun the teacher a tale of a crashed laptop over the weekend.",0,112,14
+"Arriving without the essay on Monday, Marcus admitted to the teacher it was never started over the weekend.",1,113,14
+"Arriving without the essay on Monday, Marcus spun the teacher a tale of a crashed laptop over the weekend.",0,113,14
+"Arriving without the essay on Monday, Nina admitted to the teacher it was never started over the weekend.",1,114,14
+"Arriving without the essay on Monday, Nina spun the teacher a tale of a crashed laptop over the weekend.",0,114,14
+"Arriving without the essay on Monday, Noah admitted to the teacher it was never started over the weekend.",1,115,14
+"Arriving without the essay on Monday, Noah spun the teacher a tale of a crashed laptop over the weekend.",0,115,14
+"Arriving without the essay on Monday, Lena admitted to the teacher it was never started over the weekend.",1,116,14
+"Arriving without the essay on Monday, Lena spun the teacher a tale of a crashed laptop over the weekend.",0,116,14
+"Arriving without the essay on Monday, Daniel admitted to the teacher it was never started over the weekend.",1,117,14
+"Arriving without the essay on Monday, Daniel spun the teacher a tale of a crashed laptop over the weekend.",0,117,14
+"Arriving without the essay on Monday, Maria admitted to the teacher it was never started over the weekend.",1,118,14
+"Arriving without the essay on Monday, Maria spun the teacher a tale of a crashed laptop over the weekend.",0,118,14
+"Arriving without the essay on Monday, Amara admitted to the teacher it was never started over the weekend.",1,119,14
+"Arriving without the essay on Monday, Amara spun the teacher a tale of a crashed laptop over the weekend.",0,119,14
+"Setting up the dating profile, Priya used recent photos and the true year of birth.",1,120,15
+"Setting up the dating profile, Priya used a stranger's photos and a false year of birth.",0,120,15
+"Setting up the dating profile, Yuki used recent photos and the true year of birth.",1,121,15
+"Setting up the dating profile, Yuki used a stranger's photos and a false year of birth.",0,121,15
+"Setting up the dating profile, Zoe used recent photos and the true year of birth.",1,122,15
+"Setting up the dating profile, Zoe used a stranger's photos and a false year of birth.",0,122,15
+"Setting up the dating profile, Andre used recent photos and the true year of birth.",1,123,15
+"Setting up the dating profile, Andre used a stranger's photos and a false year of birth.",0,123,15
+"Setting up the dating profile, Ethan used recent photos and the true year of birth.",1,124,15
+"Setting up the dating profile, Ethan used a stranger's photos and a false year of birth.",0,124,15
+"Setting up the dating profile, Dana used recent photos and the true year of birth.",1,125,15
+"Setting up the dating profile, Dana used a stranger's photos and a false year of birth.",0,125,15
+"Setting up the dating profile, Mateo used recent photos and the true year of birth.",1,126,15
+"Setting up the dating profile, Mateo used a stranger's photos and a false year of birth.",0,126,15
+"Setting up the dating profile, Nadia used recent photos and the true year of birth.",1,127,15
+"Setting up the dating profile, Nadia used a stranger's photos and a false year of birth.",0,127,15
+"Clocked doing eighty by the radar van, Sofia admitted the true speed to the officer.",1,128,16
+"Clocked doing eighty by the radar van, Sofia insisted the radar was broken to the officer.",0,128,16
+"Clocked doing eighty by the radar van, Rafael admitted the true speed to the officer.",1,129,16
+"Clocked doing eighty by the radar van, Rafael insisted the radar was broken to the officer.",0,129,16
+"Clocked doing eighty by the radar van, Amara admitted the true speed to the officer.",1,130,16
+"Clocked doing eighty by the radar van, Amara insisted the radar was broken to the officer.",0,130,16
+"Clocked doing eighty by the radar van, Mateo admitted the true speed to the officer.",1,131,16
+"Clocked doing eighty by the radar van, Mateo insisted the radar was broken to the officer.",0,131,16
+"Clocked doing eighty by the radar van, Ava admitted the true speed to the officer.",1,132,16
+"Clocked doing eighty by the radar van, Ava insisted the radar was broken to the officer.",0,132,16
+"Clocked doing eighty by the radar van, Tariq admitted the true speed to the officer.",1,133,16
+"Clocked doing eighty by the radar van, Tariq insisted the radar was broken to the officer.",0,133,16
+"Clocked doing eighty by the radar van, Tom admitted the true speed to the officer.",1,134,16
+"Clocked doing eighty by the radar van, Tom insisted the radar was broken to the officer.",0,134,16
+"Clocked doing eighty by the radar van, Omar admitted the true speed to the officer.",1,135,16
+"Clocked doing eighty by the radar van, Omar insisted the radar was broken to the officer.",0,135,16
+"Listing the violin for auction, Lena described it as a workshop copy, exactly what the appraisal showed.",1,136,17
+"Listing the violin for auction, Lena described it as a lost Stradivarius, despite what the appraisal showed.",0,136,17
+"Listing the violin for auction, Malik described it as a workshop copy, exactly what the appraisal showed.",1,137,17
+"Listing the violin for auction, Malik described it as a lost Stradivarius, despite what the appraisal showed.",0,137,17
+"Listing the violin for auction, Andre described it as a workshop copy, exactly what the appraisal showed.",1,138,17
+"Listing the violin for auction, Andre described it as a lost Stradivarius, despite what the appraisal showed.",0,138,17
+"Listing the violin for auction, Nina described it as a workshop copy, exactly what the appraisal showed.",1,139,17
+"Listing the violin for auction, Nina described it as a lost Stradivarius, despite what the appraisal showed.",0,139,17
+"Listing the violin for auction, Omar described it as a workshop copy, exactly what the appraisal showed.",1,140,17
+"Listing the violin for auction, Omar described it as a lost Stradivarius, despite what the appraisal showed.",0,140,17
+"Listing the violin for auction, Tariq described it as a workshop copy, exactly what the appraisal showed.",1,141,17
+"Listing the violin for auction, Tariq described it as a lost Stradivarius, despite what the appraisal showed.",0,141,17
+"Listing the violin for auction, Nadia described it as a workshop copy, exactly what the appraisal showed.",1,142,17
+"Listing the violin for auction, Nadia described it as a lost Stradivarius, despite what the appraisal showed.",0,142,17
+"Listing the violin for auction, Mateo described it as a workshop copy, exactly what the appraisal showed.",1,143,17
+"Listing the violin for auction, Mateo described it as a lost Stradivarius, despite what the appraisal showed.",0,143,17
+"At the end of the pay period, Priya copied the badge-scan hours straight onto the timesheet.",1,144,18
+"At the end of the pay period, Priya added six invented overtime hours onto the timesheet.",0,144,18
+"At the end of the pay period, Lena copied the badge-scan hours straight onto the timesheet.",1,145,18
+"At the end of the pay period, Lena added six invented overtime hours onto the timesheet.",0,145,18
+"At the end of the pay period, Nina copied the badge-scan hours straight onto the timesheet.",1,146,18
+"At the end of the pay period, Nina added six invented overtime hours onto the timesheet.",0,146,18
+"At the end of the pay period, Maria copied the badge-scan hours straight onto the timesheet.",1,147,18
+"At the end of the pay period, Maria added six invented overtime hours onto the timesheet.",0,147,18
+"At the end of the pay period, Tariq copied the badge-scan hours straight onto the timesheet.",1,148,18
+"At the end of the pay period, Tariq added six invented overtime hours onto the timesheet.",0,148,18
+"At the end of the pay period, Andre copied the badge-scan hours straight onto the timesheet.",1,149,18
+"At the end of the pay period, Andre added six invented overtime hours onto the timesheet.",0,149,18
+"At the end of the pay period, Ava copied the badge-scan hours straight onto the timesheet.",1,150,18
+"At the end of the pay period, Ava added six invented overtime hours onto the timesheet.",0,150,18
+"At the end of the pay period, Arjun copied the badge-scan hours straight onto the timesheet.",1,151,18
+"At the end of the pay period, Arjun added six invented overtime hours onto the timesheet.",0,151,18
+"Hearing a wild story about the new principal, Maria checked with the office and killed the rumor going around school.",1,152,19
+"Hearing a wild story about the new principal, Maria embroidered extra details and spread the rumor going around school.",0,152,19
+"Hearing a wild story about the new principal, Zoe checked with the office and killed the rumor going around school.",1,153,19
+"Hearing a wild story about the new principal, Zoe embroidered extra details and spread the rumor going around school.",0,153,19
+"Hearing a wild story about the new principal, Marcus checked with the office and killed the rumor going around school.",1,154,19
+"Hearing a wild story about the new principal, Marcus embroidered extra details and spread the rumor going around school.",0,154,19
+"Hearing a wild story about the new principal, Noah checked with the office and killed the rumor going around school.",1,155,19
+"Hearing a wild story about the new principal, Noah embroidered extra details and spread the rumor going around school.",0,155,19
+"Hearing a wild story about the new principal, Nadia checked with the office and killed the rumor going around school.",1,156,19
+"Hearing a wild story about the new principal, Nadia embroidered extra details and spread the rumor going around school.",0,156,19
+"Hearing a wild story about the new principal, Priya checked with the office and killed the rumor going around school.",1,157,19
+"Hearing a wild story about the new principal, Priya embroidered extra details and spread the rumor going around school.",0,157,19
+"Hearing a wild story about the new principal, Amara checked with the office and killed the rumor going around school.",1,158,19
+"Hearing a wild story about the new principal, Amara embroidered extra details and spread the rumor going around school.",0,158,19
+"Hearing a wild story about the new principal, Omar checked with the office and killed the rumor going around school.",1,159,19
+"Hearing a wild story about the new principal, Omar embroidered extra details and spread the rumor going around school.",0,159,19
+"Drafting the graduation speech, Omar credited the original writer for every borrowed passage.",1,160,20
+"Drafting the graduation speech, Omar scrubbed the original writer from every borrowed passage.",0,160,20
+"Drafting the graduation speech, Dana credited the original writer for every borrowed passage.",1,161,20
+"Drafting the graduation speech, Dana scrubbed the original writer from every borrowed passage.",0,161,20
+"Drafting the graduation speech, Marcus credited the original writer for every borrowed passage.",1,162,20
+"Drafting the graduation speech, Marcus scrubbed the original writer from every borrowed passage.",0,162,20
+"Drafting the graduation speech, Andre credited the original writer for every borrowed passage.",1,163,20
+"Drafting the graduation speech, Andre scrubbed the original writer from every borrowed passage.",0,163,20
+"Drafting the graduation speech, Daniel credited the original writer for every borrowed passage.",1,164,20
+"Drafting the graduation speech, Daniel scrubbed the original writer from every borrowed passage.",0,164,20
+"Drafting the graduation speech, Sofia credited the original writer for every borrowed passage.",1,165,20
+"Drafting the graduation speech, Sofia scrubbed the original writer from every borrowed passage.",0,165,20
+"Drafting the graduation speech, Grace credited the original writer for every borrowed passage.",1,166,20
+"Drafting the graduation speech, Grace scrubbed the original writer from every borrowed passage.",0,166,20
+"Drafting the graduation speech, Ava credited the original writer for every borrowed passage.",1,167,20
+"Drafting the graduation speech, Ava scrubbed the original writer from every borrowed passage.",0,167,20
+"Noticing the transcript showed a class never taken, Arjun reported the error to the registrar.",1,168,21
+"Noticing the transcript showed a class never taken, Arjun hid the extra credit from the registrar.",0,168,21
+"Noticing the transcript showed a class never taken, Maria reported the error to the registrar.",1,169,21
+"Noticing the transcript showed a class never taken, Maria hid the extra credit from the registrar.",0,169,21
+"Noticing the transcript showed a class never taken, Nina reported the error to the registrar.",1,170,21
+"Noticing the transcript showed a class never taken, Nina hid the extra credit from the registrar.",0,170,21
+"Noticing the transcript showed a class never taken, Ava reported the error to the registrar.",1,171,21
+"Noticing the transcript showed a class never taken, Ava hid the extra credit from the registrar.",0,171,21
+"Noticing the transcript showed a class never taken, Tom reported the error to the registrar.",1,172,21
+"Noticing the transcript showed a class never taken, Tom hid the extra credit from the registrar.",0,172,21
+"Noticing the transcript showed a class never taken, Dana reported the error to the registrar.",1,173,21
+"Noticing the transcript showed a class never taken, Dana hid the extra credit from the registrar.",0,173,21
+"Noticing the transcript showed a class never taken, Leila reported the error to the registrar.",1,174,21
+"Noticing the transcript showed a class never taken, Leila hid the extra credit from the registrar.",0,174,21
+"Noticing the transcript showed a class never taken, Zoe reported the error to the registrar.",1,175,21
+"Noticing the transcript showed a class never taken, Zoe hid the extra credit from the registrar.",0,175,21
+"Finding a wallet full of cash under the bleachers, Maria turned it in untouched at the front office.",1,176,22
+"Finding a wallet full of cash under the bleachers, Maria emptied the cash out behind the front office.",0,176,22
+"Finding a wallet full of cash under the bleachers, Nina turned it in untouched at the front office.",1,177,22
+"Finding a wallet full of cash under the bleachers, Nina emptied the cash out behind the front office.",0,177,22
+"Finding a wallet full of cash under the bleachers, Daniel turned it in untouched at the front office.",1,178,22
+"Finding a wallet full of cash under the bleachers, Daniel emptied the cash out behind the front office.",0,178,22
+"Finding a wallet full of cash under the bleachers, Grace turned it in untouched at the front office.",1,179,22
+"Finding a wallet full of cash under the bleachers, Grace emptied the cash out behind the front office.",0,179,22
+"Finding a wallet full of cash under the bleachers, Kwame turned it in untouched at the front office.",1,180,22
+"Finding a wallet full of cash under the bleachers, Kwame emptied the cash out behind the front office.",0,180,22
+"Finding a wallet full of cash under the bleachers, Ethan turned it in untouched at the front office.",1,181,22
+"Finding a wallet full of cash under the bleachers, Ethan emptied the cash out behind the front office.",0,181,22
+"Finding a wallet full of cash under the bleachers, Noah turned it in untouched at the front office.",1,182,22
+"Finding a wallet full of cash under the bleachers, Noah emptied the cash out behind the front office.",0,182,22
+"Finding a wallet full of cash under the bleachers, Nadia turned it in untouched at the front office.",1,183,22
+"Finding a wallet full of cash under the bleachers, Nadia emptied the cash out behind the front office.",0,183,22
+"Finding only worn spark plugs behind the misfire, Kwame told the customer just the plugs needed replacing.",1,184,23
+"Finding only worn spark plugs behind the misfire, Kwame told the customer the whole engine needed replacing.",0,184,23
+"Finding only worn spark plugs behind the misfire, Zoe told the customer just the plugs needed replacing.",1,185,23
+"Finding only worn spark plugs behind the misfire, Zoe told the customer the whole engine needed replacing.",0,185,23
+"Finding only worn spark plugs behind the misfire, Tom told the customer just the plugs needed replacing.",1,186,23
+"Finding only worn spark plugs behind the misfire, Tom told the customer the whole engine needed replacing.",0,186,23
+"Finding only worn spark plugs behind the misfire, Mateo told the customer just the plugs needed replacing.",1,187,23
+"Finding only worn spark plugs behind the misfire, Mateo told the customer the whole engine needed replacing.",0,187,23
+"Finding only worn spark plugs behind the misfire, Malik told the customer just the plugs needed replacing.",1,188,23
+"Finding only worn spark plugs behind the misfire, Malik told the customer the whole engine needed replacing.",0,188,23
+"Finding only worn spark plugs behind the misfire, Marcus told the customer just the plugs needed replacing.",1,189,23
+"Finding only worn spark plugs behind the misfire, Marcus told the customer the whole engine needed replacing.",0,189,23
+"Finding only worn spark plugs behind the misfire, Fatima told the customer just the plugs needed replacing.",1,190,23
+"Finding only worn spark plugs behind the misfire, Fatima told the customer the whole engine needed replacing.",0,190,23
+"Finding only worn spark plugs behind the misfire, Hiro told the customer just the plugs needed replacing.",1,191,23
+"Finding only worn spark plugs behind the misfire, Hiro told the customer the whole engine needed replacing.",0,191,23
+"Registering the tall twelve-year-old for the league, Omar entered the birth year exactly as the certificate showed.",1,192,24
+"Registering the tall twelve-year-old for the league, Omar entered a birth year younger than the certificate showed.",0,192,24
+"Registering the tall twelve-year-old for the league, Ava entered the birth year exactly as the certificate showed.",1,193,24
+"Registering the tall twelve-year-old for the league, Ava entered a birth year younger than the certificate showed.",0,193,24
+"Registering the tall twelve-year-old for the league, Nina entered the birth year exactly as the certificate showed.",1,194,24
+"Registering the tall twelve-year-old for the league, Nina entered a birth year younger than the certificate showed.",0,194,24
+"Registering the tall twelve-year-old for the league, Zoe entered the birth year exactly as the certificate showed.",1,195,24
+"Registering the tall twelve-year-old for the league, Zoe entered a birth year younger than the certificate showed.",0,195,24
+"Registering the tall twelve-year-old for the league, Kwame entered the birth year exactly as the certificate showed.",1,196,24
+"Registering the tall twelve-year-old for the league, Kwame entered a birth year younger than the certificate showed.",0,196,24
+"Registering the tall twelve-year-old for the league, Tariq entered the birth year exactly as the certificate showed.",1,197,24
+"Registering the tall twelve-year-old for the league, Tariq entered a birth year younger than the certificate showed.",0,197,24
+"Registering the tall twelve-year-old for the league, Dana entered the birth year exactly as the certificate showed.",1,198,24
+"Registering the tall twelve-year-old for the league, Dana entered a birth year younger than the certificate showed.",0,198,24
+"Registering the tall twelve-year-old for the league, Priya entered the birth year exactly as the certificate showed.",1,199,24
+"Registering the tall twelve-year-old for the league, Priya entered a birth year younger than the certificate showed.",0,199,24
+"Selling fillets at the harbor market, Fatima tagged the farm-raised salmon with its true origin on the label.",1,200,25
+"Selling fillets at the harbor market, Fatima tagged the farm-raised salmon with a wild-caught claim on the label.",0,200,25
+"Selling fillets at the harbor market, Omar tagged the farm-raised salmon with its true origin on the label.",1,201,25
+"Selling fillets at the harbor market, Omar tagged the farm-raised salmon with a wild-caught claim on the label.",0,201,25
+"Selling fillets at the harbor market, Tariq tagged the farm-raised salmon with its true origin on the label.",1,202,25
+"Selling fillets at the harbor market, Tariq tagged the farm-raised salmon with a wild-caught claim on the label.",0,202,25
+"Selling fillets at the harbor market, Kwame tagged the farm-raised salmon with its true origin on the label.",1,203,25
+"Selling fillets at the harbor market, Kwame tagged the farm-raised salmon with a wild-caught claim on the label.",0,203,25
+"Selling fillets at the harbor market, Daniel tagged the farm-raised salmon with its true origin on the label.",1,204,25
+"Selling fillets at the harbor market, Daniel tagged the farm-raised salmon with a wild-caught claim on the label.",0,204,25
+"Selling fillets at the harbor market, Nina tagged the farm-raised salmon with its true origin on the label.",1,205,25
+"Selling fillets at the harbor market, Nina tagged the farm-raised salmon with a wild-caught claim on the label.",0,205,25
+"Selling fillets at the harbor market, Mateo tagged the farm-raised salmon with its true origin on the label.",1,206,25
+"Selling fillets at the harbor market, Mateo tagged the farm-raised salmon with a wild-caught claim on the label.",0,206,25
+"Selling fillets at the harbor market, Rafael tagged the farm-raised salmon with its true origin on the label.",1,207,25
+"Selling fillets at the harbor market, Rafael tagged the farm-raised salmon with a wild-caught claim on the label.",0,207,25
+"Testifying about the loading-dock collapse, Leila described exactly how the events unfolded.",1,208,26
+"Testifying about the loading-dock collapse, Leila recited a false account of how the events unfolded.",0,208,26
+"Testifying about the loading-dock collapse, Andre described exactly how the events unfolded.",1,209,26
+"Testifying about the loading-dock collapse, Andre recited a false account of how the events unfolded.",0,209,26
+"Testifying about the loading-dock collapse, Kwame described exactly how the events unfolded.",1,210,26
+"Testifying about the loading-dock collapse, Kwame recited a false account of how the events unfolded.",0,210,26
+"Testifying about the loading-dock collapse, Nadia described exactly how the events unfolded.",1,211,26
+"Testifying about the loading-dock collapse, Nadia recited a false account of how the events unfolded.",0,211,26
+"Testifying about the loading-dock collapse, Marcus described exactly how the events unfolded.",1,212,26
+"Testifying about the loading-dock collapse, Marcus recited a false account of how the events unfolded.",0,212,26
+"Testifying about the loading-dock collapse, Tariq described exactly how the events unfolded.",1,213,26
+"Testifying about the loading-dock collapse, Tariq recited a false account of how the events unfolded.",0,213,26
+"Testifying about the loading-dock collapse, Yuki described exactly how the events unfolded.",1,214,26
+"Testifying about the loading-dock collapse, Yuki recited a false account of how the events unfolded.",0,214,26
+"Testifying about the loading-dock collapse, Lena described exactly how the events unfolded.",1,215,26
+"Testifying about the loading-dock collapse, Lena recited a false account of how the events unfolded.",0,215,26
+"Selling the used phone at the kiosk, Maria pointed out the hairline crack across the screen.",1,216,27
+"Selling the used phone at the kiosk, Maria angled every photo to hide the crack across the screen.",0,216,27
+"Selling the used phone at the kiosk, Malik pointed out the hairline crack across the screen.",1,217,27
+"Selling the used phone at the kiosk, Malik angled every photo to hide the crack across the screen.",0,217,27
+"Selling the used phone at the kiosk, Priya pointed out the hairline crack across the screen.",1,218,27
+"Selling the used phone at the kiosk, Priya angled every photo to hide the crack across the screen.",0,218,27
+"Selling the used phone at the kiosk, Tom pointed out the hairline crack across the screen.",1,219,27
+"Selling the used phone at the kiosk, Tom angled every photo to hide the crack across the screen.",0,219,27
+"Selling the used phone at the kiosk, Leila pointed out the hairline crack across the screen.",1,220,27
+"Selling the used phone at the kiosk, Leila angled every photo to hide the crack across the screen.",0,220,27
+"Selling the used phone at the kiosk, Grace pointed out the hairline crack across the screen.",1,221,27
+"Selling the used phone at the kiosk, Grace angled every photo to hide the crack across the screen.",0,221,27
+"Selling the used phone at the kiosk, Tariq pointed out the hairline crack across the screen.",1,222,27
+"Selling the used phone at the kiosk, Tariq angled every photo to hide the crack across the screen.",0,222,27
+"Selling the used phone at the kiosk, Rosa pointed out the hairline crack across the screen.",1,223,27
+"Selling the used phone at the kiosk, Rosa angled every photo to hide the crack across the screen.",0,223,27
+"After coffee soaked the borrowed atlas, Dana showed the librarian the stains at the return desk.",1,224,28
+"After coffee soaked the borrowed atlas, Dana buried it under other books at the return desk.",0,224,28
+"After coffee soaked the borrowed atlas, Daniel showed the librarian the stains at the return desk.",1,225,28
+"After coffee soaked the borrowed atlas, Daniel buried it under other books at the return desk.",0,225,28
+"After coffee soaked the borrowed atlas, Carmen showed the librarian the stains at the return desk.",1,226,28
+"After coffee soaked the borrowed atlas, Carmen buried it under other books at the return desk.",0,226,28
+"After coffee soaked the borrowed atlas, Lena showed the librarian the stains at the return desk.",1,227,28
+"After coffee soaked the borrowed atlas, Lena buried it under other books at the return desk.",0,227,28
+"After coffee soaked the borrowed atlas, Grace showed the librarian the stains at the return desk.",1,228,28
+"After coffee soaked the borrowed atlas, Grace buried it under other books at the return desk.",0,228,28
+"After coffee soaked the borrowed atlas, Amara showed the librarian the stains at the return desk.",1,229,28
+"After coffee soaked the borrowed atlas, Amara buried it under other books at the return desk.",0,229,28
+"After coffee soaked the borrowed atlas, Tom showed the librarian the stains at the return desk.",1,230,28
+"After coffee soaked the borrowed atlas, Tom buried it under other books at the return desk.",0,230,28
+"After coffee soaked the borrowed atlas, Leo showed the librarian the stains at the return desk.",1,231,28
+"After coffee soaked the borrowed atlas, Leo buried it under other books at the return desk.",0,231,28
+"Advertising the transformation program, Arjun used photos from a client who had finished the plan.",1,232,29
+"Advertising the transformation program, Arjun used photos from models who had never seen the plan.",0,232,29
+"Advertising the transformation program, Malik used photos from a client who had finished the plan.",1,233,29
+"Advertising the transformation program, Malik used photos from models who had never seen the plan.",0,233,29
+"Advertising the transformation program, Ethan used photos from a client who had finished the plan.",1,234,29
+"Advertising the transformation program, Ethan used photos from models who had never seen the plan.",0,234,29
+"Advertising the transformation program, Amara used photos from a client who had finished the plan.",1,235,29
+"Advertising the transformation program, Amara used photos from models who had never seen the plan.",0,235,29
+"Advertising the transformation program, Grace used photos from a client who had finished the plan.",1,236,29
+"Advertising the transformation program, Grace used photos from models who had never seen the plan.",0,236,29
+"Advertising the transformation program, Lena used photos from a client who had finished the plan.",1,237,29
+"Advertising the transformation program, Lena used photos from models who had never seen the plan.",0,237,29
+"Advertising the transformation program, Fatima used photos from a client who had finished the plan.",1,238,29
+"Advertising the transformation program, Fatima used photos from models who had never seen the plan.",0,238,29
+"Advertising the transformation program, Daniel used photos from a client who had finished the plan.",1,239,29
+"Advertising the transformation program, Daniel used photos from models who had never seen the plan.",0,239,29
+"When the kitchen ran out of the prized bluefin, Carmen crossed the dish off the menu.",1,240,30
+"When the kitchen ran out of the prized bluefin, Carmen served albacore under the same name on the menu.",0,240,30
+"When the kitchen ran out of the prized bluefin, Grace crossed the dish off the menu.",1,241,30
+"When the kitchen ran out of the prized bluefin, Grace served albacore under the same name on the menu.",0,241,30
+"When the kitchen ran out of the prized bluefin, Mateo crossed the dish off the menu.",1,242,30
+"When the kitchen ran out of the prized bluefin, Mateo served albacore under the same name on the menu.",0,242,30
+"When the kitchen ran out of the prized bluefin, Rafael crossed the dish off the menu.",1,243,30
+"When the kitchen ran out of the prized bluefin, Rafael served albacore under the same name on the menu.",0,243,30
+"When the kitchen ran out of the prized bluefin, Tariq crossed the dish off the menu.",1,244,30
+"When the kitchen ran out of the prized bluefin, Tariq served albacore under the same name on the menu.",0,244,30
+"When the kitchen ran out of the prized bluefin, Ava crossed the dish off the menu.",1,245,30
+"When the kitchen ran out of the prized bluefin, Ava served albacore under the same name on the menu.",0,245,30
+"When the kitchen ran out of the prized bluefin, Omar crossed the dish off the menu.",1,246,30
+"When the kitchen ran out of the prized bluefin, Omar served albacore under the same name on the menu.",0,246,30
+"When the kitchen ran out of the prized bluefin, Nina crossed the dish off the menu.",1,247,30
+"When the kitchen ran out of the prized bluefin, Nina served albacore under the same name on the menu.",0,247,30
+"Announcing the fundraiser totals at the assembly, Leila read out the amount actually raised.",1,248,31
+"Announcing the fundraiser totals at the assembly, Leila doubled the amount actually raised.",0,248,31
+"Announcing the fundraiser totals at the assembly, Andre read out the amount actually raised.",1,249,31
+"Announcing the fundraiser totals at the assembly, Andre doubled the amount actually raised.",0,249,31
+"Announcing the fundraiser totals at the assembly, Dana read out the amount actually raised.",1,250,31
+"Announcing the fundraiser totals at the assembly, Dana doubled the amount actually raised.",0,250,31
+"Announcing the fundraiser totals at the assembly, Yuki read out the amount actually raised.",1,251,31
+"Announcing the fundraiser totals at the assembly, Yuki doubled the amount actually raised.",0,251,31
+"Announcing the fundraiser totals at the assembly, Mateo read out the amount actually raised.",1,252,31
+"Announcing the fundraiser totals at the assembly, Mateo doubled the amount actually raised.",0,252,31
+"Announcing the fundraiser totals at the assembly, Tom read out the amount actually raised.",1,253,31
+"Announcing the fundraiser totals at the assembly, Tom doubled the amount actually raised.",0,253,31
+"Announcing the fundraiser totals at the assembly, Priya read out the amount actually raised.",1,254,31
+"Announcing the fundraiser totals at the assembly, Priya doubled the amount actually raised.",0,254,31
+"Announcing the fundraiser totals at the assembly, Tariq read out the amount actually raised.",1,255,31
+"Announcing the fundraiser totals at the assembly, Tariq doubled the amount actually raised.",0,255,31
+"Selling the beagle puppies from the yard litter, Priya told buyers there were no pedigree papers.",1,256,32
+"Selling the beagle puppies from the yard litter, Priya handed buyers forged pedigree papers.",0,256,32
+"Selling the beagle puppies from the yard litter, Daniel told buyers there were no pedigree papers.",1,257,32
+"Selling the beagle puppies from the yard litter, Daniel handed buyers forged pedigree papers.",0,257,32
+"Selling the beagle puppies from the yard litter, Mateo told buyers there were no pedigree papers.",1,258,32
+"Selling the beagle puppies from the yard litter, Mateo handed buyers forged pedigree papers.",0,258,32
+"Selling the beagle puppies from the yard litter, Tom told buyers there were no pedigree papers.",1,259,32
+"Selling the beagle puppies from the yard litter, Tom handed buyers forged pedigree papers.",0,259,32
+"Selling the beagle puppies from the yard litter, Lena told buyers there were no pedigree papers.",1,260,32
+"Selling the beagle puppies from the yard litter, Lena handed buyers forged pedigree papers.",0,260,32
+"Selling the beagle puppies from the yard litter, Rosa told buyers there were no pedigree papers.",1,261,32
+"Selling the beagle puppies from the yard litter, Rosa handed buyers forged pedigree papers.",0,261,32
+"Selling the beagle puppies from the yard litter, Hiro told buyers there were no pedigree papers.",1,262,32
+"Selling the beagle puppies from the yard litter, Hiro handed buyers forged pedigree papers.",0,262,32
+"Selling the beagle puppies from the yard litter, Tariq told buyers there were no pedigree papers.",1,263,32
+"Selling the beagle puppies from the yard litter, Tariq handed buyers forged pedigree papers.",0,263,32
+"Updating parents after each tutoring session, Andre described exactly what their son had mastered.",1,264,33
+"Updating parents after each tutoring session, Andre claimed skills far beyond what their son had mastered.",0,264,33
+"Updating parents after each tutoring session, Zoe described exactly what their son had mastered.",1,265,33
+"Updating parents after each tutoring session, Zoe claimed skills far beyond what their son had mastered.",0,265,33
+"Updating parents after each tutoring session, Arjun described exactly what their son had mastered.",1,266,33
+"Updating parents after each tutoring session, Arjun claimed skills far beyond what their son had mastered.",0,266,33
+"Updating parents after each tutoring session, Kwame described exactly what their son had mastered.",1,267,33
+"Updating parents after each tutoring session, Kwame claimed skills far beyond what their son had mastered.",0,267,33
+"Updating parents after each tutoring session, Omar described exactly what their son had mastered.",1,268,33
+"Updating parents after each tutoring session, Omar claimed skills far beyond what their son had mastered.",0,268,33
+"Updating parents after each tutoring session, Ava described exactly what their son had mastered.",1,269,33
+"Updating parents after each tutoring session, Ava claimed skills far beyond what their son had mastered.",0,269,33
+"Updating parents after each tutoring session, Leila described exactly what their son had mastered.",1,270,33
+"Updating parents after each tutoring session, Leila claimed skills far beyond what their son had mastered.",0,270,33
+"Updating parents after each tutoring session, Dana described exactly what their son had mastered.",1,271,33
+"Updating parents after each tutoring session, Dana claimed skills far beyond what their son had mastered.",0,271,33
+"Asked about the flaky crust at the bake sale, Malik admitted it came from a supermarket box.",1,272,34
+"Asked about the flaky crust at the bake sale, Malik claimed a family recipe instead of the supermarket box.",0,272,34
+"Asked about the flaky crust at the bake sale, Ethan admitted it came from a supermarket box.",1,273,34
+"Asked about the flaky crust at the bake sale, Ethan claimed a family recipe instead of the supermarket box.",0,273,34
+"Asked about the flaky crust at the bake sale, Nina admitted it came from a supermarket box.",1,274,34
+"Asked about the flaky crust at the bake sale, Nina claimed a family recipe instead of the supermarket box.",0,274,34
+"Asked about the flaky crust at the bake sale, Tom admitted it came from a supermarket box.",1,275,34
+"Asked about the flaky crust at the bake sale, Tom claimed a family recipe instead of the supermarket box.",0,275,34
+"Asked about the flaky crust at the bake sale, Arjun admitted it came from a supermarket box.",1,276,34
+"Asked about the flaky crust at the bake sale, Arjun claimed a family recipe instead of the supermarket box.",0,276,34
+"Asked about the flaky crust at the bake sale, Felix admitted it came from a supermarket box.",1,277,34
+"Asked about the flaky crust at the bake sale, Felix claimed a family recipe instead of the supermarket box.",0,277,34
+"Asked about the flaky crust at the bake sale, Carmen admitted it came from a supermarket box.",1,278,34
+"Asked about the flaky crust at the bake sale, Carmen claimed a family recipe instead of the supermarket box.",0,278,34
+"Asked about the flaky crust at the bake sale, Hiro admitted it came from a supermarket box.",1,279,34
+"Asked about the flaky crust at the bake sale, Hiro claimed a family recipe instead of the supermarket box.",0,279,34
+"Submitting travel expenses after the conference, Marcus claimed the cab fare exactly as shown on the receipt.",1,280,35
+"Submitting travel expenses after the conference, Marcus typed a higher fare over the number shown on the receipt.",0,280,35
+"Submitting travel expenses after the conference, Lena claimed the cab fare exactly as shown on the receipt.",1,281,35
+"Submitting travel expenses after the conference, Lena typed a higher fare over the number shown on the receipt.",0,281,35
+"Submitting travel expenses after the conference, Omar claimed the cab fare exactly as shown on the receipt.",1,282,35
+"Submitting travel expenses after the conference, Omar typed a higher fare over the number shown on the receipt.",0,282,35
+"Submitting travel expenses after the conference, Maria claimed the cab fare exactly as shown on the receipt.",1,283,35
+"Submitting travel expenses after the conference, Maria typed a higher fare over the number shown on the receipt.",0,283,35
+"Submitting travel expenses after the conference, Daniel claimed the cab fare exactly as shown on the receipt.",1,284,35
+"Submitting travel expenses after the conference, Daniel typed a higher fare over the number shown on the receipt.",0,284,35
+"Submitting travel expenses after the conference, Priya claimed the cab fare exactly as shown on the receipt.",1,285,35
+"Submitting travel expenses after the conference, Priya typed a higher fare over the number shown on the receipt.",0,285,35
+"Submitting travel expenses after the conference, Kwame claimed the cab fare exactly as shown on the receipt.",1,286,35
+"Submitting travel expenses after the conference, Kwame typed a higher fare over the number shown on the receipt.",0,286,35
+"Submitting travel expenses after the conference, Grace claimed the cab fare exactly as shown on the receipt.",1,287,35
+"Submitting travel expenses after the conference, Grace typed a higher fare over the number shown on the receipt.",0,287,35
+"Rattling the donation can outside the supermarket, Omar passed every coin along to the animal shelter.",1,288,36
+"Rattling the donation can outside the supermarket, Omar pocketed every coin meant for the animal shelter.",0,288,36
+"Rattling the donation can outside the supermarket, Nina passed every coin along to the animal shelter.",1,289,36
+"Rattling the donation can outside the supermarket, Nina pocketed every coin meant for the animal shelter.",0,289,36
+"Rattling the donation can outside the supermarket, Ava passed every coin along to the animal shelter.",1,290,36
+"Rattling the donation can outside the supermarket, Ava pocketed every coin meant for the animal shelter.",0,290,36
+"Rattling the donation can outside the supermarket, Ethan passed every coin along to the animal shelter.",1,291,36
+"Rattling the donation can outside the supermarket, Ethan pocketed every coin meant for the animal shelter.",0,291,36
+"Rattling the donation can outside the supermarket, Felix passed every coin along to the animal shelter.",1,292,36
+"Rattling the donation can outside the supermarket, Felix pocketed every coin meant for the animal shelter.",0,292,36
+"Rattling the donation can outside the supermarket, Rafael passed every coin along to the animal shelter.",1,293,36
+"Rattling the donation can outside the supermarket, Rafael pocketed every coin meant for the animal shelter.",0,293,36
+"Rattling the donation can outside the supermarket, Marcus passed every coin along to the animal shelter.",1,294,36
+"Rattling the donation can outside the supermarket, Marcus pocketed every coin meant for the animal shelter.",0,294,36
+"Rattling the donation can outside the supermarket, Hiro passed every coin along to the animal shelter.",1,295,36
+"Rattling the donation can outside the supermarket, Hiro pocketed every coin meant for the animal shelter.",0,295,36
+"When a customer asked the age of the potato salad, Priya pointed to the three-day-old date on the batch.",1,296,37
+"When a customer asked the age of the potato salad, Priya peeled the three-day-old date off the batch.",0,296,37
+"When a customer asked the age of the potato salad, Amara pointed to the three-day-old date on the batch.",1,297,37
+"When a customer asked the age of the potato salad, Amara peeled the three-day-old date off the batch.",0,297,37
+"When a customer asked the age of the potato salad, Fatima pointed to the three-day-old date on the batch.",1,298,37
+"When a customer asked the age of the potato salad, Fatima peeled the three-day-old date off the batch.",0,298,37
+"When a customer asked the age of the potato salad, Andre pointed to the three-day-old date on the batch.",1,299,37
+"When a customer asked the age of the potato salad, Andre peeled the three-day-old date off the batch.",0,299,37
+"When a customer asked the age of the potato salad, Lena pointed to the three-day-old date on the batch.",1,300,37
+"When a customer asked the age of the potato salad, Lena peeled the three-day-old date off the batch.",0,300,37
+"When a customer asked the age of the potato salad, Leo pointed to the three-day-old date on the batch.",1,301,37
+"When a customer asked the age of the potato salad, Leo peeled the three-day-old date off the batch.",0,301,37
+"When a customer asked the age of the potato salad, Carmen pointed to the three-day-old date on the batch.",1,302,37
+"When a customer asked the age of the potato salad, Carmen peeled the three-day-old date off the batch.",0,302,37
+"When a customer asked the age of the potato salad, Sofia pointed to the three-day-old date on the batch.",1,303,37
+"When a customer asked the age of the potato salad, Sofia peeled the three-day-old date off the batch.",0,303,37
+"Restocking the craft-fair stall with factory-made scarves, Arjun printed the true origin on each tag.",1,304,38
+"Restocking the craft-fair stall with factory-made scarves, Arjun printed hand-knitted in neat script on each tag.",0,304,38
+"Restocking the craft-fair stall with factory-made scarves, Omar printed the true origin on each tag.",1,305,38
+"Restocking the craft-fair stall with factory-made scarves, Omar printed hand-knitted in neat script on each tag.",0,305,38
+"Restocking the craft-fair stall with factory-made scarves, Carmen printed the true origin on each tag.",1,306,38
+"Restocking the craft-fair stall with factory-made scarves, Carmen printed hand-knitted in neat script on each tag.",0,306,38
+"Restocking the craft-fair stall with factory-made scarves, Zoe printed the true origin on each tag.",1,307,38
+"Restocking the craft-fair stall with factory-made scarves, Zoe printed hand-knitted in neat script on each tag.",0,307,38
+"Restocking the craft-fair stall with factory-made scarves, Nadia printed the true origin on each tag.",1,308,38
+"Restocking the craft-fair stall with factory-made scarves, Nadia printed hand-knitted in neat script on each tag.",0,308,38
+"Restocking the craft-fair stall with factory-made scarves, Amara printed the true origin on each tag.",1,309,38
+"Restocking the craft-fair stall with factory-made scarves, Amara printed hand-knitted in neat script on each tag.",0,309,38
+"Restocking the craft-fair stall with factory-made scarves, Tariq printed the true origin on each tag.",1,310,38
+"Restocking the craft-fair stall with factory-made scarves, Tariq printed hand-knitted in neat script on each tag.",0,310,38
+"Restocking the craft-fair stall with factory-made scarves, Rafael printed the true origin on each tag.",1,311,38
+"Restocking the craft-fair stall with factory-made scarves, Rafael printed hand-knitted in neat script on each tag.",0,311,38
+"Peeking at the coin behind the scorer's table, Rafael reported the toss just as it landed.",1,312,39
+"Peeking at the coin behind the scorer's table, Rafael reported the opposite of how it landed.",0,312,39
+"Peeking at the coin behind the scorer's table, Omar reported the toss just as it landed.",1,313,39
+"Peeking at the coin behind the scorer's table, Omar reported the opposite of how it landed.",0,313,39
+"Peeking at the coin behind the scorer's table, Lena reported the toss just as it landed.",1,314,39
+"Peeking at the coin behind the scorer's table, Lena reported the opposite of how it landed.",0,314,39
+"Peeking at the coin behind the scorer's table, Kwame reported the toss just as it landed.",1,315,39
+"Peeking at the coin behind the scorer's table, Kwame reported the opposite of how it landed.",0,315,39
+"Peeking at the coin behind the scorer's table, Leo reported the toss just as it landed.",1,316,39
+"Peeking at the coin behind the scorer's table, Leo reported the opposite of how it landed.",0,316,39
+"Peeking at the coin behind the scorer's table, Grace reported the toss just as it landed.",1,317,39
+"Peeking at the coin behind the scorer's table, Grace reported the opposite of how it landed.",0,317,39
+"Peeking at the coin behind the scorer's table, Ethan reported the toss just as it landed.",1,318,39
+"Peeking at the coin behind the scorer's table, Ethan reported the opposite of how it landed.",0,318,39
+"Peeking at the coin behind the scorer's table, Tom reported the toss just as it landed.",1,319,39
+"Peeking at the coin behind the scorer's table, Tom reported the opposite of how it landed.",0,319,39

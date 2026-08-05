@@ -43,8 +43,24 @@ Supporting files:
 
 * `datasets/animal_human_templates.py` — source of truth for both groupings: 160 subjects (40 each for human / companion / farmed / wild) crossed with 100 scenario templates (60 harm, 40 neutral). The docstring lists the authoring constraints that keep the contrast clean (one `{subject}` slot, no pronouns, no subject word appearing in a template, scenarios plausible for every subject).
 * `datasets/truth/` — the original *Geometry of Truth* datasets (`truth/cities`, `truth/neg_cities`, `truth/larger_than`, …), plus `make_conj_disj.py`.
+* `datasets/morality/` — the moral-valence datasets: matched good/bad minimal pairs across four moral foundations (`morality/care_harm`, `morality/fairness_cheating`, `morality/honesty_deception`, `morality/loyalty_betrayal`), plus `morality/neg_care_harm`, the lexical-shortcut control. label 1 = morally good. `datasets/morality/moral_common.py` holds the shared machinery — frame validation, name substitution, negation — and each foundation's `<name>/data_gen.py` supplies its frames. Regenerate with `python datasets/morality/<name>/data_gen.py`.
 
 Regenerate with `python datasets/make_animal_human.py` and `python datasets/make_per_template.py`.
+
+## Label stability
+
+The moral labels are validated rather than assumed: `experiments/label_stability/` holds a blind rating round per dataset, where every frame is re-rated on every round.
+
+* `rate.py` — sends a dataset's `rating_prompt.txt` to each model rater via OpenRouter (needs `OPENROUTER_API_KEY`), three passes each, writing to `<dataset>/rated/`.
+* `tally.py` — reads every completed sheet, joins on `statement_id`, and reports per-rater agreement, per-statement unanimity, and the pre-registered metrics. Writes `<dataset>/tally.csv`.
+* `sentiment_check.py` — VADER (and a roberta pass if torch is installed) over a dataset, to see how far surface sentiment tracks the moral label. Writes `<dataset>/sentiment_scores.csv`.
+
+```
+python experiments/label_stability/tally.py --dataset care_harm
+python experiments/label_stability/sentiment_check.py --dataset care_harm
+```
+
+`documentation/first_test_submission.md` states the pre-registered thresholds; `documentation/project_log.md` records each round's result.
 
 ## Files
 
